@@ -1,0 +1,27 @@
+[package]
+name = "pkmn-scraper"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = "0.11.18"
+scraper = "0.17.1"
+html5ever = "0.26.0"
+selectors = "0.25.0"
+serde = "1.0.164"
+serde_json = "1.0.97"
+pokemon-tcg-sdk = "0.3.0"
+git2 = "0.17.2"
+anyhow = "1.0.71"
+tokio = {version = "1.29.1", features = ["full"] }
+html-escape = "0.2.13"
+regex = "1.9.1"
+futures = "0.3.28"
+tokio-stream = "0.1.14"
+env_logger = "0.10.0"
+log = "0.4.19"
+time = { version = "0.3.24", features = ["macros", "parsing"] }
+strum = { version = "0.25.0", features = ["derive"] }
+ego-tree = "0.6.2"
