@@ -1,10 +1,12 @@
 use super::set::SetFetcher;
 use crate::pkmn_data::set::Set;
 use anyhow::Result;
-use futures::stream::FuturesUnordered;
-use reqwest::Client;
+use futures::stream::FuturesOrdered;
+use heck::ToSnekCase;
+use reqwest_middleware::ClientWithMiddleware;
 use scraper::{ElementRef, Selector};
 use selectors::Element;
+use std::path::Path;
 use tokio_stream::StreamExt;
 
 pub(super) struct SeriesFetcher {
@@ -12,22 +14,23 @@ pub(super) struct SeriesFetcher {
     set_fetchers: Vec<SetFetcher>,
 }
 
-pub(super) struct Series {
-    pub _name: String,
-    pub _sets: Vec<crate::pkmn_data::set::Set>,
+#[derive(Debug)]
+pub struct Series {
+    pub name: String,
+    pub sets: Vec<Set>,
 }
 
 impl Series {
-    fn new(name: &str, sets: Vec<crate::pkmn_data::set::Set>) -> Self {
+    fn new(name: &str, sets: Vec<Set>) -> Self {
         Self {
-            _name: name.to_string(),
-            _sets: sets,
+            name: name.to_string(),
+            sets,
         }
     }
 }
 
 impl SeriesFetcher {
-    pub(super) fn new(series_ref: ElementRef, client: &Client) -> Result<Self> {
+    pub(super) fn new(series_ref: ElementRef, client: &ClientWithMiddleware) -> Result<Self> {
         let raw_block_name = series_ref.inner_html();
         let series_name = html_escape::decode_html_entities(&raw_block_name).to_string();
         log::trace!("{}", series_name);
@@ -47,16 +50,20 @@ impl SeriesFetcher {
         })
     }
 
-    pub(super) async fn fetch(&self) -> Result<Series> {
-        Ok(Series::new(
-            &self.series,
-            self.set_fetchers
-                .iter()
-                .take(1) // TODO: Remove Debug Limiters
-                .map(|fetcher| fetcher.fetch())
-                .collect::<FuturesUnordered<_>>()
-                .collect::<Result<Vec<Set>>>()
-                .await?,
-        ))
+    pub(super) async fn fetch(&self, base_path: &Path) -> Result<Series> {
+        let path = base_path.join(self.series.to_snek_case());
+        if !path.exists() {
+            tokio::fs::create_dir(&path).await?;
+        }
+
+        let mut sets = Vec::new();
+
+        for set_fetcher in self.set_fetchers.iter() {
+            match set_fetcher.fetch(&path).await {
+                Ok(set) => sets.push(set),
+                Err(e) => eprintln!("Error when generating set {} \n########################################################{:?}\n########################################################\n", set_fetcher.set_name, e),
+            };
+        }
+        Ok(Series::new(&self.series, sets))
     }
 }

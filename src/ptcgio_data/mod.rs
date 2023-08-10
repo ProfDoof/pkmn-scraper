@@ -7,7 +7,7 @@ use std::fs::File;
 use std::io::BufReader;
 use std::path::{Path, PathBuf};
 
-#[derive(Serialize, Deserialize, Default)]
+#[derive(Serialize, Deserialize, Default, Debug)]
 #[serde(rename_all = "camelCase")]
 #[serde(deny_unknown_fields)]
 pub struct Card {
@@ -26,7 +26,7 @@ pub struct Card {
     pub resistances: Option<Vec<HashMap<String, String>>>,
     pub weaknesses: Option<Vec<HashMap<String, String>>>,
     pub retreat_cost: Option<Vec<String>>,
-    pub converted_retreat_cost: Option<i32>,
+    pub converted_retreat_cost: Option<usize>,
     pub number: String,
     pub artist: Option<String>,
     pub rarity: Option<String>,
@@ -38,7 +38,7 @@ pub struct Card {
     pub regulation_mark: Option<String>,
 }
 
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
 #[serde(deny_unknown_fields)]
 pub struct Set {
