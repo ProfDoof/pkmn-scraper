@@ -1,0 +1,61 @@
+{
+  "name": "Diamond & Pearl Trainer Kit—Manaphy",
+  "cards": [
+    {
+      "id": "unk-4",
+      "name": "Manaphy",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": "20",
+      "hp": "70",
+      "types": [
+        "Water"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Colorless"
+          ],
+          "damage": "",
+          "name": "Call for Family",
+          "text": "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
+        },
+        {
+          "convertedEnergyCost": 2,
+          "cost": [
+            "Water",
+            "Water"
+          ],
+          "damage": "30",
+          "name": "Aqua Ring",
+          "text": "Switch Manaphy with 1 of your Benched Pokémon."
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "4",
+      "artist": "Daisuke Ito",
+      "rarity": "No Rarity",
+      "flavorText": "Born on a cold seafloor, it will swim great distances to return to its birthplace.",
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    }
+  ]
+}

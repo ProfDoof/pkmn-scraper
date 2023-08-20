@@ -1,0 +1,518 @@
+{
+  "name": "Best of Game",
+  "cards": [
+    {
+      "id": "unk-1",
+      "name": "Electabuzz",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": "35",
+      "hp": "70",
+      "types": [
+        "Lightning"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Electivire"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Lightning"
+          ],
+          "damage": "10",
+          "name": "Thundershock",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+        },
+        {
+          "convertedEnergyCost": 2,
+          "cost": [
+            "Lightning",
+            "Colorless"
+          ],
+          "damage": "30+",
+          "name": "Thunderpunch",
+          "text": "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, the attack does 30 damage and Electabuzz does 10 damage to itself."
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "number": "1",
+      "artist": "Ken Sugimori",
+      "rarity": "Promo",
+      "flavorText": "Normally found near power plants, it can wander away and cause major blackouts in cities.",
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-5",
+      "name": "Rocket's Sneasel",
+      "supertype": "Pokémon",
+      "subtypes": [
+        "team-rockets"
+      ],
+      "level": null,
+      "hp": "60",
+      "types": [
+        "Darkness"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Darkness"
+          ],
+          "damage": "",
+          "name": "Entrap",
+          "text": "The Defending Pokémon can't retreat during your opponent's next turn."
+        },
+        {
+          "convertedEnergyCost": 2,
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "10×",
+          "name": "Continuous Scratch",
+          "text": "Flip 4 coins. This attack does 10 damage times the number of heads."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Psychic",
+          "value": "-30"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "5",
+      "artist": "Katsura Tabata",
+      "rarity": "Promo",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-2",
+      "name": "Hitmonchan",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": "33",
+      "hp": "60",
+      "types": [
+        "Fighting"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Fighting"
+          ],
+          "damage": "20",
+          "name": "Jab",
+          "text": ""
+        },
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Fighting",
+            "Fighting",
+            "Colorless"
+          ],
+          "damage": "40",
+          "name": "Special Punch",
+          "text": ""
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "number": "2",
+      "artist": "Ken Sugimori",
+      "rarity": "Promo",
+      "flavorText": "While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see.",
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-4",
+      "name": "Rocket's Scizor",
+      "supertype": "Pokémon",
+      "subtypes": [
+        "team-rockets"
+      ],
+      "level": null,
+      "hp": "60",
+      "types": [
+        "Metal"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Colorless"
+          ],
+          "damage": "",
+          "name": "Focus",
+          "text": "During your next turn, Rocket's Scizor's Agility attack's damage is doubled."
+        },
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Metal",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "20",
+          "name": "Agility",
+          "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Rocket's Scizor."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Grass",
+          "value": "-30"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "number": "4",
+      "artist": "K. Hoshiba",
+      "rarity": "Promo",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-6",
+      "name": "Dark Ivysaur",
+      "supertype": "Pokémon",
+      "subtypes": [
+        "dark"
+      ],
+      "level": null,
+      "hp": "50",
+      "types": [
+        "Grass"
+      ],
+      "evolvesFrom": "Bulbasaur",
+      "evolvesTo": [
+        "Dark Venusaur"
+      ],
+      "abilities": [
+        {
+          "name": "Vine Pull",
+          "text": "Once during your turn when Dark Ivysaur retreats, choose 1 of your opponent's Benched Pokémon and switch it with his or her Active Pokémon.",
+          "type": "Poké-BODY"
+        }
+      ],
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 2,
+          "cost": [
+            "Grass",
+            "Grass"
+          ],
+          "damage": "",
+          "name": "Fury Strikes",
+          "text": "Your opponent puts 3 markers onto his or her Pokémon (divided as he or she chooses). (More than 1 marker can be put on the same Pokémon.) Then, this attack does 10 damage to each Pokémon for each marker on it. Don't apply Weakness and Resistance. Remove the markers at the end of the turn."
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "number": "6",
+      "artist": "Shin-ichi Yoshida",
+      "rarity": "Promo",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-7",
+      "name": "Dark Venusaur",
+      "supertype": "Pokémon",
+      "subtypes": [
+        "dark"
+      ],
+      "level": null,
+      "hp": "70",
+      "types": [
+        "Grass"
+      ],
+      "evolvesFrom": "Dark Ivysaur",
+      "evolvesTo": [],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Grass",
+            "Grass",
+            "Grass"
+          ],
+          "damage": "30",
+          "name": "Horrid Pollen",
+          "text": "Flip 2 coins. If 1 is heads, the Defending Pokémon is now Asleep and Poisoned. If both are heads, the Defending Pokémon is now Confused and Poisoned. If both are tails, the Defending Pokémon is now Paralyzed and Poisoned."
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "number": "7",
+      "artist": "Shin-ichi Yoshida",
+      "rarity": "Promo",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-8",
+      "name": "Rocket's Mewtwo",
+      "supertype": "Pokémon",
+      "subtypes": [
+        "team-rockets"
+      ],
+      "level": "35",
+      "hp": "70",
+      "types": [
+        "Psychic"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Psychic"
+          ],
+          "damage": "",
+          "name": "Juxtapose",
+          "text": "Flip a coin. If heads, switch the number of damage counters on Rocket's Mewtwo with the number of damage counters on the Defending Pokémon (even if it would Knock Out either Pokémon). (It's okay if 1 of the Pokémon has no damage counters on it.)"
+        },
+        {
+          "convertedEnergyCost": 2,
+          "cost": [
+            "Psychic",
+            "Psychic"
+          ],
+          "damage": "20",
+          "name": "Hypnoblast",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+        },
+        {
+          "convertedEnergyCost": 4,
+          "cost": [
+            "Psychic",
+            "Psychic",
+            "Psychic",
+            "Colorless"
+          ],
+          "damage": "60",
+          "name": "Psyburn",
+          "text": ""
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "number": "8",
+      "artist": "Shin-ichi Yoshida",
+      "rarity": "Promo",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-9",
+      "name": "Rocket's Hitmonchan",
+      "supertype": "Pokémon",
+      "subtypes": [
+        "team-rockets"
+      ],
+      "level": "29",
+      "hp": "60",
+      "types": [
+        "Fighting"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Fighting"
+          ],
+          "damage": "",
+          "name": "Crosscounter",
+          "text": "If an attack does damage to Rocket's Hitmonchan during your opponent's next turn (even if Rocket's Hitmonchan is Knocked Out), flip a coin. If heads, Rocket's Hitmonchan attacks your opponent's Active Pokémon for double that amount of damage. (If Rocket's Hitmonchan takes 20 damage, it does 40 damage to that Pokémon.)"
+        },
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Fighting",
+            "Fighting",
+            "Colorless"
+          ],
+          "damage": "50",
+          "name": "Magnum Punch",
+          "text": ""
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "9",
+      "artist": "Ken Sugimori",
+      "rarity": "Promo",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-3",
+      "name": "Professor Elm",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Item"
+      ],
+      "level": null,
+      "hp": null,
+      "types": null,
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": null,
+      "resistances": null,
+      "weaknesses": null,
+      "retreatCost": null,
+      "convertedRetreatCost": null,
+      "number": "3",
+      "artist": "Ken Sugimori",
+      "rarity": "Promo",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    }
+  ]
+}

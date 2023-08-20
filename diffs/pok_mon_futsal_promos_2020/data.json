@@ -1,0 +1,606 @@
+[
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "The Pokémon Company Art Team",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Make the Assist",
+            "text": "Attach a basic Energy card from your hand to 1 of your Benched Pokémon."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Tackle",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "It has the ability to alter the composition of its body to suit its surrounding environment.",
+        "hp": "60",
+        "id": "unk-2",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Eevee on the Ball",
+        "nationalPokedexNumbers": null,
+        "number": "2",
+        "rarity": "No Rarity",
+        "regulationMark": "D",
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "The Pokémon Company Art Team",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Make the Assist",
+            "text": "Attach a basic Energy card from your hand to 1 of your Benched Pokémon."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Tackle",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "It has the ability to alter the composition of its body to suit its surrounding environment.",
+        "hp": "60",
+        "id": "fut20-2",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Eevee on the Ball",
+        "nationalPokedexNumbers": null,
+        "number": "2",
+        "rarity": null,
+        "regulationMark": "D",
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "The Pokémon Company Art Team",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Grass"
+            ],
+            "damage": "",
+            "name": "Tenacious Defense",
+            "text": "During your opponent's next turn, the Defending Pokémon can't retreat."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Grass",
+              "Grass"
+            ],
+            "damage": "50",
+            "name": "Razor Leaf",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area.",
+        "hp": "60",
+        "id": "fut20-3",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Grookey on the Ball",
+        "nationalPokedexNumbers": null,
+        "number": "3",
+        "rarity": null,
+        "regulationMark": "D",
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "The Pokémon Company Art Team",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Grass"
+            ],
+            "damage": "",
+            "name": "Tenacious Defense",
+            "text": "During your opponent's next turn, the Defending Pokémon can't retreat."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Grass",
+              "Grass"
+            ],
+            "damage": "50",
+            "name": "Razor Leaf",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area.",
+        "hp": "60",
+        "id": "unk-3",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Grookey on the Ball",
+        "nationalPokedexNumbers": null,
+        "number": "3",
+        "rarity": "No Rarity",
+        "regulationMark": "D",
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "The Pokémon Company Art Team",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Tail Whap",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Lightning",
+              "Lightning"
+            ],
+            "damage": "120",
+            "name": "Lightning Shot",
+            "text": "Flip a coin. If tails, this attack does nothing."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
+        "hp": "60",
+        "id": "unk-1",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Pikachu on the Ball",
+        "nationalPokedexNumbers": null,
+        "number": "1",
+        "rarity": "No Rarity",
+        "regulationMark": "D",
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Lightning"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "The Pokémon Company Art Team",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Tail Whap",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Lightning",
+              "Lightning"
+            ],
+            "damage": "120",
+            "name": "Lightning Shot",
+            "text": "Flip a coin. If tails, this attack does nothing."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
+        "hp": "60",
+        "id": "fut20-1",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Pikachu on the Ball",
+        "nationalPokedexNumbers": null,
+        "number": "1",
+        "rarity": null,
+        "regulationMark": "D",
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Lightning"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "The Pokémon Company Art Team",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Fire"
+            ],
+            "damage": "20×",
+            "name": "Fiery Dribbling",
+            "text": "Flip a coin until you get tails. This attack does 20 damage for each heads."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "30",
+            "name": "Reckless Charge",
+            "text": "This Pokémon also does 10 damage to itself."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power.",
+        "hp": "60",
+        "id": "fut20-4",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Scorbunny on the Ball",
+        "nationalPokedexNumbers": null,
+        "number": "4",
+        "rarity": null,
+        "regulationMark": "D",
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "The Pokémon Company Art Team",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Fire"
+            ],
+            "damage": "20×",
+            "name": "Fiery Dribbling",
+            "text": "Flip a coin until you get tails. This attack does 20 damage for each heads."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "30",
+            "name": "Reckless Charge",
+            "text": "This Pokémon also does 10 damage to itself."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power.",
+        "hp": "60",
+        "id": "unk-4",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Scorbunny on the Ball",
+        "nationalPokedexNumbers": null,
+        "number": "4",
+        "rarity": "No Rarity",
+        "regulationMark": "D",
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "The Pokémon Company Art Team",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Water"
+            ],
+            "damage": "",
+            "name": "Spectacular Save",
+            "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to this Pokémon."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Water"
+            ],
+            "damage": "20",
+            "name": "Rain Splash",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping.",
+        "hp": "60",
+        "id": "fut20-5",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Sobble on the Ball",
+        "nationalPokedexNumbers": null,
+        "number": "5",
+        "rarity": null,
+        "regulationMark": "D",
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "The Pokémon Company Art Team",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Water"
+            ],
+            "damage": "",
+            "name": "Spectacular Save",
+            "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to this Pokémon."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Water"
+            ],
+            "damage": "20",
+            "name": "Rain Splash",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping.",
+        "hp": "60",
+        "id": "unk-5",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Sobble on the Ball",
+        "nationalPokedexNumbers": null,
+        "number": "5",
+        "rarity": "No Rarity",
+        "regulationMark": "D",
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  }
+]

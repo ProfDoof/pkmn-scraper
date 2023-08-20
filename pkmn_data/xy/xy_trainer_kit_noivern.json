@@ -1,0 +1,1226 @@
+{
+  "name": "XY Trainer Kit—Noivern",
+  "cards": [
+    {
+      "id": "tk6a-1",
+      "name": "Spoink",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "60",
+      "types": [
+        "Psychic"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Grumpig"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Psychic"
+          ],
+          "damage": "10",
+          "name": "Splash",
+          "text": ""
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "1",
+      "artist": "Atsuko Nishida",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-2",
+      "name": "Gourgeist",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "100",
+      "types": [
+        "Psychic"
+      ],
+      "evolvesFrom": "Pumpkaboo",
+      "evolvesTo": [],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Psychic"
+          ],
+          "damage": "",
+          "name": "Eerie Voice",
+          "text": "Put 2 damage counters on each of your opponent's Pokémon."
+        },
+        {
+          "convertedEnergyCost": 2,
+          "cost": [
+            "Psychic",
+            "Psychic"
+          ],
+          "damage": "",
+          "name": "Spirit Scream",
+          "text": "Put damage counters on both Active Pokémon until the remaining HP of each Pokémon is 10."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Fighting",
+          "value": "-20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "number": "2",
+      "artist": "5ban Graphics",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-3",
+      "name": "Arbok",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "90",
+      "types": [
+        "Psychic"
+      ],
+      "evolvesFrom": "Ekans",
+      "evolvesTo": [],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Colorless"
+          ],
+          "damage": "20",
+          "name": "Gastro Acid",
+          "text": "The Defending Pokémon has no Abilities until the end of your next turn."
+        },
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Psychic",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "50",
+          "name": "Poison Jab",
+          "text": "Your opponent's Active Pokémon is now Poisoned."
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "3",
+      "artist": "Naoki Saito",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-4",
+      "name": "Bunnelby",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "60",
+      "types": [
+        "Colorless"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Diggersby"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 2,
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "20",
+          "name": "Tackle",
+          "text": ""
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "4",
+      "artist": "5ban Graphics",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-5",
+      "name": "Psychic Energy",
+      "supertype": "Energy",
+      "subtypes": [
+        "Basic Energy"
+      ],
+      "level": null,
+      "hp": null,
+      "types": null,
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": null,
+      "resistances": null,
+      "weaknesses": null,
+      "retreatCost": null,
+      "convertedRetreatCost": null,
+      "number": "5",
+      "artist": null,
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-6",
+      "name": "Psychic Energy",
+      "supertype": "Energy",
+      "subtypes": [
+        "Basic Energy"
+      ],
+      "level": null,
+      "hp": null,
+      "types": null,
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": null,
+      "resistances": null,
+      "weaknesses": null,
+      "retreatCost": null,
+      "convertedRetreatCost": null,
+      "number": "6",
+      "artist": null,
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-7",
+      "name": "Psychic Energy",
+      "supertype": "Energy",
+      "subtypes": [
+        "Basic Energy"
+      ],
+      "level": null,
+      "hp": null,
+      "types": null,
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": null,
+      "resistances": null,
+      "weaknesses": null,
+      "retreatCost": null,
+      "convertedRetreatCost": null,
+      "number": "7",
+      "artist": null,
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-8",
+      "name": "Psychic Energy",
+      "supertype": "Energy",
+      "subtypes": [
+        "Basic Energy"
+      ],
+      "level": null,
+      "hp": null,
+      "types": null,
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": null,
+      "resistances": null,
+      "weaknesses": null,
+      "retreatCost": null,
+      "convertedRetreatCost": null,
+      "number": "8",
+      "artist": null,
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-9",
+      "name": "Psychic Energy",
+      "supertype": "Energy",
+      "subtypes": [
+        "Basic Energy"
+      ],
+      "level": null,
+      "hp": null,
+      "types": null,
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": null,
+      "resistances": null,
+      "weaknesses": null,
+      "retreatCost": null,
+      "convertedRetreatCost": null,
+      "number": "9",
+      "artist": null,
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-10",
+      "name": "Psychic Energy",
+      "supertype": "Energy",
+      "subtypes": [
+        "Basic Energy"
+      ],
+      "level": null,
+      "hp": null,
+      "types": null,
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": null,
+      "resistances": null,
+      "weaknesses": null,
+      "retreatCost": null,
+      "convertedRetreatCost": null,
+      "number": "10",
+      "artist": null,
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-11",
+      "name": "Pumpkaboo",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "60",
+      "types": [
+        "Psychic"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Gourgeist"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Psychic"
+          ],
+          "damage": "",
+          "name": "Confuse Ray",
+          "text": "Your opponent's Active Pokémon is now Confused."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Fighting",
+          "value": "-20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "number": "11",
+      "artist": "5ban Graphics",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-12",
+      "name": "Noibat",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "60",
+      "types": [
+        "Colorless"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Noivern"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Colorless"
+          ],
+          "damage": "",
+          "name": "Supersonic",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+        },
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "30",
+          "name": "Wing Attack",
+          "text": ""
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Fighting",
+          "value": "-20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "12",
+      "artist": "5ban Graphics",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-13",
+      "name": "Noivern",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "110",
+      "types": [
+        "Dragon"
+      ],
+      "evolvesFrom": "Noibat",
+      "evolvesTo": [
+        "Noivern BREAK"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 2,
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "20+",
+          "name": "Second Bite",
+          "text": "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon."
+        },
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Psychic",
+            "Darkness",
+            "Colorless"
+          ],
+          "damage": "60+",
+          "name": "Sonic Bazooka",
+          "text": "Flip a coin. If heads, this attack does 30 more damage and your opponent's Active Pokémon is now Confused."
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Fairy",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "13",
+      "artist": "5ban Graphics",
+      "rarity": "No Rarity",
+      "flavorText": "They fly around on moonless nights and attack careless prey. Nothing can beat them in a battle in the dark.",
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-14",
+      "name": "Pokémon Catcher",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Item"
+      ],
+      "level": null,
+      "hp": null,
+      "types": null,
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": [
+        "You may play as many Item cards as you like during your turn (before your attack).",
+        "Flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon."
+      ],
+      "attacks": null,
+      "resistances": null,
+      "weaknesses": null,
+      "retreatCost": null,
+      "convertedRetreatCost": null,
+      "number": "14",
+      "artist": "5ban Graphics",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-15",
+      "name": "Potion",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Item"
+      ],
+      "level": null,
+      "hp": null,
+      "types": null,
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": [
+        "You may play as many Item cards as you like during your turn (before your attack).",
+        "Heal 30 damage from 1 of your Pokémon."
+      ],
+      "attacks": null,
+      "resistances": null,
+      "weaknesses": null,
+      "retreatCost": null,
+      "convertedRetreatCost": null,
+      "number": "15",
+      "artist": "5ban Graphics",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-16",
+      "name": "Ekans",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "70",
+      "types": [
+        "Psychic"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Arbok"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 2,
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "20",
+          "name": "Bite",
+          "text": ""
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "number": "16",
+      "artist": "Shigenori Negishi",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-17",
+      "name": "Psychic Energy",
+      "supertype": "Energy",
+      "subtypes": [
+        "Basic Energy"
+      ],
+      "level": null,
+      "hp": null,
+      "types": null,
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": null,
+      "resistances": null,
+      "weaknesses": null,
+      "retreatCost": null,
+      "convertedRetreatCost": null,
+      "number": "17",
+      "artist": null,
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-18",
+      "name": "Pumpkaboo",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "60",
+      "types": [
+        "Psychic"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Gourgeist"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Psychic"
+          ],
+          "damage": "",
+          "name": "Confuse Ray",
+          "text": "Your opponent's Active Pokémon is now Confused."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Fighting",
+          "value": "-20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "number": "18",
+      "artist": "5ban Graphics",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-19",
+      "name": "Darkness Energy",
+      "supertype": "Energy",
+      "subtypes": [
+        "Basic Energy"
+      ],
+      "level": null,
+      "hp": null,
+      "types": null,
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": null,
+      "resistances": null,
+      "weaknesses": null,
+      "retreatCost": null,
+      "convertedRetreatCost": null,
+      "number": "19",
+      "artist": null,
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-20",
+      "name": "Furfrou",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "90",
+      "types": [
+        "Colorless"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 2,
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "20",
+          "name": "Tight Jaw",
+          "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+        },
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "50",
+          "name": "Sharp Fang",
+          "text": ""
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "20",
+      "artist": "5ban Graphics",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-21",
+      "name": "Poké Ball",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Item",
+        "ball"
+      ],
+      "level": null,
+      "hp": null,
+      "types": null,
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": [
+        "You may play as many Item cards as you like during your turn (before your attack).",
+        "Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward."
+      ],
+      "attacks": null,
+      "resistances": null,
+      "weaknesses": null,
+      "retreatCost": null,
+      "convertedRetreatCost": null,
+      "number": "21",
+      "artist": "5ban Graphics",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-22",
+      "name": "Darkness Energy",
+      "supertype": "Energy",
+      "subtypes": [
+        "Basic Energy"
+      ],
+      "level": null,
+      "hp": null,
+      "types": null,
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": null,
+      "resistances": null,
+      "weaknesses": null,
+      "retreatCost": null,
+      "convertedRetreatCost": null,
+      "number": "22",
+      "artist": null,
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-23",
+      "name": "Noibat",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "60",
+      "types": [
+        "Colorless"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Noivern"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Colorless"
+          ],
+          "damage": "",
+          "name": "Supersonic",
+          "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+        },
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "30",
+          "name": "Wing Attack",
+          "text": ""
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Fighting",
+          "value": "-20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "23",
+      "artist": "5ban Graphics",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-24",
+      "name": "Professor's Letter",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Item"
+      ],
+      "level": null,
+      "hp": null,
+      "types": null,
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": [
+        "You may play as many Item cards as you like during your turn (before your attack).",
+        "Search your deck for up to 2 basic Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward."
+      ],
+      "attacks": null,
+      "resistances": null,
+      "weaknesses": null,
+      "retreatCost": null,
+      "convertedRetreatCost": null,
+      "number": "24",
+      "artist": "5ban Graphics",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-25",
+      "name": "Psychic Energy",
+      "supertype": "Energy",
+      "subtypes": [
+        "Basic Energy"
+      ],
+      "level": null,
+      "hp": null,
+      "types": null,
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": null,
+      "resistances": null,
+      "weaknesses": null,
+      "retreatCost": null,
+      "convertedRetreatCost": null,
+      "number": "25",
+      "artist": null,
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-26",
+      "name": "Darkness Energy",
+      "supertype": "Energy",
+      "subtypes": [
+        "Basic Energy"
+      ],
+      "level": null,
+      "hp": null,
+      "types": null,
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": null,
+      "resistances": null,
+      "weaknesses": null,
+      "retreatCost": null,
+      "convertedRetreatCost": null,
+      "number": "26",
+      "artist": null,
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-27",
+      "name": "Potion",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Item"
+      ],
+      "level": null,
+      "hp": null,
+      "types": null,
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": [
+        "You may play as many Item cards as you like during your turn (before your attack).",
+        "Heal 30 damage from 1 of your Pokémon."
+      ],
+      "attacks": null,
+      "resistances": null,
+      "weaknesses": null,
+      "retreatCost": null,
+      "convertedRetreatCost": null,
+      "number": "27",
+      "artist": "5ban Graphics",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-28",
+      "name": "Darkness Energy",
+      "supertype": "Energy",
+      "subtypes": [
+        "Basic Energy"
+      ],
+      "level": null,
+      "hp": null,
+      "types": null,
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": null,
+      "resistances": null,
+      "weaknesses": null,
+      "retreatCost": null,
+      "convertedRetreatCost": null,
+      "number": "28",
+      "artist": null,
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-29",
+      "name": "Switch",
+      "supertype": "Trainer",
+      "subtypes": [
+        "Item"
+      ],
+      "level": null,
+      "hp": null,
+      "types": null,
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": [
+        "You may play as many Item cards as you like during your turn (before your attack).",
+        "Switch your Active Pokémon with 1 of your Benched Pokémon."
+      ],
+      "attacks": null,
+      "resistances": null,
+      "weaknesses": null,
+      "retreatCost": null,
+      "convertedRetreatCost": null,
+      "number": "29",
+      "artist": "5ban Graphics",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "tk6a-30",
+      "name": "Noivern",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "110",
+      "types": [
+        "Dragon"
+      ],
+      "evolvesFrom": "Noibat",
+      "evolvesTo": [
+        "Noivern BREAK"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 2,
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "20+",
+          "name": "Second Bite",
+          "text": "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon."
+        },
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Psychic",
+            "Darkness",
+            "Colorless"
+          ],
+          "damage": "60+",
+          "name": "Sonic Bazooka",
+          "text": "Flip a coin. If heads, this attack does 30 more damage and your opponent's Active Pokémon is now Confused."
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Fairy",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "30",
+      "artist": "5ban Graphics",
+      "rarity": "No Rarity",
+      "flavorText": "They fly around on moonless nights and attack careless prey. Nothing can beat them in a battle in the dark.",
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    }
+  ]
+}

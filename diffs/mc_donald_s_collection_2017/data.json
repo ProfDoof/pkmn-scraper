@@ -1,0 +1,1453 @@
+[
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Megumi Mizutani",
+        "attacks": [
+          {
+            "convertedEnergyCost": 0,
+            "cost": [],
+            "damage": "",
+            "name": "Spelunk",
+            "text": "Look at the top 3 cards of your deck and put them back in any order."
+          },
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Metal"
+            ],
+            "damage": "10",
+            "name": "Mud-Slap",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Alolan Dugtrio"
+        ],
+        "flavorText": "Its head sports an altered form of whiskers made of metal. When in communication with its comrades, its whiskers wobble to and fro.",
+        "hp": "50",
+        "id": "sm1-86",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Alolan Diglett",
+        "nationalPokedexNumbers": null,
+        "number": "86",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Psychic",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "alolan"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Metal"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Megumi Mizutani",
+        "attacks": [
+          {
+            "convertedEnergyCost": 0,
+            "cost": [],
+            "damage": "",
+            "name": "Spelunk",
+            "text": "Look at the top 3 cards of your deck and put them back in any order."
+          },
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Metal"
+            ],
+            "damage": "10",
+            "name": "Mud-Slap",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Dugtrio"
+        ],
+        "flavorText": "Its head sports an altered form of whiskers made of metal. When in communication with its comrades, its whiskers wobble to and fro.",
+        "hp": "50",
+        "id": "mcd17-9",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Alolan Diglett",
+        "nationalPokedexNumbers": null,
+        "number": "9",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Psychic",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Metal"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kagemaru Himeno",
+        "attacks": [
+          {
+            "convertedEnergyCost": 0,
+            "cost": [],
+            "damage": "10×",
+            "name": "Fury Swipes",
+            "text": "Flip 3 coins. This attack does 10 damage for each heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Alolan Persian",
+          "Alolan Persian-GX"
+        ],
+        "flavorText": "This Pokémon was not originally found in Alola. Human actions caused a surge in their numbers, and they went feral. They're prideful and crafty.",
+        "hp": "70",
+        "id": "sm1-78",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Alolan Meowth",
+        "nationalPokedexNumbers": null,
+        "number": "78",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Psychic",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "alolan"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Darkness"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kagemaru Himeno",
+        "attacks": [
+          {
+            "convertedEnergyCost": 0,
+            "cost": [],
+            "damage": "10×",
+            "name": "Fury Swipes",
+            "text": "Flip 3 coins. This attack does 10 damage for each heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Persian"
+        ],
+        "flavorText": "This Pokémon was not originally found in Alola. Human actions caused a surge in their numbers, and they went feral. They're prideful and crafty.",
+        "hp": "70",
+        "id": "mcd17-8",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Alolan Meowth",
+        "nationalPokedexNumbers": null,
+        "number": "8",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Psychic",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Darkness"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Megumi Mizutani",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Dust Gathering",
+            "text": "Draw a card."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Cosmoem"
+        ],
+        "flavorText": "Its body is gaseous and frail. It slowly grows as it collects dust from the atmosphere.",
+        "hp": "60",
+        "id": "mcd17-6",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Cosmog",
+        "nationalPokedexNumbers": null,
+        "number": "6",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Psychic"
+        ],
+        "weaknesses": [
+          {
+            "type": "Psychic",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Megumi Mizutani",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Dust Gathering",
+            "text": "Draw a card."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Cosmoem"
+        ],
+        "flavorText": "Its body is gaseous and frail. It slowly grows as it collects dust from the atmosphere.",
+        "hp": "60",
+        "id": "sm1-64",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Cosmog",
+        "nationalPokedexNumbers": null,
+        "number": "64",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Psychic"
+        ],
+        "weaknesses": [
+          {
+            "type": "Psychic",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Shin Nagasawa",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Punch",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Fighting"
+            ],
+            "damage": "40",
+            "name": "Crabhammer",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Crabominable"
+        ],
+        "flavorText": "It punches so much, its pincers often come off from overuse, but they grow back quickly. What little meat they contain is rich and delicious.",
+        "hp": "80",
+        "id": "mcd17-7",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Crabrawler",
+        "nationalPokedexNumbers": null,
+        "number": "7",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fighting"
+        ],
+        "weaknesses": [
+          {
+            "type": "Psychic",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Shin Nagasawa",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Punch",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Fighting"
+            ],
+            "damage": "40",
+            "name": "Crabhammer",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Crabominable"
+        ],
+        "flavorText": "It punches so much, its pincers often come off from overuse, but they grow back quickly. What little meat they contain is rich and delicious.",
+        "hp": "80",
+        "id": "sm1-72",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Crabrawler",
+        "nationalPokedexNumbers": null,
+        "number": "72",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fighting"
+        ],
+        "weaknesses": [
+          {
+            "type": "Psychic",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Hitoshi Ariga",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Fairy"
+            ],
+            "damage": "10",
+            "name": "Fly Around",
+            "text": "If any damage is done to this Pokémon by attacks during your opponent's next turn, flip a coin. If heads, prevent that damage."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Ribombee"
+        ],
+        "flavorText": "It feeds on the nectar and pollen of flowers. Because it's able to sense auras, it can identify which flowers are about to bloom.",
+        "hp": "30",
+        "id": "sm1-92",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Cutiefly",
+        "nationalPokedexNumbers": null,
+        "number": "92",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Darkness",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fairy"
+        ],
+        "weaknesses": [
+          {
+            "type": "Metal",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Hitoshi Ariga",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Fairy"
+            ],
+            "damage": "10",
+            "name": "Fly Around",
+            "text": "If any damage is done to this Pokémon by attacks during your opponent's next turn, flip a coin. If heads, prevent that damage."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Ribombee"
+        ],
+        "flavorText": "It feeds on the nectar and pollen of flowers. Because it's able to sense auras, it can identify which flowers are about to bloom.",
+        "hp": "30",
+        "id": "mcd17-10",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Cutiefly",
+        "nationalPokedexNumbers": null,
+        "number": "10",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Darkness",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fairy"
+        ],
+        "weaknesses": [
+          {
+            "type": "Metal",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Akira Komayama",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Vice Grip",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Charjabug"
+        ],
+        "flavorText": "They often gather near places frequented by electric Pokémon in order to avoid being attacked by bird Pokémon.",
+        "hp": "70",
+        "id": "sm1-13",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Grubbin",
+        "nationalPokedexNumbers": null,
+        "number": "13",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Akira Komayama",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Vice Grip",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Charjabug"
+        ],
+        "flavorText": "They often gather near places frequented by electric Pokémon in order to avoid being attacked by bird Pokémon.",
+        "hp": "70",
+        "id": "mcd17-2",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Grubbin",
+        "nationalPokedexNumbers": null,
+        "number": "2",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Akira Komayama",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Fire"
+            ],
+            "damage": "10",
+            "name": "Bite",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "20",
+            "name": "Flare",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Torracat"
+        ],
+        "flavorText": "While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs.",
+        "hp": "70",
+        "id": "sm1-24",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Litten",
+        "nationalPokedexNumbers": null,
+        "number": "24",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Akira Komayama",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Fire"
+            ],
+            "damage": "10",
+            "name": "Bite",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "20",
+            "name": "Flare",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Torracat"
+        ],
+        "flavorText": "While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs.",
+        "hp": "70",
+        "id": "mcd17-3",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Litten",
+        "nationalPokedexNumbers": null,
+        "number": "3",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "kirisAki",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Lightning"
+            ],
+            "damage": "",
+            "name": "Thunder Wave",
+            "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Lightning"
+            ],
+            "damage": "50",
+            "name": "Electro Ball",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Raichu"
+        ],
+        "flavorText": "A plan was recently announced to gather many Pikachu and make an electric power plant.",
+        "hp": "70",
+        "id": "mcd17-5",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Pikachu",
+        "nationalPokedexNumbers": null,
+        "number": "5",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Metal",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Lightning"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": null
+  },
+  {
+    "pkmn": null,
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Shin Nagasawa",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10+",
+            "name": "Rock Smash",
+            "text": "Flip a coin. If heads, this attack does 10 more damage."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Trumbeak"
+        ],
+        "flavorText": "This Pokémon feeds on berries, whose leftover seeds become the ammunition for the attacks it fires off from its mouth.",
+        "hp": "50",
+        "id": "mcd17-11",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Pikipek",
+        "nationalPokedexNumbers": null,
+        "number": "11",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Fighting",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kouki Saitou",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Water"
+            ],
+            "damage": "10",
+            "name": "Pound",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Water"
+            ],
+            "damage": "20",
+            "name": "Water Gun",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Brionne"
+        ],
+        "flavorText": "This Pokémon snorts body fluids from its nose, blowing balloons to smash into its foes. It's famous for being a hard worker.",
+        "hp": "70",
+        "id": "mcd17-4",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Popplio",
+        "nationalPokedexNumbers": null,
+        "number": "4",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Grass",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kouki Saitou",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Water"
+            ],
+            "damage": "10",
+            "name": "Pound",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Water"
+            ],
+            "damage": "20",
+            "name": "Water Gun",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Brionne"
+        ],
+        "flavorText": "This Pokémon snorts body fluids from its nose, blowing balloons to smash into its foes. It's famous for being a hard worker.",
+        "hp": "70",
+        "id": "sm1-39",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Popplio",
+        "nationalPokedexNumbers": null,
+        "number": "39",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Grass",
+            "value": "×2"
+          }
+        ]
+      },
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "match",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Water"
+            ],
+            "damage": "",
+            "name": "Sing",
+            "text": "Your opponent's Active Pokémon is now Asleep."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Brionne"
+        ],
+        "flavorText": "This Pokémon snorts body fluids from its nose, blowing balloons to smash into its foes. It's famous for being a hard worker.",
+        "hp": "60",
+        "id": "unk-SM03",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Popplio",
+        "nationalPokedexNumbers": null,
+        "number": "SM03",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Grass",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Megumi Mizutani",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Tackle",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Grass"
+            ],
+            "damage": "20",
+            "name": "Leafage",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Dartrix"
+        ],
+        "flavorText": "This wary Pokémon uses photosynthesis to store up energy during the day, while becoming active at night.",
+        "hp": "60",
+        "id": "mcd17-1",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Rowlet",
+        "nationalPokedexNumbers": null,
+        "number": "1",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Megumi Mizutani",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Tackle",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Grass"
+            ],
+            "damage": "20",
+            "name": "Leafage",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Dartrix"
+        ],
+        "flavorText": "This wary Pokémon uses photosynthesis to store up energy during the day, while becoming active at night.",
+        "hp": "60",
+        "id": "sm1-9",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Rowlet",
+        "nationalPokedexNumbers": null,
+        "number": "9",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kagemaru Himeno",
+        "attacks": [
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "50",
+            "name": "Ferocious Bellow",
+            "text": "During your opponent's next turn, the Defending Pokémon's attacks do 50 less damage (before applying Weakness and Resistance)."
+          },
+          {
+            "convertedEnergyCost": 4,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "120",
+            "name": "Hammer In",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 3,
+        "evolvesFrom": "Herdier",
+        "evolvesTo": [],
+        "flavorText": "Intelligent, good-natured, and valiant, it's a trustworthy partner on rescue teams.",
+        "hp": "150",
+        "id": "sm1-105",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Stoutland",
+        "nationalPokedexNumbers": null,
+        "number": "105",
+        "rarity": "Rare",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": null
+  },
+  {
+    "ptcgio": null,
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Megumi Mizutani",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "60",
+            "name": "Echoed Voice",
+            "text": "During your next turn, this Pokémon's Echoed Voice attack does 60 more damage (before applying Weakness and Resistance)."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "100",
+            "name": "Beak Blast",
+            "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Burned."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": "Trumbeak",
+        "evolvesTo": [],
+        "flavorText": "Within its beak, its internal gas ignites, explosively launching seeds with enough power to pulverize boulders.",
+        "hp": "140",
+        "id": "sm1-108",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Toucannon",
+        "nationalPokedexNumbers": null,
+        "number": "108",
+        "rarity": "Rare",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Fighting",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "match",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Tackle",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Bite",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Gumshoos"
+        ],
+        "flavorText": "With its sharp fangs, it will bite anything. It did not originally live in Alola but was imported from another region.",
+        "hp": "70",
+        "id": "mcd17-12",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Yungoos",
+        "nationalPokedexNumbers": null,
+        "number": "12",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": null
+  }
+]

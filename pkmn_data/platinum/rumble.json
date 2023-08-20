@@ -1,0 +1,869 @@
+{
+  "name": "Rumble",
+  "cards": [
+    {
+      "id": "unk-1",
+      "name": "Venusaur",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": "56",
+      "hp": "140",
+      "types": [
+        "Grass"
+      ],
+      "evolvesFrom": "Ivysaur",
+      "evolvesTo": [],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 4,
+          "cost": [
+            "Grass",
+            "Grass",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "50",
+          "name": "Giga Drain",
+          "text": "Remove from Venusaur the number of damage counters equal to the damage you did to the Defending Pokémon."
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 4,
+      "number": "1",
+      "artist": "Pokemon Rumble",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-2",
+      "name": "Cherrim",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": "28",
+      "hp": "80",
+      "types": [
+        "Grass"
+      ],
+      "evolvesFrom": "Cherubi",
+      "evolvesTo": [],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Grass",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "60",
+          "name": "Solarbeam",
+          "text": ""
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Water",
+          "value": "-20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "2",
+      "artist": "Pokemon Rumble",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-3",
+      "name": "Ninetales",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": "42",
+      "hp": "90",
+      "types": [
+        "Fire"
+      ],
+      "evolvesFrom": "Vulpix",
+      "evolvesTo": [
+        "Ninetales BREAK"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Fire",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "60",
+          "name": "Flame Tail",
+          "text": ""
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "3",
+      "artist": "Pokemon Rumble",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-4",
+      "name": "Heatran",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": "60",
+      "hp": "110",
+      "types": [
+        "Fire"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Heatran LV.X"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 4,
+          "cost": [
+            "Fire",
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "60+",
+          "name": "Heat Boiler",
+          "text": "If the Defending Pokémon is a Water Pokémon, this attack does 60 damage plus 40 more damage."
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 4,
+      "number": "4",
+      "artist": "Pokemon Rumble",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-5",
+      "name": "Starmie",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": "43",
+      "hp": "80",
+      "types": [
+        "Water"
+      ],
+      "evolvesFrom": "Staryu",
+      "evolvesTo": [
+        "Starmie BREAK"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Water",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "50",
+          "name": "Spiral Drain",
+          "text": "Remove 1 damage counter from Starmie."
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "5",
+      "artist": "Pokemon Rumble",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-6",
+      "name": "Gyarados",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": "55",
+      "hp": "130",
+      "types": [
+        "Water"
+      ],
+      "evolvesFrom": "Magikarp",
+      "evolvesTo": [],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 4,
+          "cost": [
+            "Water",
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "80",
+          "name": "Thrash Tackle",
+          "text": "Gyarados does 20 damage to itself."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Fighting",
+          "value": "-20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 3,
+      "number": "6",
+      "artist": "Pokemon Rumble",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-7",
+      "name": "Pikachu",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": "16",
+      "hp": "60",
+      "types": [
+        "Lightning"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Raichu",
+        "Alolan Raichu",
+        "Raichu-GX",
+        "Dark Raichu",
+        "Raichu ex"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Lightning",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "60",
+          "name": "Volt Tackle",
+          "text": "Pikachu does 10 damage to itself."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Metal",
+          "value": "-20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "7",
+      "artist": "Pokemon Rumble",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-8",
+      "name": "Zapdos",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": "41",
+      "hp": "100",
+      "types": [
+        "Lightning"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 4,
+          "cost": [
+            "Lightning",
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "70",
+          "name": "Drill Peck",
+          "text": ""
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Fighting",
+          "value": "-20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "number": "8",
+      "artist": "Pokemon Rumble",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-9",
+      "name": "Mewtwo",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": "65",
+      "hp": "100",
+      "types": [
+        "Psychic"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Mewtwo LV.X"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Psychic",
+            "Psychic",
+            "Colorless"
+          ],
+          "damage": "70",
+          "name": "Super Psy Bolt",
+          "text": ""
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "number": "9",
+      "artist": "Pokemon Rumble",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-10",
+      "name": "Mew",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": "39",
+      "hp": "60",
+      "types": [
+        "Psychic"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 2,
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "30",
+          "name": "Cut",
+          "text": ""
+        },
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Psychic",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "60",
+          "name": "Will-o'-the-wisp",
+          "text": ""
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [],
+      "convertedRetreatCost": 0,
+      "number": "10",
+      "artist": "Pokemon Rumble",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-11",
+      "name": "Diglett",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": "6",
+      "hp": "30",
+      "types": [
+        "Fighting"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Dugtrio",
+        "Dark Dugtrio"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 2,
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "20",
+          "name": "Dig",
+          "text": ""
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Lightning",
+          "value": "-20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "11",
+      "artist": "Pokemon Rumble",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-12",
+      "name": "Lucario",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": "41",
+      "hp": "90",
+      "types": [
+        "Fighting"
+      ],
+      "evolvesFrom": "Riolu",
+      "evolvesTo": [
+        "Lucario LV.X"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Fighting",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "40",
+          "name": "Metal Claw",
+          "text": ""
+        },
+        {
+          "convertedEnergyCost": 4,
+          "cost": [
+            "Fighting",
+            "Metal",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "80",
+          "name": "Pulse Blast",
+          "text": ""
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "12",
+      "artist": "Pokemon Rumble",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-13",
+      "name": "Skuntank",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": "35",
+      "hp": "90",
+      "types": [
+        "Darkness"
+      ],
+      "evolvesFrom": "Stunky",
+      "evolvesTo": [],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Darkness",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "20+",
+          "name": "Rage",
+          "text": "Does 20 damage plus 10 more damage for each damage counter on Skuntank."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Psychic",
+          "value": "-20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "number": "13",
+      "artist": "Pokemon Rumble",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-14",
+      "name": "Bastiodon",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": "49",
+      "hp": "120",
+      "types": [
+        "Metal"
+      ],
+      "evolvesFrom": "Shieldon",
+      "evolvesTo": [],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Metal",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "40",
+          "name": "Strength",
+          "text": ""
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Psychic",
+          "value": "-20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 4,
+      "number": "14",
+      "artist": "Pokemon Rumble",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-15",
+      "name": "Rattata",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": "9",
+      "hp": "30",
+      "types": [
+        "Colorless"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Raticate",
+        "Dark Raticate"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 2,
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "20",
+          "name": "Bite",
+          "text": ""
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "15",
+      "artist": "Pokemon Rumble",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-16",
+      "name": "Bibarel",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": "22",
+      "hp": "90",
+      "types": [
+        "Colorless"
+      ],
+      "evolvesFrom": "Bidoof",
+      "evolvesTo": [],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 4,
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "50",
+          "name": "Rollout",
+          "text": ""
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 3,
+      "number": "16",
+      "artist": "Pokemon Rumble",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    }
+  ]
+}

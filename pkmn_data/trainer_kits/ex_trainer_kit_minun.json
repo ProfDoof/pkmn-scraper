@@ -1,0 +1,370 @@
+{
+  "name": "EX Trainer Kit—Minun",
+  "cards": [
+    {
+      "id": "unk-1",
+      "name": "Arcanine",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "90",
+      "types": [
+        "Fire"
+      ],
+      "evolvesFrom": "Growlithe",
+      "evolvesTo": [
+        "Arcanine BREAK"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Fire"
+          ],
+          "damage": "20",
+          "name": "Flare",
+          "text": ""
+        },
+        {
+          "convertedEnergyCost": 4,
+          "cost": [
+            "Fire",
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "70",
+          "name": "Heat Tackle",
+          "text": "Arcanine does 10 damage to itself."
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "number": "1",
+      "artist": "Ken Sugimori",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-2",
+      "name": "Charmander",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "50",
+      "types": [
+        "Fire"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Charmeleon",
+        "Dark Charmeleon"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Colorless"
+          ],
+          "damage": "10",
+          "name": "Headbutt",
+          "text": ""
+        },
+        {
+          "convertedEnergyCost": 2,
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "20",
+          "name": "Slash",
+          "text": ""
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "2",
+      "artist": "Midori Harada",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-3",
+      "name": "Charmeleon",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "70",
+      "types": [
+        "Fire"
+      ],
+      "evolvesFrom": "Charmander",
+      "evolvesTo": [
+        "Charizard",
+        "Charizard-GX",
+        "Charizard ex",
+        "Special Delivery Charizard"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 2,
+          "cost": [
+            "Fire",
+            "Colorless"
+          ],
+          "damage": "30",
+          "name": "Flare",
+          "text": ""
+        },
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Fire",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "40+",
+          "name": "Damage Burn",
+          "text": "If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage."
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "3",
+      "artist": "Kouki Saitou",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-4",
+      "name": "Growlithe",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "60",
+      "types": [
+        "Fire"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Arcanine",
+        "Arcanine ex",
+        "Light Arcanine"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Colorless"
+          ],
+          "damage": "10",
+          "name": "Bite",
+          "text": ""
+        },
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Fire",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "40",
+          "name": "Flame Tail",
+          "text": ""
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "number": "4",
+      "artist": "Ken Sugimori",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-5",
+      "name": "Mareep",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "50",
+      "types": [
+        "Lightning"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Flaaffy",
+        "Dark Flaaffy"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Colorless"
+          ],
+          "damage": "",
+          "name": "Minor Errand-Running",
+          "text": "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+        },
+        {
+          "convertedEnergyCost": 2,
+          "cost": [
+            "Lightning",
+            "Colorless"
+          ],
+          "damage": "10+",
+          "name": "Quick Attack",
+          "text": "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "5",
+      "artist": "Naoyo Kimura",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-6",
+      "name": "Minun",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "60",
+      "types": [
+        "Lightning"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Colorless"
+          ],
+          "damage": "",
+          "name": "Drawup Power",
+          "text": "Search your deck for an Energy card, show it to your opponent, and put into your hand. Shuffle your deck afterward."
+        },
+        {
+          "convertedEnergyCost": 2,
+          "cost": [
+            "Lightning",
+            "Colorless"
+          ],
+          "damage": "20",
+          "name": "Front Spark",
+          "text": "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Metal",
+          "value": "-30"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "6",
+      "artist": "Katsura Tabata",
+      "rarity": "No Rarity",
+      "flavorText": null,
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    }
+  ]
+}

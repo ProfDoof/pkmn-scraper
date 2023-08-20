@@ -1,11 +1,36 @@
 use anyhow::{anyhow, Error, Result};
 use scraper::{ElementRef, Selector};
 
-pub(super) fn extract_text(element: ElementRef, selector: Selector) -> Result<String> {
+pub(super) fn clean_text<'a>(text: impl Iterator<Item = &'a str>) -> String {
+    html_escape::decode_html_entities(
+        &text
+            .flat_map(|text| text.chars())
+            .map(|ch| match ch {
+                '’' => '\'',
+                '“' | '”' => '"',
+                c => c,
+            })
+            .collect::<String>(),
+    )
+    .trim()
+    .to_string()
+}
+
+pub(super) fn extract_text(element: ElementRef) -> String {
+    clean_text(element.text())
+}
+
+pub(super) fn direct_text_skip_past(element: ElementRef, pattern: &str) -> String {
+    let mut iter = element.text().skip_while(|text| !text.contains(pattern));
+    iter.next();
+    clean_text(iter)
+}
+
+pub(super) fn select_text(element: ElementRef, selector: Selector) -> Result<String> {
     element
         .select(&selector)
         .next()
-        .map(|set| set.text().collect::<String>())
+        .map(extract_text)
         .ok_or(Error::msg(format!(
             "Failed to extract text from {:?}: {}",
             selector,
@@ -13,15 +38,12 @@ pub(super) fn extract_text(element: ElementRef, selector: Selector) -> Result<St
         )))
 }
 
-pub(super) fn extract_opt_text(element: ElementRef, selector: Selector) -> Option<String> {
-    element
-        .select(&selector)
-        .next()
-        .map(|elem| elem.text().collect::<String>())
+pub(super) fn select_opt_text(element: ElementRef, selector: Selector) -> Option<String> {
+    element.select(&selector).next().map(extract_text)
 }
 
 #[allow(dead_code)]
-pub(super) fn extract_title(element: ElementRef, selector: Selector) -> Result<String> {
+pub(super) fn select_title(element: ElementRef, selector: Selector) -> Result<String> {
     element
         .select(&selector)
         .next()
@@ -40,7 +62,7 @@ pub(super) fn extract_title(element: ElementRef, selector: Selector) -> Result<S
         .map(|title| title.to_string())
 }
 
-pub(super) fn extract_element(element: ElementRef, selector: Selector) -> Result<ElementRef> {
+pub(super) fn select_element(element: ElementRef, selector: Selector) -> Result<ElementRef> {
     element.select(&selector).next().ok_or_else(|| {
         anyhow!(
             "Was not able to extract element using {:?} from: {}",
@@ -50,11 +72,11 @@ pub(super) fn extract_element(element: ElementRef, selector: Selector) -> Result
     })
 }
 
-pub(super) fn extract_opt_element(element: ElementRef, selector: Selector) -> Option<ElementRef> {
+pub(super) fn select_opt_element(element: ElementRef, selector: Selector) -> Option<ElementRef> {
     element.select(&selector).next()
 }
 
-pub(super) fn extract_number(element: ElementRef, selector: Selector) -> Result<Option<i32>> {
+pub(super) fn select_number(element: ElementRef, selector: Selector) -> Result<Option<i32>> {
     Ok(element
         .select(&selector)
         .next()

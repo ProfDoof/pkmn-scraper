@@ -1,0 +1,191 @@
+{
+  "ptcgio": {
+    "ignore": [],
+    "merge": {
+      "Silver Tempest Trainer Gallery": "Silver Tempest",
+      "Celebrations: Classic Collection": "Celebrations",
+      "Crown Zenith Galarian Gallery": "Crown Zenith",
+      "Astral Radiance Trainer Gallery": "Astral Radiance",
+      "Brilliant Stars Trainer Gallery": "Brilliant Stars",
+      "Lost Origin Trainer Gallery": "Lost Origin"
+    },
+    "map": {
+      "HS—Triumphant": "Triumphant",
+      "EX Trainer Kit Latios": "EX Trainer Kit—Latios",
+      "DP Black Star Promos": "Diamond & Pearl Promos",
+      "EX Trainer Kit Latias": "EX Trainer Kit—Latias",
+      "Scarlet & Violet Black Star Promos": "Scarlet & Violet Promos",
+      "Expedition Base Set": "Expedition",
+      "HS—Undaunted": "Undaunted",
+      "HGSS Black Star Promos": "HeartGold & SoulSilver Promos",
+      "HS—Unleashed": "Unleashed",
+      "SM Black Star Promos": "Sun & Moon Promos",
+      "BW Black Star Promos": "Black & White Promos",
+      "Scarlet & Violet Energies": "Scarlet & Violet Energy",
+      "EX Trainer Kit 2 Plusle": "EX Trainer Kit—Plusle",
+      "EX Trainer Kit 2 Minun": "EX Trainer Kit—Minun",
+      "SWSH Black Star Promos": "Sword & Shield Promos",
+      "Pokémon Rumble": "Rumble",
+      "Pokémon Futsal Collection": "Pokémon Futsal Promos 2020",
+      "XY Black Star Promos": "XY Promos",
+      "Base": "Base Set"
+    },
+    "extract": {}
+  },
+  "pkmn": {
+    "ignore": [
+      "Sword & Shield Energy",
+      "XY Energy",
+      "Sun & Moon Energy",
+      "Black & White Energy",
+      "HS Energy",
+      "Box Topper",
+      "World Collection",
+      "Victory Medals",
+      "XY Trainer Kit—Suicune",
+      "XY Trainer Kit—Latias",
+      "XY Trainer Kit—Bisharp",
+      "XY Trainer Kit—Latios",
+      "XY Trainer Kit—Sylveon",
+      "XY Trainer Kit—Pikachu Libre",
+      "XY Trainer Kit—Wigglytuff",
+      "XY Trainer Kit—Noivern",
+      "Black & White Trainer Kit—Zoroark",
+      "Black & White Trainer Kit—Excadrill",
+      "HS Trainer Kit—Gyarados",
+      "HS Trainer Kit—Raichu",
+      "Sun & Moon Trainer Kit—Lycanroc",
+      "Sun & Moon Trainer Kit—Alolan Raichu",
+      "Diamond & Pearl Trainer Kit—Lucario",
+      "Diamond & Pearl Trainer Kit—Manaphy"
+    ],
+    "merge": {
+    },
+    "map": {},
+    "extract": {
+      "McDonald's Collection 2014": {
+        "count": 12,
+        "cards": [
+          {
+            "from": "Kalos Starter Set",
+            "numbers": {
+              "0": "0",
+              "1": "2",
+              "2": "7",
+              "3": "11",
+              "5": "17",
+              "6": "20",
+              "7": "21",
+              "8": "23",
+              "9": "29",
+              "10": "30",
+              "11": "31"
+            }
+          },
+          {
+            "from": "XY",
+            "numbers": {
+              "4": "41"
+            }
+          }
+        ]
+      },
+      "McDonald's Collection 2015": {
+        "count": 12,
+        "cards": [
+          {
+            "from": "Primal Clash",
+            "numbers": {
+              "0": "5",
+              "1": "9",
+              "2": "24",
+              "3": "31",
+              "4": "32",
+              "6": "58",
+              "7": "73",
+              "8": "78",
+              "9": "101",
+              "10": "110",
+              "11": "112"
+            }
+          },
+          {
+            "from": "Roaring Skies",
+            "numbers": {
+              "5": "19"
+            }
+          }
+        ]
+      },
+      "McDonald's Collection 2017":  {
+        "count": 12,
+        "cards": [
+          {
+            "from": "Sun & Moon",
+            "numbers": {
+              "0": "8",
+              "1": "12",
+              "2": "23",
+              "3": "38",
+              "5": "63",
+              "6": "71",
+              "7": "77",
+              "8": "85",
+              "9": "91",
+              "10": "105",
+              "11": "108"
+            }
+          },
+          {
+            "from": "Sun & Moon Promos",
+            "numbers": {
+              "4": "3"
+            }
+          }
+        ]
+      },
+      "McDonald's Collection 2018": {
+        "count": 12,
+        "cards": [
+          {
+            "from": "Sun & Moon",
+            "numbers": {
+              "0": "20",
+              "1": "27",
+              "8": "93",
+              "10": "100"
+            }
+          },
+          {
+            "from": "Burning Shadows",
+            "numbers": {
+              "2": "28",
+              "11": "102"
+            }
+          },
+          {
+            "from": "Crimson Invasion",
+            "numbers": {
+              "3": "29",
+              "6": "51"
+            }
+          },
+          {
+            "from": "Guardians Rising",
+            "numbers": {
+              "4": "47",
+              "5": "62",
+              "9": "100"
+            }
+          },
+          {
+            "from": "Ultra Prism",
+            "numbers": {
+              "7": "79"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

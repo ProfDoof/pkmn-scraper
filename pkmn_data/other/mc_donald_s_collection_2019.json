@@ -1,0 +1,671 @@
+{
+  "name": "McDonald's Collection 2019",
+  "cards": [
+    {
+      "id": "unk-1",
+      "name": "Caterpie",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "50",
+      "types": [
+        "Grass"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Metapod"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Grass"
+          ],
+          "damage": "20",
+          "name": "Surprise Attack",
+          "text": "Flip a coin. If tails, this attack does nothing."
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "1",
+      "artist": "Sekio",
+      "rarity": "No Rarity",
+      "flavorText": "When attacked by bird Pokémon, it resists by releasing a terrifically strong odor from its antennae, but it often becomes their prey.",
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-2",
+      "name": "Alolan Exeggutor",
+      "supertype": "Pokémon",
+      "subtypes": [
+        "alolan"
+      ],
+      "level": null,
+      "hp": "160",
+      "types": [
+        "Grass"
+      ],
+      "evolvesFrom": "Exeggcute",
+      "evolvesTo": [],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Grass"
+          ],
+          "damage": "20+",
+          "name": "Tropical Shake",
+          "text": "This attack does 20 more damage for each type of basic Energy card in your discard pile. You can't add more than 100 damage in this way."
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 3,
+      "number": "2",
+      "artist": "Satoshi Shirai",
+      "rarity": "No Rarity",
+      "flavorText": "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon.",
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-3",
+      "name": "Magmar",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "80",
+      "types": [
+        "Fire"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Magmortar"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Fire"
+          ],
+          "damage": "",
+          "name": "Controlled Burn",
+          "text": "Discard the top card of your opponent's deck."
+        },
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Fire",
+            "Fire",
+            "Colorless"
+          ],
+          "damage": "80",
+          "name": "Flamethrower",
+          "text": "Discard an Energy from this Pokémon."
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "number": "3",
+      "artist": "Yumi",
+      "rarity": "No Rarity",
+      "flavorText": "When angered, it spouts brilliant fire from all over its body. It doesn't calm down until its opponent has burned to ash.",
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-4",
+      "name": "Alolan Sandshrew",
+      "supertype": "Pokémon",
+      "subtypes": [
+        "alolan"
+      ],
+      "level": null,
+      "hp": "60",
+      "types": [
+        "Water"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Alolan Sandslash",
+        "Alolan Sandslash-GX"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 0,
+          "cost": [],
+          "damage": "10×",
+          "name": "Fury Swipes",
+          "text": "Flip 3 coins. This attack does 10 damage for each heads."
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Metal",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "4",
+      "artist": "Shin Nagasawa",
+      "rarity": "No Rarity",
+      "flavorText": "An ancient tradition of Alolan festivals, still carried on to this day, is a competition to slide Sandshrew across ice as far as one can.",
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-5",
+      "name": "Lapras",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "120",
+      "types": [
+        "Water"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": null,
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Water"
+          ],
+          "damage": "20",
+          "name": "Aqua Bullet",
+          "text": "This attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        },
+        {
+          "convertedEnergyCost": 3,
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "damage": "70+",
+          "name": "Hydro Pump",
+          "text": "This attack does 10 more damage times the amount of Water Energy attached to this Pokémon."
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "number": "5",
+      "artist": "Saya Tsuruta",
+      "rarity": "No Rarity",
+      "flavorText": "These Pokémon were once near extinction due to poaching. Following protective regulations, there is now an overabundance of them.",
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-6",
+      "name": "Pikachu",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "60",
+      "types": [
+        "Lightning"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Raichu",
+        "Alolan Raichu",
+        "Raichu-GX",
+        "Dark Raichu",
+        "Raichu ex"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Lightning"
+          ],
+          "damage": "20×",
+          "name": "Iron Tail",
+          "text": "Flip a coin until you get tails. This attack does 20 damage for each heads."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Metal",
+          "value": "-20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "6",
+      "artist": "Kagemaru Himeno",
+      "rarity": "No Rarity",
+      "flavorText": "A plan was recently announced to gather many Pikachu and make an electric power plant.",
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-7",
+      "name": "Gastly",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "50",
+      "types": [
+        "Psychic"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Haunter",
+        "Dark Haunter"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Psychic"
+          ],
+          "damage": "",
+          "name": "Ominous Eyes",
+          "text": "Put 1 damage counter on 1 of your opponent's Pokémon."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Fighting",
+          "value": "-20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "7",
+      "artist": "Shibuzoh.",
+      "rarity": "No Rarity",
+      "flavorText": "Should a strange light be seen flickering in an abandoned building, Gastly is lurking there.",
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-8",
+      "name": "Mankey",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "60",
+      "types": [
+        "Fighting"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Primeape",
+        "Dark Primeape"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Fighting"
+          ],
+          "damage": "10×",
+          "name": "Three-Step Strike",
+          "text": "Flip 3 coins. This attack does 10 damage for each heads."
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "8",
+      "artist": "Miki Tanaka",
+      "rarity": "No Rarity",
+      "flavorText": "It can spontaneously become enraged. Everyone near it clears out as it rampages and the resulting loneliness makes it angrier still.",
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-9",
+      "name": "Onix",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "100",
+      "types": [
+        "Fighting"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Steelix",
+        "Dark Steelix",
+        "Steelix ex"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Colorless"
+          ],
+          "damage": "",
+          "name": "Screech",
+          "text": "During your next turn, the Defending Pokémon takes 20 more damage from attacks (after applying Weakness and Resistance)."
+        },
+        {
+          "convertedEnergyCost": 2,
+          "cost": [
+            "Fighting",
+            "Fighting"
+          ],
+          "damage": "10+",
+          "name": "Rage",
+          "text": "This attack does 10 more damage for each damage counter on this Pokémon."
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "number": "9",
+      "artist": "Mitsuhiro Arita",
+      "rarity": "No Rarity",
+      "flavorText": "It usually lives underground. It searches for food while boring its way through the ground at 50 miles per hour.",
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-10",
+      "name": "Alolan Meowth",
+      "supertype": "Pokémon",
+      "subtypes": [
+        "alolan"
+      ],
+      "level": null,
+      "hp": "60",
+      "types": [
+        "Darkness"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Alolan Persian-GX",
+        "Alolan Persian"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 0,
+          "cost": [],
+          "damage": "10+",
+          "name": "Spoil the Fun",
+          "text": "If you go second, this attack does 60 more damage during your first turn."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Psychic",
+          "value": "-20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "10",
+      "artist": "Akira Komayama",
+      "rarity": "No Rarity",
+      "flavorText": "When its delicate pride is wounded, or when the gold coin on its forehead is dirtied, it flies into a hysterical rage.",
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-11",
+      "name": "Alolan Dugtrio",
+      "supertype": "Pokémon",
+      "subtypes": [
+        "alolan"
+      ],
+      "level": null,
+      "hp": "60",
+      "types": [
+        "Metal"
+      ],
+      "evolvesFrom": "Alolan Diglett",
+      "evolvesTo": [],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 0,
+          "cost": [],
+          "damage": "30×",
+          "name": "Gold Rush",
+          "text": "Discard any number of Metal Energy cards from your hand. This attack does 30 damage for each card you discarded in this way."
+        }
+      ],
+      "resistances": [
+        {
+          "type": "Psychic",
+          "value": "-20"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "11",
+      "artist": "Megumi Mizutani",
+      "rarity": "No Rarity",
+      "flavorText": "These Pokémon are cherished in the Alola region, where they are thought to be feminine deities of the land incarnate.",
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    },
+    {
+      "id": "unk-12",
+      "name": "Eevee",
+      "supertype": "Pokémon",
+      "subtypes": null,
+      "level": null,
+      "hp": "60",
+      "types": [
+        "Colorless"
+      ],
+      "evolvesFrom": null,
+      "evolvesTo": [
+        "Jolteon",
+        "Flareon",
+        "Vaporeon",
+        "Umbreon",
+        "Espeon",
+        "Leafeon",
+        "Glaceon",
+        "Sylveon",
+        "Sylveon-GX",
+        "Glaceon-GX",
+        "Umbreon-GX",
+        "Leafeon-GX",
+        "Espeon-GX",
+        "Dark Vaporeon",
+        "Dark Espeon",
+        "Dark Flareon",
+        "Umbreon ex",
+        "Dark Jolteon",
+        "Jolteon ex",
+        "Jolteon-GX",
+        "Vaporeon ex",
+        "Espeon ex",
+        "Vaporeon-GX",
+        "Light Flareon",
+        "Light Jolteon",
+        "Flareon ex",
+        "Light Vaporeon",
+        "Flareon-GX"
+      ],
+      "abilities": null,
+      "rules": null,
+      "attacks": [
+        {
+          "convertedEnergyCost": 1,
+          "cost": [
+            "Colorless"
+          ],
+          "damage": "20",
+          "name": "Gnaw",
+          "text": ""
+        }
+      ],
+      "resistances": null,
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "×2"
+        }
+      ],
+      "retreatCost": [
+        "Colorless"
+      ],
+      "convertedRetreatCost": 1,
+      "number": "12",
+      "artist": "Atsuko Nishida",
+      "rarity": "No Rarity",
+      "flavorText": "Current studies show it can evolve into an incredible eight different species of Pokémon.",
+      "nationalPokedexNumbers": null,
+      "legalities": {},
+      "images": {},
+      "ancientTrait": null,
+      "regulationMark": null
+    }
+  ]
+}

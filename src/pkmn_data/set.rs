@@ -6,10 +6,10 @@ use heck::ToSnekCase;
 use itertools::Itertools;
 use regex::Regex;
 use std::fmt::{Display, Formatter};
-use std::iter;
 use std::path::Path;
 use tokio::fs::File;
 
+use crate::pkmn_data::extractors::extract_text;
 use reqwest_middleware::ClientWithMiddleware;
 use scraper::{ElementRef, Html, Selector};
 use serde::{Deserialize, Serialize};
@@ -19,11 +19,11 @@ use tokio_stream::StreamExt;
 pub(super) struct SetFetcher {
     url: String,
     pub set_name: String,
-    set_code: Option<String>,
+    set_abbreviation: Option<String>,
     client: ClientWithMiddleware,
 }
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Debug, Serialize, Deserialize, Eq, PartialEq)]
 pub struct Set {
     pub name: String,
     pub cards: Vec<Card>,
@@ -57,8 +57,7 @@ impl Set {
 impl SetFetcher {
     pub(super) fn new(set_ref: ElementRef, client: &ClientWithMiddleware) -> Result<Self> {
         let re = Regex::new(r"(?<set_name>.*?)(\s\((?<set_code>.*)\))?$")?;
-        let raw_set_name = set_ref.inner_html();
-        let set_name_and_code = html_escape::decode_html_entities(&raw_set_name).to_string();
+        let set_name_and_code = extract_text(set_ref);
         log::trace!("set_name_and_code: {set_name_and_code}");
         let captures = re.captures(&set_name_and_code).unwrap();
         let set_name = captures["set_name"].to_string();
@@ -68,13 +67,15 @@ impl SetFetcher {
         Ok(SetFetcher {
             url,
             set_name,
-            set_code,
+            set_abbreviation: set_code,
             client: client.clone(),
         })
     }
 
     pub(super) async fn fetch(&self, series: &Path) -> Result<Set> {
-        let path = series.join(self.set_name.to_snek_case());
+        let path = series
+            .join(self.set_name.to_snek_case())
+            .with_extension("json");
         if path.exists() {
             let file = File::open(path).await?;
             let mut reader = BufReader::new(file);
@@ -96,7 +97,7 @@ impl SetFetcher {
             let file = File::create(path).await?;
             let mut writer = BufWriter::new(file);
             println!("Set: {}", &set);
-            let output = serde_json::to_vec(&set)?;
+            let output = serde_json::to_vec_pretty(&set)?;
             writer.write_all(&output).await?;
             writer.flush().await?;
             Ok(set)
@@ -114,7 +115,7 @@ impl SetFetcher {
             bail!(
                 "Failed to get page of cards from set {} ({}) at {}: {}",
                 self.set_name,
-                self.set_code.as_ref().unwrap_or(&"UNK".to_string()),
+                self.set_abbreviation.as_ref().unwrap_or(&"UNK".to_string()),
                 &self.url,
                 result.status()
             )

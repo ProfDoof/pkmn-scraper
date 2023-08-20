@@ -1,0 +1,4460 @@
+Differences exist in idx 0 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Toyste Beach",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Water"
+        ],
+        "damage": "",
+        "name": "Aqua Diffuser",
+        "text": "Your opponent's Active Pokémon is now Confused and Poisoned."
+      }
+    ],
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "unk-23",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Aqua Diffuser",
+    "nationalPokedexNumbers": null,
+    "number": "23",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "Attach a Pokémon Tool to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it.",
+      "The Team Aqua Pokémon this card is attached to can also use the attack on this card. (You still need the necessary Energy to use this attack.)"
+    ],
+    "subtypes": [
+      "Pokémon Tool"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Toyste Beach",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Water"
+        ],
+        "damage": "",
+        "name": "Aqua Diffuser",
+        "text": "Your opponent's Active Pokémon is now Confused and Poisoned."
+      }
+    ],
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "dc1-23",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Aqua Diffuser",
+    "nationalPokedexNumbers": null,
+    "number": "23",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "Attach a Pokémon Tool to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it.",
+      "The Team Aqua Pokémon this card is attached to can also use the attack on this card. (You still need the necessary Energy to use this attack.)",
+      "You may play as many Item cards as you like during your turn (before your attack)."
+    ],
+    "subtypes": [
+      "Pokémon Tool"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-23"
+
+    right: "unk-23"
+
+####################
+Differences exist in idx 1 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "5ban Graphics",
+    "attacks": null,
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "unk-33",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Double Aqua Energy",
+    "nationalPokedexNumbers": null,
+    "number": "33",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": null,
+    "subtypes": [
+      "Special Energy"
+    ],
+    "supertype": "Energy",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "5ban Graphics",
+    "attacks": null,
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "dc1-33",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Double Aqua Energy",
+    "nationalPokedexNumbers": null,
+    "number": "33",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "(If this card is attached to anything other than a Team Aqua Pokémon, discard this card.)",
+      "This card can only be attached to Team Aqua Pokémon. Discard this card at the end of the turn you attached it.",
+      "This card provides WaterWater Energy only while it is attached to a Team Aqua Pokémon."
+    ],
+    "subtypes": [
+      "Special"
+    ],
+    "supertype": "Energy",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-33"
+
+    right: "unk-33"
+
+Difference between left and right for path "root[0].rules"
+
+    left: ["(If this card is attached to anything other than a Team Aqua Pokémon, discard this card.)","This card can only be attached to Team Aqua Pokémon. Discard this card at the end of the turn you attached it.","This card provides WaterWater Energy only while it is attached to a Team Aqua Pokémon."]
+
+    right: null
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Special"
+
+    right: "Special Energy"
+
+####################
+Differences exist in idx 2 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "5ban Graphics",
+    "attacks": null,
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "unk-34",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Double Magma Energy",
+    "nationalPokedexNumbers": null,
+    "number": "34",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": null,
+    "subtypes": [
+      "Special Energy"
+    ],
+    "supertype": "Energy",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "5ban Graphics",
+    "attacks": null,
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "dc1-34",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Double Magma Energy",
+    "nationalPokedexNumbers": null,
+    "number": "34",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "(If this card is attached to anything other than a Team Magma Pokémon, discard this card.)",
+      "This card can only be attached to Team Magma Pokémon. Discard this card at the end of the turn you attached it.",
+      "This card provides FightingFighting Energy only while it is attached to a Team Magma Pokémon."
+    ],
+    "subtypes": [
+      "Special"
+    ],
+    "supertype": "Energy",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-34"
+
+    right: "unk-34"
+
+Difference between left and right for path "root[0].rules"
+
+    left: ["(If this card is attached to anything other than a Team Magma Pokémon, discard this card.)","This card can only be attached to Team Magma Pokémon. Discard this card at the end of the turn you attached it.","This card provides FightingFighting Energy only while it is attached to a Team Magma Pokémon."]
+
+    right: null
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Special"
+
+    right: "Special Energy"
+
+####################
+Differences exist in idx 3 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Toyste Beach",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fighting"
+        ],
+        "damage": "",
+        "name": "Magma Pointer",
+        "text": "This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "unk-24",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Magma Pointer",
+    "nationalPokedexNumbers": null,
+    "number": "24",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "Attach a Pokémon Tool to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it.",
+      "The Team Magma Pokémon this card is attached to can also use the attack on this card. (You still need the necessary Energy to use this attack.)"
+    ],
+    "subtypes": [
+      "Pokémon Tool"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Toyste Beach",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fighting"
+        ],
+        "damage": "",
+        "name": "Magma Pointer",
+        "text": "This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "dc1-24",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Magma Pointer",
+    "nationalPokedexNumbers": null,
+    "number": "24",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "Attach a Pokémon Tool to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it.",
+      "The Team Magma Pokémon this card is attached to can also use the attack on this card. (You still need the necessary Energy to use this attack.)",
+      "You may play as many Item cards as you like during your turn (before your attack)."
+    ],
+    "subtypes": [
+      "Pokémon Tool"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-24"
+
+    right: "unk-24"
+
+####################
+Differences exist in idx 4 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "GAME FREAK inc.",
+    "attacks": null,
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "unk-25",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua Admin",
+    "nationalPokedexNumbers": null,
+    "number": "25",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "Attach a basic Energy card from your discard pile to your Active Team Aqua Pokémon.",
+      "You may play only 1 Supporter card during your turn (before your attack)."
+    ],
+    "subtypes": [
+      "Supporter"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "GAME FREAK inc.",
+    "attacks": null,
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "dc1-25",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua Admin",
+    "nationalPokedexNumbers": null,
+    "number": "25",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "Attach a basic Energy card from your discard pile to your Active Team Aqua Pokémon.",
+      "You may play only 1 Supporter card during your turn (before your attack)."
+    ],
+    "subtypes": [
+      "Supporter"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-25"
+
+    right: "unk-25"
+
+####################
+Differences exist in idx 5 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "GAME FREAK inc.",
+    "attacks": null,
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "unk-26",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua Grunt",
+    "nationalPokedexNumbers": null,
+    "number": "26",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "Discard a card from your hand. (If you can't discard a card, you can't play this card.) Draw 3 cards. If you discarded a Team Aqua Pokémon, draw 1 more card.",
+      "You may play only 1 Supporter card during your turn (before your attack)."
+    ],
+    "subtypes": [
+      "Supporter"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "GAME FREAK inc.",
+    "attacks": null,
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "dc1-26",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua Grunt",
+    "nationalPokedexNumbers": null,
+    "number": "26",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "Discard a card from your hand. (If you can't discard a card, you can't play this card.) Draw 3 cards. If you discarded a Team Aqua Pokémon, draw 1 more card.",
+      "You may play only 1 Supporter card during your turn (before your attack)."
+    ],
+    "subtypes": [
+      "Supporter"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-26"
+
+    right: "unk-26"
+
+####################
+Differences exist in idx 6 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Sanosuke Sakuma",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "10×",
+        "name": "Fin Smack",
+        "text": "Flip 2 coins. This attack does 10 damage times the number of heads."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Team Aqua's Sharpedo"
+    ],
+    "flavorText": "You can't keep up with its movements underwater, can you? If you get caught in this whirlpool, there'll be no escape.",
+    "hp": "50",
+    "id": "unk-20",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Carvanha",
+    "nationalPokedexNumbers": null,
+    "number": "20",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "team-aquas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Sanosuke Sakuma",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "10×",
+        "name": "Fin Smack",
+        "text": "Flip 2 coins. This attack does 10 damage times the number of heads."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Sharpedo"
+    ],
+    "flavorText": "You can't keep up with its movements underwater, can you? If you get caught in this whirlpool, there'll be no escape.",
+    "hp": "50",
+    "id": "dc1-20",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Carvanha",
+    "nationalPokedexNumbers": null,
+    "number": "20",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Sharpedo"
+
+    right: "Team Aqua's Sharpedo"
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-20"
+
+    right: "unk-20"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Basic"
+
+    right: "team-aquas"
+
+####################
+Differences exist in idx 7 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Toyste Beach",
+    "attacks": null,
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "unk-27",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Great Ball",
+    "nationalPokedexNumbers": null,
+    "number": "27",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "Search your deck for a Basic Team Aqua Pokémon and a basic Water Energy card, reveal them, and put them into your hand. Shuffle your deck afterward.",
+      "You may play as many Item cards as you like during your turn (before your attack)."
+    ],
+    "subtypes": [
+      "Item",
+      "ball"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Toyste Beach",
+    "attacks": null,
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "dc1-27",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Great Ball",
+    "nationalPokedexNumbers": null,
+    "number": "27",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "Search your deck for a Basic Team Aqua Pokémon and a basic Water Energy card, reveal them, and put them into your hand. Shuffle your deck afterward.",
+      "You may play as many Item cards as you like during your turn (before your attack)."
+    ],
+    "subtypes": [
+      "Item"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-27"
+
+    right: "unk-27"
+
+####################
+Differences exist in idx 8 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "kawayoo",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "10",
+        "name": "Pound",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "30",
+        "name": "Mud-Slap",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Team Aqua's Muk"
+    ],
+    "flavorText": "Its flexible body, which allows it to squeeze into any cracks, comes in handy when invading enemy hideouts.",
+    "hp": "70",
+    "id": "unk-7",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Grimer",
+    "nationalPokedexNumbers": null,
+    "number": "7",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "team-aquas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "kawayoo",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "10",
+        "name": "Pound",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "30",
+        "name": "Mud-Slap",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Muk"
+    ],
+    "flavorText": "Its flexible body, which allows it to squeeze into any cracks, comes in handy when invading enemy hideouts.",
+    "hp": "70",
+    "id": "dc1-7",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Grimer",
+    "nationalPokedexNumbers": null,
+    "number": "7",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Muk"
+
+    right: "Team Aqua's Muk"
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-7"
+
+    right: "unk-7"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Basic"
+
+    right: "team-aquas"
+
+####################
+Differences exist in idx 9 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Power Saver",
+        "text": "If there are 4 or fewer Team Aqua Pokémon in play, this Pokémon can't attack.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "nagimiso",
+    "attacks": [
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "damage": "80+",
+        "name": "Aqua Impact",
+        "text": "This attack does 20 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost."
+      }
+    ],
+    "convertedRetreatCost": 4,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "190",
+    "id": "unk-6",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Kyogre-EX",
+    "nationalPokedexNumbers": null,
+    "number": "6",
+    "rarity": "Ultra Rare",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": [
+      "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "subtypes": [
+      "ex-%e2%86%91",
+      "team-aquas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Power Saver",
+        "text": "If there are 4 or fewer Team Aqua Pokémon in play, this Pokémon can't attack.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "nagimiso",
+    "attacks": [
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "damage": "80+",
+        "name": "Aqua Impact",
+        "text": "This attack does 20 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost."
+      }
+    ],
+    "convertedRetreatCost": 4,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "190",
+    "id": "dc1-6",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Kyogre-EX",
+    "nationalPokedexNumbers": null,
+    "number": "6",
+    "rarity": "Rare Ultra",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": [
+      "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "subtypes": [
+      "Basic",
+      "EX"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-6"
+
+    right: "unk-6"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: "Rare Ultra"
+
+    right: "Ultra Rare"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Basic"
+
+    right: "ex-%e2%86%91"
+
+Difference between left and right for path "root[0].subtypes[1]"
+
+    left: "EX"
+
+    right: "team-aquas"
+
+####################
+Differences exist in idx 10 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Mitsuhiro Arita",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "30×",
+        "name": "Teampact",
+        "text": "Flip a coin for each Team Aqua Pokémon you have in play. This attack does 30 damage times the number of heads."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Water",
+          "Water"
+        ],
+        "damage": "80",
+        "name": "Crunch",
+        "text": "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Team Aqua's Poochyena",
+    "evolvesTo": [],
+    "flavorText": "Thanks to Mightyena's outstanding leadership, it's very good at combination attacks that can leave a foe helpless.",
+    "hp": "100",
+    "id": "unk-18",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Mightyena",
+    "nationalPokedexNumbers": null,
+    "number": "18",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "team-aquas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Mitsuhiro Arita",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "30×",
+        "name": "Teampact",
+        "text": "Flip a coin for each Team Aqua Pokémon you have in play. This attack does 30 damage times the number of heads."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Water",
+          "Water"
+        ],
+        "damage": "80",
+        "name": "Crunch",
+        "text": "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Team Aqua's Poochyena",
+    "evolvesTo": null,
+    "flavorText": "Thanks to Mightyena's outstanding leadership, it's very good at combination attacks that can leave a foe helpless.",
+    "hp": "100",
+    "id": "dc1-18",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Mightyena",
+    "nationalPokedexNumbers": null,
+    "number": "18",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-18"
+
+    right: "unk-18"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Stage 1"
+
+    right: "team-aquas"
+
+####################
+Differences exist in idx 11 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Sludge Festival",
+        "text": "The Retreat Cost of each Pokémon in play (except for Team Aqua Pokémon) is Colorless more.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "60+",
+        "name": "Pester",
+        "text": "If your opponent's Active Pokémon is affected by a Special Condition, this attack does 60 more damage."
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Team Aqua's Grimer",
+    "evolvesTo": [],
+    "flavorText": "It immobilizes its opponents by wrapping them in its huge, poisonous body. It'll smoosh you, too!",
+    "hp": "110",
+    "id": "unk-8",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Muk",
+    "nationalPokedexNumbers": null,
+    "number": "8",
+    "rarity": "Rare Holo",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "team-aquas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Sludge Festival",
+        "text": "The Retreat Cost of each Pokémon in play (except for Team Aqua Pokémon) is Colorless more.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "60+",
+        "name": "Pester",
+        "text": "If your opponent's Active Pokémon is affected by a Special Condition, this attack does 60 more damage."
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Team Aqua's Grimer",
+    "evolvesTo": null,
+    "flavorText": "It immobilizes its opponents by wrapping them in its huge, poisonous body. It'll smoosh you, too!",
+    "hp": "110",
+    "id": "dc1-8",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Muk",
+    "nationalPokedexNumbers": null,
+    "number": "8",
+    "rarity": "Rare Holo",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-8"
+
+    right: "unk-8"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Stage 1"
+
+    right: "team-aquas"
+
+####################
+Differences exist in idx 12 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Roar",
+        "text": "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Bite",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Team Aqua's Mightyena"
+    ],
+    "flavorText": "Poochyena can easily detect invading foes with its acute sense of smell. It's an excellent lookout!",
+    "hp": "60",
+    "id": "unk-16",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Poochyena",
+    "nationalPokedexNumbers": null,
+    "number": "16",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "team-aquas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Roar",
+        "text": "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Bite",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Mightyena"
+    ],
+    "flavorText": "Poochyena can easily detect invading foes with its acute sense of smell. It's an excellent lookout!",
+    "hp": "60",
+    "id": "dc1-16",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Poochyena",
+    "nationalPokedexNumbers": null,
+    "number": "16",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Mightyena"
+
+    right: "Team Aqua's Mightyena"
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-16"
+
+    right: "unk-16"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Basic"
+
+    right: "team-aquas"
+
+####################
+Differences exist in idx 13 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoki Saito",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "",
+        "name": "Splatter",
+        "text": "This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Water"
+        ],
+        "damage": "60+",
+        "name": "Hail Storm",
+        "text": "If your opponent's Active Pokémon is a Team Magma Pokémon, this attack does 60 more damage."
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Team Aqua's Spheal",
+    "evolvesTo": [
+      "Team Aqua's Walrein"
+    ],
+    "flavorText": "It provides support by making paths of ice. It can win any battle as long as it's on ice.",
+    "hp": "90",
+    "id": "unk-4",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Sealeo",
+    "nationalPokedexNumbers": null,
+    "number": "4",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "team-aquas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoki Saito",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "",
+        "name": "Splatter",
+        "text": "This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Water"
+        ],
+        "damage": "60+",
+        "name": "Hail Storm",
+        "text": "If your opponent's Active Pokémon is a Team Magma Pokémon, this attack does 60 more damage."
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Team Aqua's Spheal",
+    "evolvesTo": [
+      "Walrein"
+    ],
+    "flavorText": "It provides support by making paths of ice. It can win any battle as long as it's on ice.",
+    "hp": "90",
+    "id": "dc1-4",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Sealeo",
+    "nationalPokedexNumbers": null,
+    "number": "4",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Walrein"
+
+    right: "Team Aqua's Walrein"
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-4"
+
+    right: "unk-4"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Stage 1"
+
+    right: "team-aquas"
+
+####################
+Differences exist in idx 14 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Ryo Ueda",
+    "attacks": null,
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "unk-28",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Secret Base",
+    "nationalPokedexNumbers": null,
+    "number": "28",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "The Retreat Cost of each Pokémon in play (except for Team Aqua Pokémon) is Colorless more.",
+      "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card."
+    ],
+    "subtypes": [
+      "Stadium"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Ryo Ueda",
+    "attacks": null,
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "dc1-28",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Secret Base",
+    "nationalPokedexNumbers": null,
+    "number": "28",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "The Retreat Cost of each Pokémon in play (except for Team Aqua Pokémon) is Colorless more.",
+      "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card."
+    ],
+    "subtypes": [
+      "Stadium"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-28"
+
+    right: "unk-28"
+
+####################
+Differences exist in idx 15 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoki Saito",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "10",
+        "name": "Venomous Fang",
+        "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Venom Tail",
+        "text": "If your opponent's Active Pokémon is affected by a Special Condition, discard an Energy attached to that Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "Seviper's tail is a sharp blade. It can even poison you!",
+    "hp": "90",
+    "id": "unk-9",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Seviper",
+    "nationalPokedexNumbers": null,
+    "number": "9",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "team-aquas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoki Saito",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "10",
+        "name": "Venomous Fang",
+        "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Venom Tail",
+        "text": "If your opponent's Active Pokémon is affected by a Special Condition, discard an Energy attached to that Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "Seviper's tail is a sharp blade. It can even poison you!",
+    "hp": "90",
+    "id": "dc1-9",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Seviper",
+    "nationalPokedexNumbers": null,
+    "number": "9",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-9"
+
+    right: "unk-9"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Basic"
+
+    right: "team-aquas"
+
+####################
+Differences exist in idx 16 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Aqua Search",
+        "text": "Once during your turn (before your attack), you may search your deck for a Team Aqua Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "kawayoo",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Darkness"
+        ],
+        "damage": "70",
+        "name": "Sharp Fang",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 0,
+    "evolvesFrom": "Team Aqua's Carvanha",
+    "evolvesTo": [],
+    "flavorText": "It boasts fangs so powerful that they knock opponents out in one shot! Enemies that slip up will be taken down without fail!",
+    "hp": "90",
+    "id": "unk-21",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Sharpedo",
+    "nationalPokedexNumbers": null,
+    "number": "21",
+    "rarity": "Rare Holo",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [],
+    "rules": null,
+    "subtypes": [
+      "team-aquas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Aqua Search",
+        "text": "Once during your turn (before your attack), you may search your deck for a Team Aqua Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "kawayoo",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Darkness"
+        ],
+        "damage": "70",
+        "name": "Sharp Fang",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": null,
+    "evolvesFrom": "Team Aqua's Carvanha",
+    "evolvesTo": null,
+    "flavorText": "It boasts fangs so powerful that they knock opponents out in one shot! Enemies that slip up will be taken down without fail!",
+    "hp": "90",
+    "id": "dc1-21",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Sharpedo",
+    "nationalPokedexNumbers": null,
+    "number": "21",
+    "rarity": "Rare Holo",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].convertedRetreatCost"
+
+    left: null
+
+    right: 0
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-21"
+
+    right: "unk-21"
+
+Difference between left and right for path "root[0].retreatCost"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Stage 1"
+
+    right: "team-aquas"
+
+####################
+Differences exist in idx 17 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Sanosuke Sakuma",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Water"
+        ],
+        "damage": "10",
+        "name": "Water Gun",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Team Aqua's Sealeo"
+    ],
+    "flavorText": "Spheal's Water Gun can put out any fire. Flames used by opponents have no effect!",
+    "hp": "60",
+    "id": "unk-3",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Spheal",
+    "nationalPokedexNumbers": null,
+    "number": "3",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "team-aquas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Sanosuke Sakuma",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Water"
+        ],
+        "damage": "10",
+        "name": "Water Gun",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Sealeo"
+    ],
+    "flavorText": "Spheal's Water Gun can put out any fire. Flames used by opponents have no effect!",
+    "hp": "60",
+    "id": "dc1-3",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Spheal",
+    "nationalPokedexNumbers": null,
+    "number": "3",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Sealeo"
+
+    right: "Team Aqua's Sealeo"
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-3"
+
+    right: "unk-3"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Basic"
+
+    right: "team-aquas"
+
+####################
+Differences exist in idx 18 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Hitoshi Ariga",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "30×",
+        "name": "Power Blow",
+        "text": "This attack does 30 damage times the amount of Energy attached to this Pokémon."
+      },
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "damage": "",
+        "name": "Dual Blizzard",
+        "text": "Discard 2 Water Energy attached to this Pokémon. This attack does 80 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "convertedRetreatCost": 4,
+    "evolvesFrom": "Team Aqua's Sealeo",
+    "evolvesTo": [],
+    "flavorText": "It's good at attacks that freeze opponents with a powerful cold snap. Then, it pulverizes a frozen foe with its sharp tusks!",
+    "hp": "140",
+    "id": "unk-5",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Walrein",
+    "nationalPokedexNumbers": null,
+    "number": "5",
+    "rarity": "Rare Holo",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "team-aquas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Hitoshi Ariga",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "30×",
+        "name": "Power Blow",
+        "text": "This attack does 30 damage times the amount of Energy attached to this Pokémon."
+      },
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Water",
+          "Water",
+          "Water"
+        ],
+        "damage": "",
+        "name": "Dual Blizzard",
+        "text": "Discard 2 Water Energy attached to this Pokémon. This attack does 80 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "convertedRetreatCost": 4,
+    "evolvesFrom": "Team Aqua's Sealeo",
+    "evolvesTo": null,
+    "flavorText": "It's good at attacks that freeze opponents with a powerful cold snap. Then, it pulverizes a frozen foe with its sharp tusks!",
+    "hp": "140",
+    "id": "dc1-5",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Aqua's Walrein",
+    "nationalPokedexNumbers": null,
+    "number": "5",
+    "rarity": "Rare Holo",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 2"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-5"
+
+    right: "unk-5"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Stage 2"
+
+    right: "team-aquas"
+
+####################
+Differences exist in idx 19 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "GAME FREAK inc.",
+    "attacks": null,
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "unk-29",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma Admin",
+    "nationalPokedexNumbers": null,
+    "number": "29",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "Put up to 3 Team Magma Pokémon from your discard pile into your hand.",
+      "You may play only 1 Supporter card during your turn (before your attack)."
+    ],
+    "subtypes": [
+      "Supporter"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "GAME FREAK inc.",
+    "attacks": null,
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "dc1-29",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma Admin",
+    "nationalPokedexNumbers": null,
+    "number": "29",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "Put up to 3 Team Magma Pokémon from your discard pile into your hand.",
+      "You may play only 1 Supporter card during your turn (before your attack)."
+    ],
+    "subtypes": [
+      "Supporter"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-29"
+
+    right: "unk-29"
+
+####################
+Differences exist in idx 20 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "GAME FREAK inc.",
+    "attacks": null,
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "unk-30",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma Grunt",
+    "nationalPokedexNumbers": null,
+    "number": "30",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "Discard a card from your hand. (If you can't discard a card, you can't play this card.) Draw 3 cards. If you discarded a Team Magma Pokémon, draw 1 more card.",
+      "You may play only 1 Supporter card during your turn (before your attack)."
+    ],
+    "subtypes": [
+      "Supporter"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "GAME FREAK inc.",
+    "attacks": null,
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "dc1-30",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma Grunt",
+    "nationalPokedexNumbers": null,
+    "number": "30",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "Discard a card from your hand. (If you can't discard a card, you can't play this card.) Draw 3 cards. If you discarded a Team Magma Pokémon, draw 1 more card.",
+      "You may play only 1 Supporter card during your turn (before your attack)."
+    ],
+    "subtypes": [
+      "Supporter"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-30"
+
+    right: "unk-30"
+
+####################
+Differences exist in idx 21 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "TOKIYA",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fighting"
+        ],
+        "damage": "40×",
+        "name": "Rock Stomp",
+        "text": "Discard as many Fighting Energy attached to your Pokémon as you like. This attack does 40 damage times the amount of Fighting Energy you discarded."
+      },
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "120",
+        "name": "Boulder Storm",
+        "text": "This attack does 20 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "convertedRetreatCost": 4,
+    "evolvesFrom": "Team Magma's Lairon",
+    "evolvesTo": [],
+    "flavorText": "Aggron's metal horns can smash through any defenses, no matter how strong!",
+    "hp": "140",
+    "id": "unk-14",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Aggron",
+    "nationalPokedexNumbers": null,
+    "number": "14",
+    "rarity": "Rare Holo",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "team-magmas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "TOKIYA",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fighting"
+        ],
+        "damage": "40×",
+        "name": "Rock Stomp",
+        "text": "Discard as many Fighting Energy attached to your Pokémon as you like. This attack does 40 damage times the amount of Fighting Energy you discarded."
+      },
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "120",
+        "name": "Boulder Storm",
+        "text": "This attack does 20 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "convertedRetreatCost": 4,
+    "evolvesFrom": "Team Magma's Lairon",
+    "evolvesTo": null,
+    "flavorText": "Aggron's metal horns can smash through any defenses, no matter how strong!",
+    "hp": "140",
+    "id": "dc1-14",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Aggron",
+    "nationalPokedexNumbers": null,
+    "number": "14",
+    "rarity": "Rare Holo",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 2"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-14"
+
+    right: "unk-14"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Stage 2"
+
+    right: "team-magmas"
+
+####################
+Differences exist in idx 22 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Akira Komayama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fighting"
+        ],
+        "damage": "10",
+        "name": "Gnaw",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Team Magma's Lairon"
+    ],
+    "flavorText": "Aron, which even devour metal, can eat and destroy enemy ships in an instant.",
+    "hp": "60",
+    "id": "unk-12",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Aron",
+    "nationalPokedexNumbers": null,
+    "number": "12",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "team-magmas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Akira Komayama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fighting"
+        ],
+        "damage": "10",
+        "name": "Gnaw",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Lairon"
+    ],
+    "flavorText": "Aron, which even devour metal, can eat and destroy enemy ships in an instant.",
+    "hp": "60",
+    "id": "dc1-12",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Aron",
+    "nationalPokedexNumbers": null,
+    "number": "12",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Lairon"
+
+    right: "Team Magma's Lairon"
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-12"
+
+    right: "unk-12"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Basic"
+
+    right: "team-magmas"
+
+####################
+Differences exist in idx 23 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Mitsuhiro Arita",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "",
+        "name": "Telekinesis",
+        "text": "This attack does 20 damage to 1 of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Team Magma's Claydol"
+    ],
+    "flavorText": "They all cry out at once to let us know when they spot an enemy. It really helps out!",
+    "hp": "50",
+    "id": "unk-10",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Baltoy",
+    "nationalPokedexNumbers": null,
+    "number": "10",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "team-magmas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Mitsuhiro Arita",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "",
+        "name": "Telekinesis",
+        "text": "This attack does 20 damage to 1 of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Claydol"
+    ],
+    "flavorText": "They all cry out at once to let us know when they spot an enemy. It really helps out!",
+    "hp": "50",
+    "id": "dc1-10",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Baltoy",
+    "nationalPokedexNumbers": null,
+    "number": "10",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Claydol"
+
+    right: "Team Magma's Claydol"
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-10"
+
+    right: "unk-10"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Basic"
+
+    right: "team-magmas"
+
+####################
+Differences exist in idx 24 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Burning Draft",
+        "text": "Once during your turn (before your attack), you may attach a Fighting or Fire Energy card from your discard pile to this Pokémon.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Shin Nagasawa",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Fire"
+        ],
+        "damage": "60",
+        "name": "Flame Ball",
+        "text": "Move a basic Energy from this Pokémon to 1 of your Benched Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Team Magma's Numel",
+    "evolvesTo": [],
+    "flavorText": "Camerupt, with its strength against fire, played a big role in rescuing team members.",
+    "hp": "110",
+    "id": "unk-2",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Camerupt",
+    "nationalPokedexNumbers": null,
+    "number": "2",
+    "rarity": "Rare Holo",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "team-magmas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Burning Draft",
+        "text": "Once during your turn (before your attack), you may attach a Fighting or Fire Energy card from your discard pile to this Pokémon.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Shin Nagasawa",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Fire"
+        ],
+        "damage": "60",
+        "name": "Flame Ball",
+        "text": "Move a basic Energy from this Pokémon to 1 of your Benched Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Team Magma's Numel",
+    "evolvesTo": null,
+    "flavorText": "Camerupt, with its strength against fire, played a big role in rescuing team members.",
+    "hp": "110",
+    "id": "dc1-2",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Camerupt",
+    "nationalPokedexNumbers": null,
+    "number": "2",
+    "rarity": "Rare Holo",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-2"
+
+    right: "unk-2"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Stage 1"
+
+    right: "team-magmas"
+
+####################
+Differences exist in idx 25 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Magma Switch",
+        "text": "Once during your turn (before your attack), you may move a basic Energy from 1 of your Pokémon to 1 of your Team Magma Pokémon.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Masakazu Fukuda",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "70",
+        "name": "Power Beam",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Team Magma's Baltoy",
+    "evolvesTo": [],
+    "flavorText": "Claydol's beam can seize opponents and keep them from moving. Long-range attacks are its specialty!",
+    "hp": "90",
+    "id": "unk-11",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Claydol",
+    "nationalPokedexNumbers": null,
+    "number": "11",
+    "rarity": "Rare Holo",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "team-magmas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Magma Switch",
+        "text": "Once during your turn (before your attack), you may move a basic Energy from 1 of your Pokémon to 1 of your Team Magma Pokémon.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Masakazu Fukuda",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "70",
+        "name": "Power Beam",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Team Magma's Baltoy",
+    "evolvesTo": null,
+    "flavorText": "Claydol's beam can seize opponents and keep them from moving. Long-range attacks are its specialty!",
+    "hp": "90",
+    "id": "dc1-11",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Claydol",
+    "nationalPokedexNumbers": null,
+    "number": "11",
+    "rarity": "Rare Holo",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-11"
+
+    right: "unk-11"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Stage 1"
+
+    right: "team-magmas"
+
+####################
+Differences exist in idx 26 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Toyste Beach",
+    "attacks": null,
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "unk-31",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Great Ball",
+    "nationalPokedexNumbers": null,
+    "number": "31",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "Search your deck for a Basic Team Magma Pokémon and a basic Fighting Energy card, reveal them, and put them into your hand. Shuffle your deck afterward.",
+      "You may play as many Item cards as you like during your turn (before your attack)."
+    ],
+    "subtypes": [
+      "Item",
+      "ball"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Toyste Beach",
+    "attacks": null,
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "dc1-31",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Great Ball",
+    "nationalPokedexNumbers": null,
+    "number": "31",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "Search your deck for a Basic Team Magma Pokémon and a basic Fighting Energy card, reveal them, and put them into your hand. Shuffle your deck afterward.",
+      "You may play as many Item cards as you like during your turn (before your attack)."
+    ],
+    "subtypes": [
+      "Item"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-31"
+
+    right: "unk-31"
+
+####################
+Differences exist in idx 27 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Power Saver",
+        "text": "If there are 4 or fewer Team Magma Pokémon in play, this Pokémon can't attack.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "nagimiso",
+    "attacks": [
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "80+",
+        "name": "Magma Quake",
+        "text": "If your opponent's Active Pokémon already has any damage counters on it, this attack does 80 more damage."
+      }
+    ],
+    "convertedRetreatCost": 4,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "190",
+    "id": "unk-15",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Groudon-EX",
+    "nationalPokedexNumbers": null,
+    "number": "15",
+    "rarity": "Ultra Rare",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": [
+      "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "subtypes": [
+      "ex-%e2%86%91",
+      "team-magmas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Power Saver",
+        "text": "If there are 4 or fewer Team Magma Pokémon in play, this Pokémon can't attack.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "nagimiso",
+    "attacks": [
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "80+",
+        "name": "Magma Quake",
+        "text": "If your opponent's Active Pokémon already has any damage counters on it, this attack does 80 more damage."
+      }
+    ],
+    "convertedRetreatCost": 4,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "190",
+    "id": "dc1-15",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Groudon-EX",
+    "nationalPokedexNumbers": null,
+    "number": "15",
+    "rarity": "Rare Ultra",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": [
+      "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "subtypes": [
+      "Basic",
+      "EX"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-15"
+
+    right: "unk-15"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: "Rare Ultra"
+
+    right: "Ultra Rare"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Basic"
+
+    right: "ex-%e2%86%91"
+
+Difference between left and right for path "root[0].subtypes[1]"
+
+    left: "EX"
+
+    right: "team-magmas"
+
+####################
+Differences exist in idx 28 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Masakazu Fukuda",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fighting"
+        ],
+        "damage": "30",
+        "name": "Gnaw",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Fighting"
+        ],
+        "damage": "60",
+        "name": "Take Down",
+        "text": "This Pokémon does 10 damage to itself."
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Team Magma's Aron",
+    "evolvesTo": [
+      "Team Magma's Aggron"
+    ],
+    "flavorText": "When Lairon uses Take Down, the impact from its solid body is enough to destroy concrete!",
+    "hp": "90",
+    "id": "unk-13",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Lairon",
+    "nationalPokedexNumbers": null,
+    "number": "13",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "team-magmas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Masakazu Fukuda",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fighting"
+        ],
+        "damage": "30",
+        "name": "Gnaw",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Fighting"
+        ],
+        "damage": "60",
+        "name": "Take Down",
+        "text": "This Pokémon does 10 damage to itself."
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Team Magma's Aron",
+    "evolvesTo": [
+      "Aggron"
+    ],
+    "flavorText": "When Lairon uses Take Down, the impact from its solid body is enough to destroy concrete!",
+    "hp": "90",
+    "id": "dc1-13",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Lairon",
+    "nationalPokedexNumbers": null,
+    "number": "13",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Aggron"
+
+    right: "Team Magma's Aggron"
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-13"
+
+    right: "unk-13"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Stage 1"
+
+    right: "team-magmas"
+
+####################
+Differences exist in idx 29 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Hitoshi Ariga",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fighting"
+        ],
+        "damage": "30",
+        "name": "Bite",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "80",
+        "name": "Hostile Fang",
+        "text": "If your opponent's Active Pokémon is a Team Aqua Pokémon, this attack does 40 more damage."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Team Magma's Poochyena",
+    "evolvesTo": [],
+    "flavorText": "This Pokémon is loyal to its master. It will protect its partner to the end, no matter what.",
+    "hp": "100",
+    "id": "unk-19",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Mightyena",
+    "nationalPokedexNumbers": null,
+    "number": "19",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "team-magmas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Hitoshi Ariga",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fighting"
+        ],
+        "damage": "30",
+        "name": "Bite",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "80",
+        "name": "Hostile Fang",
+        "text": "If your opponent's Active Pokémon is a Team Aqua Pokémon, this attack does 40 more damage."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Team Magma's Poochyena",
+    "evolvesTo": null,
+    "flavorText": "This Pokémon is loyal to its master. It will protect its partner to the end, no matter what.",
+    "hp": "100",
+    "id": "dc1-19",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Mightyena",
+    "nationalPokedexNumbers": null,
+    "number": "19",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-19"
+
+    right: "unk-19"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Stage 1"
+
+    right: "team-magmas"
+
+####################
+Differences exist in idx 30 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Akira Komayama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fire"
+        ],
+        "damage": "30",
+        "name": "Ember",
+        "text": "Discard an Energy attached to this Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Team Magma's Camerupt"
+    ],
+    "flavorText": "No matter how heavy the cargo, we can transport it to our destination with ease, thanks to Numel.",
+    "hp": "70",
+    "id": "unk-1",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Numel",
+    "nationalPokedexNumbers": null,
+    "number": "1",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "team-magmas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Akira Komayama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fire"
+        ],
+        "damage": "30",
+        "name": "Ember",
+        "text": "Discard an Energy attached to this Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Camerupt"
+    ],
+    "flavorText": "No matter how heavy the cargo, we can transport it to our destination with ease, thanks to Numel.",
+    "hp": "70",
+    "id": "dc1-1",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Numel",
+    "nationalPokedexNumbers": null,
+    "number": "1",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Camerupt"
+
+    right: "Team Magma's Camerupt"
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-1"
+
+    right: "unk-1"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Basic"
+
+    right: "team-magmas"
+
+####################
+Differences exist in idx 31 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "TOKIYA",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Infiltrate",
+        "text": "Your opponent reveals his or her hand."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fighting"
+        ],
+        "damage": "20",
+        "name": "Bite",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Team Magma's Mightyena"
+    ],
+    "flavorText": "Poochyena's nose can identify any scent. It's very useful for reconnaissance.",
+    "hp": "60",
+    "id": "unk-17",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Poochyena",
+    "nationalPokedexNumbers": null,
+    "number": "17",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "team-magmas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "TOKIYA",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Infiltrate",
+        "text": "Your opponent reveals his or her hand."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fighting"
+        ],
+        "damage": "20",
+        "name": "Bite",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Mightyena"
+    ],
+    "flavorText": "Poochyena's nose can identify any scent. It's very useful for reconnaissance.",
+    "hp": "60",
+    "id": "dc1-17",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Poochyena",
+    "nationalPokedexNumbers": null,
+    "number": "17",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Mightyena"
+
+    right: "Team Magma's Mightyena"
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-17"
+
+    right: "unk-17"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Basic"
+
+    right: "team-magmas"
+
+####################
+Differences exist in idx 32 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Ryo Ueda",
+    "attacks": null,
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "unk-32",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Secret Base",
+    "nationalPokedexNumbers": null,
+    "number": "32",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card.",
+      "Whenever any player puts a Basic Pokémon (except for Team Magma Pokémon) from his or her hand onto his or her Bench, put 2 damage counters on that Pokémon."
+    ],
+    "subtypes": [
+      "Stadium"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Ryo Ueda",
+    "attacks": null,
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "dc1-32",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Secret Base",
+    "nationalPokedexNumbers": null,
+    "number": "32",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card.",
+      "Whenever any player puts a Basic Pokémon (except for Team Magma Pokémon) from his or her hand onto his or her Bench, put 2 damage counters on that Pokémon."
+    ],
+    "subtypes": [
+      "Stadium"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-32"
+
+    right: "unk-32"
+
+####################
+Differences exist in idx 33 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Shin Nagasawa",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Call for Family",
+        "text": "Search your deck for up to 2 Basic Team Magma Pokémon and put them onto your Bench. Shuffle your deck afterward."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20×",
+        "name": "Team Play",
+        "text": "This attack does 20 damage times the number of Team Magma Pokémon on your Bench."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "Can you handle the formation attack of the fearless Zangoose?",
+    "hp": "90",
+    "id": "unk-22",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Zangoose",
+    "nationalPokedexNumbers": null,
+    "number": "22",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "team-magmas"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Shin Nagasawa",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Call for Family",
+        "text": "Search your deck for up to 2 Basic Team Magma Pokémon and put them onto your Bench. Shuffle your deck afterward."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20×",
+        "name": "Team Play",
+        "text": "This attack does 20 damage times the number of Team Magma Pokémon on your Bench."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "Can you handle the formation attack of the fearless Zangoose?",
+    "hp": "90",
+    "id": "dc1-22",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Team Magma's Zangoose",
+    "nationalPokedexNumbers": null,
+    "number": "22",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "dc1-22"
+
+    right: "unk-22"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Basic"
+
+    right: "team-magmas"
+
+####################

@@ -1,0 +1,2480 @@
+Differences exist in idx 0 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Metal"
+        ],
+        "damage": "40",
+        "name": "Strength",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 4,
+    "evolvesFrom": "Shieldon",
+    "evolvesTo": [],
+    "flavorText": null,
+    "hp": "120",
+    "id": "unk-14",
+    "images": {},
+    "legalities": {},
+    "level": "49",
+    "name": "Bastiodon",
+    "nationalPokedexNumbers": null,
+    "number": "14",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Metal"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Metal"
+        ],
+        "damage": "40",
+        "name": "Strength",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 4,
+    "evolvesFrom": "Shieldon",
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "120",
+    "id": "ru1-14",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Bastiodon",
+    "nationalPokedexNumbers": null,
+    "number": "14",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 2"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Metal"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "ru1-14"
+
+    right: "unk-14"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "49"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 2"]
+
+    right: null
+
+####################
+Differences exist in idx 1 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "50",
+        "name": "Rollout",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Bidoof",
+    "evolvesTo": [],
+    "flavorText": null,
+    "hp": "90",
+    "id": "unk-16",
+    "images": {},
+    "legalities": {},
+    "level": "22",
+    "name": "Bibarel",
+    "nationalPokedexNumbers": null,
+    "number": "16",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "50",
+        "name": "Rollout",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Bidoof",
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "90",
+    "id": "ru1-16",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Bibarel",
+    "nationalPokedexNumbers": null,
+    "number": "16",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "ru1-16"
+
+    right: "unk-16"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "22"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 2 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Grass"
+        ],
+        "damage": "60",
+        "name": "Solarbeam",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Cherubi",
+    "evolvesTo": [],
+    "flavorText": null,
+    "hp": "80",
+    "id": "unk-2",
+    "images": {},
+    "legalities": {},
+    "level": "28",
+    "name": "Cherrim",
+    "nationalPokedexNumbers": null,
+    "number": "2",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Water",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Grass"
+        ],
+        "damage": "60",
+        "name": "Solarbeam",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Cherubi",
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "80",
+    "id": "ru1-2",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Cherrim",
+    "nationalPokedexNumbers": null,
+    "number": "2",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Water",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "ru1-2"
+
+    right: "unk-2"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "28"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 3 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20",
+        "name": "Dig",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Dark Dugtrio",
+      "Dugtrio"
+    ],
+    "flavorText": null,
+    "hp": "30",
+    "id": "unk-11",
+    "images": {},
+    "legalities": {},
+    "level": "6",
+    "name": "Diglett",
+    "nationalPokedexNumbers": null,
+    "number": "11",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Lightning",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20",
+        "name": "Dig",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Dugtrio"
+    ],
+    "flavorText": null,
+    "hp": "30",
+    "id": "ru1-11",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Diglett",
+    "nationalPokedexNumbers": null,
+    "number": "11",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Lightning",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Dugtrio"
+
+    right: "Dark Dugtrio"
+
+Difference between left and right for path "root[0].id"
+
+    left: "ru1-11"
+
+    right: "unk-11"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "6"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 4 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Water"
+        ],
+        "damage": "80",
+        "name": "Thrash Tackle",
+        "text": "Gyarados does 20 damage to itself."
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Magikarp",
+    "evolvesTo": [],
+    "flavorText": null,
+    "hp": "130",
+    "id": "unk-6",
+    "images": {},
+    "legalities": {},
+    "level": "55",
+    "name": "Gyarados",
+    "nationalPokedexNumbers": null,
+    "number": "6",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Water"
+        ],
+        "damage": "80",
+        "name": "Thrash Tackle",
+        "text": "Gyarados does 20 damage to itself."
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Magikarp",
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "130",
+    "id": "ru1-6",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Gyarados",
+    "nationalPokedexNumbers": null,
+    "number": "6",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "ru1-6"
+
+    right: "unk-6"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "55"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 5 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Fire"
+        ],
+        "damage": "60+",
+        "name": "Heat Boiler",
+        "text": "If the Defending Pokémon is a Water Pokémon, this attack does 60 damage plus 40 more damage."
+      }
+    ],
+    "convertedRetreatCost": 4,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Heatran LV.X"
+    ],
+    "flavorText": null,
+    "hp": "110",
+    "id": "unk-4",
+    "images": {},
+    "legalities": {},
+    "level": "60",
+    "name": "Heatran",
+    "nationalPokedexNumbers": null,
+    "number": "4",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Fire"
+        ],
+        "damage": "60+",
+        "name": "Heat Boiler",
+        "text": "If the Defending Pokémon is a Water Pokémon, this attack does 60 damage plus 40 more damage."
+      }
+    ],
+    "convertedRetreatCost": 4,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "110",
+    "id": "ru1-4",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Heatran",
+    "nationalPokedexNumbers": null,
+    "number": "4",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: ["Heatran LV.X"]
+
+Difference between left and right for path "root[0].id"
+
+    left: "ru1-4"
+
+    right: "unk-4"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "60"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 6 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Fighting"
+        ],
+        "damage": "40",
+        "name": "Metal Claw",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Fighting",
+          "Metal"
+        ],
+        "damage": "80",
+        "name": "Pulse Blast",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Riolu",
+    "evolvesTo": [
+      "Lucario LV.X"
+    ],
+    "flavorText": null,
+    "hp": "90",
+    "id": "unk-12",
+    "images": {},
+    "legalities": {},
+    "level": "41",
+    "name": "Lucario",
+    "nationalPokedexNumbers": null,
+    "number": "12",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Fighting"
+        ],
+        "damage": "40",
+        "name": "Metal Claw",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Fighting",
+          "Metal"
+        ],
+        "damage": "80",
+        "name": "Pulse Blast",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Riolu",
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "90",
+    "id": "ru1-12",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Lucario",
+    "nationalPokedexNumbers": null,
+    "number": "12",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: ["Lucario LV.X"]
+
+Difference between left and right for path "root[0].id"
+
+    left: "ru1-12"
+
+    right: "unk-12"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "41"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 7 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Cut",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "60",
+        "name": "Will-o'-the-wisp",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 0,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "60",
+    "id": "unk-10",
+    "images": {},
+    "legalities": {},
+    "level": "39",
+    "name": "Mew",
+    "nationalPokedexNumbers": null,
+    "number": "10",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Cut",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "60",
+        "name": "Will-o'-the-wisp",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "60",
+    "id": "ru1-10",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Mew",
+    "nationalPokedexNumbers": null,
+    "number": "10",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].convertedRetreatCost"
+
+    left: null
+
+    right: 0
+
+Difference between left and right for path "root[0].id"
+
+    left: "ru1-10"
+
+    right: "unk-10"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "39"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].retreatCost"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 8 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Psychic",
+          "Psychic"
+        ],
+        "damage": "70",
+        "name": "Super Psy Bolt",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Mewtwo LV.X"
+    ],
+    "flavorText": null,
+    "hp": "100",
+    "id": "unk-9",
+    "images": {},
+    "legalities": {},
+    "level": "65",
+    "name": "Mewtwo",
+    "nationalPokedexNumbers": null,
+    "number": "9",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Psychic",
+          "Psychic"
+        ],
+        "damage": "70",
+        "name": "Super Psy Bolt",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "100",
+    "id": "ru1-9",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Mewtwo",
+    "nationalPokedexNumbers": null,
+    "number": "9",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: ["Mewtwo LV.X"]
+
+Difference between left and right for path "root[0].id"
+
+    left: "ru1-9"
+
+    right: "unk-9"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "65"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 9 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Fire"
+        ],
+        "damage": "60",
+        "name": "Flame Tail",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Vulpix",
+    "evolvesTo": [
+      "Ninetales BREAK"
+    ],
+    "flavorText": null,
+    "hp": "90",
+    "id": "unk-3",
+    "images": {},
+    "legalities": {},
+    "level": "42",
+    "name": "Ninetales",
+    "nationalPokedexNumbers": null,
+    "number": "3",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Fire"
+        ],
+        "damage": "60",
+        "name": "Flame Tail",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Vulpix",
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "90",
+    "id": "ru1-3",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Ninetales",
+    "nationalPokedexNumbers": null,
+    "number": "3",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: ["Ninetales BREAK"]
+
+Difference between left and right for path "root[0].id"
+
+    left: "ru1-3"
+
+    right: "unk-3"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "42"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 10 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Lightning"
+        ],
+        "damage": "60",
+        "name": "Volt Tackle",
+        "text": "Pikachu does 10 damage to itself."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Alolan Raichu",
+      "Dark Raichu",
+      "Raichu",
+      "Raichu ex",
+      "Raichu-GX"
+    ],
+    "flavorText": null,
+    "hp": "60",
+    "id": "unk-7",
+    "images": {},
+    "legalities": {},
+    "level": "16",
+    "name": "Pikachu",
+    "nationalPokedexNumbers": null,
+    "number": "7",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Metal",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Lightning"
+        ],
+        "damage": "60",
+        "name": "Volt Tackle",
+        "text": "Pikachu does 10 damage to itself."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Raichu"
+    ],
+    "flavorText": null,
+    "hp": "60",
+    "id": "ru1-7",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Pikachu",
+    "nationalPokedexNumbers": null,
+    "number": "7",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Metal",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Raichu"
+
+    right: "Alolan Raichu"
+
+Difference between left and right for path "root[0].id"
+
+    left: "ru1-7"
+
+    right: "unk-7"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "16"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 11 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20",
+        "name": "Bite",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Dark Raticate",
+      "Raticate"
+    ],
+    "flavorText": null,
+    "hp": "30",
+    "id": "unk-15",
+    "images": {},
+    "legalities": {},
+    "level": "9",
+    "name": "Rattata",
+    "nationalPokedexNumbers": null,
+    "number": "15",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20",
+        "name": "Bite",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Raticate"
+    ],
+    "flavorText": null,
+    "hp": "30",
+    "id": "ru1-15",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Rattata",
+    "nationalPokedexNumbers": null,
+    "number": "15",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Raticate"
+
+    right: "Dark Raticate"
+
+Difference between left and right for path "root[0].id"
+
+    left: "ru1-15"
+
+    right: "unk-15"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "9"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 12 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Darkness"
+        ],
+        "damage": "20+",
+        "name": "Rage",
+        "text": "Does 20 damage plus 10 more damage for each damage counter on Skuntank."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Stunky",
+    "evolvesTo": [],
+    "flavorText": null,
+    "hp": "90",
+    "id": "unk-13",
+    "images": {},
+    "legalities": {},
+    "level": "35",
+    "name": "Skuntank",
+    "nationalPokedexNumbers": null,
+    "number": "13",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Darkness"
+        ],
+        "damage": "20+",
+        "name": "Rage",
+        "text": "Does 20 damage plus 10 more damage for each damage counter on Skuntank."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Stunky",
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "90",
+    "id": "ru1-13",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Skuntank",
+    "nationalPokedexNumbers": null,
+    "number": "13",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "ru1-13"
+
+    right: "unk-13"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "35"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 13 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Water"
+        ],
+        "damage": "50",
+        "name": "Spiral Drain",
+        "text": "Remove 1 damage counter from Starmie."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Staryu",
+    "evolvesTo": [
+      "Starmie BREAK"
+    ],
+    "flavorText": null,
+    "hp": "80",
+    "id": "unk-5",
+    "images": {},
+    "legalities": {},
+    "level": "43",
+    "name": "Starmie",
+    "nationalPokedexNumbers": null,
+    "number": "5",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Water"
+        ],
+        "damage": "50",
+        "name": "Spiral Drain",
+        "text": "Remove 1 damage counter from Starmie."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Staryu",
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "80",
+    "id": "ru1-5",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Starmie",
+    "nationalPokedexNumbers": null,
+    "number": "5",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: ["Starmie BREAK"]
+
+Difference between left and right for path "root[0].id"
+
+    left: "ru1-5"
+
+    right: "unk-5"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "43"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 14 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Grass",
+          "Grass"
+        ],
+        "damage": "50",
+        "name": "Giga Drain",
+        "text": "Remove from Venusaur the number of damage counters equal to the damage you did to the Defending Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 4,
+    "evolvesFrom": "Ivysaur",
+    "evolvesTo": [],
+    "flavorText": null,
+    "hp": "140",
+    "id": "unk-1",
+    "images": {},
+    "legalities": {},
+    "level": "56",
+    "name": "Venusaur",
+    "nationalPokedexNumbers": null,
+    "number": "1",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Grass",
+          "Grass"
+        ],
+        "damage": "50",
+        "name": "Giga Drain",
+        "text": "Remove from Venusaur the number of damage counters equal to the damage you did to the Defending Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 4,
+    "evolvesFrom": "Ivysaur",
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "140",
+    "id": "ru1-1",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Venusaur",
+    "nationalPokedexNumbers": null,
+    "number": "1",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 2"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "ru1-1"
+
+    right: "unk-1"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "56"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 2"]
+
+    right: null
+
+####################
+Differences exist in idx 15 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Lightning"
+        ],
+        "damage": "70",
+        "name": "Drill Peck",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "100",
+    "id": "unk-8",
+    "images": {},
+    "legalities": {},
+    "level": "41",
+    "name": "Zapdos",
+    "nationalPokedexNumbers": null,
+    "number": "8",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pokemon Rumble",
+    "attacks": [
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Lightning"
+        ],
+        "damage": "70",
+        "name": "Drill Peck",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "100",
+    "id": "ru1-8",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Zapdos",
+    "nationalPokedexNumbers": null,
+    "number": "8",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "ru1-8"
+
+    right: "unk-8"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "41"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################

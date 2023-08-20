@@ -1,0 +1,4397 @@
+[
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kouki Saitou",
+        "attacks": [
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "60",
+            "name": "Rollout",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Bibarel"
+        ],
+        "flavorText": "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+        "hp": "70",
+        "id": "xy0-29",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Bidoof",
+        "nationalPokedexNumbers": null,
+        "number": "29",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kouki Saitou",
+        "attacks": [
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "60",
+            "name": "Rollout",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Bibarel"
+        ],
+        "flavorText": "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+        "hp": "70",
+        "id": "xy0-29",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Bidoof",
+        "nationalPokedexNumbers": null,
+        "number": "29",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kagemaru Himeno",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Metal"
+            ],
+            "damage": "20",
+            "name": "Wicked Jab",
+            "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Metal"
+            ],
+            "damage": "70",
+            "name": "Metal Claw",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": "Pawniard",
+        "evolvesTo": null,
+        "flavorText": "This pitiless Pokémon commands a group of Pawniard to hound prey into immobility. It then moves in to finish the prey off.",
+        "hp": "90",
+        "id": "xy0-20",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Bisharp",
+        "nationalPokedexNumbers": null,
+        "number": "20",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Psychic",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 1"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Metal"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kagemaru Himeno",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Metal"
+            ],
+            "damage": "20",
+            "name": "Wicked Jab",
+            "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Metal"
+            ],
+            "damage": "70",
+            "name": "Metal Claw",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": "Pawniard",
+        "evolvesTo": [
+          "Kingambit"
+        ],
+        "flavorText": "This pitiless Pokémon commands a group of Pawniard to hound prey into immobility. It then moves in to finish the prey off.",
+        "hp": "90",
+        "id": "xy0-20",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Bisharp",
+        "nationalPokedexNumbers": null,
+        "number": "20",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Psychic",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Metal"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "20+",
+            "name": "Firebreathing",
+            "text": "Flip a coin. If heads, this attack does 20 more damage."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "60",
+            "name": "Flame Tail",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": "Fennekin",
+        "evolvesTo": [
+          "Delphox"
+        ],
+        "flavorText": "It has a twig stuck in its tail. With friction from its tail fur, it sets the twig on fire and launches into battle.",
+        "hp": "80",
+        "id": "xy0-9",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Braixen",
+        "nationalPokedexNumbers": null,
+        "number": "9",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 1"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "20+",
+            "name": "Firebreathing",
+            "text": "Flip a coin. If heads, this attack does 20 more damage."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "60",
+            "name": "Flame Tail",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": "Fennekin",
+        "evolvesTo": [
+          "Delphox"
+        ],
+        "flavorText": "It has a twig stuck in its tail. With friction from its tail fur, it sets the twig on fire and launches into battle.",
+        "hp": "80",
+        "id": "xy0-9",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Braixen",
+        "nationalPokedexNumbers": null,
+        "number": "9",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Tackle",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Diggersby"
+        ],
+        "flavorText": "They use their large ears to dig burrows. They will dig the whole night through.",
+        "hp": "60",
+        "id": "xy0-30",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Bunnelby",
+        "nationalPokedexNumbers": null,
+        "number": "30",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Tackle",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Diggersby"
+        ],
+        "flavorText": "They use their large ears to dig burrows. They will dig the whole night through.",
+        "hp": "60",
+        "id": "xy0-30",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Bunnelby",
+        "nationalPokedexNumbers": null,
+        "number": "30",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Grass"
+            ],
+            "damage": "50",
+            "name": "Needle Arm",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 4,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Grass",
+              "Grass"
+            ],
+            "damage": "80+",
+            "name": "Tumbling Attack",
+            "text": "Flip a coin. If heads, this attack does 40 more damage."
+          }
+        ],
+        "convertedRetreatCost": 4,
+        "evolvesFrom": "Quilladin",
+        "evolvesTo": null,
+        "flavorText": "Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
+        "hp": "150",
+        "id": "xy0-5",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Chesnaught",
+        "nationalPokedexNumbers": null,
+        "number": "5",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 2"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Grass"
+            ],
+            "damage": "50",
+            "name": "Needle Arm",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 4,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Grass",
+              "Grass"
+            ],
+            "damage": "80+",
+            "name": "Tumbling Attack",
+            "text": "Flip a coin. If heads, this attack does 40 more damage."
+          }
+        ],
+        "convertedRetreatCost": 4,
+        "evolvesFrom": "Quilladin",
+        "evolvesTo": [
+          "Chesnaught BREAK"
+        ],
+        "flavorText": "Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
+        "hp": "150",
+        "id": "xy0-5",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Chesnaught",
+        "nationalPokedexNumbers": null,
+        "number": "5",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Grass"
+            ],
+            "damage": "10",
+            "name": "Vine Whip",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Grass"
+            ],
+            "damage": "20",
+            "name": "Seed Bomb",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Quilladin"
+        ],
+        "flavorText": "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
+        "hp": "60",
+        "id": "xy0-3",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Chespin",
+        "nationalPokedexNumbers": null,
+        "number": "3",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Grass"
+            ],
+            "damage": "10",
+            "name": "Vine Whip",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Grass"
+            ],
+            "damage": "20",
+            "name": "Seed Bomb",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Quilladin"
+        ],
+        "flavorText": "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
+        "hp": "60",
+        "id": "xy0-3",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Chespin",
+        "nationalPokedexNumbers": null,
+        "number": "3",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Water"
+            ],
+            "damage": "20",
+            "name": "Water Gun",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Clawitzer"
+        ],
+        "flavorText": "They knock down flying prey by firing compressed water from their massive claws like shooting a pistol.",
+        "hp": "70",
+        "id": "xy0-15",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Clauncher",
+        "nationalPokedexNumbers": null,
+        "number": "15",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Grass",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Water"
+            ],
+            "damage": "20",
+            "name": "Water Gun",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Clawitzer"
+        ],
+        "flavorText": "They knock down flying prey by firing compressed water from their massive claws like shooting a pistol.",
+        "hp": "70",
+        "id": "xy0-15",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Clauncher",
+        "nationalPokedexNumbers": null,
+        "number": "15",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Grass",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": null,
+        "convertedRetreatCost": null,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": null,
+        "id": "xy0-34",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Crushing Hammer",
+        "nationalPokedexNumbers": null,
+        "number": "34",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": null,
+        "rules": [
+          "Flip a coin. If heads, discard an Energy attached to 1 of your opponent's Pokémon.",
+          "You may play as many Item cards as you like during your turn (before your attack)."
+        ],
+        "subtypes": [
+          "Item"
+        ],
+        "supertype": "Trainer",
+        "types": null,
+        "weaknesses": null
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": null,
+        "convertedRetreatCost": null,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": null,
+        "id": "xy0-34",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Crushing Hammer",
+        "nationalPokedexNumbers": null,
+        "number": "34",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": null,
+        "rules": [
+          "Flip a coin. If heads, discard an Energy attached to 1 of your opponent's Pokémon.",
+          "You may play as many Item cards as you like during your turn (before your attack)."
+        ],
+        "subtypes": [
+          "Item"
+        ],
+        "supertype": "Trainer",
+        "types": null,
+        "weaknesses": null
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "30",
+            "name": "Will-O-Wisp",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 4,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "120",
+            "name": "Fire Blast",
+            "text": "Discard an Energy attached to this Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": "Braixen",
+        "evolvesTo": null,
+        "flavorText": "It gazes into the flame at the tip of its branch to achieve a focused state, which allows it to see into the future.",
+        "hp": "140",
+        "id": "xy0-10",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Delphox",
+        "nationalPokedexNumbers": null,
+        "number": "10",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 2"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "30",
+            "name": "Will-O-Wisp",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 4,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "120",
+            "name": "Fire Blast",
+            "text": "Discard an Energy attached to this Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": "Braixen",
+        "evolvesTo": [
+          "Delphox BREAK"
+        ],
+        "flavorText": "It gazes into the flame at the tip of its branch to achieve a focused state, which allows it to see into the future.",
+        "hp": "140",
+        "id": "xy0-10",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Delphox",
+        "nationalPokedexNumbers": null,
+        "number": "10",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kagemaru Himeno",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "30",
+            "name": "Slash",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "The plant stalk it holds is its weapon. The stalk is used like a sword to cut all sorts of things.",
+        "hp": "70",
+        "id": "xy0-25",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Farfetch'd",
+        "nationalPokedexNumbers": null,
+        "number": "25",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Fighting",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kagemaru Himeno",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "30",
+            "name": "Slash",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Sirfetch'd"
+        ],
+        "flavorText": "The plant stalk it holds is its weapon. The stalk is used like a sword to cut all sorts of things.",
+        "hp": "70",
+        "id": "xy0-25",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Farfetch'd",
+        "nationalPokedexNumbers": null,
+        "number": "25",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Fighting",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Fire"
+            ],
+            "damage": "10",
+            "name": "Scratch",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "20",
+            "name": "Live Coal",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Braixen"
+        ],
+        "flavorText": "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.",
+        "hp": "60",
+        "id": "xy0-8",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Fennekin",
+        "nationalPokedexNumbers": null,
+        "number": "8",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Fire"
+            ],
+            "damage": "10",
+            "name": "Scratch",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "20",
+            "name": "Live Coal",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Braixen"
+        ],
+        "flavorText": "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.",
+        "hp": "60",
+        "id": "xy0-8",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Fennekin",
+        "nationalPokedexNumbers": null,
+        "number": "8",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Razor Wind",
+            "text": "Flip a coin. If tails, this attack does nothing."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Fletchinder"
+        ],
+        "flavorText": "These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements.",
+        "hp": "50",
+        "id": "xy0-31",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Fletchling",
+        "nationalPokedexNumbers": null,
+        "number": "31",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Fighting",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Razor Wind",
+            "text": "Flip a coin. If tails, this attack does nothing."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Fletchinder"
+        ],
+        "flavorText": "These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements.",
+        "hp": "50",
+        "id": "xy0-31",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Fletchling",
+        "nationalPokedexNumbers": null,
+        "number": "31",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Fighting",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Water"
+            ],
+            "damage": "10",
+            "name": "Pound",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Water"
+            ],
+            "damage": "20",
+            "name": "Water Drip",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Frogadier"
+        ],
+        "flavorText": "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.",
+        "hp": "60",
+        "id": "xy0-12",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Froakie",
+        "nationalPokedexNumbers": null,
+        "number": "12",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Grass",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Water"
+            ],
+            "damage": "10",
+            "name": "Pound",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Water"
+            ],
+            "damage": "20",
+            "name": "Water Drip",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Frogadier"
+        ],
+        "flavorText": "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.",
+        "hp": "60",
+        "id": "xy0-12",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Froakie",
+        "nationalPokedexNumbers": null,
+        "number": "12",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Grass",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Water"
+            ],
+            "damage": "20",
+            "name": "Water Drip",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Water",
+              "Water"
+            ],
+            "damage": "40+",
+            "name": "Aqua Wave",
+            "text": "Flip 2 coins. This attack does 20 more damage for each heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": "Froakie",
+        "evolvesTo": [
+          "Greninja",
+          "Greninja-GX"
+        ],
+        "flavorText": "It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.",
+        "hp": "80",
+        "id": "xy0-13",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Frogadier",
+        "nationalPokedexNumbers": null,
+        "number": "13",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Grass",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Water"
+            ],
+            "damage": "20",
+            "name": "Water Drip",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Water",
+              "Water"
+            ],
+            "damage": "40+",
+            "name": "Aqua Wave",
+            "text": "Flip 2 coins. This attack does 20 more damage for each heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": "Froakie",
+        "evolvesTo": [
+          "Greninja"
+        ],
+        "flavorText": "It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.",
+        "hp": "80",
+        "id": "xy0-13",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Frogadier",
+        "nationalPokedexNumbers": null,
+        "number": "13",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 1"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Grass",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Tight Jaw",
+            "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "50",
+            "name": "Sharp Fang",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
+        "hp": "90",
+        "id": "xy0-32",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Furfrou",
+        "nationalPokedexNumbers": null,
+        "number": "32",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      },
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Tight Jaw",
+            "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "50",
+            "name": "Sharp Fang",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
+        "hp": "90",
+        "id": "xy0-33",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Furfrou",
+        "nationalPokedexNumbers": null,
+        "number": "33",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Tight Jaw",
+            "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "50",
+            "name": "Sharp Fang",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
+        "hp": "90",
+        "id": "xy0-32",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Furfrou",
+        "nationalPokedexNumbers": null,
+        "number": "32",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      },
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Tight Jaw",
+            "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "50",
+            "name": "Sharp Fang",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
+        "hp": "90",
+        "id": "xy0-33",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Furfrou",
+        "nationalPokedexNumbers": null,
+        "number": "33",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Masakazu Fukuda",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fairy"
+            ],
+            "damage": "30",
+            "name": "Headbutt",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Fairy"
+            ],
+            "damage": "50+",
+            "name": "Double Stomp",
+            "text": "Flip 2 coins. This attack does 20 more damage for each heads."
+          }
+        ],
+        "convertedRetreatCost": 3,
+        "evolvesFrom": "Snubbull",
+        "evolvesTo": [],
+        "flavorText": "It is timid in spite of its looks. If it becomes enraged, however, it will strike with its huge fangs.",
+        "hp": "100",
+        "id": "xy0-23",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Granbull",
+        "nationalPokedexNumbers": null,
+        "number": "23",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Darkness",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fairy"
+        ],
+        "weaknesses": [
+          {
+            "type": "Metal",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Masakazu Fukuda",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fairy"
+            ],
+            "damage": "30",
+            "name": "Headbutt",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Fairy"
+            ],
+            "damage": "50+",
+            "name": "Double Stomp",
+            "text": "Flip 2 coins. This attack does 20 more damage for each heads."
+          }
+        ],
+        "convertedRetreatCost": 3,
+        "evolvesFrom": "Snubbull",
+        "evolvesTo": null,
+        "flavorText": "It is timid in spite of its looks. If it becomes enraged, however, it will strike with its huge fangs.",
+        "hp": "100",
+        "id": "xy0-23",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Granbull",
+        "nationalPokedexNumbers": null,
+        "number": "23",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Darkness",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 1"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fairy"
+        ],
+        "weaknesses": [
+          {
+            "type": "Metal",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Water"
+            ],
+            "damage": "40",
+            "name": "Mat Block",
+            "text": "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Water",
+              "Water"
+            ],
+            "damage": "80",
+            "name": "Aqua Edge",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": "Frogadier",
+        "evolvesTo": [
+          "Greninja BREAK"
+        ],
+        "flavorText": "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
+        "hp": "140",
+        "id": "xy0-14",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Greninja",
+        "nationalPokedexNumbers": null,
+        "number": "14",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Grass",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Water"
+            ],
+            "damage": "40",
+            "name": "Mat Block",
+            "text": "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Water",
+              "Water"
+            ],
+            "damage": "80",
+            "name": "Aqua Edge",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": "Frogadier",
+        "evolvesTo": null,
+        "flavorText": "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
+        "hp": "140",
+        "id": "xy0-14",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Greninja",
+        "nationalPokedexNumbers": null,
+        "number": "14",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 2"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Grass",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Metal"
+            ],
+            "damage": "30×",
+            "name": "Continuous Slash",
+            "text": "Flip a coin until you get tails. This attack does 30 damage times the number of heads."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Doublade"
+        ],
+        "flavorText": "Apparently this Pokémon is born when a departed spirit inhabits a sword. It attaches itself to people and drinks their life force.",
+        "hp": "60",
+        "id": "xy0-21",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Honedge",
+        "nationalPokedexNumbers": null,
+        "number": "21",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Psychic",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Metal"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Metal"
+            ],
+            "damage": "30×",
+            "name": "Continuous Slash",
+            "text": "Flip a coin until you get tails. This attack does 30 damage times the number of heads."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Doublade"
+        ],
+        "flavorText": "Apparently this Pokémon is born when a departed spirit inhabits a sword. It attaches itself to people and drinks their life force.",
+        "hp": "60",
+        "id": "xy0-21",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Honedge",
+        "nationalPokedexNumbers": null,
+        "number": "21",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Psychic",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Metal"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Darkness"
+            ],
+            "damage": "10",
+            "name": "Peck",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Malamar"
+        ],
+        "flavorText": "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight.",
+        "hp": "60",
+        "id": "xy0-18",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Inkay",
+        "nationalPokedexNumbers": null,
+        "number": "18",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Psychic",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Darkness"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Darkness"
+            ],
+            "damage": "10",
+            "name": "Peck",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Malamar"
+        ],
+        "flavorText": "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight.",
+        "hp": "60",
+        "id": "xy0-18",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Inkay",
+        "nationalPokedexNumbers": null,
+        "number": "18",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Psychic",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Darkness"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Mitsuhiro Arita",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Darkness"
+            ],
+            "damage": "40+",
+            "name": "Hard Bite",
+            "text": "Flip a coin. If heads, this attack does 20 more damage."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": "Poochyena",
+        "evolvesTo": null,
+        "flavorText": "It will always obey the commands of a skilled Trainer. Its behavior arises from its living in packs in ancient times.",
+        "hp": "90",
+        "id": "xy0-17",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Mightyena",
+        "nationalPokedexNumbers": null,
+        "number": "17",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Psychic",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 1"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Darkness"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Mitsuhiro Arita",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Darkness"
+            ],
+            "damage": "40+",
+            "name": "Hard Bite",
+            "text": "Flip a coin. If heads, this attack does 20 more damage."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": "Poochyena",
+        "evolvesTo": [],
+        "flavorText": "It will always obey the commands of a skilled Trainer. Its behavior arises from its living in packs in ancient times.",
+        "hp": "90",
+        "id": "xy0-17",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Mightyena",
+        "nationalPokedexNumbers": null,
+        "number": "17",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Psychic",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Darkness"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Akira Komayama",
+        "attacks": [
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "50+",
+            "name": "Sitdown Splash",
+            "text": "Flip a coin. If heads, this attack does 20 more damage."
+          }
+        ],
+        "convertedRetreatCost": 3,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "If it is around babies, it milk it produces contains much more nutrition than usual.",
+        "hp": "100",
+        "id": "xy0-27",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Miltank",
+        "nationalPokedexNumbers": null,
+        "number": "27",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Akira Komayama",
+        "attacks": [
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "50+",
+            "name": "Sitdown Splash",
+            "text": "Flip a coin. If heads, this attack does 20 more damage."
+          }
+        ],
+        "convertedRetreatCost": 3,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "If it is around babies, the milk it produces contains much more nutrition than usual.",
+        "hp": "100",
+        "id": "xy0-27",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Miltank",
+        "nationalPokedexNumbers": null,
+        "number": "27",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Shin Nagasawa",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Collect",
+            "text": "Draw 1 card."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "10×",
+            "name": "Fury Swipes",
+            "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Simipour"
+        ],
+        "flavorText": "The water stored inside the tuft on its head is full of nutrients. It waters plants with it using its tail.",
+        "hp": "70",
+        "id": "xy0-11",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Panpour",
+        "nationalPokedexNumbers": null,
+        "number": "11",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Grass",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Shin Nagasawa",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Collect",
+            "text": "Draw a card."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "10×",
+            "name": "Fury Swipes",
+            "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Simipour"
+        ],
+        "flavorText": "The water stored inside the tuft on its head is full of nutrients. It waters plants with it using its tail.",
+        "hp": "70",
+        "id": "xy0-11",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Panpour",
+        "nationalPokedexNumbers": null,
+        "number": "11",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Grass",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Masakazu Fukuda",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Collect",
+            "text": "Draw a card."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "10×",
+            "name": "Fury Swipes",
+            "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Simisage"
+        ],
+        "flavorText": "It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.",
+        "hp": "70",
+        "id": "xy0-2",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Pansage",
+        "nationalPokedexNumbers": null,
+        "number": "2",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Masakazu Fukuda",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Collect",
+            "text": "Draw 1 card."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "10×",
+            "name": "Fury Swipes",
+            "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Simisage"
+        ],
+        "flavorText": "It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.",
+        "hp": "70",
+        "id": "xy0-2",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Pansage",
+        "nationalPokedexNumbers": null,
+        "number": "2",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Naoyo Kimura",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Collect",
+            "text": "Draw 1 card."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "10×",
+            "name": "Fury Swipes",
+            "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Simisear"
+        ],
+        "flavorText": "Very intelligent, it roasts berries before eating them. It likes to help people.",
+        "hp": "70",
+        "id": "xy0-7",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Pansear",
+        "nationalPokedexNumbers": null,
+        "number": "7",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Naoyo Kimura",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Collect",
+            "text": "Draw a card."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "10×",
+            "name": "Fury Swipes",
+            "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Simisear"
+        ],
+        "flavorText": "Very intelligent, it roasts berries before eating them. It likes to help people.",
+        "hp": "70",
+        "id": "xy0-7",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Pansear",
+        "nationalPokedexNumbers": null,
+        "number": "7",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kouki Saitou",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Metal"
+            ],
+            "damage": "10",
+            "name": "Pierce",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Cut",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Bisharp"
+        ],
+        "flavorText": "Blades comprise this Pokémon's entire body. If battling dulls the blades, it sharpens them on stones by the river.",
+        "hp": "60",
+        "id": "xy0-19",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Pawniard",
+        "nationalPokedexNumbers": null,
+        "number": "19",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Psychic",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Metal"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kouki Saitou",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Metal"
+            ],
+            "damage": "10",
+            "name": "Pierce",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Cut",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Bisharp"
+        ],
+        "flavorText": "Blades comprise this Pokémon's entire body. If battling dulls the blades, it sharpens them on stones by the river.",
+        "hp": "60",
+        "id": "xy0-19",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Pawniard",
+        "nationalPokedexNumbers": null,
+        "number": "19",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Psychic",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Metal"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": null,
+        "convertedRetreatCost": null,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": null,
+        "id": "xy0-35",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Poké Ball",
+        "nationalPokedexNumbers": null,
+        "number": "35",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": null,
+        "rules": [
+          "Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.",
+          "You may play as many Item cards as you like during your turn (before your attack)."
+        ],
+        "subtypes": [
+          "Item",
+          "ball"
+        ],
+        "supertype": "Trainer",
+        "types": null,
+        "weaknesses": null
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": null,
+        "convertedRetreatCost": null,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": null,
+        "id": "xy0-35",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Poké Ball",
+        "nationalPokedexNumbers": null,
+        "number": "35",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": null,
+        "rules": [
+          "Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.",
+          "You may play as many Item cards as you like during your turn (before your attack)."
+        ],
+        "subtypes": [
+          "Item"
+        ],
+        "supertype": "Trainer",
+        "types": null,
+        "weaknesses": null
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": null,
+        "convertedRetreatCost": null,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": null,
+        "id": "xy0-36",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Pokémon Catcher",
+        "nationalPokedexNumbers": null,
+        "number": "36",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": null,
+        "rules": [
+          "Flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.",
+          "You may play as many Item cards as you like during your turn (before your attack)."
+        ],
+        "subtypes": [
+          "Item"
+        ],
+        "supertype": "Trainer",
+        "types": null,
+        "weaknesses": null
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": null,
+        "convertedRetreatCost": null,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": null,
+        "id": "xy0-36",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Pokémon Catcher",
+        "nationalPokedexNumbers": null,
+        "number": "36",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": null,
+        "rules": [
+          "Flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.",
+          "You may play as many Item cards as you like during your turn (before your attack)."
+        ],
+        "subtypes": [
+          "Item"
+        ],
+        "supertype": "Trainer",
+        "types": null,
+        "weaknesses": null
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Mizue",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Darkness"
+            ],
+            "damage": "20",
+            "name": "Bite",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Mightyena",
+          "Mightyena ex"
+        ],
+        "flavorText": "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+        "hp": "60",
+        "id": "xy0-16",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Poochyena",
+        "nationalPokedexNumbers": null,
+        "number": "16",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Psychic",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Darkness"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Mizue",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Darkness"
+            ],
+            "damage": "20",
+            "name": "Bite",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Mightyena"
+        ],
+        "flavorText": "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+        "hp": "60",
+        "id": "xy0-16",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Poochyena",
+        "nationalPokedexNumbers": null,
+        "number": "16",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Psychic",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Darkness"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": null,
+        "convertedRetreatCost": null,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": null,
+        "id": "xy0-37",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Potion",
+        "nationalPokedexNumbers": null,
+        "number": "37",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": null,
+        "rules": [
+          "Heal 30 damage from 1 of your Pokémon.",
+          "You may play as many Item cards as you like during your turn (before your attack)."
+        ],
+        "subtypes": [
+          "Item"
+        ],
+        "supertype": "Trainer",
+        "types": null,
+        "weaknesses": null
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": null,
+        "convertedRetreatCost": null,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": null,
+        "id": "xy0-37",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Potion",
+        "nationalPokedexNumbers": null,
+        "number": "37",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": null,
+        "rules": [
+          "Heal 30 damage from 1 of your Pokémon.",
+          "You may play as many Item cards as you like during your turn (before your attack)."
+        ],
+        "subtypes": [
+          "Item"
+        ],
+        "supertype": "Trainer",
+        "types": null,
+        "weaknesses": null
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Grass"
+            ],
+            "damage": "20",
+            "name": "Leech Seed",
+            "text": "Heal 10 damage from this Pokémon."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Grass"
+            ],
+            "damage": "50",
+            "name": "Needle Arm",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": "Chespin",
+        "evolvesTo": [
+          "Chesnaught"
+        ],
+        "flavorText": "It relies on its sturdy shell to deflect predators' attacks. It counterattacks with its sharp quills.",
+        "hp": "90",
+        "id": "xy0-4",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Quilladin",
+        "nationalPokedexNumbers": null,
+        "number": "4",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 1"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Grass"
+            ],
+            "damage": "20",
+            "name": "Leech Seed",
+            "text": "Heal 10 damage from this Pokémon."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Grass"
+            ],
+            "damage": "50",
+            "name": "Needle Arm",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": "Chespin",
+        "evolvesTo": [
+          "Chesnaught"
+        ],
+        "flavorText": "It relies on its sturdy shell to deflect predators' attacks. It counterattacks with its sharp quills.",
+        "hp": "90",
+        "id": "xy0-4",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Quilladin",
+        "nationalPokedexNumbers": null,
+        "number": "4",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Shin Nagasawa",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20+",
+            "name": "Jump On",
+            "text": "Flip a coin. If heads, this attack does 20 more damage."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Delcatty",
+          "Delcatty ex"
+        ],
+        "flavorText": "It can't stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
+        "hp": "60",
+        "id": "xy0-28",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Skitty",
+        "nationalPokedexNumbers": null,
+        "number": "28",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Shin Nagasawa",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20+",
+            "name": "Jump On",
+            "text": "Flip a coin. If heads, this attack does 20 more damage."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Delcatty"
+        ],
+        "flavorText": "It can't stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
+        "hp": "60",
+        "id": "xy0-28",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Skitty",
+        "nationalPokedexNumbers": null,
+        "number": "28",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Mitsuhiro Arita",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "20",
+            "name": "Combustion",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Magcargo"
+        ],
+        "flavorText": "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
+        "hp": "80",
+        "id": "xy0-6",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Slugma",
+        "nationalPokedexNumbers": null,
+        "number": "6",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Mitsuhiro Arita",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "20",
+            "name": "Combustion",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Dark Magcargo",
+          "Magcargo",
+          "Magcargo ex",
+          "Magcargo-GX"
+        ],
+        "flavorText": "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
+        "hp": "80",
+        "id": "xy0-6",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Slugma",
+        "nationalPokedexNumbers": null,
+        "number": "6",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Naoki Saito",
+        "attacks": [
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "10+",
+            "name": "Rock Smash",
+            "text": "Flip a coin. If heads, this attack does 30 more damage."
+          },
+          {
+            "convertedEnergyCost": 4,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "70",
+            "name": "Strength",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 4,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Snorlax LV.X"
+        ],
+        "flavorText": "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
+        "hp": "120",
+        "id": "xy0-26",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Snorlax",
+        "nationalPokedexNumbers": null,
+        "number": "26",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Naoki Saito",
+        "attacks": [
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "10+",
+            "name": "Rock Smash",
+            "text": "Flip a coin. If heads, this attack does 30 more damage."
+          },
+          {
+            "convertedEnergyCost": 4,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "70",
+            "name": "Strength",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 4,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
+        "hp": "120",
+        "id": "xy0-26",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Snorlax",
+        "nationalPokedexNumbers": null,
+        "number": "26",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Naoki Saito",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fairy"
+            ],
+            "damage": "20",
+            "name": "Headbutt",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Granbull"
+        ],
+        "flavorText": "It has an active, playful nature. Many women like to frolic with it because of its affectionate ways.",
+        "hp": "70",
+        "id": "xy0-22",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Snubbull",
+        "nationalPokedexNumbers": null,
+        "number": "22",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Darkness",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fairy"
+        ],
+        "weaknesses": [
+          {
+            "type": "Metal",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Naoki Saito",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fairy"
+            ],
+            "damage": "20",
+            "name": "Headbutt",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Granbull"
+        ],
+        "flavorText": "It has an active, playful nature. Many women like to frolic with it because of its affectionate ways.",
+        "hp": "70",
+        "id": "xy0-22",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Snubbull",
+        "nationalPokedexNumbers": null,
+        "number": "22",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Darkness",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fairy"
+        ],
+        "weaknesses": [
+          {
+            "type": "Metal",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Fairy"
+            ],
+            "damage": "10",
+            "name": "Draining Kiss",
+            "text": "Heal 10 damage from this Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Slurpuff"
+        ],
+        "flavorText": "To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy.",
+        "hp": "60",
+        "id": "xy0-24",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Swirlix",
+        "nationalPokedexNumbers": null,
+        "number": "24",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Darkness",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fairy"
+        ],
+        "weaknesses": [
+          {
+            "type": "Metal",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Fairy"
+            ],
+            "damage": "10",
+            "name": "Draining Kiss",
+            "text": "Heal 10 damage from this Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Slurpuff"
+        ],
+        "flavorText": "To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy.",
+        "hp": "60",
+        "id": "xy0-24",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Swirlix",
+        "nationalPokedexNumbers": null,
+        "number": "24",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Darkness",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fairy"
+        ],
+        "weaknesses": [
+          {
+            "type": "Metal",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": null,
+        "convertedRetreatCost": null,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": null,
+        "id": "xy0-38",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Switch",
+        "nationalPokedexNumbers": null,
+        "number": "38",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": null,
+        "rules": [
+          "Switch your Active Pokémon with 1 of your Benched Pokémon.",
+          "You may play as many Item cards as you like during your turn (before your attack)."
+        ],
+        "subtypes": [
+          "Item"
+        ],
+        "supertype": "Trainer",
+        "types": null,
+        "weaknesses": null
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "5ban Graphics",
+        "attacks": null,
+        "convertedRetreatCost": null,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": null,
+        "id": "xy0-38",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Switch",
+        "nationalPokedexNumbers": null,
+        "number": "38",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": null,
+        "rules": [
+          "Switch your Active Pokémon with 1 of your Benched Pokémon.",
+          "You may play as many Item cards as you like during your turn (before your attack)."
+        ],
+        "subtypes": [
+          "Item"
+        ],
+        "supertype": "Trainer",
+        "types": null,
+        "weaknesses": null
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Ken Sugimori",
+        "attacks": null,
+        "convertedRetreatCost": null,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": null,
+        "id": "xy0-39",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Tierno",
+        "nationalPokedexNumbers": null,
+        "number": "39",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": null,
+        "rules": [
+          "Draw 3 cards.",
+          "You may play only 1 Supporter card during your turn (before your attack)."
+        ],
+        "subtypes": [
+          "Supporter"
+        ],
+        "supertype": "Trainer",
+        "types": null,
+        "weaknesses": null
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Ken Sugimori",
+        "attacks": null,
+        "convertedRetreatCost": null,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": null,
+        "id": "xy0-39",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Tierno",
+        "nationalPokedexNumbers": null,
+        "number": "39",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": null,
+        "rules": [
+          "Draw 3 cards.",
+          "You may play only 1 Supporter card during your turn (before your attack)."
+        ],
+        "subtypes": [
+          "Supporter"
+        ],
+        "supertype": "Trainer",
+        "types": null,
+        "weaknesses": null
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Akira Komayama",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Grass"
+            ],
+            "damage": "10",
+            "name": "String Shot",
+            "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Kakuna"
+        ],
+        "flavorText": "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+        "hp": "40",
+        "id": "xy0-1",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Weedle",
+        "nationalPokedexNumbers": null,
+        "number": "1",
+        "rarity": "No Rarity",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Akira Komayama",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Grass"
+            ],
+            "damage": "10",
+            "name": "String Shot",
+            "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Kakuna"
+        ],
+        "flavorText": "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+        "hp": "40",
+        "id": "xy0-1",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Weedle",
+        "nationalPokedexNumbers": null,
+        "number": "1",
+        "rarity": null,
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  }
+]

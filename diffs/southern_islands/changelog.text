@@ -1,0 +1,2905 @@
+Differences exist in idx 0 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Keiko Fukuyama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Fly",
+        "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Butterfree. If tails, this attack does nothing (not even damage)."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Grass",
+          "Grass"
+        ],
+        "damage": "20",
+        "name": "Rainbow Powder",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Poisoned."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Metapod",
+    "evolvesTo": [],
+    "flavorText": "The poison scales on its wings are waterproof, allowing this Pokémon to be active even on rainy days.",
+    "hp": "80",
+    "id": "unk-9",
+    "images": {},
+    "legalities": {},
+    "level": "37",
+    "name": "Butterfree",
+    "nationalPokedexNumbers": null,
+    "number": "9",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Keiko Fukuyama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Fly",
+        "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Butterfree. If tails, this attack does nothing (not even damage)."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Grass",
+          "Grass"
+        ],
+        "damage": "20",
+        "name": "Rainbow Powder",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Poisoned."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Metapod",
+    "evolvesTo": null,
+    "flavorText": "The poison scales on its wings are waterproof, allowing this Pokémon to be active even on rainy days.",
+    "hp": "80",
+    "id": "si1-9",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Butterfree",
+    "nationalPokedexNumbers": null,
+    "number": "9",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 2"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "si1-9"
+
+    right: "unk-9"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "37"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 2"]
+
+    right: null
+
+####################
+Differences exist in idx 1 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoyo Kimura",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "",
+        "name": "Sharpshooter",
+        "text": "Choose 1 of your opponent's Pokémon. Flip a number of coins equal to the number of Grass Energy attached to Exeggutor. This attack does 10 damage times the number of heads to that Pokémon. Don't apply Weakness and Resistance."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Exeggcute",
+    "evolvesTo": [],
+    "flavorText": "This Pokémon has a unique cry, as all three of its heads are always talking independently of one another.",
+    "hp": "70",
+    "id": "unk-13",
+    "images": {},
+    "legalities": {},
+    "level": "27",
+    "name": "Exeggutor",
+    "nationalPokedexNumbers": null,
+    "number": "13",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoyo Kimura",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "",
+        "name": "Sharpshooter",
+        "text": "Choose 1 of your opponent's Pokémon. Flip a number of coins equal to the number of Grass Energy attached to Exeggutor. This attack does 10 damage times the number of heads to that Pokémon. Don't apply Weakness and Resistance."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Exeggcute",
+    "evolvesTo": null,
+    "flavorText": "This Pokémon has a unique cry, as all three of its heads are always talking independently of one another.",
+    "hp": "70",
+    "id": "si1-13",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Exeggutor",
+    "nationalPokedexNumbers": null,
+    "number": "13",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "si1-13"
+
+    right: "unk-13"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "27"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 2 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Keiko Fukuyama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "",
+        "name": "Strange Scent",
+        "text": "Each player flips a coin. Each player who gets heads chooses a total of 3 damage counters from among his or her Pokémon and removes them. (If the player's Pokémon have fewer total damage counters than that, he or she removes all of them.)"
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "damage": "30",
+        "name": "Razor Leaf",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Bulbasaur",
+    "evolvesTo": [
+      "Venusaur",
+      "Venusaur ex"
+    ],
+    "flavorText": "A sure sign spring is on its way is when the seed on this Pokémon's back flowers.",
+    "hp": "60",
+    "id": "unk-5",
+    "images": {},
+    "legalities": {},
+    "level": "23",
+    "name": "Ivysaur",
+    "nationalPokedexNumbers": null,
+    "number": "5",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Keiko Fukuyama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "",
+        "name": "Strange Scent",
+        "text": "Each player flips a coin. Each player who gets heads chooses a total of 3 damage counters from among his or her Pokémon and removes them. (If the player's Pokémon have fewer total damage counters than that, he or she removes all of them.)"
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "damage": "30",
+        "name": "Razor Leaf",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Bulbasaur",
+    "evolvesTo": [
+      "Venusaur"
+    ],
+    "flavorText": "A sure sign spring is on its way is when the seed on this Pokémon's back flowers.",
+    "hp": "60",
+    "id": "si1-5",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Ivysaur",
+    "nationalPokedexNumbers": null,
+    "number": "5",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "si1-5"
+
+    right: "unk-5"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "23"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 3 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Keiko Fukuyama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Tempting Eyes",
+        "text": "Choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon."
+      },
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Sing",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Dark Wigglytuff",
+      "Light Wigglytuff",
+      "Wigglytuff",
+      "Wigglytuff ex",
+      "Wigglytuff-GX"
+    ],
+    "flavorText": "After lulling its enemies with its large eyes, this Pokémon sings them to sleep with a relaxing melody.",
+    "hp": "50",
+    "id": "unk-8",
+    "images": {},
+    "legalities": {},
+    "level": "10",
+    "name": "Jigglypuff",
+    "nationalPokedexNumbers": null,
+    "number": "8",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Keiko Fukuyama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Tempting Eyes",
+        "text": "Choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon."
+      },
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Sing",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Wigglytuff"
+    ],
+    "flavorText": "After lulling its enemies with its large eyes, this Pokémon sings them to sleep with a relaxing melody.",
+    "hp": "50",
+    "id": "si1-8",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Jigglypuff",
+    "nationalPokedexNumbers": null,
+    "number": "8",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Wigglytuff"
+
+    right: "Dark Wigglytuff"
+
+Difference between left and right for path "root[0].id"
+
+    left: "si1-8"
+
+    right: "unk-8"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "10"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 4 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoyo Kimura",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Gentle Song",
+        "text": "If Lapras has any damage counters on it, remove 2 of them from it (1 if it only has 1). If the Defending Pokémon has any damage counters on it, remove 2 of them from it (1 if it only has 1). The Defending Pokémon is now Asleep."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Ice Beam",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "This gentle Pokémon can understand human language and allows people to ride on its back.",
+    "hp": "70",
+    "id": "unk-12",
+    "images": {},
+    "legalities": {},
+    "level": "30",
+    "name": "Lapras",
+    "nationalPokedexNumbers": null,
+    "number": "12",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoyo Kimura",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Gentle Song",
+        "text": "If Lapras has any damage counters on it, remove 2 of them from it (1 if it only has 1). If the Defending Pokémon has any damage counters on it, remove 2 of them from it (1 if it only has 1). The Defending Pokémon is now Asleep."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Ice Beam",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "This gentle Pokémon can understand human language and allows people to ride on its back.",
+    "hp": "70",
+    "id": "si1-12",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Lapras",
+    "nationalPokedexNumbers": null,
+    "number": "12",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "si1-12"
+
+    right: "unk-12"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "30"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 5 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Keiko Fukuyama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Gnaw",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "damage": "20",
+        "name": "Agility",
+        "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Ledyba."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Ledian",
+      "Light Ledian"
+    ],
+    "flavorText": "When it senses enemies approaching, this Pokémon releases an orange fluid from the joints in its legs and flees.",
+    "hp": "40",
+    "id": "unk-7",
+    "images": {},
+    "legalities": {},
+    "level": "12",
+    "name": "Ledyba",
+    "nationalPokedexNumbers": null,
+    "number": "7",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Keiko Fukuyama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Gnaw",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "damage": "20",
+        "name": "Agility",
+        "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Ledyba."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Ledian"
+    ],
+    "flavorText": "When it senses enemies approaching, this Pokémon releases an orange fluid from the joints in its legs and flees.",
+    "hp": "40",
+    "id": "si1-7",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Ledyba",
+    "nationalPokedexNumbers": null,
+    "number": "7",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "si1-7"
+
+    right: "unk-7"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "12"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 6 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoyo Kimura",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Lick Wounds",
+        "text": "Flip a coin. If heads, choose 1 Pokémon (yours or your opponent's) with damage counters on it and remove 2 damage counters from it (1 if it only has 1)."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Tongue Stretch",
+        "text": "Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Lickilicky"
+    ],
+    "flavorText": "This Pokémon uses its six-foot tongue as if it were a hand. The origin of its anaesthetic properties is still a mystery.",
+    "hp": "70",
+    "id": "unk-16",
+    "images": {},
+    "legalities": {},
+    "level": "25",
+    "name": "Lickitung",
+    "nationalPokedexNumbers": null,
+    "number": "16",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoyo Kimura",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Lick Wounds",
+        "text": "Flip a coin. If heads, choose 1 Pokémon (yours or your opponent's) with damage counters on it and remove 2 damage counters from it (1 if it only has 1)."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Tongue Stretch",
+        "text": "Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Lickilicky"
+    ],
+    "flavorText": "This Pokémon uses its six-foot tongue as if it were a hand. The origin of its anaesthetic properties is still a mystery.",
+    "hp": "70",
+    "id": "si1-16",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Lickitung",
+    "nationalPokedexNumbers": null,
+    "number": "16",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "si1-16"
+
+    right: "unk-16"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "25"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 7 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoyo Kimura",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Water"
+        ],
+        "damage": "",
+        "name": "Squirt",
+        "text": "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. Don't apply Weakness and Resistance."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20",
+        "name": "Rolling Tackle",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Azumarill",
+      "Light Azumarill"
+    ],
+    "flavorText": "This Pokémon's fur repels water like a duck's feathers, allowing it to stay dry and fluffy even in water.",
+    "hp": "40",
+    "id": "unk-11",
+    "images": {},
+    "legalities": {},
+    "level": "10",
+    "name": "Marill",
+    "nationalPokedexNumbers": null,
+    "number": "11",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoyo Kimura",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Water"
+        ],
+        "damage": "",
+        "name": "Squirt",
+        "text": "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. Don't apply Weakness and Resistance."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20",
+        "name": "Rolling Tackle",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Azumarill"
+    ],
+    "flavorText": "This Pokémon's fur repels water like a duck's feathers, allowing it to stay dry and fluffy even in water.",
+    "hp": "40",
+    "id": "si1-11",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Marill",
+    "nationalPokedexNumbers": null,
+    "number": "11",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "si1-11"
+
+    right: "unk-11"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "10"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 8 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Keiko Fukuyama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "",
+        "name": "Rainbow Wave",
+        "text": "Choose a type of Energy other than Colorless attached to Mew. This attack does 20 damage to each of your opponent's Pokémon of that type (including Benched Pokémon). Don't apply Weakness and Resistance."
+      }
+    ],
+    "convertedRetreatCost": 0,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "This Pokémon's body is covered by fine hairs that can be seen only under a microscope.",
+    "hp": "30",
+    "id": "unk-1",
+    "images": {},
+    "legalities": {},
+    "level": "5",
+    "name": "Mew",
+    "nationalPokedexNumbers": null,
+    "number": "1",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Keiko Fukuyama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "",
+        "name": "Rainbow Wave",
+        "text": "Choose a type of Energy other than Colorless attached to Mew. This attack does 20 damage to each of your opponent's Pokémon of that type (including Benched Pokémon). Don't apply Weakness and Resistance."
+      }
+    ],
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "This Pokémon's body is covered by fine hairs that can be seen only under a microscope.",
+    "hp": "30",
+    "id": "si1-1",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Mew",
+    "nationalPokedexNumbers": null,
+    "number": "1",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].convertedRetreatCost"
+
+    left: null
+
+    right: 0
+
+Difference between left and right for path "root[0].id"
+
+    left: "si1-1"
+
+    right: "unk-1"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "5"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].retreatCost"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 9 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Keiko Fukuyama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20×",
+        "name": "Slam",
+        "text": "Flip 2 coins. This attack does 20 damage times the number of heads."
+      },
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "40",
+        "name": "Body Slam",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Dark Steelix",
+      "Steelix",
+      "Steelix ex"
+    ],
+    "flavorText": "This Pokémon burrows through the earth at high speed, looking for food. The tunnels it digs are used by Diglett as nests.",
+    "hp": "90",
+    "id": "unk-3",
+    "images": {},
+    "legalities": {},
+    "level": "40",
+    "name": "Onix",
+    "nationalPokedexNumbers": null,
+    "number": "3",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Keiko Fukuyama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20×",
+        "name": "Slam",
+        "text": "Flip 2 coins. This attack does 20 damage times the number of heads."
+      },
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "40",
+        "name": "Body Slam",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Steelix"
+    ],
+    "flavorText": "This Pokémon burrows through the earth at high speed, looking for food. The tunnels it digs are used by Diglett as nests.",
+    "hp": "90",
+    "id": "si1-3",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Onix",
+    "nationalPokedexNumbers": null,
+    "number": "3",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Steelix"
+
+    right: "Dark Steelix"
+
+Difference between left and right for path "root[0].id"
+
+    left: "si1-3"
+
+    right: "unk-3"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "40"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 10 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Keiko Fukuyama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "40",
+        "name": "Supersonic Flight",
+        "text": "Flip a coin. If tails, this attack does nothing."
+      },
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "50",
+        "name": "Slicing Wind",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 0,
+    "evolvesFrom": "Pidgeotto",
+    "evolvesTo": [],
+    "flavorText": "This Pokémon searches for food while flying at Mach 2. Its large claws make fearsome weapons.",
+    "hp": "70",
+    "id": "unk-2",
+    "images": {},
+    "legalities": {},
+    "level": "39",
+    "name": "Pidgeot",
+    "nationalPokedexNumbers": null,
+    "number": "2",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Keiko Fukuyama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "40",
+        "name": "Supersonic Flight",
+        "text": "Flip a coin. If tails, this attack does nothing."
+      },
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "50",
+        "name": "Slicing Wind",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": null,
+    "evolvesFrom": "Pidgeotto",
+    "evolvesTo": null,
+    "flavorText": "This Pokémon searches for food while flying at Mach 2. Its large claws make fearsome weapons.",
+    "hp": "70",
+    "id": "si1-2",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Pidgeot",
+    "nationalPokedexNumbers": null,
+    "number": "2",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": null,
+    "rules": null,
+    "subtypes": [
+      "Stage 2"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].convertedRetreatCost"
+
+    left: null
+
+    right: 0
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "si1-2"
+
+    right: "unk-2"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "39"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].retreatCost"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 2"]
+
+    right: null
+
+####################
+Differences exist in idx 11 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoyo Kimura",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fighting"
+        ],
+        "damage": "20",
+        "name": "Low Kick",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "20+",
+        "name": "Rampage",
+        "text": "Does 20 damage plus 10 more damage for each damage counter on Primeape. Flip a coin. If tails, Primeape is now Confused (after doing damage)."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Mankey",
+    "evolvesTo": [
+      "Annihilape",
+      "Annihilape ex"
+    ],
+    "flavorText": "This Pokémon only calms down when there are no other animals or people around—which means no one has ever seen it when it's not angry.",
+    "hp": "60",
+    "id": "unk-18",
+    "images": {},
+    "legalities": {},
+    "level": "26",
+    "name": "Primeape",
+    "nationalPokedexNumbers": null,
+    "number": "18",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoyo Kimura",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fighting"
+        ],
+        "damage": "20",
+        "name": "Low Kick",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "20+",
+        "name": "Rampage",
+        "text": "Does 20 damage plus 10 more damage for each damage counter on Primeape. Flip a coin. If tails, Primeape is now Confused (after doing damage)."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Mankey",
+    "evolvesTo": null,
+    "flavorText": "This Pokémon only calms down when there are no other animals or people around—which means no one has ever seen it when it's not angry.",
+    "hp": "60",
+    "id": "si1-18",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Primeape",
+    "nationalPokedexNumbers": null,
+    "number": "18",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: ["Annihilape","Annihilape ex"]
+
+Difference between left and right for path "root[0].id"
+
+    left: "si1-18"
+
+    right: "unk-18"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "26"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 12 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Keiko Fukuyama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "10+",
+        "name": "Sharp Teeth",
+        "text": "Flip a coin. If heads, this attack does 10 damage plus 30 more damage; if tails, this attack does 10 damage."
+      }
+    ],
+    "convertedRetreatCost": 0,
+    "evolvesFrom": "Rattata",
+    "evolvesTo": [
+      "Raticate BREAK"
+    ],
+    "flavorText": "This Pokémon sometimes hunts for food in rivers, swimming using the small webs between the toes on its rear legs.",
+    "hp": "60",
+    "id": "unk-6",
+    "images": {},
+    "legalities": {},
+    "level": "25",
+    "name": "Raticate",
+    "nationalPokedexNumbers": null,
+    "number": "6",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Keiko Fukuyama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "10+",
+        "name": "Sharp Teeth",
+        "text": "Flip a coin. If heads, this attack does 10 damage plus 30 more damage; if tails, this attack does 10 damage."
+      }
+    ],
+    "convertedRetreatCost": null,
+    "evolvesFrom": "Rattata",
+    "evolvesTo": null,
+    "flavorText": "This Pokémon sometimes hunts for food in rivers, swimming using the small webs between the toes on its rear legs.",
+    "hp": "60",
+    "id": "si1-6",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Raticate",
+    "nationalPokedexNumbers": null,
+    "number": "6",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": null,
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].convertedRetreatCost"
+
+    left: null
+
+    right: 0
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: ["Raticate BREAK"]
+
+Difference between left and right for path "root[0].id"
+
+    left: "si1-6"
+
+    right: "unk-6"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "25"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].retreatCost"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 13 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoyo Kimura",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "",
+        "name": "Revelation",
+        "text": "Flip a coin. If heads, search your deck for a Trainer card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "10+",
+        "name": "Psychic",
+        "text": "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Slowpoke",
+    "evolvesTo": [],
+    "flavorText": "Its nonchalant reaction to everything somehow gives this Pokémon an imposing presence.",
+    "hp": "70",
+    "id": "unk-14",
+    "images": {},
+    "legalities": {},
+    "level": "36",
+    "name": "Slowking",
+    "nationalPokedexNumbers": null,
+    "number": "14",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoyo Kimura",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "",
+        "name": "Revelation",
+        "text": "Flip a coin. If heads, search your deck for a Trainer card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "10+",
+        "name": "Psychic",
+        "text": "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Slowpoke",
+    "evolvesTo": null,
+    "flavorText": "Its nonchalant reaction to everything somehow gives this Pokémon an imposing presence.",
+    "hp": "70",
+    "id": "si1-14",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Slowking",
+    "nationalPokedexNumbers": null,
+    "number": "14",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "si1-14"
+
+    right: "unk-14"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "36"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 14 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoyo Kimura",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Water"
+        ],
+        "damage": "",
+        "name": "Tentacle Grip",
+        "text": "Flip a number of coins equal to the number of Water Energy attached to Tentacruel. For each heads, draw 2 cards."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Poison Sting",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Tentacool",
+    "evolvesTo": [],
+    "flavorText": "This Pokémon attacks its prey with its eighty toxin-producing tentacles.",
+    "hp": "60",
+    "id": "unk-10",
+    "images": {},
+    "legalities": {},
+    "level": "30",
+    "name": "Tentacruel",
+    "nationalPokedexNumbers": null,
+    "number": "10",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoyo Kimura",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Water"
+        ],
+        "damage": "",
+        "name": "Tentacle Grip",
+        "text": "Flip a number of coins equal to the number of Water Energy attached to Tentacruel. For each heads, draw 2 cards."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Poison Sting",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Tentacool",
+    "evolvesTo": null,
+    "flavorText": "This Pokémon attacks its prey with its eighty toxin-producing tentacles.",
+    "hp": "60",
+    "id": "si1-10",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Tentacruel",
+    "nationalPokedexNumbers": null,
+    "number": "10",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "si1-10"
+
+    right: "unk-10"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "30"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 15 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Keiko Fukuyama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Bawl",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Light Togetic",
+      "Togetic"
+    ],
+    "flavorText": "This Pokémon is still immature. When threatened, it releases poison from its head and tries to drive its enemies away.",
+    "hp": "40",
+    "id": "unk-4",
+    "images": {},
+    "legalities": {},
+    "level": "10",
+    "name": "Togepi",
+    "nationalPokedexNumbers": null,
+    "number": "4",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": null
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Keiko Fukuyama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Bawl",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Togetic"
+    ],
+    "flavorText": "This Pokémon is still immature. When threatened, it releases poison from its head and tries to drive its enemies away.",
+    "hp": "40",
+    "id": "si1-4",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Togepi",
+    "nationalPokedexNumbers": null,
+    "number": "4",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": null
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Togetic"
+
+    right: "Light Togetic"
+
+Difference between left and right for path "root[0].id"
+
+    left: "si1-4"
+
+    right: "unk-4"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "10"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 16 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoyo Kimura",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "",
+        "name": "Paradise Pollen",
+        "text": "Flip a coin. If heads, remove 2 damage counters from Vileplume (1 if it only has 1). Then, if you have any Benched Pokémon with damage counters on them, choose 1 of them and remove 2 damage counters from it (1 if it only has 1)."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Grass",
+          "Grass"
+        ],
+        "damage": "30",
+        "name": "Horrid Pollen",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Confused."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Gloom",
+    "evolvesTo": [],
+    "flavorText": "This Pokémon makes a loud jangling noise when it shakes its petals to spread poison powder.",
+    "hp": "70",
+    "id": "unk-17",
+    "images": {},
+    "legalities": {},
+    "level": "30",
+    "name": "Vileplume",
+    "nationalPokedexNumbers": null,
+    "number": "17",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoyo Kimura",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "",
+        "name": "Paradise Pollen",
+        "text": "Flip a coin. If heads, remove 2 damage counters from Vileplume (1 if it only has 1). Then, if you have any Benched Pokémon with damage counters on them, choose 1 of them and remove 2 damage counters from it (1 if it only has 1)."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Grass",
+          "Grass"
+        ],
+        "damage": "30",
+        "name": "Horrid Pollen",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Confused."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Gloom",
+    "evolvesTo": null,
+    "flavorText": "This Pokémon makes a loud jangling noise when it shakes its petals to spread poison powder.",
+    "hp": "70",
+    "id": "si1-17",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Vileplume",
+    "nationalPokedexNumbers": null,
+    "number": "17",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 2"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "si1-17"
+
+    right: "unk-17"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "30"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 2"]
+
+    right: null
+
+####################
+Differences exist in idx 17 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoyo Kimura",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "damage": "20+",
+        "name": "Water Gun",
+        "text": "Does 20 damage plus 10 more damage for each Water Energy attached to Wartortle but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Squirtle",
+    "evolvesTo": [
+      "Blastoise",
+      "Blastoise ex",
+      "Blastoise-GX"
+    ],
+    "flavorText": "When attacked, this Pokémon withdraws into its shell, although it can't quite pull in all of its long tail.",
+    "hp": "60",
+    "id": "unk-15",
+    "images": {},
+    "legalities": {},
+    "level": "20",
+    "name": "Wartortle",
+    "nationalPokedexNumbers": null,
+    "number": "15",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoyo Kimura",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "damage": "20+",
+        "name": "Water Gun",
+        "text": "Does 20 damage plus 10 more damage for each Water Energy attached to Wartortle but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Squirtle",
+    "evolvesTo": [
+      "Blastoise"
+    ],
+    "flavorText": "When attacked, this Pokémon withdraws into its shell, although it can't quite pull in all of its long tail.",
+    "hp": "60",
+    "id": "si1-15",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Wartortle",
+    "nationalPokedexNumbers": null,
+    "number": "15",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "si1-15"
+
+    right: "unk-15"
+
+Difference between left and right for path "root[0].level"
+
+    left: null
+
+    right: "20"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################

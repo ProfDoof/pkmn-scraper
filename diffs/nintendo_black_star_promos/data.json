@@ -1,0 +1,4838 @@
+[
+  {
+    "ptcgio": [
+      {
+        "abilities": [
+          {
+            "name": "Synchronized Lift",
+            "text": "As long as you have Zapdos ex and Moltres ex in play, the Retreat Cost for Articuno ex is 0.",
+            "type": "Poké-Body"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "Nakaoka",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Ice Gift",
+            "text": "You may move a Water Energy attached to Articuno ex to 1 of your Pokémon."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Water",
+              "Water"
+            ],
+            "damage": "50",
+            "name": "Freezing Wing",
+            "text": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "100",
+        "id": "np-32",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Articuno ex",
+        "nationalPokedexNumbers": null,
+        "number": "32",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": [
+          "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "subtypes": [
+          "Basic",
+          "EX"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Metal",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": [
+          {
+            "name": "Synchronized Lift",
+            "text": "As long as you have Zapdos ex and Moltres ex in play, the Retreat Cost for Articuno ex is 0.",
+            "type": "Poké-BODY"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "Nakaoka",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Ice Gift",
+            "text": "You may move a Water Energy attached to Articuno ex to 1 of your Pokémon."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Water",
+              "Water"
+            ],
+            "damage": "50",
+            "name": "Freezing Wing",
+            "text": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "100",
+        "id": "unk-32",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Articuno ex",
+        "nationalPokedexNumbers": null,
+        "number": "32",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": [
+          "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "subtypes": [
+          "ex-%e2%86%93"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Metal",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": [
+          {
+            "name": "Magnetic Call",
+            "text": "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a Metal Basic Pokémon and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Beldum is affected by a Special Condition.",
+            "type": "Poké-POWER"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "Mitsuhiro Arita",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Metal"
+            ],
+            "damage": "30",
+            "name": "Metal Charge",
+            "text": "Put 1 damage counter on Beldum."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Metang"
+        ],
+        "flavorText": null,
+        "hp": "50",
+        "id": "unk-22",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Beldum",
+        "nationalPokedexNumbers": null,
+        "number": "22",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Grass",
+            "value": "-30"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Metal"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": [
+          {
+            "name": "Magnetic Call",
+            "text": "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a Metal Basic Pokémon and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Beldum is affected by a Special Condition.",
+            "type": "Poké-Power"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "Mitsuhiro Arita",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Metal"
+            ],
+            "damage": "30",
+            "name": "Metal Charge",
+            "text": "Put 1 damage counter on Beldum."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Metang"
+        ],
+        "flavorText": null,
+        "hp": "50",
+        "id": "np-22",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Beldum",
+        "nationalPokedexNumbers": null,
+        "number": "22",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Grass",
+            "value": "-30"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Metal"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Hajime Kusajima",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Grass"
+            ],
+            "damage": "20×",
+            "name": "Leaf Slice",
+            "text": "Flip 2 coins. This attack does 20 damage times the number of heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "50",
+        "id": "np-29",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Celebi",
+        "nationalPokedexNumbers": null,
+        "number": "29",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Hajime Kusajima",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Grass"
+            ],
+            "damage": "20×",
+            "name": "Leaf Slice",
+            "text": "Flip 2 coins. This attack does 20 damage times the number of heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "50",
+        "id": "unk-29",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Celebi",
+        "nationalPokedexNumbers": null,
+        "number": "29",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Ryo Ueda",
+        "attacks": null,
+        "convertedRetreatCost": null,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": null,
+        "id": "unk-28",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Championship Arena",
+        "nationalPokedexNumbers": null,
+        "number": "28",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": null,
+        "rules": [
+          "At the end of each player's turn, if that player has 8 or more cards in his or her hand, that player discards a number of cards until that player has 7 cards left in his or her hand.",
+          "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card."
+        ],
+        "subtypes": [
+          "Stadium"
+        ],
+        "supertype": "Trainer",
+        "types": null,
+        "weaknesses": null
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Ryo Ueda",
+        "attacks": null,
+        "convertedRetreatCost": null,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": null,
+        "id": "np-28",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Championship Arena",
+        "nationalPokedexNumbers": null,
+        "number": "28",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": null,
+        "rules": [
+          "At the end of each player's turn, if that player has 8 or more cards in his or her hand, that player discards a number of cards until that player has 7 cards left in his or her hand.",
+          "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card."
+        ],
+        "subtypes": [
+          "Stadium"
+        ],
+        "supertype": "Trainer",
+        "types": null,
+        "weaknesses": null
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Atsuko Nishida",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Resonate",
+            "text": "Your opponent switches each Defending Pokémon with his or her Benched Pokémon. If your opponent has only 1 Benched Pokémon, you choose the Defending Pokémon to switch."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Healing Sound",
+            "text": "Remove 3 damage counters from each of your Active Pokémon. Each Defending Pokémon is now Asleep."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "70",
+        "id": "np-24",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Chimecho",
+        "nationalPokedexNumbers": null,
+        "number": "24",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Psychic"
+        ],
+        "weaknesses": [
+          {
+            "type": "Psychic",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Atsuko Nishida",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Resonate",
+            "text": "Your opponent switches each Defending Pokémon with his or her Benched Pokémon. If your opponent has only 1 Benched Pokémon, you choose the Defending Pokémon to switch."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Healing Sound",
+            "text": "Remove 3 damage counters from each of your Active Pokémon. Each Defending Pokémon is now Asleep."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "70",
+        "id": "unk-24",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Chimecho",
+        "nationalPokedexNumbers": null,
+        "number": "24",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Psychic"
+        ],
+        "weaknesses": [
+          {
+            "type": "Psychic",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kouki Saitou",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Fire"
+            ],
+            "damage": "20",
+            "name": "Flare",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "40×",
+            "name": "Double Kick",
+            "text": "Flip 2 coins. This attack does 40 damage times the number of heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": "Torchic",
+        "evolvesTo": [
+          "Blaziken"
+        ],
+        "flavorText": null,
+        "hp": "70",
+        "id": "np-9",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Combusken",
+        "nationalPokedexNumbers": null,
+        "number": "9",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 1"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kouki Saitou",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Fire"
+            ],
+            "damage": "20",
+            "name": "Flare",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "40×",
+            "name": "Double Kick",
+            "text": "Flip 2 coins. This attack does 40 damage times the number of heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": "Torchic",
+        "evolvesTo": [
+          "Blaziken",
+          "Blaziken ex",
+          "Blaziken-GX"
+        ],
+        "flavorText": null,
+        "hp": "70",
+        "id": "unk-9",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Combusken",
+        "nationalPokedexNumbers": null,
+        "number": "9",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kouki Saitou",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Sand Pit",
+            "text": "The Defending Pokémon can't retreat until the end of your opponent's next turn."
+          },
+          {
+            "convertedEnergyCost": 4,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Grass",
+              "Lightning"
+            ],
+            "damage": "80",
+            "name": "Dragonbreath",
+            "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": "Vibrava",
+        "evolvesTo": [
+          "Flygon LV.X"
+        ],
+        "flavorText": null,
+        "hp": "120",
+        "id": "unk-25",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Flygon",
+        "nationalPokedexNumbers": null,
+        "number": "25",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Lightning",
+            "value": "-30"
+          },
+          {
+            "type": "Fighting",
+            "value": "-30"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Colorless",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kouki Saitou",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Sand Pit",
+            "text": "The Defending Pokémon can't retreat until the end of your opponent's next turn."
+          },
+          {
+            "convertedEnergyCost": 4,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Grass",
+              "Lightning"
+            ],
+            "damage": "80",
+            "name": "Dragonbreath",
+            "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": "Vibrava",
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "120",
+        "id": "np-25",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Flygon",
+        "nationalPokedexNumbers": null,
+        "number": "25",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Lightning",
+            "value": "-30"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 2"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Colorless",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kazuo Yazawa",
+        "attacks": [
+          {
+            "convertedEnergyCost": 4,
+            "cost": [
+              "Fighting",
+              "Fighting",
+              "Fighting",
+              "Fighting"
+            ],
+            "damage": "80",
+            "name": "Major Earthquake",
+            "text": "Discard a Fighting Energy card attached to Groudon ex. Does 10 damage to your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+          }
+        ],
+        "convertedRetreatCost": 3,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "120",
+        "id": "np-2",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Groudon ex",
+        "nationalPokedexNumbers": null,
+        "number": "2",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": [
+          "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "subtypes": [
+          "Basic",
+          "EX"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fighting"
+        ],
+        "weaknesses": [
+          {
+            "type": "Grass",
+            "value": "×2"
+          }
+        ]
+      },
+      {
+        "abilities": [
+          {
+            "name": "Frenzy",
+            "text": "As long as your opponent has Kyogre, Kyogre ex, Rayquaza, or Rayquaza ex in play, Groudon ex's attacks do 40 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+            "type": "Poké-Body"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "Ryo Ueda",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fighting"
+            ],
+            "damage": "30",
+            "name": "Mix-Up",
+            "text": "Flip a coin. If heads, your opponent discards the top card from his or her deck."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Fighting"
+            ],
+            "damage": "60",
+            "name": "Earthquake",
+            "text": "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "100",
+        "id": "np-38",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Groudon ex",
+        "nationalPokedexNumbers": null,
+        "number": "38",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": [
+          "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "subtypes": [
+          "Basic",
+          "EX"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fighting"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kazuo Yazawa",
+        "attacks": [
+          {
+            "convertedEnergyCost": 4,
+            "cost": [
+              "Fighting",
+              "Fighting",
+              "Fighting",
+              "Fighting"
+            ],
+            "damage": "80",
+            "name": "Major Earthquake",
+            "text": "Discard a Fighting Energy card attached to Groudon ex. Does 10 damage to your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+          }
+        ],
+        "convertedRetreatCost": 3,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "120",
+        "id": "unk-2",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Groudon ex",
+        "nationalPokedexNumbers": null,
+        "number": "2",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": [
+          "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "subtypes": [
+          "ex-%e2%86%93"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fighting"
+        ],
+        "weaknesses": [
+          {
+            "type": "Grass",
+            "value": "×2"
+          }
+        ]
+      },
+      {
+        "abilities": [
+          {
+            "name": "Frenzy",
+            "text": "As long as your opponent has Kyogre, Kyogre ex, Rayquaza, or Rayquaza ex in play, Groudon ex's attacks do 40 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+            "type": "Poké-BODY"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "Ryo Ueda",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fighting"
+            ],
+            "damage": "30",
+            "name": "Mix-Up",
+            "text": "Flip a coin. If heads, your opponent discards the top card from his or her deck."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Fighting"
+            ],
+            "damage": "60",
+            "name": "Earthquake",
+            "text": "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "100",
+        "id": "unk-38",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Groudon ex",
+        "nationalPokedexNumbers": null,
+        "number": "38",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": [
+          "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "subtypes": [
+          "ex-%e2%86%93"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fighting"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Midori Harada",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Poison Breath",
+            "text": "The Defending Pokémon is now Poisoned."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Grass"
+            ],
+            "damage": "30",
+            "name": "Swift",
+            "text": "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": "Treecko",
+        "evolvesTo": [
+          "Sceptile"
+        ],
+        "flavorText": null,
+        "hp": "70",
+        "id": "np-4",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Grovyle",
+        "nationalPokedexNumbers": null,
+        "number": "4",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Water",
+            "value": "-30"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 1"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Midori Harada",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Poison Breath",
+            "text": "The Defending Pokémon is now Poisoned."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Grass"
+            ],
+            "damage": "30",
+            "name": "Swift",
+            "text": "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": "Treecko",
+        "evolvesTo": [
+          "Sceptile",
+          "Sceptile ex",
+          "Sceptile-GX"
+        ],
+        "flavorText": null,
+        "hp": "70",
+        "id": "unk-4",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Grovyle",
+        "nationalPokedexNumbers": null,
+        "number": "4",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Water",
+            "value": "-30"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Atsuko Nishida",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "The Third Eye",
+            "text": "Discard an Energy card attached to Jirachi and draw 3 cards."
+          },
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Psychic"
+            ],
+            "damage": "10×",
+            "name": "Psywave",
+            "text": "Does 10 damage times the amount of Energy attached to the Defending Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "50",
+        "id": "unk-21",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Jirachi",
+        "nationalPokedexNumbers": null,
+        "number": "21",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Psychic"
+        ],
+        "weaknesses": [
+          {
+            "type": "Psychic",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Atsuko Nishida",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "The Third Eye",
+            "text": "Discard an Energy card attached to Jirachi and draw 3 cards."
+          },
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Psychic"
+            ],
+            "damage": "10×",
+            "name": "Psywave",
+            "text": "Does 10 damage times the amount of Energy attached to the Defending Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "50",
+        "id": "np-21",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Jirachi",
+        "nationalPokedexNumbers": null,
+        "number": "21",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Psychic"
+        ],
+        "weaknesses": [
+          {
+            "type": "Psychic",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Hiromichi Sugiyama",
+        "attacks": [
+          {
+            "convertedEnergyCost": 4,
+            "cost": [
+              "Water",
+              "Water",
+              "Water",
+              "Water"
+            ],
+            "damage": "60",
+            "name": "Major Flood",
+            "text": "Discard a Water Energy card attached to Kyogre ex. Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
+          }
+        ],
+        "convertedRetreatCost": 3,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "120",
+        "id": "np-1",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Kyogre ex",
+        "nationalPokedexNumbers": null,
+        "number": "1",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": [
+          "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "subtypes": [
+          "Basic",
+          "EX"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      },
+      {
+        "abilities": [
+          {
+            "name": "Frenzy",
+            "text": "As long as your opponent has Groudon, Groudon ex, Rayquaza, or Rayquaza ex in play. Kyogre ex's attacks do 40 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+            "type": "Poké-Body"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "Ryo Ueda",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Water"
+            ],
+            "damage": "30",
+            "name": "Aqua Supply",
+            "text": "You may attach a basic Energy card from your hand to 1 of your Pokémon."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Water"
+            ],
+            "damage": "40",
+            "name": "Tsunami",
+            "text": "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "100",
+        "id": "np-37",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Kyogre ex",
+        "nationalPokedexNumbers": null,
+        "number": "37",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": [
+          "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "subtypes": [
+          "Basic",
+          "EX"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Hiromichi Sugiyama",
+        "attacks": [
+          {
+            "convertedEnergyCost": 4,
+            "cost": [
+              "Water",
+              "Water",
+              "Water",
+              "Water"
+            ],
+            "damage": "60",
+            "name": "Major Flood",
+            "text": "Discard a Water Energy card attached to Kyogre ex. Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
+          }
+        ],
+        "convertedRetreatCost": 3,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "120",
+        "id": "unk-1",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Kyogre ex",
+        "nationalPokedexNumbers": null,
+        "number": "1",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": [
+          "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "subtypes": [
+          "ex-%e2%86%93"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      },
+      {
+        "abilities": [
+          {
+            "name": "Frenzy",
+            "text": "As long as your opponent has Groudon, Groudon ex, Rayquaza, or Rayquaza ex in play. Kyogre ex's attacks do 40 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+            "type": "Poké-BODY"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "Ryo Ueda",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Water"
+            ],
+            "damage": "30",
+            "name": "Aqua Supply",
+            "text": "You may attach a basic Energy card from your hand to 1 of your Pokémon."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Water"
+            ],
+            "damage": "40",
+            "name": "Tsunami",
+            "text": "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "100",
+        "id": "unk-37",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Kyogre ex",
+        "nationalPokedexNumbers": null,
+        "number": "37",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": [
+          "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "subtypes": [
+          "ex-%e2%86%93"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Ken Sugimori",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Psychic"
+            ],
+            "damage": "10",
+            "name": "Super Psy",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Fire",
+              "Water"
+            ],
+            "damage": "20",
+            "name": "Searing Flame",
+            "text": "Flip a coin. If heads, the Defending Pokémon is now Burned."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "70",
+        "id": "np-14",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Latias",
+        "nationalPokedexNumbers": null,
+        "number": "14",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Psychic",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Ken Sugimori",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Psychic"
+            ],
+            "damage": "10",
+            "name": "Super Psy",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Fire",
+              "Water"
+            ],
+            "damage": "20",
+            "name": "Searing Flame",
+            "text": "Flip a coin. If heads, the Defending Pokémon is now Burned."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "70",
+        "id": "unk-14",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Latias",
+        "nationalPokedexNumbers": null,
+        "number": "14",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Psychic",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Ken Sugimori",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Psychic"
+            ],
+            "damage": "10",
+            "name": "Super Psy",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Lightning",
+              "Psychic",
+              "Water"
+            ],
+            "damage": "30",
+            "name": "Freeze Dry",
+            "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+          }
+        ],
+        "convertedRetreatCost": 3,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "80",
+        "id": "unk-15",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Latios",
+        "nationalPokedexNumbers": null,
+        "number": "15",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Psychic",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Ken Sugimori",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Psychic"
+            ],
+            "damage": "10",
+            "name": "Super Psy",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Lightning",
+              "Psychic",
+              "Water"
+            ],
+            "damage": "30",
+            "name": "Freeze Dry",
+            "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+          }
+        ],
+        "convertedRetreatCost": 3,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "80",
+        "id": "np-15",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Latios",
+        "nationalPokedexNumbers": null,
+        "number": "15",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Psychic",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": [
+          {
+            "name": "Rain Dish",
+            "text": "At any time between turns, remove 1 damage counter from Ludicolo.",
+            "type": "Poké-Body"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "Kouki Saitou",
+        "attacks": [
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Water"
+            ],
+            "damage": "30×",
+            "name": "Fury Swipes",
+            "text": "Flip 3 coins. This attack does 30 damage times the number of heads."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": "Lombre",
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "90",
+        "id": "np-20",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Ludicolo",
+        "nationalPokedexNumbers": null,
+        "number": "20",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 2"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": [
+          {
+            "name": "Rain Dish",
+            "text": "At any time between turns, remove 1 damage counter from Ludicolo.",
+            "type": "Poké-BODY"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "Kouki Saitou",
+        "attacks": [
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Water"
+            ],
+            "damage": "30×",
+            "name": "Fury Swipes",
+            "text": "Flip 3 coins. This attack does 30 damage times the number of heads."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": "Lombre",
+        "evolvesTo": [],
+        "flavorText": null,
+        "hp": "90",
+        "id": "unk-20",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Ludicolo",
+        "nationalPokedexNumbers": null,
+        "number": "20",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Mitsuhiro Arita",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Water"
+            ],
+            "damage": "10",
+            "name": "Bubble",
+            "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "40",
+            "name": "Slash",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": "Mudkip",
+        "evolvesTo": [
+          "Swampert"
+        ],
+        "flavorText": null,
+        "hp": "70",
+        "id": "np-11",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Marshtomp",
+        "nationalPokedexNumbers": null,
+        "number": "11",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 1"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Mitsuhiro Arita",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Water"
+            ],
+            "damage": "10",
+            "name": "Bubble",
+            "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "40",
+            "name": "Slash",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": "Mudkip",
+        "evolvesTo": [
+          "Swampert",
+          "Swampert ex"
+        ],
+        "flavorText": null,
+        "hp": "70",
+        "id": "unk-11",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Marshtomp",
+        "nationalPokedexNumbers": null,
+        "number": "11",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kouki Saitou",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Plunder",
+            "text": "Before doing damage, discard all Trainer cards attached to the Defending Pokémon (before they affect the damage.)."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Scratch",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Dark Persian",
+          "Persian",
+          "Persian-GX"
+        ],
+        "flavorText": null,
+        "hp": "50",
+        "id": "unk-13",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Meowth",
+        "nationalPokedexNumbers": null,
+        "number": "13",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kouki Saitou",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Plunder",
+            "text": "Before doing damage, discard all Trainer cards attached to the Defending Pokémon (before they affect the damage.)."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Scratch",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Persian"
+        ],
+        "flavorText": null,
+        "hp": "50",
+        "id": "np-13",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Meowth",
+        "nationalPokedexNumbers": null,
+        "number": "13",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Mitsuhiro Arita",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Metal Load",
+            "text": "Search your discard pile for a Metal Energy card and attach it to Metang."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Metal"
+            ],
+            "damage": "30",
+            "name": "Metal Claw",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": "Beldum",
+        "evolvesTo": [
+          "Metagross"
+        ],
+        "flavorText": null,
+        "hp": "80",
+        "id": "np-23",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Metang",
+        "nationalPokedexNumbers": null,
+        "number": "23",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Grass",
+            "value": "-30"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 1"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Metal"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Mitsuhiro Arita",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Metal Load",
+            "text": "Search your discard pile for a Metal Energy card and attach it to Metang."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Metal"
+            ],
+            "damage": "30",
+            "name": "Metal Claw",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": "Beldum",
+        "evolvesTo": [
+          "Metagross",
+          "Metagross ex",
+          "Metagross-GX"
+        ],
+        "flavorText": null,
+        "hp": "80",
+        "id": "unk-23",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Metang",
+        "nationalPokedexNumbers": null,
+        "number": "23",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Grass",
+            "value": "-30"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Metal"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Masakazu Fukuda",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10×",
+            "name": "Psywave",
+            "text": "Does 10 damage times the amount of Energy attached to the Defending Pokémon."
+          },
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Psychic"
+            ],
+            "damage": "",
+            "name": "Devolution Beam",
+            "text": "Flip a coin. If heads, choose 1 of either player's Evolved Pokémon, remove the highest stage Evolution card from that Pokémon, and put it into that player's hand."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "50",
+        "id": "np-40",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Mew",
+        "nationalPokedexNumbers": null,
+        "number": "40",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Psychic"
+        ],
+        "weaknesses": [
+          {
+            "type": "Psychic",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Masakazu Fukuda",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10×",
+            "name": "Psywave",
+            "text": "Does 10 damage times the amount of Energy attached to the Defending Pokémon."
+          },
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Psychic"
+            ],
+            "damage": "",
+            "name": "Devolution Beam",
+            "text": "Flip a coin. If heads, choose 1 of either player's Evolved Pokémon, remove the highest stage Evolution card from that Pokémon, and put it into that player's hand."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "50",
+        "id": "unk-40",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Mew",
+        "nationalPokedexNumbers": null,
+        "number": "40",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Psychic"
+        ],
+        "weaknesses": [
+          {
+            "type": "Psychic",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": [
+          {
+            "name": "Synchronized Lift",
+            "text": "As long as you have Articuno ex and Zapdos ex in play, the Retreat Cost for Moltres ex is 0.",
+            "type": "Poké-Body"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "Ken Ikuji",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Flame Gift",
+            "text": "You may move a Fire Energy card attached to Moltres ex to 1 of your Pokémon."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Fire",
+              "Fire"
+            ],
+            "damage": "90",
+            "name": "Scorching Wing",
+            "text": "Discard all Fire Energy attached to Moltres ex."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "100",
+        "id": "np-31",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Moltres ex",
+        "nationalPokedexNumbers": null,
+        "number": "31",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": [
+          "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "subtypes": [
+          "Basic",
+          "EX"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": [
+          {
+            "name": "Synchronized Lift",
+            "text": "As long as you have Articuno ex and Zapdos ex in play, the Retreat Cost for Moltres ex is 0.",
+            "type": "Poké-BODY"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "Ken Ikuji",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Flame Gift",
+            "text": "You may move a Fire Energy card attached to Moltres ex to 1 of your Pokémon."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Fire",
+              "Fire"
+            ],
+            "damage": "90",
+            "name": "Scorching Wing",
+            "text": "Discard all Fire Energy attached to Moltres ex."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "100",
+        "id": "unk-31",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Moltres ex",
+        "nationalPokedexNumbers": null,
+        "number": "31",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": [
+          "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "subtypes": [
+          "ex-%e2%86%93"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Ken Sugimori",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Pound",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "10×",
+            "name": "Fury Swipes",
+            "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Marshtomp"
+        ],
+        "flavorText": null,
+        "hp": "50",
+        "id": "np-5",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Mudkip",
+        "nationalPokedexNumbers": null,
+        "number": "5",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      },
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Atsuko Nishida",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Pound",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "10×",
+            "name": "Fury Swipes",
+            "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Marshtomp"
+        ],
+        "flavorText": null,
+        "hp": "50",
+        "id": "np-10",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Mudkip",
+        "nationalPokedexNumbers": null,
+        "number": "10",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      },
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kagemaru Himeno",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Water"
+            ],
+            "damage": "10",
+            "name": "Surf",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Water"
+            ],
+            "damage": "10",
+            "name": "Whirlpool",
+            "text": "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Marshtomp"
+        ],
+        "flavorText": null,
+        "hp": "50",
+        "id": "np-18",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Mudkip",
+        "nationalPokedexNumbers": null,
+        "number": "18",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Atsuko Nishida",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Pound",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "10×",
+            "name": "Fury Swipes",
+            "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Marshtomp"
+        ],
+        "flavorText": null,
+        "hp": "50",
+        "id": "unk-10",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Mudkip",
+        "nationalPokedexNumbers": null,
+        "number": "10",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      },
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Ken Sugimori",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Pound",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "10×",
+            "name": "Fury Swipes",
+            "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Marshtomp"
+        ],
+        "flavorText": null,
+        "hp": "50",
+        "id": "unk-5",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Mudkip",
+        "nationalPokedexNumbers": null,
+        "number": "5",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      },
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kagemaru Himeno",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Water"
+            ],
+            "damage": "10",
+            "name": "Surf",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Water"
+            ],
+            "damage": "10",
+            "name": "Whirlpool",
+            "text": "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Marshtomp"
+        ],
+        "flavorText": null,
+        "hp": "50",
+        "id": "unk-18",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Mudkip",
+        "nationalPokedexNumbers": null,
+        "number": "18",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kouki Saitou",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Agility",
+            "text": "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Pikachu during your opponent's next turn."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Lightning"
+            ],
+            "damage": "20",
+            "name": "Thundershock",
+            "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Alolan Raichu",
+          "Dark Raichu",
+          "Raichu",
+          "Raichu ex",
+          "Raichu-GX"
+        ],
+        "flavorText": null,
+        "hp": "50",
+        "id": "unk-12",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Pikachu",
+        "nationalPokedexNumbers": null,
+        "number": "12",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Lightning"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      },
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Ryo Ueda",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Thunder Wave",
+            "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Metal"
+            ],
+            "damage": "20×",
+            "name": "Iron Tail",
+            "text": "Flip a coin until you get tails. This attack does 20 damage times the number of heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Alolan Raichu",
+          "Dark Raichu",
+          "Raichu",
+          "Raichu ex",
+          "Raichu-GX"
+        ],
+        "flavorText": null,
+        "hp": "40",
+        "id": "unk-35",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Pikachu",
+        "nationalPokedexNumbers": null,
+        "number": "35",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "delta-species"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Metal"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kouki Saitou",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Agility",
+            "text": "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Pikachu during your opponent's next turn."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Lightning"
+            ],
+            "damage": "20",
+            "name": "Thundershock",
+            "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Raichu"
+        ],
+        "flavorText": null,
+        "hp": "50",
+        "id": "np-12",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Pikachu",
+        "nationalPokedexNumbers": null,
+        "number": "12",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Lightning"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": null,
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Ryo Ueda",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Thunder Wave",
+            "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Metal"
+            ],
+            "damage": "20×",
+            "name": "Iron Tail",
+            "text": "Flip a coin until you get tails. This attack does 20 damage times the number of heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Raichu"
+        ],
+        "flavorText": null,
+        "hp": "40",
+        "id": "np-35",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Pikachu δ",
+        "nationalPokedexNumbers": null,
+        "number": "35",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Metal"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": [
+          {
+            "name": "Frenzy",
+            "text": "As long as your opponent has Kyogre, Kyogre ex, Groudon, or Groudon ex in play, Rayquaza ex's attacks do 40 damage to the Defending Pokémon (before applying Weakness and Resistance).",
+            "type": "Poké-Body"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "Ryo Ueda",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Dragon Bind",
+            "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Fire",
+              "Lightning"
+            ],
+            "damage": "50",
+            "name": "Twister",
+            "text": "Flip 2 coins. If both are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "100",
+        "id": "np-39",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Rayquaza ex",
+        "nationalPokedexNumbers": null,
+        "number": "39",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Water",
+            "value": "-30"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": [
+          "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "subtypes": [
+          "Basic",
+          "EX"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Colorless",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": [
+          {
+            "name": "Frenzy",
+            "text": "As long as your opponent has Kyogre, Kyogre ex, Groudon, or Groudon ex in play, Rayquaza ex's attacks do 40 damage to the Defending Pokémon (before applying Weakness and Resistance).",
+            "type": "Poké-BODY"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "Ryo Ueda",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Dragon Bind",
+            "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Fire",
+              "Lightning"
+            ],
+            "damage": "50",
+            "name": "Twister",
+            "text": "Flip 2 coins. If both are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "100",
+        "id": "unk-39",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Rayquaza ex",
+        "nationalPokedexNumbers": null,
+        "number": "39",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Water",
+            "value": "-30"
+          },
+          {
+            "type": "Fighting",
+            "value": "-30"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": [
+          "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "subtypes": [
+          "ex-%e2%86%93"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Colorless",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": [
+          {
+            "name": "Pure Body",
+            "text": "Whenever you attach a Water Energy card from your hand to Suicune, discard an Energy card attached to Suicune. (You can't attach a Water Energy card from your hand if Suicune has no Energy cards attached.)",
+            "type": "Poké-BODY"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "Atsuko Nishida",
+        "attacks": [
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Water"
+            ],
+            "damage": "30+",
+            "name": "Hypno Wave",
+            "text": "Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pokémon is now Asleep."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "70",
+        "id": "unk-30",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Suicune",
+        "nationalPokedexNumbers": null,
+        "number": "30",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": [
+          {
+            "name": "Pure Body",
+            "text": "Whenever you attach a Water Energy card from your hand to Suicune, discard an Energy card attached to Suicune. (You can't attach a Water Energy card from your hand if Suicune has no Energy cards attached.)",
+            "type": "Poké-Body"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "Atsuko Nishida",
+        "attacks": [
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Water"
+            ],
+            "damage": "30+",
+            "name": "Hypno Wave",
+            "text": "Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pokémon is now Asleep."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "70",
+        "id": "np-30",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Suicune",
+        "nationalPokedexNumbers": null,
+        "number": "30",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Ken Sugimori",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Peck",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "30",
+            "name": "Fireworks",
+            "text": "Flip a coin. If tails, discard a Fire Energy card attached to Torchic."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Combusken"
+        ],
+        "flavorText": null,
+        "hp": "40",
+        "id": "np-6",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Torchic",
+        "nationalPokedexNumbers": null,
+        "number": "6",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      },
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Atsuko Nishida",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Peck",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "30",
+            "name": "Fireworks",
+            "text": "Flip a coin. If tails, discard a Fire Energy card attached to Torchic."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Combusken"
+        ],
+        "flavorText": null,
+        "hp": "40",
+        "id": "np-8",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Torchic",
+        "nationalPokedexNumbers": null,
+        "number": "8",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      },
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kagemaru Himeno",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "30",
+            "name": "Ember",
+            "text": "Discard a Fire Energy card attached to Torchic."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Combusken"
+        ],
+        "flavorText": null,
+        "hp": "50",
+        "id": "np-17",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Torchic",
+        "nationalPokedexNumbers": null,
+        "number": "17",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Atsuko Nishida",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Peck",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "30",
+            "name": "Fireworks",
+            "text": "Flip a coin. If tails, discard a Fire Energy card attached to Torchic."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Combusken"
+        ],
+        "flavorText": null,
+        "hp": "40",
+        "id": "unk-8",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Torchic",
+        "nationalPokedexNumbers": null,
+        "number": "8",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      },
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kagemaru Himeno",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "30",
+            "name": "Ember",
+            "text": "Discard a Fire Energy card attached to Torchic."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Combusken"
+        ],
+        "flavorText": null,
+        "hp": "50",
+        "id": "unk-17",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Torchic",
+        "nationalPokedexNumbers": null,
+        "number": "17",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      },
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Ken Sugimori",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Peck",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "30",
+            "name": "Fireworks",
+            "text": "Flip a coin. If tails, discard a Fire Energy card attached to Torchic."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Combusken"
+        ],
+        "flavorText": null,
+        "hp": "40",
+        "id": "unk-6",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Torchic",
+        "nationalPokedexNumbers": null,
+        "number": "6",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Atsuko Nishida",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Tail Slap",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Grass"
+            ],
+            "damage": "20",
+            "name": "Razor Leaf",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Grovyle"
+        ],
+        "flavorText": null,
+        "hp": "40",
+        "id": "np-3",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Treecko",
+        "nationalPokedexNumbers": null,
+        "number": "3",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Water",
+            "value": "-30"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      },
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Ken Sugimori",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Tail Slap",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Grass"
+            ],
+            "damage": "20",
+            "name": "Razor Leaf",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Grovyle"
+        ],
+        "flavorText": null,
+        "hp": "40",
+        "id": "np-7",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Treecko",
+        "nationalPokedexNumbers": null,
+        "number": "7",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Water",
+            "value": "-30"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      },
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kagemaru Himeno",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Pound",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Grass"
+            ],
+            "damage": "10",
+            "name": "Sporadic Sponging",
+            "text": "Flip a coin. If heads, remove 1 damage counter from Treecko."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Grovyle"
+        ],
+        "flavorText": null,
+        "hp": "40",
+        "id": "np-16",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Treecko",
+        "nationalPokedexNumbers": null,
+        "number": "16",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Water",
+            "value": "-30"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Atsuko Nishida",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Tail Slap",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Grass"
+            ],
+            "damage": "20",
+            "name": "Razor Leaf",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Grovyle"
+        ],
+        "flavorText": null,
+        "hp": "40",
+        "id": "unk-3",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Treecko",
+        "nationalPokedexNumbers": null,
+        "number": "3",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Water",
+            "value": "-30"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      },
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kagemaru Himeno",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Pound",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Grass"
+            ],
+            "damage": "10",
+            "name": "Sporadic Sponging",
+            "text": "Flip a coin. If heads, remove 1 damage counter from Treecko."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Grovyle"
+        ],
+        "flavorText": null,
+        "hp": "40",
+        "id": "unk-16",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Treecko",
+        "nationalPokedexNumbers": null,
+        "number": "16",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Water",
+            "value": "-30"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      },
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Ken Sugimori",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Tail Slap",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Grass"
+            ],
+            "damage": "20",
+            "name": "Razor Leaf",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Grovyle"
+        ],
+        "flavorText": null,
+        "hp": "40",
+        "id": "unk-7",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Treecko",
+        "nationalPokedexNumbers": null,
+        "number": "7",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Water",
+            "value": "-30"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Sumiyoshi Kizuki",
+        "attacks": null,
+        "convertedRetreatCost": null,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": null,
+        "id": "unk-27",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Tropical Tidal Wave",
+        "nationalPokedexNumbers": null,
+        "number": "27",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": null,
+        "rules": null,
+        "subtypes": [
+          "Item"
+        ],
+        "supertype": "Trainer",
+        "types": null,
+        "weaknesses": null
+      },
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Sumiyoshi Kizuki",
+        "attacks": null,
+        "convertedRetreatCost": null,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": null,
+        "id": "unk-36",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Tropical Tidal Wave",
+        "nationalPokedexNumbers": null,
+        "number": "36",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": null,
+        "rules": null,
+        "subtypes": [
+          "Item"
+        ],
+        "supertype": "Trainer",
+        "types": null,
+        "weaknesses": null
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Sumiyoshi Kizuki",
+        "attacks": null,
+        "convertedRetreatCost": null,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": null,
+        "id": "np-27",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Tropical Tidal Wave",
+        "nationalPokedexNumbers": null,
+        "number": "27",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": null,
+        "rules": [
+          "Flip a coin. If heads, discard all Trainer cards your opponent has in play. If tails, discard all Trainer (excluding Supporter cards) you have in play."
+        ],
+        "subtypes": [
+          "Item"
+        ],
+        "supertype": "Trainer",
+        "types": null,
+        "weaknesses": null
+      },
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Sumiyoshi Kizuki",
+        "attacks": null,
+        "convertedRetreatCost": null,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": null,
+        "id": "np-36",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Tropical Tidal Wave",
+        "nationalPokedexNumbers": null,
+        "number": "36",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": null,
+        "rules": [
+          "Flip a coin. If heads, discard all Trainer cards your opponent has in play. If tails, discard all Trainer cards (excluding Supporter cards) you have in play."
+        ],
+        "subtypes": [
+          "Item"
+        ],
+        "supertype": "Trainer",
+        "types": null,
+        "weaknesses": null
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Sumiyoshi Kizuki",
+        "attacks": null,
+        "convertedRetreatCost": null,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": null,
+        "id": "np-26",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Tropical Wind",
+        "nationalPokedexNumbers": null,
+        "number": "26",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": null,
+        "rules": [
+          "Flip a coin. If heads, remove 2 damage counters from each Active Pokémon (remove 1 damage counter if a Pokémon has only 1). If tails, each Active Pokémon is now Asleep."
+        ],
+        "subtypes": [
+          "Item"
+        ],
+        "supertype": "Trainer",
+        "types": null,
+        "weaknesses": null
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Sumiyoshi Kizuki",
+        "attacks": null,
+        "convertedRetreatCost": null,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": null,
+        "id": "unk-26",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Tropical Wind",
+        "nationalPokedexNumbers": null,
+        "number": "26",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": null,
+        "rules": null,
+        "subtypes": [
+          "Item"
+        ],
+        "supertype": "Trainer",
+        "types": null,
+        "weaknesses": null
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": [
+          {
+            "name": "Burning Aura",
+            "text": "As long as Typhlosion is your Active Pokémon, put 1 damage counter on each Active Pokémon (both yours and your opponent's) between turns.",
+            "type": "Poké-Body"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "Hajime Kusajima",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Fire"
+            ],
+            "damage": "20",
+            "name": "Flickering Flames",
+            "text": "The Defending Pokémon is now Asleep."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "50+",
+            "name": "Rage",
+            "text": "Does 50 damage plus 10 more damage for each damage counter on Typhlosion."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": "Quilava",
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "110",
+        "id": "np-34",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Typhlosion",
+        "nationalPokedexNumbers": null,
+        "number": "34",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 2"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": [
+          {
+            "name": "Burning Aura",
+            "text": "As long as Typhlosion is your Active Pokémon, put 1 damage counter on each Active Pokémon (both yours and your opponent's) between turns.",
+            "type": "Poké-BODY"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "Hajime Kusajima",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Fire"
+            ],
+            "damage": "20",
+            "name": "Flickering Flames",
+            "text": "The Defending Pokémon is now Asleep."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "50+",
+            "name": "Rage",
+            "text": "Does 50 damage plus 10 more damage for each damage counter on Typhlosion."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": "Quilava",
+        "evolvesTo": [],
+        "flavorText": null,
+        "hp": "110",
+        "id": "unk-34",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Typhlosion",
+        "nationalPokedexNumbers": null,
+        "number": "34",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kagemaru Himeno",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Supersonic",
+            "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+          },
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Pound",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Loudred"
+        ],
+        "flavorText": null,
+        "hp": "50",
+        "id": "np-19",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Whismur",
+        "nationalPokedexNumbers": null,
+        "number": "19",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Kagemaru Himeno",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Supersonic",
+            "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+          },
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Pound",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Loudred"
+        ],
+        "flavorText": null,
+        "hp": "50",
+        "id": "unk-19",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Whismur",
+        "nationalPokedexNumbers": null,
+        "number": "19",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": [
+          {
+            "name": "Synchronized Lift",
+            "text": "As long as you have Articuno ex and Moltres ex in play, the Retreat Cost for Zapdos ex is 0.",
+            "type": "Poké-Body"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "K. Hoshiba",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Thunder Gift",
+            "text": "You may move a Lightning Energy card attached to Zapdos ex to 1 of your Pokémon."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Lightning",
+              "Lightning"
+            ],
+            "damage": "60",
+            "name": "Lightning Wing",
+            "text": "Does 10 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "100",
+        "id": "np-33",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Zapdos ex",
+        "nationalPokedexNumbers": null,
+        "number": "33",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": [
+          "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "subtypes": [
+          "Basic",
+          "EX"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Lightning"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": [
+          {
+            "name": "Synchronized Lift",
+            "text": "As long as you have Articuno ex and Moltres ex in play, the Retreat Cost for Zapdos ex is 0.",
+            "type": "Poké-BODY"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "K. Hoshiba",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "10",
+            "name": "Thunder Gift",
+            "text": "You may move a Lightning Energy card attached to Zapdos ex to 1 of your Pokémon."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Lightning",
+              "Lightning"
+            ],
+            "damage": "60",
+            "name": "Lightning Wing",
+            "text": "Does 10 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": null,
+        "hp": "100",
+        "id": "unk-33",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Zapdos ex",
+        "nationalPokedexNumbers": null,
+        "number": "33",
+        "rarity": "Promo",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": [
+          "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+        ],
+        "subtypes": [
+          "ex-%e2%86%93"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Lightning"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  }
+]

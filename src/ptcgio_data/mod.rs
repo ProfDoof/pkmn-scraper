@@ -1,13 +1,13 @@
 use anyhow::{Context, Result};
 use git2::Repository;
 use serde::{Deserialize, Serialize};
-use std::collections::HashMap;
+use std::collections::{BTreeMap, HashMap};
 use std::fs;
 use std::fs::File;
 use std::io::BufReader;
 use std::path::{Path, PathBuf};
 
-#[derive(Serialize, Deserialize, Default, Debug)]
+#[derive(Serialize, Deserialize, Default, Debug, Eq, PartialEq, Clone)]
 #[serde(rename_all = "camelCase")]
 #[serde(deny_unknown_fields)]
 pub struct Card {
@@ -20,11 +20,11 @@ pub struct Card {
     pub types: Option<Vec<String>>,
     pub evolves_from: Option<String>,
     pub evolves_to: Option<Vec<String>>,
-    pub abilities: Option<Vec<HashMap<String, String>>>,
+    pub abilities: Option<Vec<BTreeMap<String, String>>>,
     pub rules: Option<Vec<String>>,
-    pub attacks: Option<Vec<HashMap<String, serde_json::Value>>>,
-    pub resistances: Option<Vec<HashMap<String, String>>>,
-    pub weaknesses: Option<Vec<HashMap<String, String>>>,
+    pub attacks: Option<Vec<BTreeMap<String, serde_json::Value>>>,
+    pub resistances: Option<Vec<BTreeMap<String, String>>>,
+    pub weaknesses: Option<Vec<BTreeMap<String, String>>>,
     pub retreat_cost: Option<Vec<String>>,
     pub converted_retreat_cost: Option<usize>,
     pub number: String,
@@ -32,9 +32,9 @@ pub struct Card {
     pub rarity: Option<String>,
     pub flavor_text: Option<String>,
     pub national_pokedex_numbers: Option<Vec<i32>>,
-    pub legalities: HashMap<String, String>,
-    pub images: HashMap<String, String>,
-    pub ancient_trait: Option<HashMap<String, String>>,
+    pub legalities: BTreeMap<String, String>,
+    pub images: BTreeMap<String, String>,
+    pub ancient_trait: Option<BTreeMap<String, String>>,
     pub regulation_mark: Option<String>,
 }
 

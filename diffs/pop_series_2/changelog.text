@@ -1,0 +1,1972 @@
+Differences exist in idx 0 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Midori Harada",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Bite",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Grass"
+        ],
+        "damage": "20",
+        "name": "Razor Leaf",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Dark Ivysaur",
+      "Ivysaur"
+    ],
+    "flavorText": null,
+    "hp": "40",
+    "id": "pop2-12",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Bulbasaur",
+    "nationalPokedexNumbers": null,
+    "number": "12",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Midori Harada",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Bite",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Grass"
+        ],
+        "damage": "20",
+        "name": "Razor Leaf",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Ivysaur"
+    ],
+    "flavorText": null,
+    "hp": "40",
+    "id": "pop2-12",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Bulbasaur",
+    "nationalPokedexNumbers": null,
+    "number": "12",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Ivysaur"
+
+    right: "Dark Ivysaur"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 1 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Ken Sugimori",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Sand Attack",
+        "text": "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Cacturne",
+      "Cacturne ex"
+    ],
+    "flavorText": null,
+    "hp": "40",
+    "id": "pop2-13",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Cacnea",
+    "nationalPokedexNumbers": null,
+    "number": "13",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Ken Sugimori",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Sand Attack",
+        "text": "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Cacturne"
+    ],
+    "flavorText": null,
+    "hp": "40",
+    "id": "pop2-13",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Cacnea",
+    "nationalPokedexNumbers": null,
+    "number": "13",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 2 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Time Reversal",
+        "text": "Once during your turn, when you put Celebi ex from your hand onto your Bench, you may search your discard pile for a card, show it to your opponent, and put it on top of your deck.",
+        "type": "Poké-POWER"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Ryo Ueda",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "30",
+        "name": "Psychic Shield",
+        "text": "Prevent all effects of attacks, including damage, done to Celebi ex by your opponent's Pokémon-ex during your opponent's next turn."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "80",
+    "id": "pop2-17",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Celebi ex",
+    "nationalPokedexNumbers": null,
+    "number": "17",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": [
+      "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "subtypes": [
+      "ex-%e2%86%93"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Time Reversal",
+        "text": "Once during your turn, when you put Celebi ex from your hand onto your Bench, you may search your discard pile for a card, show it to your opponent, and put it on top of your deck.",
+        "type": "Poké-Power"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Ryo Ueda",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "30",
+        "name": "Psychic Shield",
+        "text": "Prevent all effects of attacks, including damage, done to Celebi ex by your opponent's Pokémon-ex during your opponent's next turn."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "80",
+    "id": "pop2-17",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Celebi ex",
+    "nationalPokedexNumbers": null,
+    "number": "17",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": [
+      "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "subtypes": [
+      "Basic",
+      "EX"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].abilities[0].type"
+
+    left: "Poké-Power"
+
+    right: "Poké-POWER"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Basic"
+
+    right: "ex-%e2%86%93"
+
+####################
+Differences exist in idx 3 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "10+",
+        "name": "Stomp",
+        "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Fire",
+          "Fire"
+        ],
+        "damage": "50",
+        "name": "Fire Spin",
+        "text": "Discard 2 Basic Energy cards attached to Entei or this attack does nothing."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "70",
+    "id": "pop2-1",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Entei",
+    "nationalPokedexNumbers": null,
+    "number": "1",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "10+",
+        "name": "Stomp",
+        "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Fire",
+          "Fire"
+        ],
+        "damage": "50",
+        "name": "Fire Spin",
+        "text": "Discard 2 Basic Energy cards attached to Entei or this attack does nothing."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "70",
+    "id": "pop2-1",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Entei",
+    "nationalPokedexNumbers": null,
+    "number": "1",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 4 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Ken Sugimori",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Poison Seed",
+        "text": "The Defending Pokémon is now Poisoned."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Grass",
+          "Grass"
+        ],
+        "damage": "50",
+        "name": "Razor Leaf",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Bulbasaur",
+    "evolvesTo": [
+      "Venusaur",
+      "Venusaur ex"
+    ],
+    "flavorText": null,
+    "hp": "80",
+    "id": "pop2-7",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Ivysaur",
+    "nationalPokedexNumbers": null,
+    "number": "7",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Ken Sugimori",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Poison Seed",
+        "text": "The Defending Pokémon is now Poisoned."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Grass",
+          "Grass"
+        ],
+        "damage": "50",
+        "name": "Razor Leaf",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Bulbasaur",
+    "evolvesTo": [
+      "Venusaur"
+    ],
+    "flavorText": null,
+    "hp": "80",
+    "id": "pop2-7",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Ivysaur",
+    "nationalPokedexNumbers": null,
+    "number": "7",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 5 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Atsuko Nishida",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Paralyzing Kiss",
+        "text": "If there are 2 Defending Pokémon in play, choose 1 of the Defending Pokémon. That Pokémon is now Paralyzed. (If there is only 1 Defending Pokémon, this attack does nothing.)"
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Fast Stream",
+        "text": "Move 1 Energy card attached to the Defending Pokémon to the other Defending Pokémon. (Ignore this effect if your opponent has only 1 Defending Pokémon.)"
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "60",
+    "id": "pop2-14",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Luvdisc",
+    "nationalPokedexNumbers": null,
+    "number": "14",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Atsuko Nishida",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Paralyzing Kiss",
+        "text": "If there are 2 Defending Pokémon in play, choose 1 of the Defending Pokémon. That Pokémon is now Paralyzed. (If there is only 1 Defending Pokémon, this attack does nothing.)"
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Fast Stream",
+        "text": "Move 1 Energy card attached to the Defending Pokémon to the other Defending Pokémon. (Ignore this effect if your opponent has only 1 Defending Pokémon.)"
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "60",
+    "id": "pop2-14",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Luvdisc",
+    "nationalPokedexNumbers": null,
+    "number": "14",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 7 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "\"Big Mama\" Tagawa",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Paralyzing Gaze",
+        "text": "The Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "pop2-9",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Multi Technical Machine 01",
+    "nationalPokedexNumbers": null,
+    "number": "9",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": null,
+    "subtypes": [
+      "Item",
+      "Technical Machine"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "\"Big Mama\" Tagawa",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Paralyzing Gaze",
+        "text": "The Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "pop2-9",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Multi Technical Machine 01",
+    "nationalPokedexNumbers": null,
+    "number": "9",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "Attach this card to 1 of your Pokémon in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Multi Technical Machine 01."
+    ],
+    "subtypes": [
+      "Technical Machine"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+Difference between left and right for path "root[0].rules"
+
+    left: ["Attach this card to 1 of your Pokémon in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Multi Technical Machine 01."]
+
+    right: null
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Technical Machine"
+
+    right: "Item"
+
+####################
+Differences exist in idx 8 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Tomokazu Komiya",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fighting"
+        ],
+        "damage": "10×",
+        "name": "Double Spin",
+        "text": "Flip 2 coins. This attack does 10 damage times the number of heads."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Body Slam",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Dark Donphan",
+      "Donphan"
+    ],
+    "flavorText": null,
+    "hp": "50",
+    "id": "pop2-15",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Phanpy",
+    "nationalPokedexNumbers": null,
+    "number": "15",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Tomokazu Komiya",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fighting"
+        ],
+        "damage": "10×",
+        "name": "Double Spin",
+        "text": "Flip 2 coins. This attack does 10 damage times the number of heads."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Body Slam",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Donphan"
+    ],
+    "flavorText": null,
+    "hp": "50",
+    "id": "pop2-15",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Phanpy",
+    "nationalPokedexNumbers": null,
+    "number": "15",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Donphan"
+
+    right: "Dark Donphan"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 9 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Beating Wings",
+        "text": "Once during your turn (before your attack), if Pidgeot is your Active Pokémon, you may shuffle 1 of your Benched Pokémon and all cards attached to it into your deck. This power can't be used if Pidgeot is affected by a Special Condition.",
+        "type": "Poké-POWER"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Ken Sugimori",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20+",
+        "name": "Sharp Beak",
+        "text": "Flip a coin. If heads, this attack does 20 plus 30 more damage."
+      }
+    ],
+    "convertedRetreatCost": 0,
+    "evolvesFrom": "Pidgeotto",
+    "evolvesTo": [],
+    "flavorText": null,
+    "hp": "80",
+    "id": "pop2-2",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Pidgeot",
+    "nationalPokedexNumbers": null,
+    "number": "2",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Beating Wings",
+        "text": "Once during your turn (before your attack), if Pidgeot is your Active Pokémon, you may shuffle 1 of your Benched Pokémon and all cards attached to it into your deck. This power can't be used if Pidgeot is affected by a Special Condition.",
+        "type": "Poké-Power"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Ken Sugimori",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20+",
+        "name": "Sharp Beak",
+        "text": "Flip a coin. If heads, this attack does 20 damage plus 30 more damage."
+      }
+    ],
+    "convertedRetreatCost": null,
+    "evolvesFrom": "Pidgeotto",
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "80",
+    "id": "pop2-2",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Pidgeot",
+    "nationalPokedexNumbers": null,
+    "number": "2",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": null,
+    "rules": null,
+    "subtypes": [
+      "Stage 2"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].abilities[0].type"
+
+    left: "Poké-Power"
+
+    right: "Poké-POWER"
+
+Difference between left and right for path "root[0].attacks[0].text"
+
+    left: "Flip a coin. If heads, this attack does 20 damage plus 30 more damage."
+
+    right: "Flip a coin. If heads, this attack does 20 plus 30 more damage."
+
+Difference between left and right for path "root[0].convertedRetreatCost"
+
+    left: null
+
+    right: 0
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].retreatCost"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 2"]
+
+    right: null
+
+####################
+Differences exist in idx 10 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Yuka Morii",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Gnaw",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Lightning"
+        ],
+        "damage": "30",
+        "name": "Thunder Jolt",
+        "text": "Flip a coin. If tails, Pikachu does 10 damage to itself."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Alolan Raichu",
+      "Dark Raichu",
+      "Raichu",
+      "Raichu ex",
+      "Raichu-GX"
+    ],
+    "flavorText": null,
+    "hp": "40",
+    "id": "pop2-16",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Pikachu",
+    "nationalPokedexNumbers": null,
+    "number": "16",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Yuka Morii",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Gnaw",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Lightning"
+        ],
+        "damage": "30",
+        "name": "Thunder Jolt",
+        "text": "Flip a coin. If tails, Pikachu does 10 damage to itself."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Raichu"
+    ],
+    "flavorText": null,
+    "hp": "40",
+    "id": "pop2-16",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Pikachu",
+    "nationalPokedexNumbers": null,
+    "number": "16",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Raichu"
+
+    right: "Alolan Raichu"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 12 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Roar",
+        "text": "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "50",
+        "name": "Thunder",
+        "text": "Flip a coin. If tails, Raikou does 20 damage to itself."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "70",
+    "id": "pop2-3",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Raikou",
+    "nationalPokedexNumbers": null,
+    "number": "3",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Roar",
+        "text": "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "50",
+        "name": "Thunder",
+        "text": "Flip a coin. If tails, Raikou does 20 damage to itself."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "70",
+    "id": "pop2-3",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Raikou",
+    "nationalPokedexNumbers": null,
+    "number": "3",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 13 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Mirror Coat",
+        "text": "If Suicune is Burned or Poisoned by an opponent's attack (even if Suicune is Knocked Out), the Attacking Pokémon is now affected by the same Special Conditions (1 if there is only 1).",
+        "type": "Poké-BODY"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Bubblebeam",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "70",
+    "id": "pop2-4",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Suicune",
+    "nationalPokedexNumbers": null,
+    "number": "4",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Mirror Coat",
+        "text": "If Suicune is Burned or Poisoned by an opponent's attack (even if Suicune is Knocked Out), the Attacking Pokémon is now affected by the same Special Conditions (1 if there is only 1).",
+        "type": "Poké-Body"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Bubblebeam",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "70",
+    "id": "pop2-4",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Suicune",
+    "nationalPokedexNumbers": null,
+    "number": "4",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].abilities[0].type"
+
+    left: "Poké-Body"
+
+    right: "Poké-BODY"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 15 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "10+",
+        "name": "Rage",
+        "text": "Does 10 damage plus 10 more damage for each damage counter on Tauros."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "40",
+        "name": "Take Down",
+        "text": "Tauros does 10 damage to itself."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "70",
+    "id": "pop2-5",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Tauros",
+    "nationalPokedexNumbers": null,
+    "number": "5",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "10+",
+        "name": "Rage",
+        "text": "Does 10 damage plus 10 more damage for each damage counter on Tauros."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "40",
+        "name": "Take Down",
+        "text": "Tauros does 10 damage to itself."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "70",
+    "id": "pop2-5",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Tauros",
+    "nationalPokedexNumbers": null,
+    "number": "5",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 16 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Mitsuhiro Arita",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Grass",
+          "Grass"
+        ],
+        "damage": "20",
+        "name": "Wide Solarbeam",
+        "text": "Does 20 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      },
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Grass",
+          "Grass",
+          "Grass"
+        ],
+        "damage": "80",
+        "name": "Hard Plant",
+        "text": "Venusaur can't use Hard Plant during your next turn."
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Ivysaur",
+    "evolvesTo": [],
+    "flavorText": null,
+    "hp": "120",
+    "id": "pop2-6",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Venusaur",
+    "nationalPokedexNumbers": null,
+    "number": "6",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Mitsuhiro Arita",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Grass",
+          "Grass"
+        ],
+        "damage": "20",
+        "name": "Wide Solarbeam",
+        "text": "Does 20 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      },
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Grass",
+          "Grass",
+          "Grass"
+        ],
+        "damage": "80",
+        "name": "Hard Plant",
+        "text": "Venusaur can't use Hard Plant during your next turn."
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Ivysaur",
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "120",
+    "id": "pop2-6",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Venusaur",
+    "nationalPokedexNumbers": null,
+    "number": "6",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 2"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 2"]
+
+    right: null
+
+####################

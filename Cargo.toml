@@ -12,7 +12,7 @@ html5ever = "0.26.0"
 selectors = "0.25.0"
 serde = "1.0.164"
 serde_json = "1.0.97"
-pokemon-tcg-sdk = "0.3.0"
+serde_with = "3.1.0"
 git2 = "0.17.2"
 anyhow = { version = "1.0.71", features = ["backtrace", "default", "std"] }
 tokio = {version = "1.29.1", features = ["full"] }

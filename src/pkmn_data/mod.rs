@@ -3,9 +3,10 @@ mod extractors;
 mod series;
 mod set;
 
+pub use set::Set;
+
 use crate::pkmn_data::series::{Series, SeriesFetcher};
 use anyhow::{bail, Result};
-use futures::stream::FuturesOrdered;
 use http_cache_reqwest::{CACacheManager, Cache, CacheMode, HttpCache, HttpCacheOptions};
 use reqwest_middleware::ClientBuilder;
 use reqwest_retry::policies::ExponentialBackoff;
@@ -13,7 +14,6 @@ use reqwest_retry::RetryTransientMiddleware;
 use scraper::{Html, Selector};
 use std::path::{Path, PathBuf};
 use std::str::FromStr;
-use tokio_stream::StreamExt;
 
 pub struct DataFetcher {
     url: String,

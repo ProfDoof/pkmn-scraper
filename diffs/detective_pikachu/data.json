@@ -1,0 +1,2084 @@
+[
+  {
+    "ptcgio": [
+      {
+        "abilities": [
+          {
+            "name": "Security Guard",
+            "text": "As long as this Pokémon is your Active Pokémon, all of your Pokémon take 30 less damage from your opponent's attacks (after applying Weakness and Resistance).",
+            "type": "Ability"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "90",
+            "name": "Sharp Fang",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 3,
+        "evolvesFrom": "Growlithe",
+        "evolvesTo": null,
+        "flavorText": "Legends tell of its fighting alongside a general and conquering a whole country.",
+        "hp": "120",
+        "id": "det1-6",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Arcanine",
+        "nationalPokedexNumbers": null,
+        "number": "6",
+        "rarity": "Rare",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 1"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": [
+          {
+            "name": "Security Guard",
+            "text": "As long as this Pokémon is your Active Pokémon, all of your Pokémon take 30 less damage from your opponent's attacks (after applying Weakness and Resistance).",
+            "type": "Ability"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "90",
+            "name": "Sharp Fang",
+            "text": ""
+          }
+        ],
+        "convertedRetreatCost": 3,
+        "evolvesFrom": "Growlithe",
+        "evolvesTo": [
+          "Arcanine BREAK"
+        ],
+        "flavorText": "Legends tell of its fighting alongside a general and conquering a whole country.",
+        "hp": "120",
+        "id": "unk-6",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Arcanine",
+        "nationalPokedexNumbers": null,
+        "number": "6",
+        "rarity": "Rare",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Grass"
+            ],
+            "damage": "",
+            "name": "Find a Friend",
+            "text": "Search your deck for a Grass Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Ivysaur"
+        ],
+        "flavorText": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+        "hp": "60",
+        "id": "det1-1",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Bulbasaur",
+        "nationalPokedexNumbers": null,
+        "number": "1",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Grass"
+            ],
+            "damage": "",
+            "name": "Find a Friend",
+            "text": "Search your deck for a Grass Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Dark Ivysaur",
+          "Ivysaur"
+        ],
+        "flavorText": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+        "hp": "60",
+        "id": "unk-1",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Bulbasaur",
+        "nationalPokedexNumbers": null,
+        "number": "1",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Framestore",
+        "attacks": [
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "70",
+            "name": "Slash",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 4,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "180",
+            "name": "Wild Tackle",
+            "text": "This Pokémon does 50 damage to itself."
+          }
+        ],
+        "convertedRetreatCost": 3,
+        "evolvesFrom": "Charmeleon",
+        "evolvesTo": null,
+        "flavorText": "When expelling a blast of superhot fire, the red flame at the tip of its tail burns more intensely.",
+        "hp": "180",
+        "id": "det1-5",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Charizard",
+        "nationalPokedexNumbers": null,
+        "number": "5",
+        "rarity": "Rare Ultra",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 2"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Framestore",
+        "attacks": [
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "70",
+            "name": "Slash",
+            "text": ""
+          },
+          {
+            "convertedEnergyCost": 4,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless",
+              "Fire"
+            ],
+            "damage": "180",
+            "name": "Wild Tackle",
+            "text": "This Pokémon does 50 damage to itself."
+          }
+        ],
+        "convertedRetreatCost": 3,
+        "evolvesFrom": "Charmeleon",
+        "evolvesTo": [],
+        "flavorText": "When expelling a blast of superhot fire, the red flame at the tip of its tail burns more intensely.",
+        "hp": "180",
+        "id": "unk-5",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Charizard",
+        "nationalPokedexNumbers": null,
+        "number": "5",
+        "rarity": "Ultra Rare",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Reckless Charge",
+            "text": "This Pokémon does 10 damage to itself."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Charmeleon",
+          "Dark Charmeleon"
+        ],
+        "flavorText": "The flame on its tail indicates Charmander's life force. If it is healthy, the flame burns brightly.",
+        "hp": "60",
+        "id": "unk-4",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Charmander",
+        "nationalPokedexNumbers": null,
+        "number": "4",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "20",
+            "name": "Reckless Charge",
+            "text": "This Pokémon does 10 damage to itself."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Charmeleon"
+        ],
+        "flavorText": "The flame on its tail indicates Charmander's life force. If it is healthy, the flame burns brightly.",
+        "hp": "60",
+        "id": "det1-4",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Charmander",
+        "nationalPokedexNumbers": null,
+        "number": "4",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fire"
+        ],
+        "weaknesses": [
+          {
+            "type": "Water",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Lightning"
+            ],
+            "damage": "",
+            "name": "Scout",
+            "text": "Your opponent reveals their hand."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "80",
+            "name": "Surprise Attack",
+            "text": "Flip a coin. If tails, this attack does nothing."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "He loves to show off his vast knowledge. This expressive Pikachu is like a middle-aged man.",
+        "hp": "90",
+        "id": "unk-10",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Detective Pikachu",
+        "nationalPokedexNumbers": null,
+        "number": "10",
+        "rarity": "Rare",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Metal",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Lightning"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Lightning"
+            ],
+            "damage": "",
+            "name": "Scout",
+            "text": "Your opponent reveals their hand."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "80",
+            "name": "Surprise Attack",
+            "text": "Flip a coin. If tails, this attack does nothing."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Raichu"
+        ],
+        "flavorText": "He loves to show off his vast knowledge. This expressive Pikachu is like a middle-aged man.",
+        "hp": "90",
+        "id": "det1-10",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Detective Pikachu",
+        "nationalPokedexNumbers": null,
+        "number": "10",
+        "rarity": "Rare",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Metal",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Lightning"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Copy Anything",
+            "text": "Choose 1 of your opponent's Pokémon's attacks and use it as this attack. If this Pokémon doesn't have the necessary Energy to use that attack, this attack does nothing."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "While it can transform into anything, each Ditto apparently has its own strengths and weaknesses when it comes to transformations.",
+        "hp": "60",
+        "id": "unk-17",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Ditto",
+        "nationalPokedexNumbers": null,
+        "number": "17",
+        "rarity": "Ultra Rare",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Colorless"
+            ],
+            "damage": "",
+            "name": "Copy Anything",
+            "text": "Choose 1 of your opponent's Pokémon's attacks and use it as this attack. If this Pokémon doesn't have the necessary Energy to use that attack, this attack does nothing."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "While it can transform into anything, each Ditto apparently has its own strengths and weaknesses when it comes to transformations.",
+        "hp": "60",
+        "id": "det1-17",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Ditto",
+        "nationalPokedexNumbers": null,
+        "number": "17",
+        "rarity": "Rare Ultra",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": [
+          {
+            "name": "Evasion Jutsu",
+            "text": "If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.",
+            "type": "Ability"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Water",
+              "Water"
+            ],
+            "damage": "",
+            "name": "Furious Shurikens",
+            "text": "This attack does 50 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": "Frogadier",
+        "evolvesTo": null,
+        "flavorText": "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
+        "hp": "140",
+        "id": "det1-9",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Greninja",
+        "nationalPokedexNumbers": null,
+        "number": "9",
+        "rarity": "Rare Ultra",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 2"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Grass",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": [
+          {
+            "name": "Evasion Jutsu",
+            "text": "If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.",
+            "type": "Ability"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Water",
+              "Water"
+            ],
+            "damage": "",
+            "name": "Furious Shurikens",
+            "text": "This attack does 50 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": "Frogadier",
+        "evolvesTo": [
+          "Greninja BREAK"
+        ],
+        "flavorText": "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
+        "hp": "140",
+        "id": "unk-9",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Greninja",
+        "nationalPokedexNumbers": null,
+        "number": "9",
+        "rarity": "Ultra Rare",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Grass",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Framestore",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Fairy"
+            ],
+            "damage": "",
+            "name": "Healing Melody",
+            "text": "Heal 10 damage from each of your Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Dark Wigglytuff",
+          "Light Wigglytuff",
+          "Wigglytuff",
+          "Wigglytuff ex",
+          "Wigglytuff-GX"
+        ],
+        "flavorText": "Recordings of Jigglypuff's strange lullabies can be purchased from department stores. These CDs can be found near the bedding area.",
+        "hp": "60",
+        "id": "unk-14",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Jigglypuff",
+        "nationalPokedexNumbers": null,
+        "number": "14",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Darkness",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fairy"
+        ],
+        "weaknesses": [
+          {
+            "type": "Metal",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Framestore",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Fairy"
+            ],
+            "damage": "",
+            "name": "Healing Melody",
+            "text": "Heal 10 damage from each of your Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Wigglytuff"
+        ],
+        "flavorText": "Recordings of Jigglypuff's strange lullabies can be purchased from department stores. These CDs can be found near the bedding area.",
+        "hp": "60",
+        "id": "det1-14",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Jigglypuff",
+        "nationalPokedexNumbers": null,
+        "number": "14",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Darkness",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fairy"
+        ],
+        "weaknesses": [
+          {
+            "type": "Metal",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20×",
+            "name": "Continuous Lick",
+            "text": "Flip a coin until you get tails. This attack does 20 damage for each heads."
+          }
+        ],
+        "convertedRetreatCost": 3,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Lickilicky"
+        ],
+        "flavorText": "It checks out whatever's around it by licking everything. If you don't clean off a spot where it's licked you, you'll break out in a rash!",
+        "hp": "100",
+        "id": "det1-16",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Lickitung",
+        "nationalPokedexNumbers": null,
+        "number": "16",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "20×",
+            "name": "Continuous Lick",
+            "text": "Flip a coin until you get tails. This attack does 20 damage for each heads."
+          }
+        ],
+        "convertedRetreatCost": 3,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Lickilicky"
+        ],
+        "flavorText": "It checks out whatever's around it by licking everything. If you don't clean off a spot where it's licked you, you'll break out in a rash!",
+        "hp": "100",
+        "id": "unk-16",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Lickitung",
+        "nationalPokedexNumbers": null,
+        "number": "16",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": [
+          {
+            "name": "Table Service",
+            "text": "Once during your turn (before your attack), you may heal 30 damage from 1 of your Pokémon.",
+            "type": "Ability"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "Framestore",
+        "attacks": [
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Grass"
+            ],
+            "damage": "70",
+            "name": "Punch and Run",
+            "text": "Switch this Pokémon with 1 of your Benched Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 3,
+        "evolvesFrom": "Lombre",
+        "evolvesTo": [],
+        "flavorText": "If it hears festive music, all its muscles fill with energy. It can't help breaking out into a dance.",
+        "hp": "140",
+        "id": "unk-2",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Ludicolo",
+        "nationalPokedexNumbers": null,
+        "number": "2",
+        "rarity": "Rare",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": [
+          {
+            "name": "Table Service",
+            "text": "Once during your turn (before your attack), you may heal 30 damage from 1 of your Pokémon.",
+            "type": "Ability"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "Framestore",
+        "attacks": [
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Grass"
+            ],
+            "damage": "70",
+            "name": "Punch and Run",
+            "text": "Switch this Pokémon with 1 of your Benched Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 3,
+        "evolvesFrom": "Lombre",
+        "evolvesTo": null,
+        "flavorText": "If it hears festive music, all its muscles fill with energy. It can't help breaking out into a dance.",
+        "hp": "140",
+        "id": "det1-2",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Ludicolo",
+        "nationalPokedexNumbers": null,
+        "number": "2",
+        "rarity": "Rare",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 2"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Fighting"
+            ],
+            "damage": "",
+            "name": "Directing Traffic",
+            "text": "Look at the top 5 cards of your deck and put them back in any order."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Fighting",
+              "Fighting"
+            ],
+            "damage": "80+",
+            "name": "Cross Chop",
+            "text": "Flip a coin. If heads, this attack does 60 more damage."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": "Machoke",
+        "evolvesTo": null,
+        "flavorText": "It grasps its opponents with its four arms and twists them up in an intricate hold. People call it \"the Machamp special.\"",
+        "hp": "160",
+        "id": "det1-13",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Machamp",
+        "nationalPokedexNumbers": null,
+        "number": "13",
+        "rarity": "Rare",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 2"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fighting"
+        ],
+        "weaknesses": [
+          {
+            "type": "Psychic",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Fighting"
+            ],
+            "damage": "",
+            "name": "Directing Traffic",
+            "text": "Look at the top 5 cards of your deck and put them back in any order."
+          },
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Fighting",
+              "Fighting"
+            ],
+            "damage": "80+",
+            "name": "Cross Chop",
+            "text": "Flip a coin. If heads, this attack does 60 more damage."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": "Machoke",
+        "evolvesTo": [
+          "Machamp BREAK",
+          "Machamp LV.X"
+        ],
+        "flavorText": "It grasps its opponents with its four arms and twists them up in an intricate hold. People call it \"the Machamp special.\"",
+        "hp": "160",
+        "id": "unk-13",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Machamp",
+        "nationalPokedexNumbers": null,
+        "number": "13",
+        "rarity": "Rare",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fighting"
+        ],
+        "weaknesses": [
+          {
+            "type": "Psychic",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Framestore",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Water"
+            ],
+            "damage": "",
+            "name": "Hold Still",
+            "text": "Heal 10 damage from this Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Dark Gyarados",
+          "Gyarados",
+          "Gyarados ex",
+          "Gyarados-GX"
+        ],
+        "flavorText": "In the distant past, they were fairly strong, but they have become gradually weaker over time.",
+        "hp": "30",
+        "id": "unk-8",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Magikarp",
+        "nationalPokedexNumbers": null,
+        "number": "8",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Framestore",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Water"
+            ],
+            "damage": "",
+            "name": "Hold Still",
+            "text": "Heal 10 damage from this Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Gyarados"
+        ],
+        "flavorText": "In the distant past, they were fairly strong, but they have become gradually weaker over time.",
+        "hp": "30",
+        "id": "det1-8",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Magikarp",
+        "nationalPokedexNumbers": null,
+        "number": "8",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Lightning",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Psychic"
+            ],
+            "damage": "30",
+            "name": "Psyjack",
+            "text": "Choose 1 of your opponent's Active Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Psychic",
+              "Psychic"
+            ],
+            "damage": "130",
+            "name": "Break Burn",
+            "text": "Discard 2 Psychic Energy from this Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Mewtwo LV.X"
+        ],
+        "flavorText": "This Pokémon was created by years of horrific gene splicing and DNA engineering experiments.",
+        "hp": "130",
+        "id": "unk-12",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Mewtwo",
+        "nationalPokedexNumbers": null,
+        "number": "12",
+        "rarity": "Ultra Rare",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Psychic"
+        ],
+        "weaknesses": [
+          {
+            "type": "Psychic",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Psychic"
+            ],
+            "damage": "30",
+            "name": "Psyjack",
+            "text": "Choose 1 of your opponent's Active Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
+          },
+          {
+            "convertedEnergyCost": 3,
+            "cost": [
+              "Colorless",
+              "Psychic",
+              "Psychic"
+            ],
+            "damage": "130",
+            "name": "Break Burn",
+            "text": "Discard 2 Psychic Energy from this Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "This Pokémon was created by years of horrific gene splicing and DNA engineering experiments.",
+        "hp": "130",
+        "id": "det1-12",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Mewtwo",
+        "nationalPokedexNumbers": null,
+        "number": "12",
+        "rarity": "Rare Ultra",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Psychic"
+        ],
+        "weaknesses": [
+          {
+            "type": "Psychic",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Grass"
+            ],
+            "damage": "10",
+            "name": "Sleep Spore",
+            "text": "Your opponent's Active Pokémon is now Asleep."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Shiinotic"
+        ],
+        "flavorText": "It scatters its shining spores around itself. Even though they're dangerous, nighttime tours of forests where Morelull live are popular.",
+        "hp": "50",
+        "id": "det1-3",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Morelull",
+        "nationalPokedexNumbers": null,
+        "number": "3",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Grass"
+            ],
+            "damage": "10",
+            "name": "Sleep Spore",
+            "text": "Your opponent's Active Pokémon is now Asleep."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Shiinotic"
+        ],
+        "flavorText": "It scatters its shining spores around itself. Even though they're dangerous, nighttime tours of forests where Morelull live are popular.",
+        "hp": "50",
+        "id": "unk-3",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Morelull",
+        "nationalPokedexNumbers": null,
+        "number": "3",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Grass"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fire",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": [
+          {
+            "name": "Pantomime",
+            "text": "When you play this Pokémon from your hand onto your Bench during your turn, you may switch 1 of your face-down Prize cards with the top card of your deck.",
+            "type": "Ability"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Psychic"
+            ],
+            "damage": "20×",
+            "name": "Juggling",
+            "text": "Flip 4 coins. This attack does 20 damage for each heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "Its pantomime skills are wonderful. You may become enraptured while watching it, but next thing you know, Mr. Mime has made a real wall.",
+        "hp": "80",
+        "id": "unk-11",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Mr. Mime",
+        "nationalPokedexNumbers": null,
+        "number": "11",
+        "rarity": "Rare",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Psychic"
+        ],
+        "weaknesses": [
+          {
+            "type": "Psychic",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": [
+          {
+            "name": "Pantomime",
+            "text": "When you play this Pokémon from your hand onto your Bench during your turn, you may switch 1 of your face-down Prize cards with the top card of your deck.",
+            "type": "Ability"
+          }
+        ],
+        "ancientTrait": null,
+        "artist": "MPC Film",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Psychic"
+            ],
+            "damage": "20×",
+            "name": "Juggling",
+            "text": "Flip 4 coins. This attack does 20 damage for each heads."
+          }
+        ],
+        "convertedRetreatCost": 1,
+        "evolvesFrom": null,
+        "evolvesTo": null,
+        "flavorText": "Its pantomime skills are wonderful. You may become enraptured while watching it, but next thing you know, Mr. Mime has made a real wall.",
+        "hp": "80",
+        "id": "det1-11",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Mr. Mime",
+        "nationalPokedexNumbers": null,
+        "number": "11",
+        "rarity": "Rare",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Psychic"
+        ],
+        "weaknesses": [
+          {
+            "type": "Psychic",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Framestore",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Water"
+            ],
+            "damage": "10",
+            "name": "Panic",
+            "text": "This Pokémon is now Confused."
+          }
+        ],
+        "convertedRetreatCost": 3,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Dark Golduck",
+          "Golduck",
+          "Light Golduck"
+        ],
+        "flavorText": "Using psychokinesis gives it a headache, so it normally passes the time spacing out and doing as little as possible.",
+        "hp": "80",
+        "id": "unk-7",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Psyduck",
+        "nationalPokedexNumbers": null,
+        "number": "7",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Grass",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Framestore",
+        "attacks": [
+          {
+            "convertedEnergyCost": 1,
+            "cost": [
+              "Water"
+            ],
+            "damage": "10",
+            "name": "Panic",
+            "text": "This Pokémon is now Confused."
+          }
+        ],
+        "convertedRetreatCost": 3,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Golduck"
+        ],
+        "flavorText": "Using psychokinesis gives it a headache, so it normally passes the time spacing out and doing as little as possible.",
+        "hp": "80",
+        "id": "det1-7",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Psyduck",
+        "nationalPokedexNumbers": null,
+        "number": "7",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Water"
+        ],
+        "weaknesses": [
+          {
+            "type": "Grass",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Framestore",
+        "attacks": [
+          {
+            "convertedEnergyCost": 4,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "150",
+            "name": "Pitch",
+            "text": "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 4,
+        "evolvesFrom": "Vigoroth",
+        "evolvesTo": [],
+        "flavorText": "The world's laziest Pokémon. It moves to another spot when there's no food left within its reach.",
+        "hp": "180",
+        "id": "unk-18",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Slaking",
+        "nationalPokedexNumbers": null,
+        "number": "18",
+        "rarity": "Rare",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Framestore",
+        "attacks": [
+          {
+            "convertedEnergyCost": 4,
+            "cost": [
+              "Colorless",
+              "Colorless",
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "150",
+            "name": "Pitch",
+            "text": "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon."
+          }
+        ],
+        "convertedRetreatCost": 4,
+        "evolvesFrom": "Vigoroth",
+        "evolvesTo": null,
+        "flavorText": "The world's laziest Pokémon. It moves to another spot when there's no food left within its reach.",
+        "hp": "180",
+        "id": "det1-18",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Slaking",
+        "nationalPokedexNumbers": null,
+        "number": "18",
+        "rarity": "Rare",
+        "regulationMark": null,
+        "resistances": null,
+        "retreatCost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Stage 2"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Colorless"
+        ],
+        "weaknesses": [
+          {
+            "type": "Fighting",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pkmn": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Framestore",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "10+",
+            "name": "Play Rough",
+            "text": "Flip a coin. If heads, this attack does 30 more damage."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Granbull"
+        ],
+        "flavorText": "It grows close to others easily and is also easily spoiled. The disparity between its face and its actions makes many young people wild about it.",
+        "hp": "70",
+        "id": "unk-15",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Snubbull",
+        "nationalPokedexNumbers": null,
+        "number": "15",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Darkness",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": null,
+        "supertype": "Pokémon",
+        "types": [
+          "Fairy"
+        ],
+        "weaknesses": [
+          {
+            "type": "Metal",
+            "value": "×2"
+          }
+        ]
+      }
+    ],
+    "ptcgio": [
+      {
+        "abilities": null,
+        "ancientTrait": null,
+        "artist": "Framestore",
+        "attacks": [
+          {
+            "convertedEnergyCost": 2,
+            "cost": [
+              "Colorless",
+              "Colorless"
+            ],
+            "damage": "10+",
+            "name": "Play Rough",
+            "text": "Flip a coin. If heads, this attack does 30 more damage."
+          }
+        ],
+        "convertedRetreatCost": 2,
+        "evolvesFrom": null,
+        "evolvesTo": [
+          "Granbull"
+        ],
+        "flavorText": "It grows close to others easily and is also easily spoiled. The disparity between its face and its actions makes many young people wild about it.",
+        "hp": "70",
+        "id": "det1-15",
+        "images": {},
+        "legalities": {},
+        "level": null,
+        "name": "Snubbull",
+        "nationalPokedexNumbers": null,
+        "number": "15",
+        "rarity": "Common",
+        "regulationMark": null,
+        "resistances": [
+          {
+            "type": "Darkness",
+            "value": "-20"
+          }
+        ],
+        "retreatCost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "rules": null,
+        "subtypes": [
+          "Basic"
+        ],
+        "supertype": "Pokémon",
+        "types": [
+          "Fairy"
+        ],
+        "weaknesses": [
+          {
+            "type": "Metal",
+            "value": "×2"
+          }
+        ]
+      }
+    ]
+  }
+]

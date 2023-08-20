@@ -1,13 +1,11 @@
 use super::set::SetFetcher;
 use crate::pkmn_data::set::Set;
 use anyhow::Result;
-use futures::stream::FuturesOrdered;
 use heck::ToSnekCase;
 use reqwest_middleware::ClientWithMiddleware;
 use scraper::{ElementRef, Selector};
 use selectors::Element;
 use std::path::Path;
-use tokio_stream::StreamExt;
 
 pub(super) struct SeriesFetcher {
     series: String,

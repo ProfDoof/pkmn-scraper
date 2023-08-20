@@ -1,0 +1,3597 @@
+Differences exist in idx 0 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Mizue",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Grass"
+        ],
+        "damage": "30",
+        "name": "Razor Leaf",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Dark Ivysaur",
+      "Ivysaur"
+    ],
+    "flavorText": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+    "hp": "70",
+    "id": "unk-1",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Bulbasaur",
+    "nationalPokedexNumbers": null,
+    "number": "1",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Mizue",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Grass"
+        ],
+        "damage": "30",
+        "name": "Razor Leaf",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Ivysaur"
+    ],
+    "flavorText": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+    "hp": "70",
+    "id": "mcd21-1",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Bulbasaur",
+    "nationalPokedexNumbers": null,
+    "number": "1",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Ivysaur"
+
+    right: "Dark Ivysaur"
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-1"
+
+    right: "unk-1"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 1 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kagemaru Himeno",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Scratch",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fire"
+        ],
+        "damage": "20",
+        "name": "Flame Tail",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Charmeleon",
+      "Dark Charmeleon"
+    ],
+    "flavorText": "The flame on its tail indicates Charmander's life force. If it is healthy, the flame burns brightly.",
+    "hp": "70",
+    "id": "unk-9",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Charmander",
+    "nationalPokedexNumbers": null,
+    "number": "9",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kagemaru Himeno",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Scratch",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fire"
+        ],
+        "damage": "20",
+        "name": "Flame Tail",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Charmeleon"
+    ],
+    "flavorText": "The flame on its tail indicates Charmander's life force. If it is healthy, the flame burns brightly.",
+    "hp": "70",
+    "id": "mcd21-9",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Charmander",
+    "nationalPokedexNumbers": null,
+    "number": "9",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-9"
+
+    right: "unk-9"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 2 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "5ban Graphics",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "10",
+        "name": "Vine Whip",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Grass"
+        ],
+        "damage": "20",
+        "name": "Seed Bomb",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Quilladin"
+    ],
+    "flavorText": "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
+    "hp": "60",
+    "id": "unk-6",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Chespin",
+    "nationalPokedexNumbers": null,
+    "number": "6",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "5ban Graphics",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "10",
+        "name": "Vine Whip",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Grass"
+        ],
+        "damage": "20",
+        "name": "Seed Bomb",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Quilladin"
+    ],
+    "flavorText": "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
+    "hp": "60",
+    "id": "mcd21-6",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Chespin",
+    "nationalPokedexNumbers": null,
+    "number": "6",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-6"
+
+    right: "unk-6"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 3 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "sowsow",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "10",
+        "name": "Mini Drain",
+        "text": "Heal 10 damage from this Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Bayleef"
+    ],
+    "flavorText": "It uses the leaf on its head to determine the temperature and humidity. It loves to sunbathe.",
+    "hp": "70",
+    "id": "unk-2",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Chikorita",
+    "nationalPokedexNumbers": null,
+    "number": "2",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "sowsow",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "10",
+        "name": "Mini Drain",
+        "text": "Heal 10 damage from this Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Bayleef"
+    ],
+    "flavorText": "It uses the leaf on its head to determine the temperature and humidity. It loves to sunbathe.",
+    "hp": "70",
+    "id": "mcd21-2",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Chikorita",
+    "nationalPokedexNumbers": null,
+    "number": "2",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-2"
+
+    right: "unk-2"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 4 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10×",
+        "name": "Fury Swipes",
+        "text": "Flip 3 coins. This attack does 10 damage for each heads."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Monferno"
+    ],
+    "flavorText": "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick.",
+    "hp": "60",
+    "id": "unk-12",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Chimchar",
+    "nationalPokedexNumbers": null,
+    "number": "12",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10×",
+        "name": "Fury Swipes",
+        "text": "Flip 3 coins. This attack does 10 damage for each heads."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Monferno"
+    ],
+    "flavorText": "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick.",
+    "hp": "60",
+    "id": "mcd21-12",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Chimchar",
+    "nationalPokedexNumbers": null,
+    "number": "12",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-12"
+
+    right: "unk-12"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 5 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "kirisAki",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Hammer In",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Dark Quilava",
+      "Quilava"
+    ],
+    "flavorText": "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
+    "hp": "70",
+    "id": "unk-10",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Cyndaquil",
+    "nationalPokedexNumbers": null,
+    "number": "10",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "kirisAki",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Hammer In",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Quilava"
+    ],
+    "flavorText": "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
+    "hp": "70",
+    "id": "mcd21-10",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Cyndaquil",
+    "nationalPokedexNumbers": null,
+    "number": "10",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Quilava"
+
+    right: "Dark Quilava"
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-10"
+
+    right: "unk-10"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 6 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "5ban Graphics",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fire"
+        ],
+        "damage": "10",
+        "name": "Scratch",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fire"
+        ],
+        "damage": "20",
+        "name": "Live Coal",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Braixen"
+    ],
+    "flavorText": "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.",
+    "hp": "60",
+    "id": "unk-14",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Fennekin",
+    "nationalPokedexNumbers": null,
+    "number": "14",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "5ban Graphics",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fire"
+        ],
+        "damage": "10",
+        "name": "Scratch",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fire"
+        ],
+        "damage": "20",
+        "name": "Live Coal",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Braixen"
+    ],
+    "flavorText": "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.",
+    "hp": "60",
+    "id": "mcd21-14",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Fennekin",
+    "nationalPokedexNumbers": null,
+    "number": "14",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-14"
+
+    right: "unk-14"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 7 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "5ban Graphics",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Water"
+        ],
+        "damage": "10",
+        "name": "Pound",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Water Drip",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Frogadier"
+    ],
+    "flavorText": "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.",
+    "hp": "60",
+    "id": "unk-22",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Froakie",
+    "nationalPokedexNumbers": null,
+    "number": "22",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "5ban Graphics",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Water"
+        ],
+        "damage": "10",
+        "name": "Pound",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Water Drip",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Frogadier"
+    ],
+    "flavorText": "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.",
+    "hp": "60",
+    "id": "mcd21-22",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Froakie",
+    "nationalPokedexNumbers": null,
+    "number": "22",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-22"
+
+    right: "unk-22"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 8 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "kirisAki",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Grass"
+        ],
+        "damage": "30",
+        "name": "Branch Poke",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Thwackey"
+    ],
+    "flavorText": "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area.",
+    "hp": "60",
+    "id": "unk-8",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Grookey",
+    "nationalPokedexNumbers": null,
+    "number": "8",
+    "rarity": "No Rarity",
+    "regulationMark": "D",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "kirisAki",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Grass"
+        ],
+        "damage": "30",
+        "name": "Branch Poke",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Thwackey"
+    ],
+    "flavorText": "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area.",
+    "hp": "60",
+    "id": "mcd21-8",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Grookey",
+    "nationalPokedexNumbers": null,
+    "number": "8",
+    "rarity": null,
+    "regulationMark": "D",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-8"
+
+    right: "unk-8"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 9 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Akira Komayama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fire"
+        ],
+        "damage": "10",
+        "name": "Bite",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fire"
+        ],
+        "damage": "20",
+        "name": "Flare",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Torracat"
+    ],
+    "flavorText": "While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs.",
+    "hp": "70",
+    "id": "unk-15",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Litten",
+    "nationalPokedexNumbers": null,
+    "number": "15",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Akira Komayama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fire"
+        ],
+        "damage": "10",
+        "name": "Bite",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fire"
+        ],
+        "damage": "20",
+        "name": "Flare",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Torracat"
+    ],
+    "flavorText": "While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs.",
+    "hp": "70",
+    "id": "mcd21-15",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Litten",
+    "nationalPokedexNumbers": null,
+    "number": "15",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-15"
+
+    right: "unk-15"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 10 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Aya Kusube",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Water"
+        ],
+        "damage": "10",
+        "name": "Tackle",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Mud-Slap",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Marshtomp"
+    ],
+    "flavorText": "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
+    "hp": "60",
+    "id": "unk-19",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Mudkip",
+    "nationalPokedexNumbers": null,
+    "number": "19",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Aya Kusube",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Water"
+        ],
+        "damage": "10",
+        "name": "Tackle",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Mud-Slap",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Marshtomp"
+    ],
+    "flavorText": "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
+    "hp": "60",
+    "id": "mcd21-19",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Mudkip",
+    "nationalPokedexNumbers": null,
+    "number": "19",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-19"
+
+    right: "unk-19"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 11 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Ken Sugimori",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Water Pulse",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Dewott"
+    ],
+    "flavorText": "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
+    "hp": "60",
+    "id": "unk-21",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Oshawott",
+    "nationalPokedexNumbers": null,
+    "number": "21",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Ken Sugimori",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Water Pulse",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Dewott"
+    ],
+    "flavorText": "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
+    "hp": "60",
+    "id": "mcd21-21",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Oshawott",
+    "nationalPokedexNumbers": null,
+    "number": "21",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-21"
+
+    right: "unk-21"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 12 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Sanosuke Sakuma",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Lightning"
+        ],
+        "damage": "",
+        "name": "Meal Time",
+        "text": "Flip a coin until you get tails. For each heads, draw a card."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Lightning"
+        ],
+        "damage": "20",
+        "name": "Gnaw",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Alolan Raichu",
+      "Dark Raichu",
+      "Raichu",
+      "Raichu ex",
+      "Raichu-GX"
+    ],
+    "flavorText": "Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning.",
+    "hp": "60",
+    "id": "unk-25",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Pikachu",
+    "nationalPokedexNumbers": null,
+    "number": "25",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Metal",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Sanosuke Sakuma",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Lightning"
+        ],
+        "damage": "",
+        "name": "Meal Time",
+        "text": "Flip a coin until you get tails. For each heads, draw a card."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Lightning"
+        ],
+        "damage": "20",
+        "name": "Gnaw",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Raichu"
+    ],
+    "flavorText": "Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning.",
+    "hp": "60",
+    "id": "mcd21-25",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Pikachu",
+    "nationalPokedexNumbers": null,
+    "number": "25",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Metal",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Raichu"
+
+    right: "Alolan Raichu"
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-25"
+
+    right: "unk-25"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 13 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Shibuzoh.",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Peck",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Wave Splash",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Prinplup"
+    ],
+    "flavorText": "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
+    "hp": "70",
+    "id": "unk-20",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Piplup",
+    "nationalPokedexNumbers": null,
+    "number": "20",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Shibuzoh.",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Peck",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Wave Splash",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Prinplup"
+    ],
+    "flavorText": "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
+    "hp": "70",
+    "id": "mcd21-20",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Piplup",
+    "nationalPokedexNumbers": null,
+    "number": "20",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-20"
+
+    right: "unk-20"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 14 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Water"
+        ],
+        "damage": "10",
+        "name": "Pound",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Water Gun",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Brionne"
+    ],
+    "flavorText": "This Pokémon snorts body fluids from its nose, blowing balloons to smash into its foes. It's famous for being a hard worker.",
+    "hp": "70",
+    "id": "unk-23",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Popplio",
+    "nationalPokedexNumbers": null,
+    "number": "23",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Water"
+        ],
+        "damage": "10",
+        "name": "Pound",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Water Gun",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Brionne"
+    ],
+    "flavorText": "This Pokémon snorts body fluids from its nose, blowing balloons to smash into its foes. It's famous for being a hard worker.",
+    "hp": "70",
+    "id": "mcd21-23",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Popplio",
+    "nationalPokedexNumbers": null,
+    "number": "23",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-23"
+
+    right: "unk-23"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 15 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Megumi Mizutani",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Tackle",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Grass"
+        ],
+        "damage": "20",
+        "name": "Leafage",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Dartrix"
+    ],
+    "flavorText": "This wary Pokémon uses photosynthesis to store up energy during the day, while becoming active at night.",
+    "hp": "60",
+    "id": "unk-7",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Rowlet",
+    "nationalPokedexNumbers": null,
+    "number": "7",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Megumi Mizutani",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Tackle",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Grass"
+        ],
+        "damage": "20",
+        "name": "Leafage",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Dartrix"
+    ],
+    "flavorText": "This wary Pokémon uses photosynthesis to store up energy during the day, while becoming active at night.",
+    "hp": "60",
+    "id": "mcd21-7",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Rowlet",
+    "nationalPokedexNumbers": null,
+    "number": "7",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-7"
+
+    right: "unk-7"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 16 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Hitoshi Ariga",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fire"
+        ],
+        "damage": "10",
+        "name": "Super Singe",
+        "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Burned."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Raboot"
+    ],
+    "flavorText": "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power.",
+    "hp": "60",
+    "id": "unk-16",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Scorbunny",
+    "nationalPokedexNumbers": null,
+    "number": "16",
+    "rarity": "No Rarity",
+    "regulationMark": "D",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Hitoshi Ariga",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fire"
+        ],
+        "damage": "10",
+        "name": "Super Singe",
+        "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Burned."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Raboot"
+    ],
+    "flavorText": "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power.",
+    "hp": "60",
+    "id": "mcd21-16",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Scorbunny",
+    "nationalPokedexNumbers": null,
+    "number": "16",
+    "rarity": null,
+    "regulationMark": "D",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-16"
+
+    right: "unk-16"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 17 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Ken Sugimori",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Grass"
+        ],
+        "damage": "20×",
+        "name": "Slam",
+        "text": "Flip 2 coins. This attack does 20 damage times the number of heads."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Servine"
+    ],
+    "flavorText": "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter.",
+    "hp": "60",
+    "id": "unk-5",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Snivy",
+    "nationalPokedexNumbers": null,
+    "number": "5",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Water",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Ken Sugimori",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Grass"
+        ],
+        "damage": "20×",
+        "name": "Slam",
+        "text": "Flip 2 coins. This attack does 20 damage times the number of heads."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Servine"
+    ],
+    "flavorText": "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter.",
+    "hp": "60",
+    "id": "mcd21-5",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Snivy",
+    "nationalPokedexNumbers": null,
+    "number": "5",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Water",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-5"
+
+    right: "unk-5"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 18 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Mizue",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Bind",
+        "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Drizzile"
+    ],
+    "flavorText": "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping.",
+    "hp": "60",
+    "id": "unk-24",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Sobble",
+    "nationalPokedexNumbers": null,
+    "number": "24",
+    "rarity": "No Rarity",
+    "regulationMark": "D",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Mizue",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20",
+        "name": "Bind",
+        "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Drizzile"
+    ],
+    "flavorText": "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping.",
+    "hp": "60",
+    "id": "mcd21-24",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Sobble",
+    "nationalPokedexNumbers": null,
+    "number": "24",
+    "rarity": null,
+    "regulationMark": "D",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-24"
+
+    right: "unk-24"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 19 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "tetsuya koizumi",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Water"
+        ],
+        "damage": "10",
+        "name": "Bubble",
+        "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Dark Wartortle",
+      "Wartortle"
+    ],
+    "flavorText": "It shelters itself in its shell, then strikes back with spouts of water at every opportunity.",
+    "hp": "60",
+    "id": "unk-17",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Squirtle",
+    "nationalPokedexNumbers": null,
+    "number": "17",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "tetsuya koizumi",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Water"
+        ],
+        "damage": "10",
+        "name": "Bubble",
+        "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Wartortle"
+    ],
+    "flavorText": "It shelters itself in its shell, then strikes back with spouts of water at every opportunity.",
+    "hp": "60",
+    "id": "mcd21-17",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Squirtle",
+    "nationalPokedexNumbers": null,
+    "number": "17",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Wartortle"
+
+    right: "Dark Wartortle"
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-17"
+
+    right: "unk-17"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 20 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Ken Sugimori",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fire"
+        ],
+        "damage": "30",
+        "name": "Ember",
+        "text": "Discard an Energy attached to this Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Pignite"
+    ],
+    "flavorText": "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead.",
+    "hp": "70",
+    "id": "unk-13",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Tepig",
+    "nationalPokedexNumbers": null,
+    "number": "13",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Ken Sugimori",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fire"
+        ],
+        "damage": "30",
+        "name": "Ember",
+        "text": "Discard an Energy attached to this Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Pignite"
+    ],
+    "flavorText": "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead.",
+    "hp": "70",
+    "id": "mcd21-13",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Tepig",
+    "nationalPokedexNumbers": null,
+    "number": "13",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-13"
+
+    right: "unk-13"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 21 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "sui",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fire"
+        ],
+        "damage": "20",
+        "name": "Ember",
+        "text": "Flip a coin. If tails, discard a Fire Energy attached to this Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Combusken"
+    ],
+    "flavorText": "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees Fahrenheit.",
+    "hp": "60",
+    "id": "unk-11",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Torchic",
+    "nationalPokedexNumbers": null,
+    "number": "11",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "sui",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fire"
+        ],
+        "damage": "20",
+        "name": "Ember",
+        "text": "Flip a coin. If tails, discard a Fire Energy attached to this Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Combusken"
+    ],
+    "flavorText": "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees Fahrenheit.",
+    "hp": "60",
+    "id": "mcd21-11",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Torchic",
+    "nationalPokedexNumbers": null,
+    "number": "11",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-11"
+
+    right: "unk-11"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 22 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kagemaru Himeno",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Water"
+        ],
+        "damage": "10×",
+        "name": "Fury Strikes",
+        "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Croconaw",
+      "Dark Croconaw"
+    ],
+    "flavorText": "It is small but rough and tough. It won't hesitate to take a bite out of anything that moves.",
+    "hp": "60",
+    "id": "unk-18",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Totodile",
+    "nationalPokedexNumbers": null,
+    "number": "18",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kagemaru Himeno",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Water"
+        ],
+        "damage": "10×",
+        "name": "Fury Strikes",
+        "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Croconaw"
+    ],
+    "flavorText": "It is small but rough and tough. It won't hesitate to take a bite out of anything that moves.",
+    "hp": "60",
+    "id": "mcd21-18",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Totodile",
+    "nationalPokedexNumbers": null,
+    "number": "18",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-18"
+
+    right: "unk-18"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 23 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Akira Komayama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "10+",
+        "name": "Quick Attack",
+        "text": "Flip a coin. If heads, this attack does 10 more damage."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Grovyle"
+    ],
+    "flavorText": "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above.",
+    "hp": "60",
+    "id": "unk-3",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Treecko",
+    "nationalPokedexNumbers": null,
+    "number": "3",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Akira Komayama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "10+",
+        "name": "Quick Attack",
+        "text": "Flip a coin. If heads, this attack does 10 more damage."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Grovyle"
+    ],
+    "flavorText": "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above.",
+    "hp": "60",
+    "id": "mcd21-3",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Treecko",
+    "nationalPokedexNumbers": null,
+    "number": "3",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-3"
+
+    right: "unk-3"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 24 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "OOYAMA",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20",
+        "name": "Tackle",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Grass",
+          "Grass"
+        ],
+        "damage": "50",
+        "name": "Razor Leaf",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Grotle"
+    ],
+    "flavorText": "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty.",
+    "hp": "80",
+    "id": "unk-4",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Turtwig",
+    "nationalPokedexNumbers": null,
+    "number": "4",
+    "rarity": "No Rarity",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "OOYAMA",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20",
+        "name": "Tackle",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Grass",
+          "Grass"
+        ],
+        "damage": "50",
+        "name": "Razor Leaf",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Grotle"
+    ],
+    "flavorText": "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty.",
+    "hp": "80",
+    "id": "mcd21-4",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Turtwig",
+    "nationalPokedexNumbers": null,
+    "number": "4",
+    "rarity": null,
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "mcd21-4"
+
+    right: "unk-4"
+
+Difference between left and right for path "root[0].rarity"
+
+    left: null
+
+    right: "No Rarity"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################

@@ -1,0 +1,5342 @@
+Differences exist in idx 0 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "PLANETA Tsuji",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Lightning"
+        ],
+        "damage": "60",
+        "name": "Electro Ball",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Lightning"
+        ],
+        "damage": "140+",
+        "name": "Thunderstrike Tail",
+        "text": "You may discard 2 Energy from this Pokémon to have this attack do 100 more damage."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Flaaffy",
+    "evolvesTo": [],
+    "flavorText": null,
+    "hp": "330",
+    "id": "svbsp-16",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Ampharos ex",
+    "nationalPokedexNumbers": null,
+    "number": "16",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "subtypes": [
+      "ex-3"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "PLANETA Tsuji",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Lightning"
+        ],
+        "damage": "60",
+        "name": "Electro Ball"
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Lightning"
+        ],
+        "damage": "140+",
+        "name": "Thunderstrike Tail",
+        "text": "You may discard 2 Energy from this Pokémon to have this attack do 100 more damage."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Flaaffy",
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "330",
+    "id": "svp-16",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Ampharos ex",
+    "nationalPokedexNumbers": null,
+    "number": "16",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "subtypes": [
+      "Stage 2",
+      "ex"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].attacks[0].text"
+
+    left: null
+
+    right: ""
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-16"
+
+    right: "svbsp-16"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Stage 2"
+
+    right: "ex-3"
+
+####################
+Differences exist in idx 1 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "PLANETA Hiiragi",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fighting"
+        ],
+        "damage": "20×",
+        "name": "Angry Grudge",
+        "text": "Put up to 12 damage counters on this Pokémon. This attack does 20 damage for each damage counter you placed in this way."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fighting"
+        ],
+        "damage": "150",
+        "name": "Seismic Toss",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Primeape",
+    "evolvesTo": [],
+    "flavorText": null,
+    "hp": "320",
+    "id": "svbsp-32",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Annihilape ex",
+    "nationalPokedexNumbers": null,
+    "number": "32",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "subtypes": [
+      "ex-3"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+null
+==================
+
+Difference between left and right for path "root"
+
+    left: null
+
+    right: [{"abilities":null,"ancientTrait":null,"artist":"PLANETA Hiiragi","attacks":[{"convertedEnergyCost":1,"cost":["Fighting"],"damage":"20×","name":"Angry Grudge","text":"Put up to 12 damage counters on this Pokémon. This attack does 20 damage for each damage counter you placed in this way."},{"convertedEnergyCost":2,"cost":["Colorless","Fighting"],"damage":"150","name":"Seismic Toss","text":""}],"convertedRetreatCost":2,"evolvesFrom":"Primeape","evolvesTo":[],"flavorText":null,"hp":"320","id":"svbsp-32","images":{},"legalities":{},"level":null,"name":"Annihilape ex","nationalPokedexNumbers":null,"number":"32","rarity":"Promo","regulationMark":"G","resistances":null,"retreatCost":["Colorless","Colorless"],"rules":["Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."],"subtypes":["ex-3"],"supertype":"Pokémon","types":["Fighting"],"weaknesses":[{"type":"Psychic","value":"×2"}]}]
+
+####################
+Differences exist in idx 2 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Ryuta Fuse",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fire"
+        ],
+        "damage": "30",
+        "name": "Crunch",
+        "text": "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Fire",
+          "Fire"
+        ],
+        "damage": "120",
+        "name": "Fire Mane",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Growlithe",
+    "evolvesTo": [],
+    "flavorText": "An ancient picture scroll shows that people were captivated by its movement as it ran through prairies.",
+    "hp": "130",
+    "id": "svbsp-11",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Arcanine",
+    "nationalPokedexNumbers": null,
+    "number": "11",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Ryuta Fuse",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fire"
+        ],
+        "damage": "30",
+        "name": "Crunch",
+        "text": "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Fire",
+          "Fire"
+        ],
+        "damage": "120",
+        "name": "Fire Mane",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Growlithe",
+    "evolvesTo": null,
+    "flavorText": "An ancient picture scroll shows that people were captivated by its movement as it ran through prairies.",
+    "hp": "130",
+    "id": "svp-11",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Arcanine",
+    "nationalPokedexNumbers": null,
+    "number": "11",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-11"
+
+    right: "svbsp-11"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 3 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Super Cold",
+        "text": "As often as you like during your turn, you may attach a Basic Water Energy card from your hand to 1 of your Pokémon.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Oswaldo KATO",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Water",
+          "Water"
+        ],
+        "damage": "130",
+        "name": "Buster Tail",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Arctibax",
+    "evolvesTo": [],
+    "flavorText": "This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.",
+    "hp": "160",
+    "id": "svbsp-19",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Baxcalibur",
+    "nationalPokedexNumbers": null,
+    "number": "19",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Super Cold",
+        "text": "As often as you like during your turn, you may attach a Basic Water Energy card from your hand to 1 of your Pokémon.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Oswaldo KATO",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Water",
+          "Water"
+        ],
+        "damage": "130",
+        "name": "Buster Tail",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Arctibax",
+    "evolvesTo": null,
+    "flavorText": "This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.",
+    "hp": "160",
+    "id": "svp-19",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Baxcalibur",
+    "nationalPokedexNumbers": null,
+    "number": "19",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 2"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-19"
+
+    right: "svbsp-19"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 2"]
+
+    right: null
+
+####################
+Differences exist in idx 4 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "MINAMINAMI Take",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fire"
+        ],
+        "damage": "30",
+        "name": "Heat Tackle",
+        "text": "This Pokémon also does 10 damage to itself."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Charmeleon",
+      "Dark Charmeleon"
+    ],
+    "flavorText": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+    "hp": "60",
+    "id": "svbsp-44",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Charmander",
+    "nationalPokedexNumbers": null,
+    "number": "44",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+null
+==================
+
+Difference between left and right for path "root"
+
+    left: null
+
+    right: [{"abilities":null,"ancientTrait":null,"artist":"MINAMINAMI Take","attacks":[{"convertedEnergyCost":1,"cost":["Fire"],"damage":"30","name":"Heat Tackle","text":"This Pokémon also does 10 damage to itself."}],"convertedRetreatCost":1,"evolvesFrom":null,"evolvesTo":["Charmeleon","Dark Charmeleon"],"flavorText":"From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.","hp":"60","id":"svbsp-44","images":{},"legalities":{},"level":null,"name":"Charmander","nationalPokedexNumbers":null,"number":"44","rarity":"Promo","regulationMark":"G","resistances":null,"retreatCost":["Colorless"],"rules":null,"subtypes":null,"supertype":"Pokémon","types":["Fire"],"weaknesses":[{"type":"Water","value":"×2"}]}]
+
+####################
+Differences exist in idx 5 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Shivery Chill",
+        "text": "Once during your turn, if this Pokémon is in the Active Spot, you may search your deck for up to 2 Basic Water Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "aky CG Works",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "damage": "60×",
+        "name": "Hail Blade",
+        "text": "You may discard any amount of Water Energy from your Pokémon. This attack does 60 damage for each card you discarded in this way."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "220",
+    "id": "svbsp-30",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Chien-Pao ex",
+    "nationalPokedexNumbers": null,
+    "number": "30",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "subtypes": [
+      "ex-3"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+null
+==================
+
+Difference between left and right for path "root"
+
+    left: null
+
+    right: [{"abilities":[{"name":"Shivery Chill","text":"Once during your turn, if this Pokémon is in the Active Spot, you may search your deck for up to 2 Basic Water Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.","type":"Ability"}],"ancientTrait":null,"artist":"aky CG Works","attacks":[{"convertedEnergyCost":2,"cost":["Water","Water"],"damage":"60×","name":"Hail Blade","text":"You may discard any amount of Water Energy from your Pokémon. This attack does 60 damage for each card you discarded in this way."}],"convertedRetreatCost":2,"evolvesFrom":null,"evolvesTo":null,"flavorText":null,"hp":"220","id":"svbsp-30","images":{},"legalities":{},"level":null,"name":"Chien-Pao ex","nationalPokedexNumbers":null,"number":"30","rarity":"Promo","regulationMark":"G","resistances":null,"retreatCost":["Colorless","Colorless"],"rules":["Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."],"subtypes":["ex-3"],"supertype":"Pokémon","types":["Water"],"weaknesses":[{"type":"Metal","value":"×2"}]}]
+
+####################
+Differences exist in idx 6 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Mina Nakai",
+    "attacks": [
+      {
+        "convertedEnergyCost": 0,
+        "cost": [],
+        "damage": "",
+        "name": "Grasping Draw",
+        "text": "Draw cards until you have 7 cards in your hand."
+      }
+    ],
+    "convertedRetreatCost": 0,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "Because of its unusual, starlike silhouette, people believe that it came here on a meteor.",
+    "hp": "30",
+    "id": "svbsp-37",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Cleffa",
+    "nationalPokedexNumbers": null,
+    "number": "37",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+null
+==================
+
+Difference between left and right for path "root"
+
+    left: null
+
+    right: [{"abilities":null,"ancientTrait":null,"artist":"Mina Nakai","attacks":[{"convertedEnergyCost":0,"cost":[],"damage":"","name":"Grasping Draw","text":"Draw cards until you have 7 cards in your hand."}],"convertedRetreatCost":0,"evolvesFrom":null,"evolvesTo":null,"flavorText":"Because of its unusual, starlike silhouette, people believe that it came here on a meteor.","hp":"30","id":"svbsp-37","images":{},"legalities":{},"level":null,"name":"Cleffa","nationalPokedexNumbers":null,"number":"37","rarity":"Promo","regulationMark":"G","resistances":null,"retreatCost":[],"rules":null,"subtypes":null,"supertype":"Pokémon","types":["Psychic"],"weaknesses":[{"type":"Metal","value":"×2"}]}]
+
+####################
+Differences exist in idx 7 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "5ban Graphics",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Power Run",
+        "text": "Search your deck for a Basic Energy card and attach it to this Pokémon. Then, shuffle your deck."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "180",
+        "name": "Full Throttle",
+        "text": "During your next turn, this Pokémon can't attack."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "210",
+    "id": "svbsp-18",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Cyclizar ex",
+    "nationalPokedexNumbers": null,
+    "number": "18",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "subtypes": [
+      "ex-3"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "5ban Graphics",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Power Run",
+        "text": "Search your deck for a Basic Energy card and attach it to this Pokémon. Then, shuffle your deck."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "180",
+        "name": "Full Throttle",
+        "text": "During your next turn, this Pokémon can't attack."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "210",
+    "id": "svp-18",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Cyclizar ex",
+    "nationalPokedexNumbers": null,
+    "number": "18",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-18"
+
+    right: "svbsp-18"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Basic"
+
+    right: "ex-3"
+
+####################
+Differences exist in idx 8 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Shin Nagasawa",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Water"
+        ],
+        "damage": "60",
+        "name": "Hammer In",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Water"
+        ],
+        "damage": "100+",
+        "name": "Dangerous Wave",
+        "text": "Flip 2 coins. If both of them are heads, this attack does 100 more damage."
+      }
+    ],
+    "convertedRetreatCost": 4,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "This Pokémon is a glutton, but it's bad at getting food. It teams up with a Tatsugiri to catch prey.",
+    "hp": "150",
+    "id": "svbsp-12",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Dondozo",
+    "nationalPokedexNumbers": null,
+    "number": "12",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Shin Nagasawa",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Water"
+        ],
+        "damage": "60",
+        "name": "Hammer In",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Water"
+        ],
+        "damage": "100+",
+        "name": "Dangerous Wave",
+        "text": "Flip 2 coins. If both of them are heads, this attack does 100 more damage."
+      }
+    ],
+    "convertedRetreatCost": 4,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "This Pokémon is a glutton, but it's bad at getting food. It teams up with a Tatsugiri to catch prey.",
+    "hp": "150",
+    "id": "svp-12",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Dondozo",
+    "nationalPokedexNumbers": null,
+    "number": "12",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-12"
+
+    right: "svbsp-12"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 9 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "saino misaki",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Call for Family",
+        "text": "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Tackle",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Dark Espeon",
+      "Dark Flareon",
+      "Dark Jolteon",
+      "Dark Vaporeon",
+      "Espeon",
+      "Espeon ex",
+      "Espeon-GX",
+      "Flareon",
+      "Flareon ex",
+      "Flareon-GX",
+      "Glaceon",
+      "Glaceon-GX",
+      "Jolteon",
+      "Jolteon ex",
+      "Jolteon-GX",
+      "Leafeon",
+      "Leafeon-GX",
+      "Light Flareon",
+      "Light Jolteon",
+      "Light Vaporeon",
+      "Sylveon",
+      "Sylveon-GX",
+      "Umbreon",
+      "Umbreon ex",
+      "Umbreon-GX",
+      "Vaporeon",
+      "Vaporeon ex",
+      "Vaporeon-GX"
+    ],
+    "flavorText": "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
+    "hp": "60",
+    "id": "svbsp-43",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Eevee",
+    "nationalPokedexNumbers": null,
+    "number": "43",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+null
+==================
+
+Difference between left and right for path "root"
+
+    left: null
+
+    right: [{"abilities":null,"ancientTrait":null,"artist":"saino misaki","attacks":[{"convertedEnergyCost":1,"cost":["Colorless"],"damage":"","name":"Call for Family","text":"Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck."},{"convertedEnergyCost":3,"cost":["Colorless","Colorless","Colorless"],"damage":"30","name":"Tackle","text":""}],"convertedRetreatCost":1,"evolvesFrom":null,"evolvesTo":["Dark Espeon","Dark Flareon","Dark Jolteon","Dark Vaporeon","Espeon","Espeon ex","Espeon-GX","Flareon","Flareon ex","Flareon-GX","Glaceon","Glaceon-GX","Jolteon","Jolteon ex","Jolteon-GX","Leafeon","Leafeon-GX","Light Flareon","Light Jolteon","Light Vaporeon","Sylveon","Sylveon-GX","Umbreon","Umbreon ex","Umbreon-GX","Vaporeon","Vaporeon ex","Vaporeon-GX"],"flavorText":"Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.","hp":"60","id":"svbsp-43","images":{},"legalities":{},"level":null,"name":"Eevee","nationalPokedexNumbers":null,"number":"43","rarity":"Promo","regulationMark":"G","resistances":null,"retreatCost":["Colorless"],"rules":null,"subtypes":null,"supertype":"Pokémon","types":["Colorless"],"weaknesses":[{"type":"Fighting","value":"×2"}]}]
+
+####################
+Differences exist in idx 10 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Sanosuke Sakuma",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Aurora Gain",
+        "text": "Heal 30 damage from this Pokémon."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "60",
+        "name": "Super Psy Bolt",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 0,
+    "evolvesFrom": "Flittle",
+    "evolvesTo": [],
+    "flavorText": "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.",
+    "hp": "110",
+    "id": "svbsp-10",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Espathra",
+    "nationalPokedexNumbers": null,
+    "number": "10",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Sanosuke Sakuma",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Aurora Gain",
+        "text": "Heal 30 damage from this Pokémon."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "60",
+        "name": "Super Psy Bolt",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": null,
+    "evolvesFrom": "Flittle",
+    "evolvesTo": null,
+    "flavorText": "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.",
+    "hp": "110",
+    "id": "svp-10",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Espathra",
+    "nationalPokedexNumbers": null,
+    "number": "10",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": null,
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].convertedRetreatCost"
+
+    left: null
+
+    right: 0
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-10"
+
+    right: "svbsp-10"
+
+Difference between left and right for path "root[0].retreatCost"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 11 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "0313",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Lightning"
+        ],
+        "damage": "30",
+        "name": "Static Shock",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Lightning"
+        ],
+        "damage": "80",
+        "name": "Extreme Current",
+        "text": "Discard an Energy from this Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Mareep",
+    "evolvesTo": [
+      "Ampharos",
+      "Ampharos ex",
+      "Ampharos-GX"
+    ],
+    "flavorText": "As a result of storing too much electricity, it developed patches where even downy wool won't grow.",
+    "hp": "90",
+    "id": "svbsp-15",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Flaaffy",
+    "nationalPokedexNumbers": null,
+    "number": "15",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "0313",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Lightning"
+        ],
+        "damage": "30",
+        "name": "Static Shock"
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Lightning"
+        ],
+        "damage": "80",
+        "name": "Extreme Current",
+        "text": "Discard an Energy from this Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Mareep",
+    "evolvesTo": null,
+    "flavorText": "As a result of storing too much electricity, it developed patches where even downy wool won't grow.",
+    "hp": "90",
+    "id": "svp-15",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Flaaffy",
+    "nationalPokedexNumbers": null,
+    "number": "15",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].attacks[0].text"
+
+    left: null
+
+    right: ""
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: ["Ampharos","Ampharos ex","Ampharos-GX"]
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-15"
+
+    right: "svbsp-15"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 12 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Ryuta Fuse",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Fire",
+          "Fire"
+        ],
+        "damage": "30",
+        "name": "Super Singe",
+        "text": "Your opponent's Active Pokémon is now Burned."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Crocalor"
+    ],
+    "flavorText": "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
+    "hp": "80",
+    "id": "svbsp-2",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Fuecoco",
+    "nationalPokedexNumbers": null,
+    "number": "2",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Ryuta Fuse",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Fire",
+          "Fire"
+        ],
+        "damage": "30",
+        "name": "Super Singe",
+        "text": "Your opponent's Active Pokémon is now Burned."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
+    "hp": "80",
+    "id": "svp-2",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Fuecoco",
+    "nationalPokedexNumbers": null,
+    "number": "2",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: ["Crocalor"]
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-2"
+
+    right: "svbsp-2"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 13 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Uta",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Stoke",
+        "text": "Search your deck for up to 2 Basic Fire Energy cards and attach them to this Pokémon. Then, shuffle your deck."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire"
+        ],
+        "damage": "70",
+        "name": "Fire Claws",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Arcanine",
+      "Arcanine ex",
+      "Light Arcanine"
+    ],
+    "flavorText": "It's very friendly and faithful to people. It will try to repel enemies by barking and biting.",
+    "hp": "90",
+    "id": "svbsp-24",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Growlithe",
+    "nationalPokedexNumbers": null,
+    "number": "24",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Uta",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Stoke",
+        "text": "Search your deck for up to 2 Basic Fire Energy cards and attach them to this Pokémon. Then, shuffle your deck."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire"
+        ],
+        "damage": "70",
+        "name": "Fire Claws",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Arcanine"
+    ],
+    "flavorText": "It’s very friendly and faithful to people. It will try to repel enemies by barking and biting.",
+    "hp": "90",
+    "id": "svp-24",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Growlithe",
+    "nationalPokedexNumbers": null,
+    "number": "24",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].flavorText"
+
+    left: "It’s very friendly and faithful to people. It will try to repel enemies by barking and biting."
+
+    right: "It's very friendly and faithful to people. It will try to repel enemies by barking and biting."
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-24"
+
+    right: "svbsp-24"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 14 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Flying Entry",
+        "text": "When you play this Pokémon from your hand onto your Bench during your turn, you may choose 2 of your opponent's Benched Pokémon and put 1 damage counter on each of them.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Yuya Oka",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Fighting"
+        ],
+        "damage": "70",
+        "name": "Wing Attack",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "Its elegant finishing moves—performed by nimbly leaping around using its wings—are polished in the forest where it was born and raised.",
+    "hp": "70",
+    "id": "svbsp-7",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Hawlucha",
+    "nationalPokedexNumbers": null,
+    "number": "7",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Flying Entry",
+        "text": "When you play this Pokémon from your hand onto your Bench during your turn, you may choose 2 of your opponent's Benched Pokémon and put 1 damage counter on each of them.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Yuya Oka",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Fighting"
+        ],
+        "damage": "70",
+        "name": "Wing Attack",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "Its elegant finishing moves—performed by nimbly leaping around using its wings—are polished in the forest where it was born and raised.",
+    "hp": "70",
+    "id": "svp-7",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Hawlucha",
+    "nationalPokedexNumbers": null,
+    "number": "7",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-7"
+
+    right: "svbsp-7"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 15 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Pani Kobayashi",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Delve",
+        "text": "Put up to 2 Item cards from your discard pile into your hand."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "100",
+        "name": "Spooky Shot",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Greavard",
+    "evolvesTo": [],
+    "flavorText": "Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master.",
+    "hp": "130",
+    "id": "svbsp-42",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Houndstone",
+    "nationalPokedexNumbers": null,
+    "number": "42",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+null
+==================
+
+Difference between left and right for path "root"
+
+    left: null
+
+    right: [{"abilities":null,"ancientTrait":null,"artist":"Pani Kobayashi","attacks":[{"convertedEnergyCost":2,"cost":["Colorless","Colorless"],"damage":"","name":"Delve","text":"Put up to 2 Item cards from your discard pile into your hand."},{"convertedEnergyCost":3,"cost":["Colorless","Colorless","Psychic"],"damage":"100","name":"Spooky Shot","text":""}],"convertedRetreatCost":3,"evolvesFrom":"Greavard","evolvesTo":[],"flavorText":"Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master.","hp":"130","id":"svbsp-42","images":{},"legalities":{},"level":null,"name":"Houndstone","nationalPokedexNumbers":null,"number":"42","rarity":"Promo","regulationMark":"G","resistances":[{"type":"Fighting","value":"-30"}],"retreatCost":["Colorless","Colorless","Colorless"],"rules":null,"subtypes":null,"supertype":"Pokémon","types":["Psychic"],"weaknesses":[{"type":"Darkness","value":"×2"}]}]
+
+####################
+Differences exist in idx 16 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Mina Nakai",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "70",
+        "name": "Claw Slash",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "190",
+        "name": "Rampaging Fang",
+        "text": "Discard 3 Energy from this Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.",
+    "hp": "130",
+    "id": "svbsp-14",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Koraidon",
+    "nationalPokedexNumbers": null,
+    "number": "14",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Mina Nakai",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "70",
+        "name": "Claw Slash",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "190",
+        "name": "Rampaging Fang",
+        "text": "Discard 3 Energy from this Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.",
+    "hp": "130",
+    "id": "svp-14",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Koraidon",
+    "nationalPokedexNumbers": null,
+    "number": "14",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-14"
+
+    right: "svbsp-14"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 17 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Dino Cry",
+        "text": "Once during your turn, you may attach up to 2 Basic Fighting Energy cards from your discard pile to your Basic Fighting Pokémon in any way you like. If you use this Ability, your turn ends.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "aky CG Works",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "220",
+        "name": "Wild Impact",
+        "text": "During your next turn, this Pokémon can't attack."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "230",
+    "id": "svbsp-29",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Koraidon ex",
+    "nationalPokedexNumbers": null,
+    "number": "29",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "subtypes": [
+      "ex-3"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Dino Cry",
+        "text": "Once during your turn, you may attach up to 2 Basic Fighting Energy cards from your discard pile to your Basic Fighting Pokémon in any way you like. If you use this Ability, your turn ends.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "aky CG Works",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "220",
+        "name": "Wild Impact",
+        "text": "During your next turn, this Pokémon can't attack."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "230",
+    "id": "svp-29",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Koraidon ex",
+    "nationalPokedexNumbers": null,
+    "number": "29",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-29"
+
+    right: "svbsp-29"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Basic"
+
+    right: "ex-3"
+
+####################
+Differences exist in idx 18 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "5ban Graphics",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fighting"
+        ],
+        "damage": "60",
+        "name": "Low Sweep",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "160",
+        "name": "Aura Sphere",
+        "text": "This attack also does 50 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Riolu",
+    "evolvesTo": [],
+    "flavorText": null,
+    "hp": "260",
+    "id": "svbsp-17",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Lucario ex",
+    "nationalPokedexNumbers": null,
+    "number": "17",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "subtypes": [
+      "ex-3"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "5ban Graphics",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fighting"
+        ],
+        "damage": "60",
+        "name": "Low Sweep"
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "160",
+        "name": "Aura Sphere",
+        "text": "This attack also does 50 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Riolu",
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "260",
+    "id": "svp-17",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Lucario ex",
+    "nationalPokedexNumbers": null,
+    "number": "17",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "subtypes": [
+      "Stage 1",
+      "ex"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].attacks[0].text"
+
+    left: null
+
+    right: ""
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-17"
+
+    right: "svbsp-17"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Stage 1"
+
+    right: "ex-3"
+
+####################
+Differences exist in idx 19 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Special Eater",
+        "text": "When you play this Pokémon from your hand onto your Bench during your turn, you may discard a Special Energy from your opponent's Active Pokémon.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Souichirou Gunjima",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Metal"
+        ],
+        "damage": "90",
+        "name": "Sharp Fang",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.",
+    "hp": "90",
+    "id": "svbsp-39",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Mawile",
+    "nationalPokedexNumbers": null,
+    "number": "39",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Metal"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+null
+==================
+
+Difference between left and right for path "root"
+
+    left: null
+
+    right: [{"abilities":[{"name":"Special Eater","text":"When you play this Pokémon from your hand onto your Bench during your turn, you may discard a Special Energy from your opponent's Active Pokémon.","type":"Ability"}],"ancientTrait":null,"artist":"Souichirou Gunjima","attacks":[{"convertedEnergyCost":3,"cost":["Colorless","Colorless","Metal"],"damage":"90","name":"Sharp Fang","text":""}],"convertedRetreatCost":1,"evolvesFrom":null,"evolvesTo":null,"flavorText":"It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.","hp":"90","id":"svbsp-39","images":{},"legalities":{},"level":null,"name":"Mawile","nationalPokedexNumbers":null,"number":"39","rarity":"Promo","regulationMark":"G","resistances":[{"type":"Grass","value":"-30"}],"retreatCost":["Colorless"],"rules":null,"subtypes":null,"supertype":"Pokémon","types":["Metal"],"weaknesses":[{"type":"Fire","value":"×2"}]}]
+
+####################
+Differences exist in idx 20 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "PLANETA Yamashita",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "30",
+        "name": "Void Return",
+        "text": "You may switch this Pokémon with 1 of your Benched Pokémon."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "30×",
+        "name": "Energy Burst",
+        "text": "This attack does 30 damage for each Energy attached to both Active Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "190",
+    "id": "svbsp-4",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Mimikyu ex",
+    "nationalPokedexNumbers": null,
+    "number": "4",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "subtypes": [
+      "ex-3"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "PLANETA Yamashita",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "30",
+        "name": "Void Return",
+        "text": "You may switch this Pokémon with 1 of your Benched Pokémon."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "30×",
+        "name": "Energy Burst",
+        "text": "This attack does 30 damage for each Energy attached to both Active Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "190",
+    "id": "svp-4",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Mimikyu ex",
+    "nationalPokedexNumbers": null,
+    "number": "4",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-4"
+
+    right: "svbsp-4"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Basic"
+
+    right: "ex-3"
+
+####################
+Differences exist in idx 21 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Akira Komayama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Sharp Fang",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "90",
+        "name": "Lightning Laser",
+        "text": "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "Much remains unknown about this creature. It resembles Cyclizar, but it is far more ruthless and powerful.",
+    "hp": "120",
+    "id": "svbsp-13",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Miraidon",
+    "nationalPokedexNumbers": null,
+    "number": "13",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Akira Komayama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Sharp Fang",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "90",
+        "name": "Lightning Laser",
+        "text": "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "Much remains unknown about this creature. It resembles Cyclizar, but it is far more ruthless and powerful.",
+    "hp": "120",
+    "id": "svp-13",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Miraidon",
+    "nationalPokedexNumbers": null,
+    "number": "13",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-13"
+
+    right: "svbsp-13"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 22 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Tandem Unit",
+        "text": "Once during your turn, you may search your deck for up to 2 Basic Lightning Pokémon and put them onto your Bench. Then, shuffle your deck.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "5ban Graphics",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "220",
+        "name": "Photon Blaster",
+        "text": "During your next turn, this Pokémon can't attack."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "220",
+    "id": "svbsp-28",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Miraidon ex",
+    "nationalPokedexNumbers": null,
+    "number": "28",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "subtypes": [
+      "ex-3"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Tandem Unit",
+        "text": "Once during your turn, you may search your deck for up to 2 Basic Lightning Pokémon and put them onto your Bench. Then, shuffle your deck.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "5ban Graphics",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "220",
+        "name": "Photon Blaster",
+        "text": "During your next turn, this Pokémon can't attack."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": "220",
+    "id": "svp-28",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Miraidon ex",
+    "nationalPokedexNumbers": null,
+    "number": "28",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-28"
+
+    right: "svbsp-28"
+
+Difference between left and right for path "root[0].subtypes[0]"
+
+    left: "Basic"
+
+    right: "ex-3"
+
+####################
+Differences exist in idx 23 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Shiburingaru",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Spin Turn",
+        "text": "Switch this Pokémon with 1 of your Benched Pokémon."
+      },
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "20×",
+        "name": "United Wings",
+        "text": "This attack does 20 damage for each Pokémon in your discard pile that has the United Wings attack."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Honchkrow",
+      "Honchkrow-GX"
+    ],
+    "flavorText": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+    "hp": "60",
+    "id": "svbsp-21",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Murkrow",
+    "nationalPokedexNumbers": null,
+    "number": "21",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Shiburingaru",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Spin Turn",
+        "text": "Switch this Pokémon with 1 of your Benched Pokémon."
+      },
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "20×",
+        "name": "United Wings",
+        "text": "This attack does 20 damage for each Pokémon in your discard pile that has the United Wings attack."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Honchkrow"
+    ],
+    "flavorText": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+    "hp": "60",
+    "id": "svp-21",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Murkrow",
+    "nationalPokedexNumbers": null,
+    "number": "21",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-21"
+
+    right: "svbsp-21"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 24 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "nagimiso",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Water"
+        ],
+        "damage": "30",
+        "name": "Jet Punch",
+        "text": "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "damage": "210",
+        "name": "Justice Kick",
+        "text": "If this Pokémon didn't move from the Bench to the Active Spot this turn, this attack does nothing."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Finizen",
+    "evolvesTo": [],
+    "flavorText": "This Pokémon's ancient genes have awakened. It is now so extraordinarily strong that it can easily lift a cruise ship with one fin.",
+    "hp": "150",
+    "id": "svbsp-36",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Palafin",
+    "nationalPokedexNumbers": null,
+    "number": "36",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+null
+==================
+
+Difference between left and right for path "root"
+
+    left: null
+
+    right: [{"abilities":null,"ancientTrait":null,"artist":"nagimiso","attacks":[{"convertedEnergyCost":1,"cost":["Water"],"damage":"30","name":"Jet Punch","text":"This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"},{"convertedEnergyCost":2,"cost":["Water","Water"],"damage":"210","name":"Justice Kick","text":"If this Pokémon didn't move from the Bench to the Active Spot this turn, this attack does nothing."}],"convertedRetreatCost":2,"evolvesFrom":"Finizen","evolvesTo":[],"flavorText":"This Pokémon's ancient genes have awakened. It is now so extraordinarily strong that it can easily lift a cruise ship with one fin.","hp":"150","id":"svbsp-36","images":{},"legalities":{},"level":null,"name":"Palafin","nationalPokedexNumbers":null,"number":"36","rarity":"Promo","regulationMark":"G","resistances":null,"retreatCost":["Colorless","Colorless"],"rules":null,"subtypes":null,"supertype":"Pokémon","types":["Water"],"weaknesses":[{"type":"Lightning","value":"×2"}]}]
+
+####################
+Differences exist in idx 25 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "kirisAki",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Darkness"
+        ],
+        "damage": "",
+        "name": "Splattering Poison",
+        "text": "Both Active Pokémon are now Poisoned."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Darkness"
+        ],
+        "damage": "30",
+        "name": "Tail Whap",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Paldean Clodsire",
+      "Paldean Clodsire ex"
+    ],
+    "flavorText": "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
+    "hp": "60",
+    "id": "svbsp-41",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Paldean Wooper",
+    "nationalPokedexNumbers": null,
+    "number": "41",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "paldean"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Darkness"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+null
+==================
+
+Difference between left and right for path "root"
+
+    left: null
+
+    right: [{"abilities":null,"ancientTrait":null,"artist":"kirisAki","attacks":[{"convertedEnergyCost":1,"cost":["Darkness"],"damage":"","name":"Splattering Poison","text":"Both Active Pokémon are now Poisoned."},{"convertedEnergyCost":3,"cost":["Colorless","Colorless","Darkness"],"damage":"30","name":"Tail Whap","text":""}],"convertedRetreatCost":1,"evolvesFrom":null,"evolvesTo":["Paldean Clodsire","Paldean Clodsire ex"],"flavorText":"After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.","hp":"60","id":"svbsp-41","images":{},"legalities":{},"level":null,"name":"Paldean Wooper","nationalPokedexNumbers":null,"number":"41","rarity":"Promo","regulationMark":"G","resistances":null,"retreatCost":["Colorless"],"rules":null,"subtypes":["paldean"],"supertype":"Pokémon","types":["Darkness"],"weaknesses":[{"type":"Fighting","value":"×2"}]}]
+
+####################
+Differences exist in idx 26 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Naoki Saito",
+    "attacks": null,
+    "convertedRetreatCost": null,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": null,
+    "hp": null,
+    "id": "svbsp-45",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Paradise Resort",
+    "nationalPokedexNumbers": null,
+    "number": "45",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": null,
+    "rules": [
+      "The Retreat Cost of each Psyduck in play (both yours and your opponent's) is Colorless less.",
+      "You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can't be played."
+    ],
+    "subtypes": [
+      "Stadium"
+    ],
+    "supertype": "Trainer",
+    "types": null,
+    "weaknesses": null
+  }
+]
+==================
+
+ptcgio
+==================
+null
+==================
+
+Difference between left and right for path "root"
+
+    left: null
+
+    right: [{"abilities":null,"ancientTrait":null,"artist":"Naoki Saito","attacks":null,"convertedRetreatCost":null,"evolvesFrom":null,"evolvesTo":null,"flavorText":null,"hp":null,"id":"svbsp-45","images":{},"legalities":{},"level":null,"name":"Paradise Resort","nationalPokedexNumbers":null,"number":"45","rarity":"Promo","regulationMark":"G","resistances":null,"retreatCost":null,"rules":["The Retreat Cost of each Psyduck in play (both yours and your opponent's) is Colorless less.","You may play only 1 Stadium card during your turn. Put it next to the Active Spot, and discard it if another Stadium comes into play. A Stadium with the same name can't be played."],"subtypes":["Stadium"],"supertype":"Trainer","types":null,"weaknesses":null}]
+
+####################
+Differences exist in idx 27 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Ryuta Fuse",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Lightning"
+        ],
+        "damage": "20",
+        "name": "Static Slap",
+        "text": "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Pawmo"
+    ],
+    "flavorText": "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.",
+    "hp": "50",
+    "id": "svbsp-40",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Pawmi",
+    "nationalPokedexNumbers": null,
+    "number": "40",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+null
+==================
+
+Difference between left and right for path "root"
+
+    left: null
+
+    right: [{"abilities":null,"ancientTrait":null,"artist":"Ryuta Fuse","attacks":[{"convertedEnergyCost":2,"cost":["Colorless","Lightning"],"damage":"20","name":"Static Slap","text":"Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon."}],"convertedRetreatCost":1,"evolvesFrom":null,"evolvesTo":["Pawmo"],"flavorText":"It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.","hp":"50","id":"svbsp-40","images":{},"legalities":{},"level":null,"name":"Pawmi","nationalPokedexNumbers":null,"number":"40","rarity":"Promo","regulationMark":"G","resistances":null,"retreatCost":["Colorless"],"rules":null,"subtypes":null,"supertype":"Pokémon","types":["Lightning"],"weaknesses":[{"type":"Fighting","value":"×2"}]}]
+
+####################
+Differences exist in idx 28 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Electrogenesis",
+        "text": "Once during your turn, you may search your deck for a Basic Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "GIDORA",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "230",
+        "name": "Electro Paws",
+        "text": "Discard all Energy from this Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 0,
+    "evolvesFrom": "Pawmo",
+    "evolvesTo": [],
+    "flavorText": "Pawmot's fluffy fur acts as a battery. It can store the same amount of electricity as an electric car.",
+    "hp": "130",
+    "id": "svbsp-6",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Pawmot",
+    "nationalPokedexNumbers": null,
+    "number": "6",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Electrogenesis",
+        "text": "Once during your turn, you may search your deck for a Basic Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "GIDORA",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "230",
+        "name": "Electro Paws",
+        "text": "Discard all Energy from this Pokémon."
+      }
+    ],
+    "convertedRetreatCost": null,
+    "evolvesFrom": "Pawmo",
+    "evolvesTo": null,
+    "flavorText": "Pawmot's fluffy fur acts as a battery. It can store the same amount of electricity as an electric car.",
+    "hp": "130",
+    "id": "svp-6",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Pawmot",
+    "nationalPokedexNumbers": null,
+    "number": "6",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": null,
+    "rules": null,
+    "subtypes": [
+      "Stage 2"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].convertedRetreatCost"
+
+    left: null
+
+    right: 0
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-6"
+
+    right: "svbsp-6"
+
+Difference between left and right for path "root[0].retreatCost"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 2"]
+
+    right: null
+
+####################
+Differences exist in idx 29 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Hearsay",
+        "text": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may choose 1: put a Supporter card from your discard pile into your hand; or search your deck for a Supporter card, reveal it, put it into your hand, and then shuffle your deck.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Nisota Niso",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "90",
+        "name": "Wing Attack",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Wingull",
+    "evolvesTo": [],
+    "flavorText": "It is a flying transporter that carries small Pokémon in its beak. It bobs on the waves to rest its wings.",
+    "hp": "120",
+    "id": "svbsp-22",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Pelipper",
+    "nationalPokedexNumbers": null,
+    "number": "22",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Hearsay",
+        "text": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may choose 1: put a Supporter card from your discard pile into your hand; or search your deck for a Supporter card, reveal it, put it into your hand, and then shuffle your deck.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Nisota Niso",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "90",
+        "name": "Wing Attack",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Wingull",
+    "evolvesTo": null,
+    "flavorText": "It is a flying transporter that carries small Pokémon in its beak. It bobs on the waves to rest its wings.",
+    "hp": "120",
+    "id": "svp-22",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Pelipper",
+    "nationalPokedexNumbers": null,
+    "number": "22",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-22"
+
+    right: "svbsp-22"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 30 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Atsushi Furusawa",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Lightning",
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "30+",
+        "name": "Adventuring Together",
+        "text": "This attack does 10 more damage for each of your Benched Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Alolan Raichu",
+      "Dark Raichu",
+      "Raichu",
+      "Raichu ex",
+      "Raichu-GX"
+    ],
+    "flavorText": "Pikachu seems excited to be going on an adventure, and so do its new pals, from attention-seeking Sprigatito, to laid-back Fuecoco and tidy Quaxly.",
+    "hp": "60",
+    "id": "svbsp-27",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Pikachu",
+    "nationalPokedexNumbers": null,
+    "number": "27",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Atsushi Furusawa",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Lightning",
+          "Lightning",
+          "Lightning"
+        ],
+        "damage": "30+",
+        "name": "Adventuring Together",
+        "text": "This attack does 10 more damage for each of your Benched Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Raichu"
+    ],
+    "flavorText": "Pikachu seems excited to be going on an adventure, and so do its new pals, from attention-seeking Sprigatito to laid-back Fuecoco and tidy Quaxly.",
+    "hp": "60",
+    "id": "svp-27",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Pikachu",
+    "nationalPokedexNumbers": null,
+    "number": "27",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Raichu"
+
+    right: "Alolan Raichu"
+
+Difference between left and right for path "root[0].flavorText"
+
+    left: "Pikachu seems excited to be going on an adventure, and so do its new pals, from attention-seeking Sprigatito to laid-back Fuecoco and tidy Quaxly."
+
+    right: "Pikachu seems excited to be going on an adventure, and so do its new pals, from attention-seeking Sprigatito, to laid-back Fuecoco and tidy Quaxly."
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-27"
+
+    right: "svbsp-27"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 31 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Energy Carnival",
+        "text": "Once during your turn, you may attach a Basic Energy card from your hand to 1 of your Pokémon.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "kodama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Water"
+        ],
+        "damage": "140",
+        "name": "Hydro Kick",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Quaxwell",
+    "evolvesTo": [],
+    "flavorText": "A single kick from a Quaquaval can send a truck rolling. This Pokémon uses its powerful legs to perform striking dances from far-off lands.",
+    "hp": "170",
+    "id": "svbsp-5",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Quaquaval",
+    "nationalPokedexNumbers": null,
+    "number": "5",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Energy Carnival",
+        "text": "Once during your turn, you may attach a Basic Energy card from your hand to 1 of your Pokémon.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "kodama",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Water"
+        ],
+        "damage": "140",
+        "name": "Hydro Kick",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Quaxwell",
+    "evolvesTo": null,
+    "flavorText": "A single kick from a Quaquaval can send a truck rolling. This Pokémon uses its powerful legs to perform striking dances from far-off lands.",
+    "hp": "170",
+    "id": "svp-5",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Quaquaval",
+    "nationalPokedexNumbers": null,
+    "number": "5",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 2"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-5"
+
+    right: "svbsp-5"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 2"]
+
+    right: null
+
+####################
+Differences exist in idx 32 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Narumi Sato",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20+",
+        "name": "Water Splash",
+        "text": "Flip a coin. If heads, this attack does 20 more damage."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Quaxwell"
+    ],
+    "flavorText": "This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime.",
+    "hp": "70",
+    "id": "svbsp-3",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Quaxly",
+    "nationalPokedexNumbers": null,
+    "number": "3",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Narumi Sato",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20+",
+        "name": "Water Splash",
+        "text": "Flip a coin. If heads, this attack does 20 more damage."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime.",
+    "hp": "70",
+    "id": "svp-3",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Quaxly",
+    "nationalPokedexNumbers": null,
+    "number": "3",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: ["Quaxwell"]
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-3"
+
+    right: "svbsp-3"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 33 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Rumbling Engine",
+        "text": "You must discard an Energy card from your hand in order to use this Ability. Once during your turn, you may draw cards until you have 6 cards in your hand.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "DOM",
+    "attacks": [
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Metal"
+        ],
+        "damage": "90+",
+        "name": "Knock Away",
+        "text": "Flip a coin. If heads, this attack does 90 more damage."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Varoom",
+    "evolvesTo": [],
+    "flavorText": "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy.",
+    "hp": "140",
+    "id": "svbsp-8",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Revavroom",
+    "nationalPokedexNumbers": null,
+    "number": "8",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Metal"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Rumbling Engine",
+        "text": "You must discard an Energy card from your hand in order to use this Ability. Once during your turn, you may draw cards until you have 6 cards in your hand.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "DOM",
+    "attacks": [
+      {
+        "convertedEnergyCost": 4,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Metal"
+        ],
+        "damage": "90+",
+        "name": "Knock Away",
+        "text": "Flip a coin. If heads, this attack does 90 more damage."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Varoom",
+    "evolvesTo": null,
+    "flavorText": "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy.",
+    "hp": "140",
+    "id": "svp-8",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Revavroom",
+    "nationalPokedexNumbers": null,
+    "number": "8",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Metal"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-8"
+
+    right: "svbsp-8"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 34 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Misa Tsutsui",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "",
+        "name": "Nutrients",
+        "text": "Heal 30 damage from 1 of your Pokémon."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Grass"
+        ],
+        "damage": "20",
+        "name": "Spray Fluid",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Dolliv"
+    ],
+    "flavorText": "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
+    "hp": "60",
+    "id": "svbsp-23",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Smoliv",
+    "nationalPokedexNumbers": null,
+    "number": "23",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Misa Tsutsui",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "",
+        "name": "Nutrients",
+        "text": "Heal 30 damage from 1 of your Pokémon."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Grass"
+        ],
+        "damage": "20",
+        "name": "Spray Fluid",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
+    "hp": "60",
+    "id": "svp-23",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Smoliv",
+    "nationalPokedexNumbers": null,
+    "number": "23",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: ["Dolliv"]
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-23"
+
+    right: "svbsp-23"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 35 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Anesaki Dynamic",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "30",
+        "name": "String Truss",
+        "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Grass"
+        ],
+        "damage": "100",
+        "name": "Jet Headbutt",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Tarountula",
+    "evolvesTo": [],
+    "flavorText": "It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it.",
+    "hp": "120",
+    "id": "svbsp-9",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Spidops",
+    "nationalPokedexNumbers": null,
+    "number": "9",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Anesaki Dynamic",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "30",
+        "name": "String Truss",
+        "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Grass"
+        ],
+        "damage": "100",
+        "name": "Jet Headbutt",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Tarountula",
+    "evolvesTo": null,
+    "flavorText": "It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it.",
+    "hp": "120",
+    "id": "svp-9",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Spidops",
+    "nationalPokedexNumbers": null,
+    "number": "9",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-9"
+
+    right: "svbsp-9"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 36 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Yuu Nishida",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "10",
+        "name": "Mini Drain",
+        "text": "Heal 10 damage from this Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Floragato"
+    ],
+    "flavorText": "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
+    "hp": "70",
+    "id": "svbsp-1",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Sprigatito",
+    "nationalPokedexNumbers": null,
+    "number": "1",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Yuu Nishida",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "10",
+        "name": "Mini Drain",
+        "text": "Heal 10 damage from this Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
+    "hp": "70",
+    "id": "svp-1",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Sprigatito",
+    "nationalPokedexNumbers": null,
+    "number": "1",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: ["Floragato"]
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-1"
+
+    right: "svbsp-1"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 37 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "10",
+        "name": "Smithereen Smash",
+        "text": "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Tinkatuff"
+    ],
+    "flavorText": "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.",
+    "hp": "70",
+    "id": "svbsp-25",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Tinkatink",
+    "nationalPokedexNumbers": null,
+    "number": "25",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "10",
+        "name": "Smithereen Smash",
+        "text": "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.",
+    "hp": "70",
+    "id": "svp-25",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Tinkatink",
+    "nationalPokedexNumbers": null,
+    "number": "25",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: ["Tinkatuff"]
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-25"
+
+    right: "svbsp-25"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 38 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Gather Materials",
+        "text": "You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw 3 cards.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Anesaki Dynamic",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "90+",
+        "name": "Special Hammer",
+        "text": "If this Pokémon has any Special Energy attached, this attack does 90 more damage."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Tinkatuff",
+    "evolvesTo": [],
+    "flavorText": "This intelligent Pokémon has a very daring disposition. It knocks rocks into the sky with its hammer, aiming for flying Corviknight.",
+    "hp": "140",
+    "id": "svbsp-20",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Tinkaton",
+    "nationalPokedexNumbers": null,
+    "number": "20",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Gather Materials",
+        "text": "You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw 3 cards.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Anesaki Dynamic",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "90+",
+        "name": "Special Hammer",
+        "text": "If this Pokémon has any Special Energy attached, this attack does 90 more damage."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Tinkatuff",
+    "evolvesTo": null,
+    "flavorText": "This intelligent Pokémon has a very daring disposition. It knocks rocks into the sky with its hammer, aiming for flying Corviknight.",
+    "hp": "140",
+    "id": "svp-20",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Tinkaton",
+    "nationalPokedexNumbers": null,
+    "number": "20",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 2"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-20"
+
+    right: "svbsp-20"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 2"]
+
+    right: null
+
+####################
+Differences exist in idx 39 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "takuyoa",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30×",
+        "name": "Big Hammer",
+        "text": "This attack does 30 damage for each card in your hand."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "140",
+        "name": "Pulverizing Press",
+        "text": "This attack's damage isn't affected by any effects on your opponent's Active Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": "Tinkatuff",
+    "evolvesTo": [],
+    "flavorText": null,
+    "hp": "300",
+    "id": "svbsp-31",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Tinkaton ex",
+    "nationalPokedexNumbers": null,
+    "number": "31",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+    ],
+    "subtypes": [
+      "ex-3"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+null
+==================
+
+Difference between left and right for path "root"
+
+    left: null
+
+    right: [{"abilities":null,"ancientTrait":null,"artist":"takuyoa","attacks":[{"convertedEnergyCost":2,"cost":["Colorless","Colorless"],"damage":"30×","name":"Big Hammer","text":"This attack does 30 damage for each card in your hand."},{"convertedEnergyCost":3,"cost":["Colorless","Colorless","Psychic"],"damage":"140","name":"Pulverizing Press","text":"This attack's damage isn't affected by any effects on your opponent's Active Pokémon."}],"convertedRetreatCost":2,"evolvesFrom":"Tinkatuff","evolvesTo":[],"flavorText":null,"hp":"300","id":"svbsp-31","images":{},"legalities":{},"level":null,"name":"Tinkaton ex","nationalPokedexNumbers":null,"number":"31","rarity":"Promo","regulationMark":"G","resistances":null,"retreatCost":["Colorless","Colorless"],"rules":["Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."],"subtypes":["ex-3"],"supertype":"Pokémon","types":["Psychic"],"weaknesses":[{"type":"Metal","value":"×2"}]}]
+
+####################
+Differences exist in idx 40 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Precious Gift",
+        "text": "Once at the end of your turn (after your attack), you may use this Ability. Draw cards until you have 8 cards in your hand.",
+        "type": "Ability"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "OKACHEKE",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "110",
+        "name": "Power Cyclone",
+        "text": "Move an Energy from this Pokémon to 1 of your Benched Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 0,
+    "evolvesFrom": "Togetic",
+    "evolvesTo": [],
+    "flavorText": "Known as a bringer of blessings, it's been depicted on good-luck charms since ancient times.",
+    "hp": "150",
+    "id": "svbsp-38",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Togekiss",
+    "nationalPokedexNumbers": null,
+    "number": "38",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": null,
+    "retreatCost": [],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+null
+==================
+
+Difference between left and right for path "root"
+
+    left: null
+
+    right: [{"abilities":[{"name":"Precious Gift","text":"Once at the end of your turn (after your attack), you may use this Ability. Draw cards until you have 8 cards in your hand.","type":"Ability"}],"ancientTrait":null,"artist":"OKACHEKE","attacks":[{"convertedEnergyCost":2,"cost":["Colorless","Colorless"],"damage":"110","name":"Power Cyclone","text":"Move an Energy from this Pokémon to 1 of your Benched Pokémon."}],"convertedRetreatCost":0,"evolvesFrom":"Togetic","evolvesTo":[],"flavorText":"Known as a bringer of blessings, it's been depicted on good-luck charms since ancient times.","hp":"150","id":"svbsp-38","images":{},"legalities":{},"level":null,"name":"Togekiss","nationalPokedexNumbers":null,"number":"38","rarity":"Promo","regulationMark":"G","resistances":null,"retreatCost":[],"rules":null,"subtypes":null,"supertype":"Pokémon","types":["Psychic"],"weaknesses":[{"type":"Metal","value":"×2"}]}]
+
+####################
+Differences exist in idx 41 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Mina Nakai",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Poison Gas",
+        "text": "Your opponent's Active Pokémon is now Poisoned."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Revavroom",
+      "Revavroom ex"
+    ],
+    "flavorText": "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
+    "hp": "60",
+    "id": "svbsp-26",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Varoom",
+    "nationalPokedexNumbers": null,
+    "number": "26",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Metal"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Mina Nakai",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Poison Gas",
+        "text": "Your opponent's Active Pokémon is now Poisoned."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
+    "hp": "60",
+    "id": "svp-26",
+    "images": {},
+    "legalities": {},
+    "level": null,
+    "name": "Varoom",
+    "nationalPokedexNumbers": null,
+    "number": "26",
+    "rarity": "Promo",
+    "regulationMark": "G",
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Metal"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: ["Revavroom","Revavroom ex"]
+
+Difference between left and right for path "root[0].id"
+
+    left: "svp-26"
+
+    right: "svbsp-26"
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################

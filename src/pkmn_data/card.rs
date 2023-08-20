@@ -1,16 +1,19 @@
 use crate::pkmn_data::extractors::{
-    extract_element, extract_number, extract_opt_element, extract_opt_text, extract_text,
+    clean_text, direct_text_skip_past, extract_text, select_element, select_number,
+    select_opt_element, select_opt_text, select_text,
 };
 use crate::ptcgio_data::Card;
 use anyhow::{anyhow, bail, Context, Error, Result};
 use ego_tree::NodeRef;
+use itertools::Itertools;
 use regex::{Match, Regex};
 use reqwest_middleware::ClientWithMiddleware;
+use scraper::node::Text;
 use scraper::selector::CssLocalName;
-use scraper::{ElementRef, Html, Node, Selector};
+use scraper::{ElementRef, Html, Node, Selector, StrTendril};
 use selectors::attr::CaseSensitivity;
 use selectors::Element;
-use std::collections::{HashMap, HashSet};
+use std::collections::{BTreeMap, HashSet};
 use std::iter;
 use std::ops::Deref;
 use std::str::FromStr;
@@ -45,8 +48,8 @@ impl CardFetcher {
             )
         };
         let entry_selector = Selector::parse("div.entry-content").unwrap();
-        let html = Html::parse_document(&card_page);
-        let elem = html
+        let replaced_ptcg_symbols = replace_ptcg_symbols(Html::parse_document(&card_page))?;
+        let elem = replaced_ptcg_symbols
             .select(&entry_selector)
             .next()
             .ok_or(anyhow!("Could not retrieve page for {}", self.url))?;
@@ -54,6 +57,46 @@ impl CardFetcher {
 
         Ok(card)
     }
+}
+
+fn replace_ptcg_symbols(mut html: Html) -> Result<Html> {
+    let ptcg_symbol_selector = Selector::parse("abbr.ptcg-font.ptcg-symbol-name").unwrap();
+    let symbols = html
+        .select(&ptcg_symbol_selector)
+        .map(|elem| (elem.id(), elem.text().collect::<String>()))
+        .collect_vec();
+
+    let tree = &mut html.tree;
+    for (symbol, text) in symbols {
+        let mut symbol_node = tree
+            .get_mut(symbol)
+            .ok_or(anyhow!("Failed to get node mutator from tree"))?;
+        if symbol_node.parent().is_some() {
+            let new_text = Node::Text(Text {
+                text: StrTendril::from(match text.as_str() {
+                    "{G}" => "Grass",
+                    "{W}" => "Water",
+                    "{R}" => "Fire",
+                    "{L}" => "Lightning",
+                    "{P}" => "Psychic",
+                    "{F}" => "Fighting",
+                    "{D}" => "Darkness",
+                    "{M}" => "Metal",
+                    "{Y}" => "Fairy",
+                    "{N}" => "Dragon",
+                    "{C}" => "Colorless",
+                    _ => bail!("Invalid value in symbol node"),
+                }),
+            });
+
+            let mut text_node = symbol_node.append(new_text);
+
+            while let Some(mut prev_node) = text_node.prev_sibling() {
+                prev_node.detach()
+            }
+        }
+    }
+    Ok(html)
 }
 
 #[derive(EnumString)]
@@ -76,7 +119,7 @@ impl TryFrom<CardText> for Card {
             .filter_map(|ability| {
                 let a = ability.get_ability();
                 match a {
-                    Ok((a_type, a_name, a_text)) => Some(HashMap::from([
+                    Ok((a_type, a_name, a_text)) => Some(BTreeMap::from([
                         ("type".to_string(), a_type.0),
                         ("name".to_string(), a_name.0),
                         ("text".to_string(), a_text.0),
@@ -84,7 +127,7 @@ impl TryFrom<CardText> for Card {
                     Err(_) => None,
                 }
             })
-            .collect::<Vec<HashMap<String, String>>>();
+            .collect::<Vec<BTreeMap<String, String>>>();
 
         let ancient_trait = abilities
             .iter()
@@ -99,7 +142,10 @@ impl TryFrom<CardText> for Card {
             rules
                 .rules
                 .iter()
-                .map(|rule| rule.text.clone())
+                .map(|rule| match rule {
+                    Rule::RuleBox { purpose, text } => format!("{} rule: {}", purpose, text),
+                    Rule::NonRuleBox { text, .. } => text.to_string(),
+                })
                 .chain(value.all_text_info.text_infos.iter().filter_map(
                     |text_info| match text_info {
                         TextInfo::Rule { rule } => Some(rule.clone()),
@@ -119,7 +165,7 @@ impl TryFrom<CardText> for Card {
                     name,
                     damage,
                     text,
-                } => Some(HashMap::from([
+                } => Some(BTreeMap::from([
                     (
                         "cost".to_string(),
                         serde_json::Value::Array(
@@ -148,7 +194,7 @@ impl TryFrom<CardText> for Card {
                 ])),
                 _ => None,
             })
-            .collect::<Vec<HashMap<String, serde_json::Value>>>();
+            .collect::<Vec<BTreeMap<String, serde_json::Value>>>();
 
         let (from, to) = match value.type_evolves_is.evolves {
             None => (None, None),
@@ -170,12 +216,12 @@ impl TryFrom<CardText> for Card {
                                     .iter()
                                     .map(PokeColor::to_string)
                                     .map(|color| {
-                                        HashMap::from([
+                                        BTreeMap::from([
                                             ("type".to_string(), color),
                                             ("value".to_string(), val.clone()),
                                         ])
                                     })
-                                    .collect::<Vec<HashMap<String, String>>>(),
+                                    .collect::<Vec<BTreeMap<String, String>>>(),
                             )
                         } else {
                             None
@@ -191,23 +237,43 @@ impl TryFrom<CardText> for Card {
                 }
             }?;
 
+        // TODO: Handle calculating legalities
         let legalities = value
             .mark_formats
             .as_ref()
             .map(|mark_formats| {
-                let legalities = HashMap::new();
+                let legalities = BTreeMap::new();
                 for format in &mark_formats.formats {}
                 legalities
             })
-            .unwrap_or(HashMap::new());
+            .unwrap_or(BTreeMap::new());
+
+        let mut subtypes = if let Some(subtype) = value.type_evolves_is.pkmn_subtype {
+            if let Some(subsubtype) = value.type_evolves_is.pkmn_subsubtype {
+                vec![subtype.to_string(), subsubtype.to_string()]
+            } else {
+                vec![subtype.to_string()]
+            }
+        } else {
+            Vec::new()
+        };
+
+        subtypes.extend(value.type_evolves_is.is.iter().map(|tag| tag.to_string()));
+        subtypes.extend(value.type_evolves_is.stage.map(|stage| stage.to_string()));
+        let subtypes = if subtypes.is_empty() {
+            None
+        } else {
+            Some(subtypes)
+        };
 
         Ok(Card {
             id: format!(
                 "{}-{}",
                 &value
                     .release_meta
-                    .set_abbreviation
-                    .unwrap_or("Needs manual tagging".to_string()),
+                    .set_series_code
+                    .map(|code| code.to_lowercase())
+                    .unwrap_or("unk".to_string()),
                 match &value.release_meta.set_number {
                     SetNumber::Num(num) => num.to_string(),
                     SetNumber::Str(s) => s.to_string(),
@@ -215,15 +281,7 @@ impl TryFrom<CardText> for Card {
             ),
             name: value.name_hp_color.name.clone(),
             supertype: value.type_evolves_is.pkmn_type.to_string(),
-            subtypes: if let Some(subtype) = value.type_evolves_is.pkmn_subtype {
-                if let Some(subsubtype) = value.type_evolves_is.pkmn_subsubtype {
-                    Some(vec![subtype.to_string(), subsubtype.to_string()])
-                } else {
-                    Some(vec![subtype.to_string()])
-                }
-            } else {
-                None
-            },
+            subtypes,
             level: value.illus.level,
             hp: value.name_hp_color.hp.map(|hp| hp.to_string()),
             types: value
@@ -247,7 +305,10 @@ impl TryFrom<CardText> for Card {
             weaknesses,
             retreat_cost,
             converted_retreat_cost,
-            number: "".to_string(),
+            number: match value.release_meta.set_number {
+                SetNumber::Num(num) => num.to_string(),
+                SetNumber::Str(val) => val,
+            },
             artist: value.illus.illustrator,
             rarity: Some(value.release_meta.rarity),
             flavor_text: value.flavor_text,
@@ -322,56 +383,55 @@ impl PkmnParse for CardText {
     fn parse(element: ElementRef) -> Result<Self::Parsed> {
         let name_hp_color_selector =
             Selector::parse("div.card-tabs > div.tab.text > div.name-hp-color").unwrap();
-        let name_hp_color = extract_element(element, name_hp_color_selector)
+        let name_hp_color = select_element(element, name_hp_color_selector)
             .and_then(NameHpColor::parse)
             .context("Failed to parse name-hp-color")?;
 
         let type_evolves_is_selector =
             Selector::parse("div.card-tabs > div.tab.text > div.type-evolves-is").unwrap();
-        let type_evolves_is = extract_element(element, type_evolves_is_selector)
+        let type_evolves_is = select_element(element, type_evolves_is_selector)
             .and_then(TypeEvolvesIs::parse)
             .context("Failed to parse type-evolves-is")?;
 
         let all_text_info_selector = Selector::parse("div.card-tabs > div.tab.text").unwrap();
-        let all_text_info = extract_element(element, all_text_info_selector)
+        let all_text_info = select_element(element, all_text_info_selector)
             .and_then(AllTextInfo::parse)
             .context("Failed to parse text")?;
 
         let weak_resist_retreat_selector =
             Selector::parse("div.card-tabs > div.tab.text > div.weak-resist-retreat").unwrap();
-        let weak_resist_retreat = extract_opt_element(element, weak_resist_retreat_selector)
+        let weak_resist_retreat = select_opt_element(element, weak_resist_retreat_selector)
             .map(WeakResistRetreat::parse)
             .transpose()
             .context("Failed to parse weak-resist-retreat")?;
 
         let rules_selector = Selector::parse("div.card-tabs > div.tab.text > div.rules").unwrap();
-        let rules = extract_opt_element(element, rules_selector)
+        let rules = select_opt_element(element, rules_selector)
             .map(Rules::parse)
             .transpose()
             .context("Failed to parse rules")?;
 
         let illus_selector = Selector::parse("div.card-tabs > div.tab.text > div.illus").unwrap();
-        let illus = extract_element(element, illus_selector)
+        let illus = select_element(element, illus_selector)
             .and_then(Illus::parse)
             .context("Failed to parse illus")?;
 
         let release_meta_selector =
             Selector::parse("div.card-tabs > div.tab.text > div.release-meta").unwrap();
-        let release_meta = extract_element(element, release_meta_selector)
+        let release_meta = select_element(element, release_meta_selector)
             .and_then(ReleaseMeta::parse)
             .context("Failed to parse release-meta")?;
 
         let mark_formats_selector =
             Selector::parse("div.card-tabs > div.tab.text > div.mark-formats").unwrap();
-        let mark_formats = extract_opt_element(element, mark_formats_selector)
+        let mark_formats = select_opt_element(element, mark_formats_selector)
             .map(MarkFormats::parse)
             .transpose()
             .context("Failed to parse mark-formats")?;
 
         let flavor_text_selector =
             Selector::parse("div.card-tabs > div.tab.text > div.flavor").unwrap();
-        let flavor_text = extract_opt_element(element, flavor_text_selector)
-            .map(|elem| elem.text().collect::<String>());
+        let flavor_text = select_opt_element(element, flavor_text_selector).map(extract_text);
 
         Ok(CardText {
             name_hp_color,
@@ -399,10 +459,10 @@ impl PkmnParse for NameHpColor {
 
     fn parse(element: ElementRef) -> Result<Self::Parsed> {
         let name_selector = Selector::parse("span.name").unwrap();
-        let name = extract_text(element, name_selector).context("Failed to parse name")?;
+        let name = select_text(element, name_selector).context("Failed to parse name")?;
 
         let hp_selector = Selector::parse("span.hp").unwrap();
-        let hp = extract_number(element, hp_selector).context("Failed to parse hp")?;
+        let hp = select_number(element, hp_selector).context("Failed to parse hp")?;
 
         let color_selector =
             Selector::parse("span.color > a > abbr.ptcg-font.ptcg-symbol-name").unwrap();
@@ -444,7 +504,7 @@ impl PkmnParse for TypeEvolvesIs {
         // Get Pkmn Type
         let pkmn_type_selector = Selector::parse("span.type > a").unwrap();
         let pkmn_type = PkmnSuperType::from_str(
-            &extract_text(element, pkmn_type_selector)
+            &select_text(element, pkmn_type_selector)
                 .context("Failed to extract pkmn_super_type")?,
         )
         .context("Failed to convert pkmn_super_type")?;
@@ -454,14 +514,12 @@ impl PkmnParse for TypeEvolvesIs {
         let (pkmn_subtype, pkmn_subsubtype) = if let Some(subtype) = pkmn_subtype_iter.next() {
             (
                 Some(
-                    PkmnSubtype::from_str(&subtype.text().collect::<String>())
+                    PkmnSubtype::from_str(&extract_text(subtype))
                         .context("Failed to extract pkmn_subtype")?,
                 ),
                 pkmn_subtype_iter
                     .next()
-                    .map(|subsubtype| {
-                        PkmnSubSubType::from_str(&subsubtype.text().collect::<String>())
-                    })
+                    .map(|subsubtype| PkmnSubSubType::from_str(&extract_text(subsubtype)))
                     .transpose()
                     .context("Failed to extract pkmn_subsubtype")?,
             )
@@ -473,7 +531,7 @@ impl PkmnParse for TypeEvolvesIs {
         let pokemon_selector = Selector::parse("span.pokemons > span.pokemon").unwrap();
         let all_pokemon = element
             .select(&pokemon_selector)
-            .map(|elem| elem.text().collect::<String>())
+            .map(extract_text)
             .collect::<Vec<String>>();
 
         // Get Stage
@@ -481,7 +539,7 @@ impl PkmnParse for TypeEvolvesIs {
         let stage = element
             .select(&stage_selector)
             .next()
-            .map(|elem| Stage::from_str(&elem.text().collect::<String>()))
+            .map(|elem| Stage::from_str(&extract_text(elem)))
             .transpose()
             .context("Failed to extract stage")?;
 
@@ -583,7 +641,7 @@ impl PkmnParse for WeakResistRetreat {
 
         // get retreat
         let retreat_selector = Selector::parse("span.retreat > a > abbr").unwrap();
-        let retreat = extract_opt_text(element, retreat_selector)
+        let retreat = select_opt_text(element, retreat_selector)
             .map(|text| text.parse::<usize>())
             .transpose()
             .context("Failed to extract retreat cost")?
@@ -623,10 +681,7 @@ impl WeakResistRetreat {
             })
             .collect::<Result<Vec<PokeColor>>>()?;
 
-        let value = element
-            .select(modifier_selector)
-            .next()
-            .map(|elem| elem.text().collect::<String>());
+        let value = element.select(modifier_selector).next().map(extract_text);
 
         Ok(DamageModifier { colors, value })
     }
@@ -665,13 +720,22 @@ impl PkmnParse for Illus {
         let illustrator_selector =
             Selector::parse("span[title=\"Illustrator\"] > a[title=\"Illustrator\"]").unwrap();
 
-        let illustrator = extract_opt_text(element, illustrator_selector);
+        let illustrator = select_opt_text(element, illustrator_selector);
 
         let level_selector = Selector::parse("span.level > a").unwrap();
         let level = element
             .select(&level_selector)
             .next()
-            .map(|level| level.text().collect::<String>());
+            .map(extract_text)
+            .map(|level| {
+                Ok::<String, Error>(
+                    level
+                        .strip_prefix("LV.")
+                        .ok_or(anyhow!("Extracting the level didn't discard the LV"))?
+                        .to_string(),
+                )
+            })
+            .transpose()?;
 
         Ok(Illus { illustrator, level })
     }
@@ -716,39 +780,36 @@ impl PkmnParse for ReleaseMeta {
         // Get Series
         let series_selector =
             Selector::parse("span[title=\"Series\"] > a[title=\"Series\"]").unwrap();
-        let series = element
-            .select(&series_selector)
-            .map(|series| series.text().collect::<String>())
-            .collect();
+        let series = element.select(&series_selector).map(extract_text).collect();
 
         // Get Set Name
         let set_selector = Selector::parse("span[title=\"Set\"] > a").unwrap();
-        let set = extract_text(element, set_selector).context("Failed to extract set name")?;
+        let set = select_text(element, set_selector).context("Failed to extract set name")?;
 
         // Get Set Abbreviation
         let set_abbr_selector = Selector::parse("span[title=\"Set Abbreviation\"]").unwrap();
-        let set_abbreviation = extract_opt_text(element, set_abbr_selector);
+        let set_abbreviation = select_opt_text(element, set_abbr_selector);
 
         // Get Set Code
         let set_series_code_selector = Selector::parse("span[title=\"Set Series Code\"]").unwrap();
-        let set_series_code = extract_opt_text(element, set_series_code_selector);
+        let set_series_code = select_opt_text(element, set_series_code_selector);
 
         // Get Set Number
         let set_number_selector = Selector::parse("span.number-out-of > span.number").unwrap();
         let set_number = SetNumber::from_str(
-            &extract_text(element, set_number_selector)
+            &select_text(element, set_number_selector)
                 .context("Failed to extract set_number text")?,
         )
         .context("Failed to convert set_number to SetNumber")?;
 
         // Get Total Cards in Set if available
         let set_total_cards_selector = Selector::parse("span.number-out-of > span.out-of").unwrap();
-        let set_total_cards = extract_number(element, set_total_cards_selector)
+        let set_total_cards = select_number(element, set_total_cards_selector)
             .context("failed to extract total cards in set")?;
 
         // Get Rarity
         let rarity_selector = Selector::parse("span.rarity > a[title=\"Rarity\"]").unwrap();
-        let rarity = extract_text(element, rarity_selector).context("Failed to extract rarity")?;
+        let rarity = select_text(element, rarity_selector).context("Failed to extract rarity")?;
 
         // Get Date Released
         let date_released_selector = Selector::parse("span.date[title=\"Date Released\"]").unwrap();
@@ -758,7 +819,7 @@ impl PkmnParse for ReleaseMeta {
         );
 
         let date_released = Date::parse(
-            &extract_text(element, date_released_selector)
+            &select_text(element, date_released_selector)
                 .context("failed to extract date released text")?,
             format_description,
         )
@@ -789,9 +850,9 @@ impl PkmnParse for MarkFormats {
     fn parse(element: ElementRef) -> Result<Self::Parsed> {
         let mark_selector = Selector::parse("span.Regulation.Mark > a").unwrap();
         let format_selector = Selector::parse("span[title=\"Format Type\"]").unwrap();
-        let mark = extract_opt_element(element, mark_selector)
+        let mark = select_opt_element(element, mark_selector)
             .map(|mark| {
-                let mark_str = mark.text().collect::<String>();
+                let mark_str = extract_text(mark);
                 Mark::from_str(&mark_str)
             })
             .transpose()
@@ -825,9 +886,6 @@ enum PkmnSubtype {
     Stadium,
     #[strum(serialize = "Special Energy")]
     SpecialEnergy,
-    /// No longer considered a sub sub type as tools are no longer subtypes of items
-    #[strum(serialize = "Pokémon Tool F")]
-    PokemonToolF,
 }
 
 #[derive(Eq, PartialEq, Debug, EnumString, Display)]
@@ -838,6 +896,8 @@ enum PkmnSubSubType {
     RocketsSecretMachine,
     #[strum(serialize = "Goldenrod Game Corner")]
     GoldenrodGameCorner,
+    #[strum(serialize = "Pokémon Tool F")]
+    PokemonToolF,
 }
 
 #[derive(Eq, PartialEq, Debug, EnumString, Display)]
@@ -876,13 +936,15 @@ impl PkmnParse for Evolves {
     fn parse(element: ElementRef) -> Result<Self::Parsed> {
         let from_to_re =
             Regex::new(r#"(Evolves (from (?<from>(.+?)))?( and )?(into (?<to>(.+?)))?$)|(Put onto (?<put_onto>.+?)$)"#).unwrap();
-        let text = element.text().collect::<String>();
+        let text = extract_text(element);
         let caps = from_to_re.captures(&text).context(format!(
             "Could not extract the evolves to and from: {}",
             text
         ))?;
 
-        let splitter_re = Regex::new(r#"((\s*or\s*)|(\s*,\s*))"#).unwrap();
+        // Evolves into Scizor, Scizor-GX, […] Kleavor, Dark Scizor, or Scizor ex
+        // THOSE ARE NOT PERIODS THEY ARE SOME OTHER SPECIAL CHARACTER
+        let splitter_re = Regex::new(r#"((, (\[…] )?(or )?)|( (…] )?or ))"#).unwrap();
         let split = |cap: Match| {
             splitter_re
                 .split(cap.as_str())
@@ -916,74 +978,139 @@ impl PkmnParse for Evolves {
 #[derive(Eq, PartialEq, Debug, Hash, EnumString, Display)]
 #[strum(serialize_all = "kebab-case")]
 enum PtcgTag {
+    #[strum(to_string = "V")]
     V,
+    #[strum(to_string = "GX")]
     GX,
-    #[strum(serialize = "ex-%e2%86%91")]
+    #[strum(serialize = "ex-%e2%86%91", to_string = "EX")]
     ExUpper,
+    #[strum(to_string = "Delta Species")]
     DeltaSpecies,
+    #[strum(to_string = "Rapid Strike")]
     RapidStrike,
-    #[strum(serialize = "ex-%e2%86%93")]
+    #[strum(serialize = "ex-%e2%86%93", to_string = "ex")]
     ExLower,
+    #[strum(to_string = "Single Strike")]
     SingleStrike,
+    #[strum(to_string = "Galarian")]
     Galarian,
+    #[strum(to_string = "TAG TEAM")]
     TagTeam,
+    #[strum(to_string = "Dynamax")]
     Dynamax,
+    #[strum(to_string = "Dark")]
     Dark,
+    #[strum(to_string = "Team Plasma")]
     TeamPlasma,
+    #[strum(to_string = "Ball")]
     Ball,
+    #[strum(to_string = "Alolan")]
     Alolan,
+    #[strum(to_string = "SP")]
     SP,
+    #[strum(to_string = "Ultra Beast")]
     UltraBeast,
+    #[strum(to_string = "Dual Type")]
     DualType,
-    #[strum(serialize = "ex-3")]
+    #[strum(serialize = "ex-3", to_string = "ex")]
     Ex3,
+    #[strum(to_string = "Gigantamax")]
     Gigantamax,
+    #[strum(to_string = "Hisuian")]
     Hisuian,
+    #[strum(to_string = "Fusion Strike")]
     FusionStrike,
+    #[strum(to_string = "Fossil")]
     Fossil,
+    #[strum(to_string = "Team Aqua's")]
     TeamAquas,
+    #[strum(to_string = "Team Magma's")]
     TeamMagmas,
+    #[strum(to_string = "G")]
     G,
+    #[strum(to_string = "Prime")]
     Prime,
+    #[strum(to_string = "Star")]
     Star,
+    #[strum(to_string = "Brock's")]
     Brocks,
+    #[strum(to_string = "Team Rocket's")]
     TeamRockets,
+    #[strum(to_string = "Sabrina's")]
     Sabrinas,
+    #[strum(to_string = "Prism Star")]
     PrismStar,
+    #[strum(to_string = "Erika's")]
     Erikas,
+    #[strum(to_string = "Misty's")]
     Mistys,
+    #[strum(to_string = "Holon")]
     Holon,
+    #[strum(to_string = "Blaine's")]
     Blaines,
+    // Elite 4
+    #[strum(to_string = "E4")]
     E4,
+    #[strum(to_string = "Lt. Surge's")]
     LtSurges,
+    #[strum(to_string = "Light")]
     Light,
+    // Gym Leader
+    #[strum(to_string = "GL")]
     GL,
+    #[strum(to_string = "Shining")]
     Shining,
+    #[strum(to_string = "Scoop Up")]
     ScoopUp,
+    #[strum(to_string = "Berry")]
     Berry,
+    #[strum(to_string = "Koga's")]
     Kogas,
+    #[strum(to_string = "Radiant")]
     Radiant,
+    #[strum(to_string = "Potion")]
     Potion,
+    #[strum(to_string = "C")]
     C,
+    #[strum(to_string = "Giovanni's")]
     Giovannis,
+    #[strum(to_string = "FB")]
     FB,
+    #[strum(to_string = "ACE SPEC")]
     AceSpec,
+    #[strum(to_string = "Rod")]
     Rod,
+    #[strum(to_string = "Crystal")]
     Crystal,
+    #[strum(to_string = "Tera")]
     Tera,
+    #[strum(to_string = "Gloves")]
     Gloves,
+    #[strum(to_string = "Paldean")]
     Paldean,
+    #[strum(to_string = "Lucky")]
     Lucky,
+    #[strum(to_string = "Primal")]
     Primal,
+    #[strum(to_string = "Shard")]
     Shard,
+    #[strum(to_string = "Plate")]
     Plate,
+    #[strum(to_string = "Board")]
     Board,
+    #[strum(to_string = "Eternamax")]
     Eternamax,
+    #[strum(to_string = "Sphere")]
     Sphere,
+    #[strum(to_string = "Plus")]
     Plus,
+    #[strum(to_string = "Broken")]
     Broken,
+    #[strum(to_string = "Lance's")]
     Lances,
+    #[strum(to_string = "Imakuni?'s")]
     Imakunis,
+    #[strum(to_string = "Cool")]
     Cool,
 }
 
@@ -1103,31 +1230,33 @@ impl TextInfo {
     }
 
     fn get_text(element: ElementRef) -> Result<String, Error> {
-        Ok(element
-            .children()
-            .skip_while(is_not_break)
-            .map(read_text)
-            .collect::<Result<Vec<Box<dyn Iterator<Item = &str>>>>>()
-            .context("Failed to read text after the break element")?
-            .into_iter()
-            .flatten()
-            .collect::<String>()
-            .trim()
-            .to_string())
+        Ok(clean_text(
+            element
+                .children()
+                .skip_while(is_not_break)
+                .map(read_text)
+                .collect::<Result<Vec<Box<dyn Iterator<Item = &str>>>>>()
+                .context("Failed to read text after the break element")?
+                .into_iter()
+                .flatten(),
+        )
+        .trim()
+        .to_string())
     }
 
     fn get_string_til_break(element: ElementRef) -> Result<String, Error> {
-        Ok(element
-            .next_siblings()
-            .map_while(read_text_til_break)
-            .collect::<Result<Vec<Box<dyn Iterator<Item = &str>>>>>()
-            .context("Failed to read text until the break element")?
-            .into_iter()
-            .flatten()
-            .collect::<String>()
-            .trim_start_matches([' ', '⇢', '→', '{', '}', '+'])
-            .trim()
-            .to_string())
+        Ok(clean_text(
+            element
+                .next_siblings()
+                .map_while(read_text_til_break)
+                .collect::<Result<Vec<Box<dyn Iterator<Item = &str>>>>>()
+                .context("Failed to read text until the break element")?
+                .into_iter()
+                .flatten(),
+        )
+        .trim_start_matches([' ', '⇢', '→', '{', '}', '+'])
+        .trim()
+        .to_string())
     }
 
     fn get_cost(element: ElementRef) -> Result<(Option<ElementRef>, Vec<EnergyColor>), Error> {
@@ -1230,13 +1359,13 @@ impl PkmnParse for TextInfo {
     fn parse(element: ElementRef) -> Result<Self::Parsed> {
         let html = element.html();
         let mut children = element.children();
-        let discrim_opt = ElementRef::wrap(
+        let discriminator_opt = ElementRef::wrap(
             children
                 .next()
                 .ok_or(anyhow!("No discriminator available: {}", html))?,
         );
         Ok({
-            if let Some(discriminator) = discrim_opt {
+            if let Some(discriminator) = discriminator_opt {
                 let local_name = &discriminator.value().name.local;
                 if local_name == &CssLocalName::from("a").0 {
                     let ability_type = discriminator.inner_html();
@@ -1260,12 +1389,12 @@ impl PkmnParse for TextInfo {
                     }
                 } else {
                     TextInfo::Rule {
-                        rule: element.text().collect(),
+                        rule: extract_text(element),
                     }
                 }
             } else {
                 TextInfo::Rule {
-                    rule: element.text().collect(),
+                    rule: extract_text(element),
                 }
             }
         })
@@ -1273,9 +1402,9 @@ impl PkmnParse for TextInfo {
 }
 
 #[derive(Eq, PartialEq, Debug)]
-struct Rule {
-    purpose: String,
-    text: String,
+enum Rule {
+    RuleBox { purpose: String, text: String },
+    NonRuleBox { purpose: String, text: String },
 }
 
 impl PkmnParse for Rule {
@@ -1283,21 +1412,34 @@ impl PkmnParse for Rule {
 
     fn parse(element: ElementRef) -> Result<Self::Parsed> {
         let purpose_selector = Selector::parse("em").unwrap();
-        let purpose = extract_opt_element(element, purpose_selector)
-            .ok_or(anyhow!("No purpose found: {}", element.html()))?
+
+        let rule_box_selector =
+            Selector::parse("em > a[href=\"https://pkmncards.com/has/rule-box/\"]").unwrap();
+
+        let purpose = select_element(element, purpose_selector)
+            .context(anyhow!("No purpose found: {}", element.html()))?
             .text()
             .next()
             .ok_or(anyhow!("No purpose found: {}", element.html()))?
             .trim()
+            .trim_end_matches("rule:")
+            .trim_end()
             .to_string();
 
-        let mut element_text = element.text().skip_while(|text| !text.contains(':'));
-        element_text.next();
-        let rule_text: String = element_text.collect();
-        Ok(Rule {
-            purpose,
-            text: rule_text.trim().to_string(),
-        })
+        let rule_box = select_opt_element(element, rule_box_selector);
+
+        let rule_text: String = direct_text_skip_past(element, ":");
+        if rule_box.is_some() {
+            Ok(Rule::RuleBox {
+                purpose,
+                text: rule_text,
+            })
+        } else {
+            Ok(Rule::NonRuleBox {
+                purpose,
+                text: rule_text,
+            })
+        }
     }
 }
 
@@ -1324,6 +1466,8 @@ impl PkmnParse for Formats {
 
     fn parse(element: ElementRef) -> Result<Self::Parsed> {
         let format_selector = Selector::parse("a").unwrap();
+
+        // Appropriate to grab text from the text function here
         let format_type = FormatType::from_str(element.text().next().unwrap())
             .context("Failed to parse format type")?;
         let formats = element
@@ -1366,7 +1510,7 @@ impl PkmnParse for PtcgFormat {
             .attr("title")
             .ok_or(anyhow!("PtcgFormat did not have title: {}", html))?
             .to_string();
-        let text: String = element.text().collect();
+        let text: String = extract_text(element);
         Ok(PtcgFormat { id, text })
     }
 }
@@ -1385,6 +1529,7 @@ enum EnergyColor {
     Colorless,
 }
 
+//noinspection DuplicatedCode
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -1418,7 +1563,7 @@ mod tests {
             r###"<main class="content" id="genesis-content"><article class="type-pkmn_card entry" id="post-66481"><div class="entry-content"><div class="card-image-area"><a href="https://i0.wp.com/pkmncards.com/wp-content/uploads/en_US-SM11-149-dragonair.jpg?fit=734%2C1024&amp;ssl=1" class="card-image-link" data-fancybox="img-zoom" data-width="734" data-height="1024" data-options="{&quot;classList&quot;:[&quot;card-image&quot;,&quot;box-shadow&quot;,&quot;skip-lazy&quot;],&quot;style&quot;:{&quot;background&quot;:&quot;rgb(255,228,109)&quot;}}"><img width="734" height="1024" src="https://i0.wp.com/pkmncards.com/wp-content/uploads/en_US-SM11-149-dragonair.jpg?fit=734%2C1024&amp;ssl=1" class="card-image box-shadow skip-lazy" alt="" decoding="async" loading="lazy" style="background:rgb(255,228,109)"></a><div class="image-meta"><ul><li class="zoom"><a href="https://i0.wp.com/pkmncards.com/wp-content/uploads/en_US-SM11-149-dragonair.jpg?fit=734%2C1024&amp;ssl=1" data-fancybox="zoom" data-width="734" data-height="1024" data-options="{&quot;classList&quot;:[&quot;card-image&quot;,&quot;box-shadow&quot;,&quot;skip-lazy&quot;],&quot;style&quot;:{&quot;background&quot;:&quot;rgb(255,228,109)&quot;}}">zoom <img src="https://s.w.org/images/core/emoji/14.0.0/svg/1f50d.svg" alt="🔍" class="wp-smiley" style="height: 1em; max-height: 1em;"></a></li><li><a href="https://pkmncards.com/wp-content/uploads/en_US-SM11-149-dragonair.jpg" title="Download Image" download="unm.149.dragonair.jpg">jpg (188 KB)</a></li><li title="Image Credit">cred: <a href="https://malie.io/" target="_blank"><span>nago</span></a></li></ul></div></div><div class="card-text-area"><header class="card-header"><div class="card-title-meta"><div class="wrap"><div class="card-title-admin-links"><h1 class="card-title" title="Title">Dragonair · Unified Minds (UNM) #149</h1></div><div class="card-meta"><ul><li class="proxy"><a href="https://pkmncards.com/proxy/?view=1&amp;back=66481" title="View Proxies">Proxy:</a> <ul><li><a href="https://pkmncards.com/proxy/?add=66481&amp;n=1&amp;back=66481" title="+1 Proxy">+<u>1</u></a></li><li><a href="https://pkmncards.com/proxy/?add=66481&amp;n=2&amp;back=66481" title="+2 Proxies">+<u>2</u></a></li><li><a href="https://pkmncards.com/proxy/?add=66481&amp;n=3&amp;back=66481" title="+3 Proxies">+<u>3</u></a></li><li><a href="https://pkmncards.com/proxy/?add=66481&amp;n=4&amp;back=66481" title="+4 Proxies">+<u>4</u></a></li></ul></li><li class="formats"><ul><li><a href="https://pkmncards.com/format/blw-on-expanded-current/" title="Legal for: Expanded"><img src="https://s.w.org/images/core/emoji/14.0.0/svg/1fa81.svg" alt="🪁" class="wp-smiley" style="height: 1em; max-height: 1em;"> <span>Expanded</span></a></li></ul></li><li class="views"><span class="flip-x" title="Views"><img src="https://s.w.org/images/core/emoji/14.0.0/svg/1f440.svg" alt="👀" class="wp-smiley" style="height: 1em; max-height: 1em;"> 388</span></li><li class="comments"><a href="https://pkmncards.com/card/dragonair-unified-minds-unm-149/#comments" title="Comments"><img src="https://s.w.org/images/core/emoji/14.0.0/svg/1f4ac.svg" alt="💬" class="wp-smiley" style="height: 1em; max-height: 1em;"> <span>3</span></a></li></ul></div></div></div><div class="card-pricing available"><div class="heading"><a href="https://www.tcgplayer.com/product/195144?partner=PkmnCards&amp;utm_source=PkmnCards&amp;utm_medium=single+66481+ago&amp;utm_campaign=affiliate" target="_blank">$ / TCGplayer (17 hours ago) <u>↗</u></a></div><div class="list"><ul><li class="l" title="Lowest Price">↓ <span class="price">0.09</span></li><li class="m" title="Market Price">꩜ <span class="price">0.21</span></li><li class="h" title="Highest Price">↑ <span class="price">4.99</span></li></ul></div></div></header><div class="card-tabs"><input class="toggle-tabs-rating vh" id="toggle-tabs-rating-66481" type="checkbox"><div class="tab text" id="text-66481"><div class="name-hp-color"><span class="name" title="Name"><a href="https://pkmncards.com/name/dragonair/">Dragonair</a></span> · <span class="hp" title="Hit Points"><a href="https://pkmncards.com/hp/90/">90 HP</a></span> · <span class="color" title="Color"><a href="https://pkmncards.com/color/dragon/"><abbr title="Dragon" class="ptcg-font ptcg-symbol-name"><span class="vh">{</span>N<span class="vh">}</span></abbr></a></span></div>
 <div class="type-evolves-is"><span class="type" title="Type"><a href="https://pkmncards.com/type/pokemon/">Pokémon</a></span> <span class="pokemons">(<span class="pokemon" title="Pokémon"><a href="https://pkmncards.com/pokemon/dragonair/">Dragonair</a></span>)</span> › <span class="stage" title="Stage of Evolution"><a href="https://pkmncards.com/stage/stage-1/">Stage 1</a></span> : <span class="evolves">Evolves from <a href="https://pkmncards.com/name/dratini/" title="Name">Dratini</a> and into <a href="https://pkmncards.com/name/dragonite/" title="Name">Dragonite</a>, <a href="https://pkmncards.com/name/dragonite-gx/" title="Name">Dragonite-<em>GX</em></a>, or <a href="https://pkmncards.com/name/dragonite-ex-%e2%86%93/" title="Name">Dragonite ex</a></span></div>
 <div class="text"><p><abbr title="Water" class="ptcg-font ptcg-symbol-name"><span class="vh">{</span>W<span class="vh">}</span></abbr><abbr title="Lightning" class="ptcg-font ptcg-symbol-name"><span class="vh">{</span>L<span class="vh">}</span></abbr> → <span>Twister</span> : 30<br>
-Flip 2 coins. For each heads, discard an Energy from your opponent’s Active Pokémon. If both of them are tails, this attack does nothing.</p>
+Flip 2 coins. For each heads, discard an Energy from your opponent's Active Pokémon. If both of them are tails, this attack does nothing.</p>
 </div>
 <div class="weak-resist-retreat"><span class="weak" title="Weakness">weak: <a href="https://pkmncards.com/weakness/fairy/"><abbr title="Fairy" class="ptcg-font ptcg-symbol-name"><span class="vh">{</span>Y<span class="vh">}</span></abbr></a><span title="Weakness Modifier">×2</span></span> | <span class="resist" title="Resistance">resist: <a href="https://pkmncards.com/?s=-resist%3A%2A"><abbr title="No Resistance">n/a</abbr></a></span> | <span class="retreat" title="Retreat Cost">retreat: <a href="https://pkmncards.com/retreat-cost/2/"><abbr title="{C}{C}">2</abbr></a></span></div>
 <div class="illus minor-text"><span title="Illustrator">illus. <a href="https://pkmncards.com/artist/sanosuke-sakuma/" title="Illustrator">Sanosuke Sakuma</a></span></div>
@@ -1525,14 +1670,10 @@ Flip 2 coins. For each heads, discard an Energy from your opponent’s Active Po
                     cost: vec![EnergyColor::Water, EnergyColor::Lightning],
                     name: "Twister".to_string(),
                     damage: Some("30".to_string()),
-                    text: "Flip 2 coins. For each heads, discard an Energy from your opponent’s Active Pokémon. If both of them are tails, this attack does nothing.".to_string(),
+                    text: "Flip 2 coins. For each heads, discard an Energy from your opponent's Active Pokémon. If both of them are tails, this attack does nothing.".to_string(),
                 }],
             },
-            weak_resist_retreat: Some(WeakResistRetreat {
-                weak: DamageModifier{ colors: vec![PokeColor::Fairy], value: Some("×2".to_string()) },
-                resist: DamageModifier{colors: vec![PokeColor::None("No Resistance".to_string())], value: None},
-                retreat: 2,
-            }),
+            weak_resist_retreat: Some(get_dragonair_weak_resist_retreat()),
             rules: None,
             illus: Illus {
                 illustrator: Some("Sanosuke Sakuma".to_string()),
@@ -1550,27 +1691,60 @@ Flip 2 coins. For each heads, discard an Energy from your opponent’s Active Po
             },
             mark_formats: Some(MarkFormats {
                 mark: None,
-                formats: vec![Formats {
-                    format: FormatType::Standard,
-                    formats: vec![PtcgFormat {
-                        id: "UPR–on".to_string(),
-                        text: "2020".to_string(),
-                    }, PtcgFormat {
-                        id: "TEU–on".to_string(), 
-                        text: "2021".to_string()}
-                    ],
-                }, Formats {
-                    format: FormatType::Expanded,
-                    formats: vec![PtcgFormat {
-                        id: "BLW–on".to_string(),
-                        text: "2020".to_string(),
-                    }, PtcgFormat { id: "BLW–on".to_string(), text: "2021".to_string() }, PtcgFormat { id: "BLW–on".to_string(), text: "Current".to_string() }],
+                formats: vec![
+                    get_dragonair_standard_format(),
+                    Formats {
+                        format: FormatType::Expanded,
+                        formats: vec![
+                            PtcgFormat {
+                                id: "BLW–on".to_string(),
+                                text: "2020".to_string(),
+                            },
+                            PtcgFormat {
+                                id: "BLW–on".to_string(),
+                                text: "2021".to_string()
+                            },
+                            PtcgFormat {
+                                id: "BLW–on".to_string(),
+                                text: "Current".to_string()
+                            }
+                        ],
                 }],
             }) ,
             flavor_text: Some("Lakes where Dragonair live are filled with offerings from people, because they believe this Pokémon is able to control the weather.".to_string()),
         };
 
         assert_eq!(actual, expected);
+    }
+
+    fn get_dragonair_weak_resist_retreat() -> WeakResistRetreat {
+        WeakResistRetreat {
+            weak: DamageModifier {
+                colors: vec![PokeColor::Fairy],
+                value: Some("×2".to_string()),
+            },
+            resist: DamageModifier {
+                colors: vec![PokeColor::None("No Resistance".to_string())],
+                value: None,
+            },
+            retreat: 2,
+        }
+    }
+
+    fn get_dragonair_standard_format() -> Formats {
+        Formats {
+            format: FormatType::Standard,
+            formats: vec![
+                PtcgFormat {
+                    id: "UPR–on".to_string(),
+                    text: "2020".to_string(),
+                },
+                PtcgFormat {
+                    id: "TEU–on".to_string(),
+                    text: "2021".to_string(),
+                },
+            ],
+        }
     }
 
     #[test]
@@ -1911,11 +2085,11 @@ Any damage done to Donphan by attacks is reduced by 20 <em>(after applying Weakn
     fn parse_poke_power() {
         let fragment = Html::parse_fragment(
             r#"<p><a href="https://pkmncards.com/has/poke-power/">Poké-POWER</a> ⇢ Shadow Knife<br>
-When you play this Pokémon from your hand onto your Bench during your turn, you may put 1 damage counter on 1 of your opponent’s Pokémon.</p>"#,
+When you play this Pokémon from your hand onto your Bench during your turn, you may put 1 damage counter on 1 of your opponent's Pokémon.</p>"#,
         );
         let expected = TextInfo::PokePower {
             name: "Shadow Knife".to_string(),
-            text: "When you play this Pokémon from your hand onto your Bench during your turn, you may put 1 damage counter on 1 of your opponent’s Pokémon.".to_string(),
+            text: "When you play this Pokémon from your hand onto your Bench during your turn, you may put 1 damage counter on 1 of your opponent's Pokémon.".to_string(),
         };
 
         parse_text_info(expected, fragment);
@@ -1925,11 +2099,11 @@ When you play this Pokémon from your hand onto your Bench during your turn, you
     fn parse_pokemon_power() {
         let fragment = Html::parse_fragment(
             r#"<p><a href="https://pkmncards.com/has/pokemon-power/">Pokémon Power</a> ⇢ Energy Burn<br>
-As often as you like during your turn <em>(before your attack)</em>, you may turn all Energy attached to Charizard into <abbr title="Fire" class="ptcg-font ptcg-symbol-name"><span class="vh">{</span>R<span class="vh">}</span></abbr> Energy for the rest of the turn. This power can’t be used if Charizard is Asleep, Confused, or Paralyzed.</p>"#,
+As often as you like during your turn <em>(before your attack)</em>, you may turn all Energy attached to Charizard into <abbr title="Fire" class="ptcg-font ptcg-symbol-name"><span class="vh">{</span>R<span class="vh">}</span></abbr> Energy for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed.</p>"#,
         );
         let expected = TextInfo::PokemonPower {
             name: "Energy Burn".to_string(),
-            text: "As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into {R} Energy for the rest of the turn. This power can’t be used if Charizard is Asleep, Confused, or Paralyzed.".to_string(),
+            text: "As often as you like during your turn (before your attack), you may turn all Energy attached to Charizard into {R} Energy for the rest of the turn. This power can't be used if Charizard is Asleep, Confused, or Paralyzed.".to_string(),
         };
 
         parse_text_info(expected, fragment);
@@ -1939,12 +2113,12 @@ As often as you like during your turn <em>(before your attack)</em>, you may tur
     fn parse_ancient_trait() {
         let fragment = Html::parse_fragment(
             r#"<p><a href="https://pkmncards.com/has/ancient-trait/">Ancient Trait</a> ⇢ <abbr title="Theta"><em>θ</em> </abbr> Stop<br>
- Prevent all effects of your opponent’s Pokémon’s Abilities done to this Pokémon.</p>"#,
+ Prevent all effects of your opponent's Pokémon's Abilities done to this Pokémon.</p>"#,
         );
         let expected = TextInfo::AncientTrait {
             name: "θ  Stop".to_string(),
             text:
-                "Prevent all effects of your opponent’s Pokémon’s Abilities done to this Pokémon."
+                "Prevent all effects of your opponent's Pokémon's Abilities done to this Pokémon."
                     .to_string(),
         };
 
@@ -1955,11 +2129,11 @@ As often as you like during your turn <em>(before your attack)</em>, you may tur
     fn parse_held_item() {
         let fragment = Html::parse_fragment(
             r#"<p><a href="https://pkmncards.com/has/held-item/">Held Item</a> ⇢ Magnet<br>
- Magnemite’s Retreat Cost is <abbr title="Colorless" class="ptcg-font ptcg-symbol-name"><span class="vh">{</span>C<span class="vh">}</span></abbr> less for each Magnemite on your Bench.</p>"#,
+ Magnemite's Retreat Cost is <abbr title="Colorless" class="ptcg-font ptcg-symbol-name"><span class="vh">{</span>C<span class="vh">}</span></abbr> less for each Magnemite on your Bench.</p>"#,
         );
         let expected = TextInfo::HeldItem {
             name: "Magnet".to_string(),
-            text: "Magnemite’s Retreat Cost is {C} less for each Magnemite on your Bench."
+            text: "Magnemite's Retreat Cost is {C} less for each Magnemite on your Bench."
                 .to_string(),
         };
         parse_text_info(expected, fragment);
@@ -2001,14 +2175,14 @@ Put 1 damage counter on each of your opponent's Pokémon.</p>"#,
     fn parse_attack_with_damage() {
         let fragment = Html::parse_fragment(
             r#"<p><abbr title="Psychic" class="ptcg-font ptcg-symbol-name"><span class="vh">{</span>P<span class="vh">}</span></abbr><abbr title="Psychic" class="ptcg-font ptcg-symbol-name"><span class="vh">{</span>P<span class="vh">}</span></abbr><abbr title="Colorless" class="ptcg-font ptcg-symbol-name"><span class="vh">{</span>C<span class="vh">}</span></abbr>{+} → <span>Miraculous Duo-<em>GX</em></span> : 200<br>
-If this Pokémon has at least 1 extra Energy attached to it <em>(in addition to this attack’s cost)</em>, heal all damage from all of your Pokémon. <em>(You can’t use more than 1 <em>GX</em> attack in a game.)</em></p>"#,
+If this Pokémon has at least 1 extra Energy attached to it <em>(in addition to this attack's cost)</em>, heal all damage from all of your Pokémon. <em>(You can't use more than 1 <em>GX</em> attack in a game.)</em></p>"#,
         );
 
         let expected = TextInfo::Attack {
             cost: vec![EnergyColor::Psychic, EnergyColor::Psychic, EnergyColor::Colorless],
             name: "Miraculous Duo-GX".to_string(),
             damage: Some("200".to_string()),
-            text: "If this Pokémon has at least 1 extra Energy attached to it (in addition to this attack’s cost), heal all damage from all of your Pokémon. (You can’t use more than 1 GX attack in a game.)".to_string(),
+            text: "If this Pokémon has at least 1 extra Energy attached to it (in addition to this attack's cost), heal all damage from all of your Pokémon. (You can't use more than 1 GX attack in a game.)".to_string(),
         };
 
         parse_text_info(expected, fragment);
@@ -2021,7 +2195,7 @@ If this Pokémon has at least 1 extra Energy attached to it <em>(in addition to 
         );
         let selector = Selector::parse("div").unwrap();
 
-        let rule = Rule {
+        let rule = Rule::RuleBox {
             purpose: "TAG TEAM".to_string(),
             text: "When your TAG TEAM is Knocked Out, your opponent takes 3 Prize cards."
                 .to_string(),
@@ -2047,19 +2221,7 @@ If this Pokémon has at least 1 extra Energy attached to it <em>(in addition to 
         let selector = Selector::parse("span").unwrap();
 
         assert_eq!(
-            Formats {
-                format: FormatType::Standard,
-                formats: vec![
-                    PtcgFormat {
-                        id: "UPR–on".to_string(),
-                        text: "2020".to_string(),
-                    },
-                    PtcgFormat {
-                        id: "TEU–on".to_string(),
-                        text: "2021".to_string()
-                    }
-                ]
-            },
+            get_dragonair_standard_format(),
             Formats::parse(fragment.select(&selector).next().unwrap()).unwrap()
         );
     }

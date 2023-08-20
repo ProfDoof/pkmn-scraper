@@ -1,0 +1,2472 @@
+Differences exist in idx 0 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Protective Wall",
+        "text": "Prevent all damage done to your Benched Pokémon by your opponent's attacks.",
+        "type": "Poké-BODY"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Kazuyuki Kano",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Metal",
+          "Metal"
+        ],
+        "damage": "60",
+        "name": "Anger Revenge",
+        "text": "If Bastiodon was damaged by an attack during your opponent's last turn, this attack does 40 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Shieldon",
+    "evolvesTo": [],
+    "flavorText": "Any frontal attack is repulsed. It is a docile Pokémon that feeds on grass and berries.",
+    "hp": "130",
+    "id": "pop6-1",
+    "images": {},
+    "legalities": {},
+    "level": "51",
+    "name": "Bastiodon",
+    "nationalPokedexNumbers": null,
+    "number": "1",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Metal"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "+40"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Protective Wall",
+        "text": "Prevent all damage done to your Benched Pokémon by your opponent's attacks.",
+        "type": "Poké-Body"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Kazuyuki Kano",
+    "attacks": [
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Colorless",
+          "Metal",
+          "Metal"
+        ],
+        "damage": "60",
+        "name": "Anger Revenge",
+        "text": "If Bastiodon was damaged by an attack during your opponent's last turn, this attack does 40 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "convertedRetreatCost": 3,
+    "evolvesFrom": "Shieldon",
+    "evolvesTo": null,
+    "flavorText": "Any frontal attack is repulsed. It is a docile Pokémon that feeds on grass and berries.",
+    "hp": "130",
+    "id": "pop6-1",
+    "images": {},
+    "legalities": {},
+    "level": "51",
+    "name": "Bastiodon",
+    "nationalPokedexNumbers": null,
+    "number": "1",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Psychic",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 2"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Metal"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "+40"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].abilities[0].type"
+
+    left: "Poké-Body"
+
+    right: "Poké-BODY"
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 2"]
+
+    right: null
+
+####################
+Differences exist in idx 1 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Mitsuhiro Arita",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Amnesia",
+        "text": "Choose 1 of the Defending Pokémon's attack's. That Pokémon can't use that attack during your opponent's next turn."
+      },
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Scavenge",
+        "text": "Search your discard pile for a Trainer card, show it to your opponent, an put it into your hand."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Bibarel"
+    ],
+    "flavorText": "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+    "hp": "50",
+    "id": "pop6-11",
+    "images": {},
+    "legalities": {},
+    "level": "10",
+    "name": "Bidoof",
+    "nationalPokedexNumbers": null,
+    "number": "11",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Mitsuhiro Arita",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Amnesia",
+        "text": "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
+      },
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Scavenge",
+        "text": "Search your discard pile for a Trainer card, show it to your opponent, an put it into your hand."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Bibarel"
+    ],
+    "flavorText": "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+    "hp": "50",
+    "id": "pop6-11",
+    "images": {},
+    "legalities": {},
+    "level": "10",
+    "name": "Bidoof",
+    "nationalPokedexNumbers": null,
+    "number": "11",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].attacks[0].text"
+
+    left: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
+
+    right: "Choose 1 of the Defending Pokémon's attack's. That Pokémon can't use that attack during your opponent's next turn."
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 2 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kagemaru Himeno",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Splash",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Jump Kick",
+        "text": "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Lopunny"
+    ],
+    "flavorText": "It slams foes by sharply uncoiling is rolled ears. It stings enough to make a grown-up cry in pain.",
+    "hp": "50",
+    "id": "pop6-12",
+    "images": {},
+    "legalities": {},
+    "level": "11",
+    "name": "Buneary",
+    "nationalPokedexNumbers": null,
+    "number": "12",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kagemaru Himeno",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Splash",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Jump Kick",
+        "text": "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Lopunny"
+    ],
+    "flavorText": "It slams foes by sharply uncoiling is rolled ears. It stings enough to make a grown-up cry in pain.",
+    "hp": "50",
+    "id": "pop6-12",
+    "images": {},
+    "legalities": {},
+    "level": "11",
+    "name": "Buneary",
+    "nationalPokedexNumbers": null,
+    "number": "12",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 3 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Atsuko Nishida",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "",
+        "name": "Sleep Powder",
+        "text": "The Defending Pokémon is now Asleep."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Grass"
+        ],
+        "damage": "20",
+        "name": "Leech Seed",
+        "text": "If this attack does any damage to the Defending Pokémon (after applying Weakness and Resistance), remove 1 damage counter from Cherubi."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Cherrim"
+    ],
+    "flavorText": "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty.",
+    "hp": "50",
+    "id": "pop6-13",
+    "images": {},
+    "legalities": {},
+    "level": "7",
+    "name": "Cherubi",
+    "nationalPokedexNumbers": null,
+    "number": "13",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Water",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Atsuko Nishida",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "",
+        "name": "Sleep Powder",
+        "text": "The Defending Pokémon is now Asleep."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Grass"
+        ],
+        "damage": "20",
+        "name": "Leech Seed",
+        "text": "If this attack does any damage to the Defending Pokémon (after applying Weakness and Resistance), remove 1 damage counter from Cherubi."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Cherrim"
+    ],
+    "flavorText": "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty.",
+    "hp": "50",
+    "id": "pop6-13",
+    "images": {},
+    "legalities": {},
+    "level": "7",
+    "name": "Cherubi",
+    "nationalPokedexNumbers": null,
+    "number": "13",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Water",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 4 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kagemaru Himeno",
+    "attacks": [
+      {
+        "convertedEnergyCost": 0,
+        "cost": [],
+        "damage": "10",
+        "name": "Scratch",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fire"
+        ],
+        "damage": "30",
+        "name": "Ember",
+        "text": "Flip a coin. If heads discard a Fire Energy attached to Chimchar."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Monferno"
+    ],
+    "flavorText": "It agilely scales cliffs to live atop craggy mountains. Its fire is put out when it sleeps.",
+    "hp": "50",
+    "id": "pop6-14",
+    "images": {},
+    "legalities": {},
+    "level": "8",
+    "name": "Chimchar",
+    "nationalPokedexNumbers": null,
+    "number": "14",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kagemaru Himeno",
+    "attacks": [
+      {
+        "convertedEnergyCost": 0,
+        "cost": [],
+        "damage": "10",
+        "name": "Scratch",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fire"
+        ],
+        "damage": "30",
+        "name": "Ember",
+        "text": "Flip a coin. If heads discard a Fire Energy attached to Chimchar."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Monferno"
+    ],
+    "flavorText": "It agilely scales cliffs to live atop craggy mountains. Its fire is put out when it sleeps.",
+    "hp": "50",
+    "id": "pop6-14",
+    "images": {},
+    "legalities": {},
+    "level": "8",
+    "name": "Chimchar",
+    "nationalPokedexNumbers": null,
+    "number": "14",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fire"
+    ],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 5 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Mitsuhiro Arita",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "",
+        "name": "Blowing Wind",
+        "text": "Flip a coin. If heads, put 1 of your Benched Pokémon and all cards attached to it on top of your deck. Shuffle your deck afterward."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "10",
+        "name": "Ominous Wind",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Confused and can't retreat during your opponent's next turn."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Drifblim"
+    ],
+    "flavorText": "A Pokémon formed by the spirits of people and Pokémon. It loves damp, humid seasons.",
+    "hp": "60",
+    "id": "pop6-6",
+    "images": {},
+    "legalities": {},
+    "level": "17",
+    "name": "Drifloon",
+    "nationalPokedexNumbers": null,
+    "number": "6",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Colorless",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Mitsuhiro Arita",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Psychic"
+        ],
+        "damage": "",
+        "name": "Blowing Wind",
+        "text": "Flip a coin. If heads, put 1 of your Benched Pokémon and all cards attached to it on top of your deck. Shuffle your deck afterward."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Psychic"
+        ],
+        "damage": "10",
+        "name": "Ominous Wind",
+        "text": "Flip a coin. If heads, the Defending Pokémon is now Confused and can't retreat during your opponent's next turn."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Drifblim"
+    ],
+    "flavorText": "A Pokémon formed by the spirits of people and Pokémon. It loves damp, humid seasons.",
+    "hp": "60",
+    "id": "pop6-6",
+    "images": {},
+    "legalities": {},
+    "level": "17",
+    "name": "Drifloon",
+    "nationalPokedexNumbers": null,
+    "number": "6",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Colorless",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Psychic"
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 6 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Oran Berry",
+        "text": "Remove 1 damage counter from Gible at the end of your turn.",
+        "type": "Held Item"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Surprise Attack",
+        "text": "Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Gabite"
+    ],
+    "flavorText": null,
+    "hp": "50",
+    "id": "pop6-7",
+    "images": {},
+    "legalities": {},
+    "level": "8",
+    "name": "Gible",
+    "nationalPokedexNumbers": null,
+    "number": "7",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Colorless",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Surprise Attack",
+        "text": "Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Gabite"
+    ],
+    "flavorText": null,
+    "hp": "50",
+    "id": "pop6-7",
+    "images": {},
+    "legalities": {},
+    "level": "8",
+    "name": "Gible",
+    "nationalPokedexNumbers": null,
+    "number": "7",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": [
+      "Oran Berry: Remove 1 damage counter from Gible at the end of your turn."
+    ],
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Colorless",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].abilities"
+
+    left: null
+
+    right: [{"name":"Oran Berry","text":"Remove 1 damage counter from Gible at the end of your turn.","type":"Held Item"}]
+
+Difference between left and right for path "root[0].rules"
+
+    left: ["Oran Berry: Remove 1 damage counter from Gible at the end of your turn."]
+
+    right: null
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 7 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Feint",
+        "text": "This attack's damage isn't affected by Resistance."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "40",
+        "name": "Aura Sphere",
+        "text": "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Riolu",
+    "evolvesTo": [
+      "Lucario LV.X"
+    ],
+    "flavorText": "It has the ability to sense the auras of all things. It understands human speech.",
+    "hp": "90",
+    "id": "pop6-2",
+    "images": {},
+    "legalities": {},
+    "level": "30",
+    "name": "Lucario",
+    "nationalPokedexNumbers": null,
+    "number": "2",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "+20"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "30",
+        "name": "Feint",
+        "text": "This attack's damage isn't affected by Resistance."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "40",
+        "name": "Aura Sphere",
+        "text": "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Riolu",
+    "evolvesTo": null,
+    "flavorText": "It has the ability to sense the auras of all things. It understands human speech.",
+    "hp": "90",
+    "id": "pop6-2",
+    "images": {},
+    "legalities": {},
+    "level": "30",
+    "name": "Lucario",
+    "nationalPokedexNumbers": null,
+    "number": "2",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "+20"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: ["Lucario LV.X"]
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 8 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Atsuko Nishida",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Call for Family",
+        "text": "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "damage": "30",
+        "name": "Aqua Ring",
+        "text": "Switch Manaphy with 1 of your Benched Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "Born on a cold seafloor, it will swim great distances to return to its birthplace.",
+    "hp": "70",
+    "id": "pop6-3",
+    "images": {},
+    "legalities": {},
+    "level": "20",
+    "name": "Manaphy",
+    "nationalPokedexNumbers": null,
+    "number": "3",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "+20"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Atsuko Nishida",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Call for Family",
+        "text": "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Water",
+          "Water"
+        ],
+        "damage": "30",
+        "name": "Aqua Ring",
+        "text": "Switch Manaphy with 1 of your Benched Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "Born on a cold seafloor, it will swim great distances to return to its birthplace.",
+    "hp": "70",
+    "id": "pop6-3",
+    "images": {},
+    "legalities": {},
+    "level": "20",
+    "name": "Manaphy",
+    "nationalPokedexNumbers": null,
+    "number": "3",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "+20"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 9 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Atsuko Nishida",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Minor Errand-Running",
+        "text": "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+      },
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Lightning"
+        ],
+        "damage": "20",
+        "name": "Thunder Jolt",
+        "text": "Flip a coin. If tails, Pachirisu does 10 damage to itself."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
+    "hp": "70",
+    "id": "pop6-4",
+    "images": {},
+    "legalities": {},
+    "level": "23",
+    "name": "Pachirisu",
+    "nationalPokedexNumbers": null,
+    "number": "4",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Metal",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "+20"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Atsuko Nishida",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "",
+        "name": "Minor Errand-Running",
+        "text": "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+      },
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Lightning"
+        ],
+        "damage": "20",
+        "name": "Thunder Jolt",
+        "text": "Flip a coin. If tails, Pachirisu does 10 damage to itself."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": null,
+    "flavorText": "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
+    "hp": "70",
+    "id": "pop6-4",
+    "images": {},
+    "legalities": {},
+    "level": "23",
+    "name": "Pachirisu",
+    "nationalPokedexNumbers": null,
+    "number": "4",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Metal",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "+20"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 10 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": [
+      {
+        "name": "Oran Berry",
+        "text": "Remove 1 damage counter from Pikachu at the end of your turn.",
+        "type": "Held Item"
+      }
+    ],
+    "ancientTrait": null,
+    "artist": "Kagemaru Himeno",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Lightning"
+        ],
+        "damage": "10",
+        "name": "Spark",
+        "text": "Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Alolan Raichu",
+      "Dark Raichu",
+      "Raichu",
+      "Raichu ex",
+      "Raichu-GX"
+    ],
+    "flavorText": null,
+    "hp": "50",
+    "id": "pop6-9",
+    "images": {},
+    "legalities": {},
+    "level": "13",
+    "name": "Pikachu",
+    "nationalPokedexNumbers": null,
+    "number": "9",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Metal",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kagemaru Himeno",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Lightning"
+        ],
+        "damage": "10",
+        "name": "Spark",
+        "text": "Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Raichu"
+    ],
+    "flavorText": null,
+    "hp": "50",
+    "id": "pop6-9",
+    "images": {},
+    "legalities": {},
+    "level": "13",
+    "name": "Pikachu",
+    "nationalPokedexNumbers": null,
+    "number": "9",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Metal",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": [
+      "Oran Berry: Remove 1 damage counter from Pikachu at the end of your turn."
+    ],
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Lightning"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].abilities"
+
+    left: null
+
+    right: [{"name":"Oran Berry","text":"Remove 1 damage counter from Pikachu at the end of your turn.","type":"Held Item"}]
+
+Difference between left and right for path "root[0].evolvesTo[0]"
+
+    left: "Raichu"
+
+    right: "Alolan Raichu"
+
+Difference between left and right for path "root[0].rules"
+
+    left: ["Oran Berry: Remove 1 damage counter from Pikachu at the end of your turn."]
+
+    right: null
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 11 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Atsuko Nishida",
+    "attacks": [
+      {
+        "convertedEnergyCost": 0,
+        "cost": [],
+        "damage": "10",
+        "name": "Peck",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20+",
+        "name": "Water Spash",
+        "text": "Flip a coin. If heads, this, attack does 20 damage plus 10 more damage."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Prinplup"
+    ],
+    "flavorText": "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
+    "hp": "60",
+    "id": "pop6-15",
+    "images": {},
+    "legalities": {},
+    "level": "9",
+    "name": "Piplup",
+    "nationalPokedexNumbers": null,
+    "number": "15",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Atsuko Nishida",
+    "attacks": [
+      {
+        "convertedEnergyCost": 0,
+        "cost": [],
+        "damage": "10",
+        "name": "Peck",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Water"
+        ],
+        "damage": "20+",
+        "name": "Water Spash",
+        "text": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Prinplup"
+    ],
+    "flavorText": "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
+    "hp": "60",
+    "id": "pop6-15",
+    "images": {},
+    "legalities": {},
+    "level": "9",
+    "name": "Piplup",
+    "nationalPokedexNumbers": null,
+    "number": "15",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Water"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].attacks[1].text"
+
+    left: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+
+    right: "Flip a coin. If heads, this, attack does 20 damage plus 10 more damage."
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 12 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kazuyuki Kano",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fighting"
+        ],
+        "damage": "30",
+        "name": "Assurance",
+        "text": "As long as the Defending Pokémon's remaining HP is 60 or less, this attack's base damage is 60 instead of 30."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "100",
+        "name": "Hasty Headbutt",
+        "text": "Rampardos does 20 damage to itself. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Cranidos",
+    "evolvesTo": [],
+    "flavorText": "Its powerful head butt has enough power to shatter even the most durable things upon impact.",
+    "hp": "120",
+    "id": "pop6-5",
+    "images": {},
+    "legalities": {},
+    "level": "48",
+    "name": "Rampardos",
+    "nationalPokedexNumbers": null,
+    "number": "5",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "+30"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kazuyuki Kano",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Fighting"
+        ],
+        "damage": "30",
+        "name": "Assurance",
+        "text": "As long as the Defending Pokémon's remaining HP is 60 or less, this attack's base damage is 60 instead of 30."
+      },
+      {
+        "convertedEnergyCost": 3,
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Fighting"
+        ],
+        "damage": "100",
+        "name": "Hasty Headbutt",
+        "text": "Rampardos does 20 damage to itself. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": "Cranidos",
+    "evolvesTo": null,
+    "flavorText": "Its powerful head butt has enough power to shatter even the most durable things upon impact.",
+    "hp": "120",
+    "id": "pop6-5",
+    "images": {},
+    "legalities": {},
+    "level": "48",
+    "name": "Rampardos",
+    "nationalPokedexNumbers": null,
+    "number": "5",
+    "rarity": "Rare",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Stage 2"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "+30"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].evolvesTo"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 2"]
+
+    right: null
+
+####################
+Differences exist in idx 13 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fighting"
+        ],
+        "damage": "30",
+        "name": "Wild Kick",
+        "text": "Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Lucario",
+      "Lucario ex",
+      "Lucario-GX"
+    ],
+    "flavorText": "The aura that emanates from its body intensifies to alert others if it is afraid or sad.",
+    "hp": "60",
+    "id": "pop6-8",
+    "images": {},
+    "legalities": {},
+    "level": "7",
+    "name": "Riolu",
+    "nationalPokedexNumbers": null,
+    "number": "8",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Kouki Saitou",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Fighting"
+        ],
+        "damage": "30",
+        "name": "Wild Kick",
+        "text": "Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Lucario"
+    ],
+    "flavorText": "The aura that emanates from its body intensifies to alert others if it is afraid or sad.",
+    "hp": "60",
+    "id": "pop6-8",
+    "images": {},
+    "legalities": {},
+    "level": "7",
+    "name": "Riolu",
+    "nationalPokedexNumbers": null,
+    "number": "8",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": null,
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Fighting"
+    ],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 14 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Masakazu Fukuda",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20",
+        "name": "Whirlwind",
+        "text": "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20",
+        "name": "Clutch",
+        "text": "The Defending Pokémon can't retreat during your opponent's next turn."
+      }
+    ],
+    "convertedRetreatCost": 0,
+    "evolvesFrom": "Starly",
+    "evolvesTo": [
+      "Staraptor"
+    ],
+    "flavorText": "It flies around forests and fields in search of bug Pokémon. It stays within a huge flock.",
+    "hp": "70",
+    "id": "pop6-10",
+    "images": {},
+    "legalities": {},
+    "level": "21",
+    "name": "Staravia",
+    "nationalPokedexNumbers": null,
+    "number": "10",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "+20"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Masakazu Fukuda",
+    "attacks": [
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20",
+        "name": "Whirlwind",
+        "text": "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "20",
+        "name": "Clutch",
+        "text": "The Defending Pokémon can't retreat during your opponent's next turn."
+      }
+    ],
+    "convertedRetreatCost": null,
+    "evolvesFrom": "Starly",
+    "evolvesTo": [
+      "Staraptor"
+    ],
+    "flavorText": "It flies around forests and fields in search of bug Pokémon. It stays within a huge flock.",
+    "hp": "70",
+    "id": "pop6-10",
+    "images": {},
+    "legalities": {},
+    "level": "21",
+    "name": "Staravia",
+    "nationalPokedexNumbers": null,
+    "number": "10",
+    "rarity": "Uncommon",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": null,
+    "rules": null,
+    "subtypes": [
+      "Stage 1"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "+20"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].convertedRetreatCost"
+
+    left: null
+
+    right: 0
+
+Difference between left and right for path "root[0].retreatCost"
+
+    left: null
+
+    right: []
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Stage 1"]
+
+    right: null
+
+####################
+Differences exist in idx 15 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Masakazu Fukuda",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Gust",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "10+",
+        "name": "Quick Attack",
+        "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Staravia"
+    ],
+    "flavorText": "They flock in great numbers. Though small, they flap their wings with great power.",
+    "hp": "50",
+    "id": "pop6-16",
+    "images": {},
+    "legalities": {},
+    "level": "8",
+    "name": "Starly",
+    "nationalPokedexNumbers": null,
+    "number": "16",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Masakazu Fukuda",
+    "attacks": [
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Colorless"
+        ],
+        "damage": "10",
+        "name": "Gust",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 2,
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "damage": "10+",
+        "name": "Quick Attack",
+        "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+      }
+    ],
+    "convertedRetreatCost": 1,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Staravia"
+    ],
+    "flavorText": "They flock in great numbers. Though small, they flap their wings with great power.",
+    "hp": "50",
+    "id": "pop6-16",
+    "images": {},
+    "legalities": {},
+    "level": "8",
+    "name": "Starly",
+    "nationalPokedexNumbers": null,
+    "number": "16",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Colorless"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
+Differences exist in idx 16 which can be seen in the following
+####################
+
+pkmn
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Masakazu Fukuda",
+    "attacks": [
+      {
+        "convertedEnergyCost": 0,
+        "cost": [],
+        "damage": "10",
+        "name": "Tackle",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "20",
+        "name": "Razor Leaf",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Grotle"
+    ],
+    "flavorText": "Made from soil, the shell on its back hardens when it drinks water. It lives along lakes.",
+    "hp": "60",
+    "id": "pop6-17",
+    "images": {},
+    "legalities": {},
+    "level": "10",
+    "name": "Turtwig",
+    "nationalPokedexNumbers": null,
+    "number": "17",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Water",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": null,
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+ptcgio
+==================
+[
+  {
+    "abilities": null,
+    "ancientTrait": null,
+    "artist": "Masakazu Fukuda",
+    "attacks": [
+      {
+        "convertedEnergyCost": 0,
+        "cost": [],
+        "damage": "10",
+        "name": "Tackle",
+        "text": ""
+      },
+      {
+        "convertedEnergyCost": 1,
+        "cost": [
+          "Grass"
+        ],
+        "damage": "20",
+        "name": "Razor Leaf",
+        "text": ""
+      }
+    ],
+    "convertedRetreatCost": 2,
+    "evolvesFrom": null,
+    "evolvesTo": [
+      "Grotle"
+    ],
+    "flavorText": "Made from soil, the shell on its back hardens when it drinks water. It lives along lakes.",
+    "hp": "60",
+    "id": "pop6-17",
+    "images": {},
+    "legalities": {},
+    "level": "10",
+    "name": "Turtwig",
+    "nationalPokedexNumbers": null,
+    "number": "17",
+    "rarity": "Common",
+    "regulationMark": null,
+    "resistances": [
+      {
+        "type": "Water",
+        "value": "-20"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ],
+    "rules": null,
+    "subtypes": [
+      "Basic"
+    ],
+    "supertype": "Pokémon",
+    "types": [
+      "Grass"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "+10"
+      }
+    ]
+  }
+]
+==================
+
+Difference between left and right for path "root[0].subtypes"
+
+    left: ["Basic"]
+
+    right: null
+
+####################
