@@ -51,10 +51,10 @@ pub trait Changeset {
 
 pub struct Add<Key, Value> {
     /// The key you should add this value at
-    key: Key,
+    pub key: Key,
 
     /// The value to add to the data structure
-    value: Value,
+    pub value: Value,
 }
 
 impl<Key, Value> From<(Key, Value)> for Add<Key, Value> {
@@ -68,10 +68,10 @@ impl<Key, Value> From<(Key, Value)> for Add<Key, Value> {
 
 pub struct Remove<Key, Value> {
     /// The key you should remove this value from
-    key: Key,
+    pub key: Key,
 
     /// The value you should remove from this data structure
-    value: Value,
+    pub value: Value,
 }
 
 impl<Key, Value> From<(Key, Value)> for Remove<Key, Value> {
@@ -85,13 +85,13 @@ impl<Key, Value> From<(Key, Value)> for Remove<Key, Value> {
 
 pub struct Modify<Key, Value> {
     /// The key of the element you should modify
-    key: Key,
+    pub key: Key,
 
     /// The element you should start with
-    left: Value,
+    pub left: Value,
 
     /// The element you should end with
-    right: Value,
+    pub right: Value,
 }
 
 impl<Key, Value> From<(Key, Value, Value)> for Modify<Key, Value> {
@@ -105,12 +105,12 @@ impl<Key, Value> From<(Key, Value, Value)> for Modify<Key, Value> {
     }
 }
 
-struct ModifyChangeset<Key, Value: ArbitraryChangeset> {
+pub struct ModifyChangeset<Key, Value: ArbitraryChangeset> {
     /// The key of the element you should modify
-    key: Key,
+    pub key: Key,
 
     /// The changeset of changes you should make to that element
-    changeset: Value::Changeset,
+    pub changeset: Value::Changeset,
 }
 
 impl<Key, Value: ArbitraryChangeset> From<Modify<Key, Value>> for ModifyChangeset<Key, Value> {
