@@ -1,70 +1,60 @@
 use crate::arbitrary::{
-    Additions, ArbitraryChangeset, Changeset, InfallibleIter, Modifications, Removals,
+    Add, Additions, ArbitraryChangeset, Changeset, Modifications, Modify, Removals, Remove,
 };
 use std::collections::{BTreeSet, HashSet};
 use std::hash::Hash;
-use std::iter;
 
 pub struct SetChangeset<'a, T> {
     added: Vec<&'a T>,
     removed: Vec<&'a T>,
 }
 
-impl<'a, T> Changeset for SetChangeset<'a, T> {
-    type Key = Self::Value;
-    type Value = &'a T;
-    type PureOpIter = ::std::vec::IntoIter<(&'a T, &'a T)>;
-    type ImpureOpIter = ::std::iter::Empty<(Self::Key, Self::Value, Self::Value)>;
+impl<'set, T> Changeset for SetChangeset<'set, T> {
+    type Key<'key> = &'key T where Self: 'key;
+    type Value<'value> = &'value T where Self: 'value;
+    type AddIter<'iter> = ::std::vec::IntoIter<Add<Self::Value<'iter>, Self::Value<'iter>>> where Self: 'iter;
+    type RemoveIter<'iter> = ::std::vec::IntoIter<Remove<Self::Value<'iter>, Self::Value<'iter>>> where Self: 'iter;
+    type ModifyIter<'iter> = ::std::iter::Empty<Modify<Self::Value<'iter>, Self::Value<'iter>>> where Self: 'iter;
 
-    fn additions(&self) -> Additions<Self::Key, Self::Value, Self::PureOpIter> {
-        Additions {
-            iter: InfallibleIter {
-                changes: Some(
-                    self.added
-                        .iter()
-                        .cloned()
-                        .map(|val| (val, val))
-                        .collect::<Vec<(Self::Key, Self::Value)>>()
-                        .into_iter(),
-                ),
-            },
-        }
+    fn is_empty(&self) -> bool {
+        self.added.is_empty() && self.removed.is_empty()
     }
 
-    fn removals(&self) -> Removals<Self::Key, Self::Value, Self::PureOpIter> {
-        Removals {
-            iter: InfallibleIter {
-                changes: Some(
-                    self.removed
-                        .iter()
-                        .cloned()
-                        .map(|val| (val, val))
-                        .collect::<Vec<(Self::Key, Self::Value)>>()
-                        .into_iter(),
-                ),
-            },
-        }
+    fn additions(&self) -> Additions<Self::AddIter<'_>> {
+        Additions::new(
+            self.added
+                .iter()
+                .cloned()
+                .map(|val| (val, val).into())
+                .collect::<Vec<Add<Self::Key<'set>, Self::Value<'set>>>>()
+                .into_iter(),
+        )
     }
 
-    fn modifications(&self) -> Modifications<Self::Key, Self::Value, Self::ImpureOpIter> {
-        Modifications {
-            iter: InfallibleIter {
-                changes: Some(iter::empty()),
-            },
-        }
+    fn removals(&self) -> Removals<Self::RemoveIter<'_>> {
+        Removals::new(
+            self.removed
+                .iter()
+                .cloned()
+                .map(|val| (val, val).into())
+                .collect::<Vec<Remove<Self::Key<'set>, Self::Value<'set>>>>()
+                .into_iter(),
+        )
+    }
+
+    fn modifications(&self) -> Modifications<Self::ModifyIter<'_>> {
+        Modifications::new(std::iter::empty())
     }
 }
 
 macro_rules! set_changeset {
     ($set_kind:tt, $bound:tt $(+ $remainder:tt)*) => {
-        impl<'a, T> ArbitraryChangeset for &'a $set_kind<T>
-        where T: $bound $(+ $remainder)*,
+        impl<T> ArbitraryChangeset for $set_kind<T>
+        where T: $bound $(+ $remainder)*
         {
-            type Changeset = SetChangeset<'a, T>;
+            type Changeset<'changeset> = SetChangeset<'changeset, T> where Self: 'changeset;
 
-            fn changeset_to(&self, other: &Self) -> Self::Changeset
-            where
-                Self::Changeset: Changeset,
+            fn changeset_to<'set>(&'set self, other: &'set Self) -> Self::Changeset<'set>
             {
                 // Added is anything in other that isn't in self
                 let added: Vec<&T> = other.difference(self).collect();
@@ -79,3 +69,19 @@ macro_rules! set_changeset {
 
 set_changeset!(HashSet, Hash + Eq);
 set_changeset!(BTreeSet, Ord);
+
+mod tests {
+    use crate::arbitrary::{ArbitraryChangeset, Changeset};
+    use std::collections::HashSet;
+
+    #[test]
+    fn test_hashset_changeset() {
+        let set1 = HashSet::from([1, 2, 3]);
+        let set2 = HashSet::from([2, 3, 4]);
+
+        let changeset = set1.changeset_to(&set2);
+        for change in changeset.changes() {
+            println!("{:#?}", change);
+        }
+    }
+}

@@ -1,54 +1,59 @@
 mod std;
 
 pub trait ArbitraryChangeset {
-    type Changeset: Changeset;
-
-    fn changeset_to(&self, other: &Self) -> Self::Changeset
+    type Changeset<'changeset>: Changeset
     where
-        Self::Changeset: Changeset;
+        Self: 'changeset;
+
+    fn changeset_to<'a>(&'a self, other: &'a Self) -> Self::Changeset<'a>;
 }
 
 pub trait Changeset {
     /// The type for the key that corresponds to this particular element in the data structure.
-    type Key;
+    type Key<'key>
+    where
+        Self: 'key;
 
     /// The type of element that could be contained at that key in the data structure.
-    type Value;
+    type Value<'value>
+    where
+        Self: 'value;
 
-    /// The iterator type for the pure operations of addition and removals that will return
-    /// a tuple of Key and Value where:
-    ///     key - the key you use to access the element you are removing or where you put the element
-    ///           you are adding
-    ///     value - the element you are adding to the structure or removing from the structure
-    type PureOpIter: Iterator<Item = (Self::Key, Self::Value)>;
+    /// The iterator type for addition that will return a tuple of key and value
+    type AddIter<'iter>: Iterator<Item = Add<Self::Key<'iter>, Self::Value<'iter>>>
+    where
+        Self: 'iter;
 
-    /// The iterator type for the impure operation of modification that will return a tuple of
-    /// key, value, value triples where:
-    ///     key - the key you use to access the element you should modify
-    ///     value - the element you are starting with
-    ///     value - the element you should end with after the modification
-    type ImpureOpIter: Iterator<Item = (Self::Key, Self::Value, Self::Value)>;
+    /// The iterator for removal that will return
+    type RemoveIter<'iter>: Iterator<Item = Remove<Self::Key<'iter>, Self::Value<'iter>>>
+    where
+        Self: 'iter;
+
+    /// The iterator type for modification that will return a tuple of key and changeset
+    type ModifyIter<'iter>: Iterator<Item = Modify<Self::Key<'iter>, Self::Value<'iter>>>
+    where
+        Self: 'iter;
+
+    /// Returns whether the changeset is empty or not. Should avoid any allocations to check.
+    fn is_empty(&self) -> bool;
 
     /// The additions to the data structure that should get you closer to the target data structure
-    fn additions(&self) -> Additions<Self::Key, Self::Value, Self::PureOpIter>;
+    fn additions(&self) -> Additions<Self::AddIter<'_>>;
 
     /// The removals from the data structure that should get you closer to the target data structure
-    fn removals(&self) -> Removals<Self::Key, Self::Value, Self::PureOpIter>;
+    fn removals(&self) -> Removals<Self::RemoveIter<'_>>;
 
     /// The modifications you need to perform on the original data structure that should get you
     /// closer to the target data structure
-    fn modifications(&self) -> Modifications<Self::Key, Self::Value, Self::ImpureOpIter>;
+    fn modifications(&self) -> Modifications<Self::ModifyIter<'_>>;
 
     /// All changes that must be made to the data structure to get the target data structure
-    fn changes(&self) -> Changes<Self::Key, Self::Value, Self::PureOpIter, Self::ImpureOpIter> {
-        Changes {
-            additions: self.additions(),
-            removals: self.removals(),
-            modifications: self.modifications(),
-        }
+    fn changes(&self) -> Changes<Self::AddIter<'_>, Self::RemoveIter<'_>, Self::ModifyIter<'_>> {
+        Changes::new(self.additions(), self.removals(), self.modifications())
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct Add<Key, Value> {
     /// The key you should add this value at
     pub key: Key,
@@ -66,6 +71,7 @@ impl<Key, Value> From<(Key, Value)> for Add<Key, Value> {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct Remove<Key, Value> {
     /// The key you should remove this value from
     pub key: Key,
@@ -83,46 +89,30 @@ impl<Key, Value> From<(Key, Value)> for Remove<Key, Value> {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct Modify<Key, Value> {
     /// The key of the element you should modify
     pub key: Key,
 
-    /// The element you should start with
-    pub left: Value,
+    /// The source value for the element at that key
+    pub source: Value,
 
-    /// The element you should end with
-    pub right: Value,
+    /// The target value desired for the element at that key
+    pub target: Value,
 }
 
-impl<Key, Value> From<(Key, Value, Value)> for Modify<Key, Value> {
-    /// Convert a three tuple into a Modify struct
-    fn from(value: (Key, Value, Value)) -> Self {
-        Modify {
-            key: value.0,
-            left: value.1,
-            right: value.2,
-        }
+impl<'a, Key: 'a, Value> Modify<Key, Value>
+where
+    Value: ArbitraryChangeset + 'a,
+{
+    fn get_changeset(&self) -> Value::Changeset<'_> {
+        let source = &self.source;
+        let target = &self.target;
+        source.changeset_to(target)
     }
 }
 
-pub struct ModifyChangeset<Key, Value: ArbitraryChangeset> {
-    /// The key of the element you should modify
-    pub key: Key,
-
-    /// The changeset of changes you should make to that element
-    pub changeset: Value::Changeset,
-}
-
-impl<Key, Value: ArbitraryChangeset> From<Modify<Key, Value>> for ModifyChangeset<Key, Value> {
-    /// Get the changeset of this modify operation
-    fn from(value: Modify<Key, Value>) -> ModifyChangeset<Key, Value> {
-        ModifyChangeset {
-            key: value.key,
-            changeset: value.left.changeset_to(&value.right),
-        }
-    }
-}
-
+#[derive(Copy, Clone, Debug)]
 pub enum Change<Key, Value> {
     /// Add an element to the data structure
     Add(Add<Key, Value>),
@@ -134,21 +124,40 @@ pub enum Change<Key, Value> {
     Modify(Modify<Key, Value>),
 }
 
-pub struct Changes<Key, Value, PureOpIter, ImpureOpIter>
-where
-    PureOpIter: Iterator<Item = (Key, Value)>,
-    ImpureOpIter: Iterator<Item = (Key, Value, Value)>,
-{
-    additions: Additions<Key, Value, PureOpIter>,
-    removals: Removals<Key, Value, PureOpIter>,
-    modifications: Modifications<Key, Value, ImpureOpIter>,
+pub struct Changes<AddIter, RemoveIter, ModifyIter> {
+    additions: Additions<AddIter>,
+    removals: Removals<RemoveIter>,
+    modifications: Modifications<ModifyIter>,
 }
 
-impl<Key, Value, PureOpIter, ImpureOpIter> Iterator
-    for Changes<Key, Value, PureOpIter, ImpureOpIter>
-where
-    PureOpIter: Iterator<Item = (Key, Value)>,
-    ImpureOpIter: Iterator<Item = (Key, Value, Value)>,
+impl<
+        Key,
+        Value,
+        AddIter: Iterator<Item = Add<Key, Value>>,
+        RemoveIter: Iterator<Item = Remove<Key, Value>>,
+        ModifyIter: Iterator<Item = Modify<Key, Value>>,
+    > Changes<AddIter, RemoveIter, ModifyIter>
+{
+    pub fn new(
+        additions: Additions<AddIter>,
+        removals: Removals<RemoveIter>,
+        modifications: Modifications<ModifyIter>,
+    ) -> Self {
+        Changes {
+            additions,
+            removals,
+            modifications,
+        }
+    }
+}
+
+impl<
+        Key,
+        Value,
+        AddIter: Iterator<Item = Add<Key, Value>>,
+        RemoveIter: Iterator<Item = Remove<Key, Value>>,
+        ModifyIter: Iterator<Item = Modify<Key, Value>>,
+    > Iterator for Changes<AddIter, RemoveIter, ModifyIter>
 {
     type Item = Change<Key, Value>;
 
@@ -156,22 +165,30 @@ where
     fn next(&mut self) -> Option<Self::Item> {
         self.additions
             .next()
-            .map(|val| Change::Add(val.into()))
+            .map(|val| Change::Add(val))
             .or_else(|| {
                 self.modifications
                     .next()
-                    .map(|val| Change::Modify(val.into()))
-                    .or_else(|| self.removals.next().map(|val| Change::Remove(val.into())))
+                    .map(|val| Change::Modify(val))
+                    .or_else(|| self.removals.next().map(|val| Change::Remove(val)))
             })
     }
 }
 
-pub struct InfallibleIter<T, Iter: Iterator<Item = T>> {
+struct InfallibleIter<Iter> {
     changes: Option<Iter>,
 }
 
-impl<T, Iter: Iterator<Item = T>> Iterator for InfallibleIter<T, Iter> {
-    type Item = T;
+impl<Iter: Iterator> InfallibleIter<Iter> {
+    fn new(iter: Iter) -> Self {
+        InfallibleIter {
+            changes: Some(iter),
+        }
+    }
+}
+
+impl<Iter: Iterator> Iterator for InfallibleIter<Iter> {
+    type Item = Iter::Item;
 
     /// Get some element until the iterator runs out and then always return none. This iterator
     /// should never fail
@@ -188,38 +205,63 @@ impl<T, Iter: Iterator<Item = T>> Iterator for InfallibleIter<T, Iter> {
     }
 }
 
-pub struct Additions<Key, Added, Iter: Iterator<Item = (Key, Added)>> {
-    iter: InfallibleIter<(Key, Added), Iter>,
+/// An iterator over the additions needed to make the source element into the target element
+pub struct Additions<Iter> {
+    iter: InfallibleIter<Iter>,
 }
 
-impl<Key, Value, Iter: Iterator<Item = (Key, Value)>> Iterator for Additions<Key, Value, Iter> {
-    type Item = (Key, Value);
+impl<K, V, Iter: Iterator<Item = Add<K, V>>> Additions<Iter> {
+    fn new(iter: Iter) -> Self {
+        Additions {
+            iter: InfallibleIter::new(iter),
+        }
+    }
+}
+
+impl<K, V, Iter: Iterator<Item = Add<K, V>>> Iterator for Additions<Iter> {
+    type Item = Iter::Item;
 
     fn next(&mut self) -> Option<Self::Item> {
         self.iter.next()
     }
 }
 
-pub struct Removals<Key, Removed, Iter: Iterator<Item = (Key, Removed)>> {
-    iter: InfallibleIter<(Key, Removed), Iter>,
+/// An iterator over the removals needed to make the source element into the target element
+pub struct Removals<Iter> {
+    iter: InfallibleIter<Iter>,
 }
 
-impl<Key, Value, Iter: Iterator<Item = (Key, Value)>> Iterator for Removals<Key, Value, Iter> {
-    type Item = (Key, Value);
+impl<K, V, Iter: Iterator<Item = Remove<K, V>>> Removals<Iter> {
+    fn new(iter: Iter) -> Self {
+        Removals {
+            iter: InfallibleIter::new(iter),
+        }
+    }
+}
+
+impl<K, V, Iter: Iterator<Item = Remove<K, V>>> Iterator for Removals<Iter> {
+    type Item = Iter::Item;
 
     fn next(&mut self) -> Option<Self::Item> {
         self.iter.next()
     }
 }
 
-pub struct Modifications<Key, Modified, Iter: Iterator<Item = (Key, Modified, Modified)>> {
-    iter: InfallibleIter<(Key, Modified, Modified), Iter>,
+/// An iterator over the modifications needed to change the source element into the target element
+pub struct Modifications<Iter> {
+    iter: InfallibleIter<Iter>,
 }
 
-impl<Key, Modified, Iter: Iterator<Item = (Key, Modified, Modified)>> Iterator
-    for Modifications<Key, Modified, Iter>
-{
-    type Item = (Key, Modified, Modified);
+impl<K, V, Iter: Iterator<Item = Modify<K, V>>> Modifications<Iter> {
+    fn new(iter: Iter) -> Self {
+        Modifications {
+            iter: InfallibleIter::new(iter),
+        }
+    }
+}
+
+impl<K, V, Iter: Iterator<Item = Modify<K, V>>> Iterator for Modifications<Iter> {
+    type Item = Iter::Item;
 
     fn next(&mut self) -> Option<Self::Item> {
         self.iter.next()
