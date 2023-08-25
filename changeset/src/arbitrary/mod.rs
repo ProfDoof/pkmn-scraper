@@ -1,14 +1,14 @@
 mod std;
 
 pub trait ArbitraryChangeset {
-    type Changeset<'changeset>: Changeset
+    type Changeset<'changeset>: Changeset<'changeset>
     where
         Self: 'changeset;
 
     fn changeset_to<'a>(&'a self, other: &'a Self) -> Self::Changeset<'a>;
 }
 
-pub trait Changeset {
+pub trait Changeset<'datastructure> {
     /// The type for the key that corresponds to this particular element in the data structure.
     type Key<'key>
     where
@@ -20,35 +20,44 @@ pub trait Changeset {
         Self: 'value;
 
     /// The iterator type for addition that will return a tuple of key and value
-    type AddIter<'iter>: Iterator<Item = Add<Self::Key<'iter>, Self::Value<'iter>>>
+    type AddIter<'iter, 'data>: Iterator<Item = Add<Self::Key<'data>, Self::Value<'data>>>
     where
-        Self: 'iter;
+        Self: 'iter + 'data,
+        'data: 'iter;
 
     /// The iterator for removal that will return
-    type RemoveIter<'iter>: Iterator<Item = Remove<Self::Key<'iter>, Self::Value<'iter>>>
+    type RemoveIter<'iter, 'data>: Iterator<Item = Remove<Self::Key<'data>, Self::Value<'data>>>
     where
-        Self: 'iter;
+        Self: 'iter + 'data,
+        'data: 'iter;
 
     /// The iterator type for modification that will return a tuple of key and changeset
-    type ModifyIter<'iter>: Iterator<Item = Modify<Self::Key<'iter>, Self::Value<'iter>>>
+    type ModifyIter<'iter, 'data>: Iterator<Item = Modify<Self::Key<'data>, Self::Value<'data>>>
     where
-        Self: 'iter;
+        Self: 'iter + 'data,
+        'data: 'iter;
 
     /// Returns whether the changeset is empty or not. Should avoid any allocations to check.
     fn is_empty(&self) -> bool;
 
     /// The additions to the data structure that should get you closer to the target data structure
-    fn additions(&self) -> Additions<Self::AddIter<'_>>;
+    fn additions(&self) -> Additions<Self::AddIter<'_, 'datastructure>>;
 
     /// The removals from the data structure that should get you closer to the target data structure
-    fn removals(&self) -> Removals<Self::RemoveIter<'_>>;
+    fn removals(&self) -> Removals<Self::RemoveIter<'_, 'datastructure>>;
 
     /// The modifications you need to perform on the original data structure that should get you
     /// closer to the target data structure
-    fn modifications(&self) -> Modifications<Self::ModifyIter<'_>>;
+    fn modifications(&self) -> Modifications<Self::ModifyIter<'_, 'datastructure>>;
 
     /// All changes that must be made to the data structure to get the target data structure
-    fn changes(&self) -> Changes<Self::AddIter<'_>, Self::RemoveIter<'_>, Self::ModifyIter<'_>> {
+    fn changes(
+        &self,
+    ) -> Changes<
+        Self::AddIter<'_, 'datastructure>,
+        Self::RemoveIter<'_, 'datastructure>,
+        Self::ModifyIter<'_, 'datastructure>,
+    > {
         Changes::new(self.additions(), self.removals(), self.modifications())
     }
 }
@@ -99,6 +108,16 @@ pub struct Modify<Key, Value> {
 
     /// The target value desired for the element at that key
     pub target: Value,
+}
+
+impl<Key, Value> From<(Key, Value, Value)> for Modify<Key, Value> {
+    fn from(value: (Key, Value, Value)) -> Self {
+        Modify {
+            key: value.0,
+            source: value.1,
+            target: value.2,
+        }
+    }
 }
 
 impl<'a, Key: 'a, Value> Modify<Key, Value>

@@ -9,18 +9,18 @@ pub struct SetChangeset<'a, T> {
     removed: Vec<&'a T>,
 }
 
-impl<'set, T> Changeset for SetChangeset<'set, T> {
+impl<'set, T> Changeset<'set> for SetChangeset<'set, T> {
     type Key<'key> = &'key T where Self: 'key;
     type Value<'value> = &'value T where Self: 'value;
-    type AddIter<'iter> = ::std::vec::IntoIter<Add<Self::Value<'iter>, Self::Value<'iter>>> where Self: 'iter;
-    type RemoveIter<'iter> = ::std::vec::IntoIter<Remove<Self::Value<'iter>, Self::Value<'iter>>> where Self: 'iter;
-    type ModifyIter<'iter> = ::std::iter::Empty<Modify<Self::Value<'iter>, Self::Value<'iter>>> where Self: 'iter;
+    type AddIter<'iter, 'data> = ::std::vec::IntoIter<Add<Self::Value<'data>, Self::Value<'data>>> where Self: 'iter + 'data, 'data: 'iter;
+    type RemoveIter<'iter, 'data> = ::std::vec::IntoIter<Remove<Self::Value<'data>, Self::Value<'data>>> where Self: 'iter + 'data, 'data: 'iter;
+    type ModifyIter<'iter, 'data> = ::std::iter::Empty<Modify<Self::Value<'data>, Self::Value<'data>>> where Self: 'iter + 'data, 'data: 'iter;
 
     fn is_empty(&self) -> bool {
         self.added.is_empty() && self.removed.is_empty()
     }
 
-    fn additions(&self) -> Additions<Self::AddIter<'_>> {
+    fn additions(&self) -> Additions<Self::AddIter<'_, 'set>> {
         Additions::new(
             self.added
                 .iter()
@@ -31,7 +31,7 @@ impl<'set, T> Changeset for SetChangeset<'set, T> {
         )
     }
 
-    fn removals(&self) -> Removals<Self::RemoveIter<'_>> {
+    fn removals(&self) -> Removals<Self::RemoveIter<'_, 'set>> {
         Removals::new(
             self.removed
                 .iter()
@@ -42,7 +42,7 @@ impl<'set, T> Changeset for SetChangeset<'set, T> {
         )
     }
 
-    fn modifications(&self) -> Modifications<Self::ModifyIter<'_>> {
+    fn modifications(&self) -> Modifications<Self::ModifyIter<'_, 'set>> {
         Modifications::new(std::iter::empty())
     }
 }
