@@ -1,24 +1,26 @@
-use crate::arbitrary::{
-    Add, Additions, ArbitraryChangeset, Changeset, Modifications, Modify, Removals, Remove,
-};
+use crate::arbitrary::change::{Add, IsChange, Remove};
+use crate::arbitrary::changeset::PureChangeset;
+use crate::arbitrary::iterators::{Additions, Removals};
+use crate::arbitrary::ArbitraryDiff;
 use std::collections::{BTreeSet, HashSet};
+use std::fmt::Debug;
 use std::hash::Hash;
 
-pub struct SetChangeset<'a, T> {
+#[derive(Clone, Debug)]
+pub struct SetChangeset<'a, T: Debug> {
     added: Vec<&'a T>,
     removed: Vec<&'a T>,
 }
 
-impl<'set, T> Changeset<'set> for SetChangeset<'set, T> {
-    type Key<'key> = &'key T where Self: 'key;
-    type Value<'value> = &'value T where Self: 'value;
-    type AddIter<'iter, 'data> = ::std::vec::IntoIter<Add<Self::Value<'data>, Self::Value<'data>>> where Self: 'iter + 'data, 'data: 'iter;
-    type RemoveIter<'iter, 'data> = ::std::vec::IntoIter<Remove<Self::Value<'data>, Self::Value<'data>>> where Self: 'iter + 'data, 'data: 'iter;
-    type ModifyIter<'iter, 'data> = ::std::iter::Empty<Modify<Self::Value<'data>, Self::Value<'data>>> where Self: 'iter + 'data, 'data: 'iter;
+impl<'set, T: Debug> IsChange for SetChangeset<'set, T> {}
 
+impl<'set, T: Debug> PureChangeset<'set, &'set T, &'set T> for SetChangeset<'set, T> {
     fn is_empty(&self) -> bool {
         self.added.is_empty() && self.removed.is_empty()
     }
+
+    type AddIter<'iter, 'data> = std::vec::IntoIter<Add<&'set T, &'set T>> where Self: 'iter + 'data, 'data: 'iter;
+    type RemoveIter<'iter, 'data> = std::vec::IntoIter<Remove<&'set T, &'set T>> where Self: 'iter + 'data, 'data: 'iter;
 
     fn additions(&self) -> Additions<Self::AddIter<'_, 'set>> {
         Additions::new(
@@ -26,7 +28,7 @@ impl<'set, T> Changeset<'set> for SetChangeset<'set, T> {
                 .iter()
                 .cloned()
                 .map(|val| (val, val).into())
-                .collect::<Vec<Add<Self::Key<'set>, Self::Value<'set>>>>()
+                .collect::<Vec<Add<&'set T, &'set T>>>()
                 .into_iter(),
         )
     }
@@ -37,24 +39,20 @@ impl<'set, T> Changeset<'set> for SetChangeset<'set, T> {
                 .iter()
                 .cloned()
                 .map(|val| (val, val).into())
-                .collect::<Vec<Remove<Self::Key<'set>, Self::Value<'set>>>>()
+                .collect::<Vec<Remove<&'set T, &'set T>>>()
                 .into_iter(),
         )
-    }
-
-    fn modifications(&self) -> Modifications<Self::ModifyIter<'_, 'set>> {
-        Modifications::new(std::iter::empty())
     }
 }
 
 macro_rules! set_changeset {
     ($set_kind:tt, $bound:tt $(+ $remainder:tt)*) => {
-        impl<T> ArbitraryChangeset for $set_kind<T>
+        impl<'set, T: Debug + Clone> ArbitraryDiff<'set> for $set_kind<T>
         where T: $bound $(+ $remainder)*
         {
-            type Changeset<'changeset> = SetChangeset<'changeset, T> where Self: 'changeset;
+            type Changes<'changeset> = SetChangeset<'changeset, T> where Self: 'changeset + 'set, 'changeset: 'set;
 
-            fn changeset_to<'set>(&'set self, other: &'set Self) -> Self::Changeset<'set>
+            fn diff_with(&'set self, other: &'set Self) -> Self::Changes<'set>
             {
                 // Added is anything in other that isn't in self
                 let added: Vec<&T> = other.difference(self).collect();
@@ -70,8 +68,10 @@ macro_rules! set_changeset {
 set_changeset!(HashSet, Hash + Eq);
 set_changeset!(BTreeSet, Ord);
 
+#[cfg(test)]
 mod tests {
-    use crate::arbitrary::{ArbitraryChangeset, Changeset};
+    use crate::arbitrary::changeset::PureChangeset;
+    use crate::arbitrary::ArbitraryDiff;
     use std::collections::HashSet;
 
     #[test]
@@ -79,8 +79,8 @@ mod tests {
         let set1 = HashSet::from([1, 2, 3]);
         let set2 = HashSet::from([2, 3, 4]);
 
-        let changeset = set1.changeset_to(&set2);
-        for change in changeset.changes() {
+        let changeset = set1.diff_with(&set2);
+        for change in changeset.pure_changes() {
             println!("{:#?}", change);
         }
     }
