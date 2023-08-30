@@ -281,8 +281,7 @@ mod tests {
     use crate::arbitrary;
     use crate::arbitrary::changeset::{FullChangeset, PureChangeset};
     use crate::arbitrary::std::collections::map::arbitrary::ArbitraryMap;
-    use crate::arbitrary::std::collections::map::simple::{SimpleMap, SimpleMapChangeset};
-    use crate::arbitrary::std::collections::ArbitraryMapChangeset;
+    use crate::arbitrary::std::collections::map::simple::SimpleMap;
     use arbitrary::ArbitraryDiff;
     use std::collections::{HashMap, HashSet};
 
@@ -299,8 +298,7 @@ mod tests {
             (4, HashSet::from([1, 2, 3])),
         ]);
 
-        let changeset: ArbitraryMapChangeset<&i32, &HashSet<i32>, _, _> =
-            ArbitraryDiff::<'_, ArbitraryMap>::diff_with(&map1, &map2);
+        let changeset = ArbitraryDiff::<ArbitraryMap>::diff_with(&map1, &map2);
         println!("Pure changes");
         for change in changeset.pure_changes() {
             println!("{:#?}", change);
@@ -311,8 +309,7 @@ mod tests {
             println!("{:#?}", change);
         }
 
-        let changeset: SimpleMapChangeset<&i32, &HashSet<i32>, _, _> =
-            ArbitraryDiff::<'_, SimpleMap>::diff_with(&map1, &map2);
+        let changeset = ArbitraryDiff::<SimpleMap>::diff_with(&map1, &map2);
         println!("Pure changes");
         for change in changeset.pure_changes() {
             println!("{:#?}", change);
