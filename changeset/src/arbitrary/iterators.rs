@@ -1,5 +1,6 @@
-use crate::arbitrary::change::{Add, Change, IsChange, Modify, PureChange, Remove};
-use crate::arbitrary::ArbitraryDiff;
+use crate::arbitrary::change::{Add, Change, Modify, PureChange, Remove};
+use crate::arbitrary::Diff;
+use std::marker::PhantomData;
 
 pub struct PureChanges<AddIter, RemoveIter> {
     additions: Additions<AddIter>,
@@ -34,17 +35,19 @@ where
     }
 }
 
-pub struct Changes<AddIter, RemoveIter, ModifyIter> {
+pub struct Changes<AddIter, RemoveIter, ModifyIter, Scope = ()> {
     pure_changes: PureChanges<AddIter, RemoveIter>,
     modifications: Modifications<ModifyIter>,
+    _scope: PhantomData<Scope>,
 }
 
-impl<'data, Key, Value, AddIter, RemoveIter, ModifyIter> Changes<AddIter, RemoveIter, ModifyIter>
+impl<'data, Key, Value, AddIter, RemoveIter, ModifyIter, Scope>
+    Changes<AddIter, RemoveIter, ModifyIter, Scope>
 where
-    Value: ArbitraryDiff<'data> + 'data,
+    Value: Diff<'data, Scope> + 'data,
     AddIter: Iterator<Item = Add<Key, &'data Value>>,
     RemoveIter: Iterator<Item = Remove<Key, &'data Value>>,
-    ModifyIter: Iterator<Item = Modify<Key, <Value as ArbitraryDiff<'data>>::Changes<'data>>>,
+    ModifyIter: Iterator<Item = Modify<Key, Value, Value::ChangeType<'data>, Scope>>,
 {
     pub fn new(
         additions: Additions<AddIter>,
@@ -55,19 +58,20 @@ where
         Changes {
             pure_changes,
             modifications,
+            _scope: PhantomData,
         }
     }
 }
 
-impl<'data, Key, Value, AddIter, RemoveIter, ModifyIter> Iterator
-    for Changes<AddIter, RemoveIter, ModifyIter>
+impl<'data, Key, Value, AddIter, RemoveIter, ModifyIter, Scope> Iterator
+    for Changes<AddIter, RemoveIter, ModifyIter, Scope>
 where
-    Value: ArbitraryDiff<'data> + 'data,
+    Value: Diff<'data, Scope> + 'data,
     AddIter: Iterator<Item = Add<Key, &'data Value>>,
     RemoveIter: Iterator<Item = Remove<Key, &'data Value>>,
-    ModifyIter: Iterator<Item = Modify<Key, <Value as ArbitraryDiff<'data>>::Changes<'data>>>,
+    ModifyIter: Iterator<Item = Modify<Key, Value, Value::ChangeType<'data>, Scope>>,
 {
-    type Item = Change<'data, Key, Value>;
+    type Item = Change<'data, Key, Value, Scope>;
 
     /// Get additions until they run out, then modifications, then removals
     fn next(&mut self) -> Option<Self::Item> {
@@ -164,10 +168,10 @@ pub struct Modifications<Iter> {
     iter: InfallibleIter<Iter>,
 }
 
-impl<K, V, Iter> Modifications<Iter>
+impl<'a, K, V, Iter, Scope> Modifications<Iter>
 where
-    V: IsChange,
-    Iter: Iterator<Item = Modify<K, V>>,
+    V: Diff<'a, Scope> + 'a,
+    Iter: Iterator<Item = Modify<K, V, V::ChangeType<'a>, Scope>>,
 {
     pub fn new(iter: Iter) -> Self {
         Modifications {
@@ -176,10 +180,10 @@ where
     }
 }
 
-impl<K, V, Iter> Iterator for Modifications<Iter>
+impl<'a, K, V, Iter, Scope> Iterator for Modifications<Iter>
 where
-    V: IsChange,
-    Iter: Iterator<Item = Modify<K, V>>,
+    V: Diff<'a, Scope> + 'a,
+    Iter: Iterator<Item = Modify<K, V, V::ChangeType<'a>, Scope>>,
 {
     type Item = Iter::Item;
 

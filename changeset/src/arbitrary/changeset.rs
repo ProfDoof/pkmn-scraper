@@ -1,6 +1,6 @@
 use crate::arbitrary::change::{Add, Modify, Remove};
 use crate::arbitrary::iterators::{Additions, Changes, Modifications, PureChanges, Removals};
-use crate::arbitrary::{ArbitraryDiff, Key, Value};
+use crate::arbitrary::Diff;
 
 pub trait PureChangeset<'datastructure, K, V> {
     /// Returns whether the changeset is empty or not. Should avoid any allocations to check.
@@ -30,14 +30,12 @@ pub trait PureChangeset<'datastructure, K, V> {
     }
 }
 
-pub trait ImpureChangeset<'datastructure, K, V>
+pub trait ImpureChangeset<'datastructure, K, V, Scope = ()>
 where
-    V: ArbitraryDiff<'datastructure> + 'datastructure,
+    V: Diff<'datastructure, Scope> + 'datastructure,
 {
     /// The iterator type for modification that will return a tuple of key and changeset
-    type ModifyIter<'iter>: Iterator<
-        Item = Modify<K, <V as ArbitraryDiff<'datastructure>>::Changes<'datastructure>>,
-    >
+    type ModifyIter<'iter>: Iterator<Item = Modify<K, V, V::ChangeType<'datastructure>, Scope>>
     where
         Self: 'iter + 'datastructure;
 
@@ -46,10 +44,10 @@ where
     fn modifications(&self) -> Modifications<Self::ModifyIter<'_>>;
 }
 
-pub trait FullChangeset<'datastructure, K, V>:
-    ImpureChangeset<'datastructure, K, V> + PureChangeset<'datastructure, K, &'datastructure V>
+pub trait FullChangeset<'datastructure, K, V, Scope = ()>:
+    ImpureChangeset<'datastructure, K, V, Scope> + PureChangeset<'datastructure, K, &'datastructure V>
 where
-    V: ArbitraryDiff<'datastructure> + 'datastructure,
+    V: Diff<'datastructure, Scope> + 'datastructure,
 {
     /// All changes that must be made to the data structure to get the target data structure
     fn changes(
@@ -58,6 +56,7 @@ where
         Self::AddIter<'_, 'datastructure>,
         Self::RemoveIter<'_, 'datastructure>,
         Self::ModifyIter<'_>,
+        Scope,
     > {
         Changes::new(self.additions(), self.removals(), self.modifications())
     }

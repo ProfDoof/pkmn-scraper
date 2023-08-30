@@ -1,4 +1,5 @@
-use crate::arbitrary::ArbitraryDiff;
+use crate::arbitrary::{ArbitraryDiff, Diff, SimpleDiff, SimpleDiffScope};
+use std::marker::PhantomData;
 
 pub trait IsChange {}
 
@@ -39,22 +40,53 @@ impl<Key, Value> From<(Key, Value)> for Remove<Key, Value> {
 }
 
 #[derive(Copy, Clone, Debug)]
-pub struct Modify<Key, Value: IsChange> {
+pub struct Modify<Key, Value, ChangeValue: IsChange, Scope = ()> {
     /// The key of the element you should modify
     pub key: Key,
 
-    pub modification: Value,
+    pub modification: ChangeValue,
+
+    _value: PhantomData<Value>,
+    _scope: PhantomData<Scope>,
 }
 
-impl<'data, Key: 'data, Value: ArbitraryDiff<'data> + 'data>
-    From<(&'data Key, &'data Value, &'data Value)> for Modify<&'data Key, Value::Changes<'data>>
+impl<'data, Key: 'data, Scope, Value: Diff<'data, Scope> + 'data>
+    Modify<&'data Key, Value, Value::ChangeType<'data>, Scope>
 {
-    fn from(value: (&'data Key, &'data Value, &'data Value)) -> Self {
-        let diff = value.1.diff_with(value.2);
+    pub fn from_arbitrary(key: &'data Key, source: &'data Value, target: &'data Value) -> Self
+    where
+        Value: ArbitraryDiff<'data, Scope>,
+    {
+        let diff = source.diff_with(target);
 
         Modify {
-            key: value.0,
+            key,
             modification: diff,
+            _value: PhantomData,
+            _scope: PhantomData,
+        }
+    }
+
+    pub fn from_simple(
+        key: &'data Key,
+        source: &'data Value,
+        target: &'data Value,
+    ) -> Modify<
+        &'data Key,
+        Value,
+        <Value as Diff<'data, SimpleDiffScope>>::ChangeType<'data>,
+        SimpleDiffScope,
+    >
+    where
+        Value: SimpleDiff<'data>,
+    {
+        let diff = source.simple_diff(target);
+
+        Modify {
+            key,
+            modification: diff,
+            _value: PhantomData,
+            _scope: PhantomData,
         }
     }
 }
@@ -68,8 +100,8 @@ pub enum PureChange<Key, Value> {
     Remove(Remove<Key, Value>),
 }
 
-impl<'data, Key, Value: ArbitraryDiff<'data>> From<PureChange<Key, &'data Value>>
-    for Change<'data, Key, Value>
+impl<'data, Key, Value: Diff<'data, Scope>, Scope> From<PureChange<Key, &'data Value>>
+    for Change<'data, Key, Value, Scope>
 {
     fn from(value: PureChange<Key, &'data Value>) -> Self {
         match value {
@@ -80,7 +112,7 @@ impl<'data, Key, Value: ArbitraryDiff<'data>> From<PureChange<Key, &'data Value>
 }
 
 #[derive(Clone, Debug)]
-pub enum Change<'data, Key, Value: ArbitraryDiff<'data> + 'data> {
+pub enum Change<'data, Key, Value: Diff<'data, Scope> + 'data, Scope = ()> {
     /// Add an element to the data structure
     Add(Add<Key, &'data Value>),
 
@@ -88,5 +120,5 @@ pub enum Change<'data, Key, Value: ArbitraryDiff<'data> + 'data> {
     Remove(Remove<Key, &'data Value>),
 
     /// Modify an element in the data structure
-    Modify(Modify<Key, Value::Changes<'data>>),
+    Modify(Modify<Key, Value, Value::ChangeType<'data>, Scope>),
 }

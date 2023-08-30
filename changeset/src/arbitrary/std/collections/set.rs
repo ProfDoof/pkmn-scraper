@@ -1,7 +1,7 @@
 use crate::arbitrary::change::{Add, IsChange, Remove};
 use crate::arbitrary::changeset::PureChangeset;
 use crate::arbitrary::iterators::{Additions, Removals};
-use crate::arbitrary::ArbitraryDiff;
+use crate::arbitrary::{ArbitraryDiff, Diff};
 use std::collections::{BTreeSet, HashSet};
 use std::fmt::Debug;
 use std::hash::Hash;
@@ -47,12 +47,17 @@ impl<'set, T: Debug> PureChangeset<'set, &'set T, &'set T> for SetChangeset<'set
 
 macro_rules! set_changeset {
     ($set_kind:tt, $bound:tt $(+ $remainder:tt)*) => {
+        impl<'set, T: Debug + Clone> Diff<'set> for $set_kind<T>
+        where T: $bound $(+ $remainder)*
+        {
+            type ChangeType<'changeset> = SetChangeset<'changeset, T> where Self: 'changeset + 'set, 'changeset: 'set;
+        }
+
         impl<'set, T: Debug + Clone> ArbitraryDiff<'set> for $set_kind<T>
         where T: $bound $(+ $remainder)*
         {
-            type Changes<'changeset> = SetChangeset<'changeset, T> where Self: 'changeset + 'set, 'changeset: 'set;
 
-            fn diff_with(&'set self, other: &'set Self) -> Self::Changes<'set>
+            fn diff_with(&'set self, other: &'set Self) -> Self::ChangeType<'set>
             {
                 // Added is anything in other that isn't in self
                 let added: Vec<&T> = other.difference(self).collect();
