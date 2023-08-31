@@ -3,8 +3,6 @@ use crate::arbitrary::iterators::{Additions, Changes, Modifications, PureChanges
 use crate::arbitrary::Diff;
 
 pub trait PureChangeset<'datastructure, K, V> {
-    /// Returns whether the changeset is empty or not. Should avoid any allocations to check.
-    fn is_empty(&self) -> bool;
     /// The iterator type for addition that will return a tuple of key and value
     type AddIter<'iter, 'data>: Iterator<Item = Add<K, V>>
     where
@@ -30,12 +28,12 @@ pub trait PureChangeset<'datastructure, K, V> {
     }
 }
 
-pub trait ImpureChangeset<'datastructure, K, V, Scope = ()>
+pub trait ImpureChangeset<'datastructure, K, V, ValueScope = ()>
 where
-    V: Diff<'datastructure, Scope> + 'datastructure,
+    V: Diff<'datastructure, ValueScope> + 'datastructure,
 {
     /// The iterator type for modification that will return a tuple of key and changeset
-    type ModifyIter<'iter>: Iterator<Item = Modify<K, V, V::ChangeType<'datastructure>, Scope>>
+    type ModifyIter<'iter>: Iterator<Item = Modify<K, V, V::ChangeType, ValueScope>>
     where
         Self: 'iter + 'datastructure;
 
@@ -44,10 +42,11 @@ where
     fn modifications(&self) -> Modifications<Self::ModifyIter<'_>>;
 }
 
-pub trait FullChangeset<'datastructure, K, V, Scope = ()>:
-    ImpureChangeset<'datastructure, K, V, Scope> + PureChangeset<'datastructure, K, &'datastructure V>
+pub trait FullChangeset<'datastructure, K, V, ValueScope = ()>:
+    ImpureChangeset<'datastructure, K, V, ValueScope>
+    + PureChangeset<'datastructure, K, &'datastructure V>
 where
-    V: Diff<'datastructure, Scope> + 'datastructure,
+    V: Diff<'datastructure, ValueScope> + 'datastructure,
 {
     /// All changes that must be made to the data structure to get the target data structure
     fn changes(
@@ -56,7 +55,7 @@ where
         Self::AddIter<'_, 'datastructure>,
         Self::RemoveIter<'_, 'datastructure>,
         Self::ModifyIter<'_>,
-        Scope,
+        ValueScope,
     > {
         Changes::new(self.additions(), self.removals(), self.modifications())
     }

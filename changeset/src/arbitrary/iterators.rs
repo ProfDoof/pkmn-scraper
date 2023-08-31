@@ -47,7 +47,7 @@ where
     Value: Diff<'data, Scope> + 'data,
     AddIter: Iterator<Item = Add<Key, &'data Value>>,
     RemoveIter: Iterator<Item = Remove<Key, &'data Value>>,
-    ModifyIter: Iterator<Item = Modify<Key, Value, Value::ChangeType<'data>, Scope>>,
+    ModifyIter: Iterator<Item = Modify<Key, Value, Value::ChangeType, Scope>>,
 {
     pub fn new(
         additions: Additions<AddIter>,
@@ -69,7 +69,7 @@ where
     Value: Diff<'data, Scope> + 'data,
     AddIter: Iterator<Item = Add<Key, &'data Value>>,
     RemoveIter: Iterator<Item = Remove<Key, &'data Value>>,
-    ModifyIter: Iterator<Item = Modify<Key, Value, Value::ChangeType<'data>, Scope>>,
+    ModifyIter: Iterator<Item = Modify<Key, Value, Value::ChangeType, Scope>>,
 {
     type Item = Change<'data, Key, Value, Scope>;
 
@@ -171,7 +171,7 @@ pub struct Modifications<Iter> {
 impl<'a, K, V, Iter, Scope> Modifications<Iter>
 where
     V: Diff<'a, Scope> + 'a,
-    Iter: Iterator<Item = Modify<K, V, V::ChangeType<'a>, Scope>>,
+    Iter: Iterator<Item = Modify<K, V, V::ChangeType, Scope>>,
 {
     pub fn new(iter: Iter) -> Self {
         Modifications {
@@ -183,7 +183,7 @@ where
 impl<'a, K, V, Iter, Scope> Iterator for Modifications<Iter>
 where
     V: Diff<'a, Scope> + 'a,
-    Iter: Iterator<Item = Modify<K, V, V::ChangeType<'a>, Scope>>,
+    Iter: Iterator<Item = Modify<K, V, V::ChangeType, Scope>>,
 {
     type Item = Iter::Item;
 

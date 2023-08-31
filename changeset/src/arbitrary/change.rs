@@ -1,9 +1,13 @@
-use crate::arbitrary::{ArbitraryDiff, Diff, SimpleDiff, SimpleDiffScope};
+use crate::arbitrary::scopes;
+use crate::arbitrary::{ArbitraryDiff, Diff, SimpleDiff};
 use std::marker::PhantomData;
 
-pub trait IsChange {}
+pub trait HasChanges {
+    /// Returns whether Self has any changes contained. Should avoid any allocations to check.
+    fn has_changes(&self) -> bool;
+}
 
-#[derive(Copy, Clone, Debug)]
+#[derive(Eq, PartialEq, Copy, Clone, Debug)]
 pub struct Add<Key, Value> {
     /// The key you should add this value at
     pub key: Key,
@@ -21,7 +25,7 @@ impl<Key, Value> From<(Key, Value)> for Add<Key, Value> {
     }
 }
 
-#[derive(Copy, Clone, Debug)]
+#[derive(Eq, PartialEq, Copy, Clone, Debug)]
 pub struct Remove<Key, Value> {
     /// The key you should remove this value from
     pub key: Key,
@@ -39,19 +43,19 @@ impl<Key, Value> From<(Key, Value)> for Remove<Key, Value> {
     }
 }
 
-#[derive(Copy, Clone, Debug)]
-pub struct Modify<Key, Value, ChangeValue: IsChange, Scope = ()> {
+#[derive(Eq, PartialEq, Copy, Clone, Debug)]
+pub struct Modify<Key, Value, ChangeValue: HasChanges, ValueDiffScope = ()> {
     /// The key of the element you should modify
     pub key: Key,
 
     pub modification: ChangeValue,
 
     _value: PhantomData<Value>,
-    _scope: PhantomData<Scope>,
+    _scope: PhantomData<ValueDiffScope>,
 }
 
 impl<'data, Key: 'data, Scope, Value: Diff<'data, Scope> + 'data>
-    Modify<&'data Key, Value, Value::ChangeType<'data>, Scope>
+    Modify<&'data Key, Value, Value::ChangeType, Scope>
 {
     pub fn from_arbitrary(key: &'data Key, source: &'data Value, target: &'data Value) -> Self
     where
@@ -71,12 +75,7 @@ impl<'data, Key: 'data, Scope, Value: Diff<'data, Scope> + 'data>
         key: &'data Key,
         source: &'data Value,
         target: &'data Value,
-    ) -> Modify<
-        &'data Key,
-        Value,
-        <Value as Diff<'data, SimpleDiffScope>>::ChangeType<'data>,
-        SimpleDiffScope,
-    >
+    ) -> Modify<&'data Key, Value, <Value as Diff<'data, scopes::Simple>>::ChangeType, scopes::Simple>
     where
         Value: SimpleDiff<'data>,
     {
@@ -91,7 +90,7 @@ impl<'data, Key: 'data, Scope, Value: Diff<'data, Scope> + 'data>
     }
 }
 
-#[derive(Copy, Clone, Debug)]
+#[derive(Eq, PartialEq, Copy, Clone, Debug)]
 pub enum PureChange<Key, Value> {
     /// Add an element to the data structure
     Add(Add<Key, Value>),
@@ -111,7 +110,7 @@ impl<'data, Key, Value: Diff<'data, Scope>, Scope> From<PureChange<Key, &'data V
     }
 }
 
-#[derive(Clone, Debug)]
+#[derive(Eq, PartialEq, Clone, Debug)]
 pub enum Change<'data, Key, Value: Diff<'data, Scope> + 'data, Scope = ()> {
     /// Add an element to the data structure
     Add(Add<Key, &'data Value>),
@@ -120,5 +119,5 @@ pub enum Change<'data, Key, Value: Diff<'data, Scope> + 'data, Scope = ()> {
     Remove(Remove<Key, &'data Value>),
 
     /// Modify an element in the data structure
-    Modify(Modify<Key, Value, Value::ChangeType<'data>, Scope>),
+    Modify(Modify<Key, Value, Value::ChangeType, Scope>),
 }
