@@ -271,4 +271,30 @@ mod tests {
         );
         assert!(all_changes.is_empty());
     }
+
+    #[test]
+    fn test_nested_hash_map() {
+        let map1 = HashMap::from([
+            (1, HashMap::from([(1, HashSet::from([1, 2, 3]))])),
+            (2, HashMap::from([(1, HashSet::from([1, 2, 3]))])),
+            (3, HashMap::from([(1, HashSet::from([1, 2, 3]))])),
+        ]);
+        let map2 = HashMap::from([
+            (1, HashMap::from([(1, HashSet::from([1, 2, 3]))])),
+            (2, HashMap::from([(2, HashSet::from([1, 2, 3]))])),
+            (3, HashMap::from([(1, HashSet::from([1, 2]))])),
+        ]);
+
+        let changeset = ArbitraryDiff::<
+            scopes::map_value_diff::Arbitrarily,
+            scopes::map_value_diff::Arbitrarily,
+        >::diff_with(&map1, &map2);
+        for change in changeset.pure_changes() {
+            println!("{change:#?}")
+        }
+
+        for change in changeset.changes() {
+            println!("{change:#?}")
+        }
+    }
 }
